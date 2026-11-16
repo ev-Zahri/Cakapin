@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container":"#efeded","primary-fixed":"#87fe45","on-primary-fixed":"#082100","inverse-on-surface":"#f2f0f0","on-secondary-fixed-variant":"#594400","on-secondary-container":"#6e5400","tertiary":"#006590","secondary":"#755b00","on-tertiary-container":"#004a6b","surface-bright":"#fbf9f8","on-primary-container":"#1e5000","on-tertiary-fixed-variant":"#004c6e","background":"#fbf9f8","primary-container":"#58cc02","surface-tint":"#2b6c00","on-background":"#1b1c1c","surface-container-low":"#f5f3f3","on-tertiary":"#ffffff","secondary-fixed-dim":"#f4bf00","surface-container-high":"#eae8e7","surface-container-lowest":"#ffffff","outline-variant":"#becbb1","tertiary-fixed-dim":"#88ceff","tertiary-fixed":"#c8e6ff","secondary-container":"#fec700","on-primary-fixed-variant":"#1f5100","inverse-primary":"#6be026","outline":"#6f7b64","on-primary":"#ffffff","primary-fixed-dim":"#6be026","surface-container-highest":"#e4e2e2","on-secondary":"#ffffff","on-surface":"#1b1c1c","error":"#ba1a1a","tertiary-container":"#4abdff","primary":"#2b6c00","on-surface-variant":"#3f4a36","on-secondary-fixed":"#241a00","surface-variant":"#e4e2e2","surface-dim":"#dbd9d9","on-tertiary-fixed":"#001e2e","on-error-container":"#93000a","on-error":"#ffffff","secondary-fixed":"#ffdf92","surface":"#fbf9f8","inverse-surface":"#303030","error-container":"#ffdad6"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-md":"1rem",margin:"2rem","space-xs":"0.25rem","space-lg":"1.5rem","space-xl":"2.5rem","space-sm":"0.5rem",gutter:"1.5rem"},fontFamily:{"headline-lg":["Nunito Sans"],"label-md":["Nunito Sans"],"body-sm":["Nunito Sans"],"body-md":["Nunito Sans"],"label-sm":["Nunito Sans"],"label-lg":["Nunito Sans"],"headline-md":["Nunito Sans"],"headline-xl":["Nunito Sans"],"body-lg":["Nunito Sans"],"headline-sm":["Nunito Sans"]},fontSize:{"headline-lg":["32px",{lineHeight:"40px",fontWeight:"800"}],"label-md":["14px",{lineHeight:"18px",fontWeight:"800"}],"body-sm":["14px",{lineHeight:"20px",fontWeight:"500"}],"body-md":["16px",{lineHeight:"24px",fontWeight:"600"}],"label-sm":["12px",{lineHeight:"16px",fontWeight:"800"}],"label-lg":["16px",{lineHeight:"20px",fontWeight:"800"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"800"}],"headline-xl":["40px",{lineHeight:"48px",fontWeight:"900"}],"body-lg":["18px",{lineHeight:"26px",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"700"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-lowest z-50 flex flex-col justify-between p-space-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col gap-space-lg"><div class="flex items-center gap-space-sm px-space-sm py-space-xs"><img alt="Mascot Logo Belajar Seru" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXFNtyA38kx6AKvS8w4rEx2fnirRBKAlNl_Sd-5SbNynPXs0y09MKvCQIJlqfQzNNTUdBzQVP0aEas1ww1zsPbqBPpbp1ORUBYkJFToA5zU7QNAOuc57rxogS6RD7o_xiknYjuMA-Qju3ZXKeiQ6eLkk6MyOa4CpXsoy6v7IzbCXS0JRkkecd_xyi30WyNaMbNY4-Lhsn10dkjMEK2Tq92Sftqsmj-ElhAFmf3cTxG"/><span class="font-headline-sm text-headline-sm text-primary tracking-wide">Belajar Seru</span></div><nav class="flex flex-col gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-label-lg text-label-lg rounded-DEFAULT shadow-[0_4px_0_#46a302]"><a class="flex items-center px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded-DEFAULT transition-all" data-path="beranda-pembelajaran" href="#">Belajar</a><a aria-current="page" class="flex items-center px-space-md py-space-sm transition-all bg-primary-container text-on-primary font-label-lg text-label-lg rounded-DEFAULT shadow-[0_4px_0_#46a302]" data-path="pusat-latihan" href="#">Latihan</a><a class="flex items-center px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded-DEFAULT transition-all" data-path="papan-peringkat" href="#">Peringkat</a><a class="flex items-center px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded-DEFAULT transition-all" data-path="misi-toko" href="#">Misi &amp; Toko</a><a class="flex items-center px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded-DEFAULT transition-all" data-path="profil" href="#">Profil</a></nav></div><div class="flex flex-col gap-space-xs pt-space-md"><a class="flex items-center px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded-DEFAULT transition-all" data-path="pengaturan" href="#">Pengaturan</a></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 z-40 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-8 flex items-center justify-between"><div class="flex items-center gap-space-sm bg-surface-container-low px-space-md py-space-xs rounded-full cursor-pointer hover:bg-surface-container hover:text-on-surface"><span class="material-symbols-outlined text-primary text-[20px]">flag</span><span class="font-label-md text-label-md text-on-surface">Bahasa Inggris</span></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-lowest rounded-full shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="material-symbols-outlined text-secondary-container text-[20px]">local_fire_department</span><span class="font-label-md text-label-md text-on-surface">14 Hari</span></div><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-lowest rounded-full shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="material-symbols-outlined text-tertiary-container text-[20px]">diamond</span><span class="font-label-md text-label-md text-on-surface">850</span></div><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-lowest rounded-full shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="material-symbols-outlined text-error text-[20px]">favorite</span><span class="font-label-md text-label-md text-on-surface">5/5</span></div><div class="pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeX84wVawBOsAZzIxAWVpDr7_0Yya0VyrPa60Bd5ZXZ2QvazzS4_G3zRgqUwM0dUVmHXFTmLoz4Z3On--DfpRCZxR3-sTk4JyR0G3-EKQsNgpab1-cksyzYhfzuN1lZdblg6KwZnpEcnR1jmxVCBTE6adjrz9OJX0S_AfclzivcMwECOK2D8TIUueGSlv2Jj7jdJbvsukqghcT6wLmxepu101xXaIVfJlEX81gKRdI"/></div></div></div></header><main class="w-full pt-16 bg-surface"><div class="flex flex-col w-full">
+<div class="max-w-7xl mx-auto w-full px-8 py-8">
+<!-- Top Practice Hub Hero Header Card -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-lg shadow-sm mb-space-lg relative overflow-hidden">
+<!-- Decorative Backdrop Geometry -->
+<div class="absolute -right-12 -top-12 w-64 h-64 bg-primary-fixed/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="absolute right-48 -bottom-16 w-48 h-48 bg-tertiary-fixed/30 rounded-full blur-xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-space-xs px-space-md py-1 bg-primary-container/15 rounded-full mb-space-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">bolt</span>
+<span class="font-label-sm text-label-sm text-primary tracking-wider uppercase">Pusat Latihan Cepat</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-space-xs">Pusat Latihan Mandiri</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Asah kemampuanmu, tinjau kembali kata-kata yang sulit, atau dapatkan hati tambahan secara cuma-cuma!</p>
+</div>
+<!-- Daily Practice Goal Progress Capsule -->
+<div class="w-full md:w-80 bg-surface-container-low p-space-md rounded-DEFAULT flex flex-col gap-space-xs shadow-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-container text-[22px]" style="font-variation-settings: 'FILL' 1;">emoji_events</span>
+<span class="font-label-md text-label-md text-on-surface">Target Latihan Hari Ini</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary bg-primary-container/20 px-2 py-0.5 rounded-full">+40 XP</span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mt-1">
+<span>2 dari 3 Sesi Selesai</span>
+<span class="text-primary font-bold">66%</span>
+</div>
+<!-- Tactile Glossy Progress Tube -->
+<div class="w-full h-4 bg-surface-container rounded-full overflow-hidden p-0.5 relative shadow-inner">
+<div class="h-full bg-primary-container rounded-full transition-all duration-500 relative" style="width: 66.6%;">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-white/40 rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Content Layout (2 Columns: Main Hub 65% + Right Stat Sidebar 35%) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left Column: Training Modes & Word Bank (8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Section Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">fitness_center</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Mode Latihan Unggulan</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pilih jenis latihan harianmu</span>
+</div>
+<!-- 4 Primary Training Mode Bento Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Card 1: Latihan Hati -->
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg flex flex-col justify-between shadow-sm relative group">
+<div>
+<div class="flex items-start justify-between mb-space-md">
+<div class="w-14 h-14 rounded-2xl bg-error-container/60 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-error text-[32px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</div>
+<span class="px-space-sm py-1 bg-surface-container font-label-sm text-label-sm text-on-surface-variant rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-error text-[16px]" style="font-variation-settings: 'FILL' 1;">favorite</span> 5/5 Penuh
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Latihan Hati</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">Selesaikan sesi kilat tanpa batas untuk memulihkan 1 Hati cadangan tanpa menunggu timer reset.</p>
+</div>
+<button class="w-full bg-surface-container text-on-surface-variant font-label-lg text-label-lg py-space-sm px-space-md rounded-DEFAULT flex items-center justify-center gap-space-xs shadow-sm cursor-not-allowed transition-all" title="Hati kamu sudah penuh">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+              Hati Penuh (+10 XP)
+            </button>
+</div>
+<!-- Card 2: Review Kosakata Lemah -->
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg flex flex-col justify-between shadow-sm relative group">
+<div>
+<div class="flex items-start justify-between mb-space-md">
+<div class="w-14 h-14 rounded-2xl bg-secondary-fixed/50 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[32px]" style="font-variation-settings: 'FILL' 1;">target</span>
+</div>
+<span class="px-space-sm py-1 bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm rounded-full flex items-center gap-1 font-bold">
+                  14 Kata Perlu Diulang
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Tinjau Kesalahan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">14 kosakata yang sering salah pada kuis sebelumnya membutuhkan perhatian khusus agar terekam optimal.</p>
+</div>
+<!-- Tactile 3D Action Button -->
+<button class="w-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg py-space-sm px-space-md rounded-DEFAULT flex items-center justify-center gap-space-xs shadow-[0_4px_0_#c79c00] active:translate-y-1 active:shadow-[0_1px_0_#c79c00] transition-transform" onclick="alert('Memulai Sesi Tinjau Kesalahan!')">
+<span class="material-symbols-outlined text-[20px]">replay</span>
+              Tinjau Kesalahan (+15 XP)
+            </button>
+</div>
+<!-- Card 3: Latihan Mendengarkan & Pengucapan -->
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg flex flex-col justify-between shadow-sm relative group">
+<div>
+<div class="flex items-start justify-between mb-space-md">
+<div class="w-14 h-14 rounded-2xl bg-tertiary-fixed flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-tertiary text-[32px]" style="font-variation-settings: 'FILL' 1;">graphic_eq</span>
+</div>
+<span class="px-space-sm py-1 bg-tertiary-container/30 text-on-tertiary-container font-label-sm text-label-sm rounded-full font-bold">
+                  Audio &amp; Mic
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Mendengar &amp; Bicara</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">Tingkatkan aksen, intonasi, dan kepekaan telinga dengan latihan audio interaktif langsung dari penutur asli.</p>
+</div>
+<!-- Tactile 3D Action Button -->
+<button class="w-full bg-tertiary text-on-tertiary font-label-lg text-label-lg py-space-sm px-space-md rounded-DEFAULT flex items-center justify-center gap-space-xs shadow-[0_4px_0_#004766] active:translate-y-1 active:shadow-[0_1px_0_#004766] transition-transform" onclick="alert('Memulai Latihan Mendengar &amp; Bicara!')">
+<span class="material-symbols-outlined text-[20px]">mic</span>
+              Latih Suara (+20 XP)
+            </button>
+</div>
+<!-- Card 4: Tantangan Kilat Waktu (Speed Match) -->
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg flex flex-col justify-between shadow-sm relative group">
+<div>
+<div class="flex items-start justify-between mb-space-md">
+<div class="w-14 h-14 rounded-2xl bg-primary-fixed flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary text-[32px]" style="font-variation-settings: 'FILL' 1;">timer</span>
+</div>
+<span class="px-space-sm py-1 bg-surface-container text-on-surface font-label-sm text-label-sm rounded-full font-bold">
+                  Rekor: 28 Pasang
+                </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Tantangan Kilat</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">Cocokkan kosakata dan artinya secepat mungkin sebelum hitungan 60 detik berakhir. Pacu refleksmu!</p>
+</div>
+<!-- Tactile 3D Action Button -->
+<button class="w-full bg-primary-container text-on-primary font-label-lg text-label-lg py-space-sm px-space-md rounded-DEFAULT flex items-center justify-center gap-space-xs shadow-[0_4px_0_#46a302] active:translate-y-1 active:shadow-[0_1px_0_#46a302] transition-transform" onclick="alert('Memulai Tantangan Kilat Waktu!')">
+<span class="material-symbols-outlined text-[20px]">speed</span>
+              Mulai Kilat (+25 XP)
+            </button>
+</div>
+</div>
+<!-- Section: Koleksi Kosakata Terpelajari (Vocabulary Vault) -->
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg shadow-sm flex flex-col gap-space-md mt-space-sm">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Koleksi Kosakata Terpelajari</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pantau kekuatan memori dari kata-kata yang telah kamu kuasai</p>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container p-1 rounded-DEFAULT">
+<button class="px-space-sm py-1 rounded-DEFAULT font-label-sm text-label-sm bg-surface-container-lowest text-on-surface shadow-sm transition-all" id="filter-all" onclick="filterWords('all')">Semua (184)</button>
+<button class="px-space-sm py-1 rounded-DEFAULT font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-all" id="filter-weak" onclick="filterWords('weak')">Perlu Diulang (14)</button>
+<button class="px-space-sm py-1 rounded-DEFAULT font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-all" id="filter-mastered" onclick="filterWords('mastered')">Dikuasai (170)</button>
+</div>
+</div>
+<!-- Words List Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-2" id="vocabulary-grid">
+<!-- Word 1 -->
+<div class="word-card weak flex items-center justify-between p-space-sm bg-surface-container-low rounded-DEFAULT hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors shadow-sm" onclick="playAudio('awkward')">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+</button>
+<div>
+<div class="font-label-lg text-label-lg text-on-surface flex items-center gap-1.5">
+<span>Awkward</span>
+<span class="text-[11px] font-bold text-error bg-error-container/50 px-1.5 py-0.2 rounded-md">Lemah</span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Canggung / kikuk</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-1">
+<div class="flex gap-0.5">
+<span class="w-2.5 h-1.5 bg-error rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-surface-dim rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-surface-dim rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-surface-dim rounded-full"></span>
+</div>
+<span class="font-label-sm text-label-sm text-error">25%</span>
+</div>
+</div>
+<!-- Word 2 -->
+<div class="word-card weak flex items-center justify-between p-space-sm bg-surface-container-low rounded-DEFAULT hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors shadow-sm" onclick="playAudio('thorough')">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+</button>
+<div>
+<div class="font-label-lg text-label-lg text-on-surface flex items-center gap-1.5">
+<span>Thorough</span>
+<span class="text-[11px] font-bold text-error bg-error-container/50 px-1.5 py-0.2 rounded-md">Lemah</span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Menyeluruh / teliti</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-1">
+<div class="flex gap-0.5">
+<span class="w-2.5 h-1.5 bg-error rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-error rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-surface-dim rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-surface-dim rounded-full"></span>
+</div>
+<span class="font-label-sm text-label-sm text-error">45%</span>
+</div>
+</div>
+<!-- Word 3 -->
+<div class="word-card mastered flex items-center justify-between p-space-sm bg-surface-container-low rounded-DEFAULT hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors shadow-sm" onclick="playAudio('deliberate')">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+</button>
+<div>
+<div class="font-label-lg text-label-lg text-on-surface flex items-center gap-1.5">
+<span>Deliberate</span>
+<span class="text-[11px] font-bold text-primary bg-primary-container/20 px-1.5 py-0.2 rounded-md">Dikuasai</span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Sengaja / terencana</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-1">
+<div class="flex gap-0.5">
+<span class="w-2.5 h-1.5 bg-primary-container rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-primary-container rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-primary-container rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-primary-container rounded-full"></span>
+</div>
+<span class="font-label-sm text-label-sm text-primary">100%</span>
+</div>
+</div>
+<!-- Word 4 -->
+<div class="word-card mastered flex items-center justify-between p-space-sm bg-surface-container-low rounded-DEFAULT hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-sm">
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors shadow-sm" onclick="playAudio('accomplish')">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+</button>
+<div>
+<div class="font-label-lg text-label-lg text-on-surface flex items-center gap-1.5">
+<span>Accomplish</span>
+<span class="text-[11px] font-bold text-primary bg-primary-container/20 px-1.5 py-0.2 rounded-md">Dikuasai</span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Mencapai / menuntaskan</div>
+</div>
+</div>
+<div class="flex flex-col items-end gap-1">
+<div class="flex gap-0.5">
+<span class="w-2.5 h-1.5 bg-primary-container rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-primary-container rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-primary-container rounded-full"></span>
+<span class="w-2.5 h-1.5 bg-surface-dim rounded-full"></span>
+</div>
+<span class="font-label-sm text-label-sm text-primary">80%</span>
+</div>
+</div>
+</div>
+<div class="flex justify-center pt-2">
+<button class="font-label-md text-label-md text-primary hover:text-on-primary-container flex items-center gap-1 py-1 px-4 rounded-full hover:bg-primary-container/10 transition-colors">
+              Lihat Seluruh 184 Kosakata
+              <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Right Column: Mascot Recommendation & Weekly Practice Analytics (4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg sticky top-20">
+<!-- Mascot Lingoku Advice Card with Speech Bubble -->
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg shadow-sm flex flex-col gap-space-md relative overflow-hidden">
+<div class="flex items-center gap-space-sm">
+<span class="px-space-sm py-0.5 bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm rounded-full font-extrabold uppercase tracking-wide">
+              Tips Maskot Lingoku
+            </span>
+</div>
+<div class="flex items-start gap-space-sm">
+<!-- Mascot Visual Avatar -->
+<div class="w-16 h-16 shrink-0 rounded-2xl bg-primary-container/20 flex items-center justify-center p-1.5 shadow-sm">
+<img alt="Lingoku Mascot" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXFNtyA38kx6AKvS8w4rEx2fnirRBKAlNl_Sd-5SbNynPXs0y09MKvCQIJlqfQzNNTUdBzQVP0aEas1ww1zsPbqBPpbp1ORUBYkJFToA5zU7QNAOuc57rxogS6RD7o_xiknYjuMA-Qju3ZXKeiQ6eLkk6MyOa4CpXsoy6v7IzbCXS0JRkkecd_xyi30WyNaMbNY4-Lhsn10dkjMEK2Tq92Sftqsmj-ElhAFmf3cTxG"/>
+</div>
+<!-- Speech Bubble -->
+<div class="bg-surface-container-low p-space-md rounded-2xl rounded-tl-none relative shadow-sm">
+<p class="font-body-sm text-body-sm text-on-surface font-semibold leading-snug">
+                “Kamu hebat dalam tata bahasa! Coba fokus pada <span class="text-tertiary font-bold">Latihan Mendengarkan</span> hari ini agar skor ligamu makin melesat naik!”
+              </p>
+</div>
+</div>
+<!-- Tactile Primary Recommendation Button -->
+<button class="w-full bg-primary-container text-on-primary font-label-lg text-label-lg py-space-sm px-space-md rounded-DEFAULT flex items-center justify-center gap-space-xs shadow-[0_4px_0_#46a302] active:translate-y-1 active:shadow-[0_1px_0_#46a302] transition-transform" onclick="alert('Membuka Latihan yang disarankan Maskot!')">
+<span class="material-symbols-outlined text-[20px]">play_circle</span>
+            Ikuti Saran Maskot
+          </button>
+</div>
+<!-- Weekly Practice Analytics Card -->
+<div class="bg-surface-container-lowest rounded-DEFAULT p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Statistik Pekan Ini</h3>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">insights</span>
+</div>
+<!-- Metric 1: Total Training Time -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-DEFAULT">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-tertiary-container/30 flex items-center justify-center text-on-tertiary-container">
+<span class="material-symbols-outlined text-[22px]">schedule</span>
+</div>
+<div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Waktu Latihan</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">45 Menit</div>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">+12% vs lalu</span>
+</div>
+<!-- Metric 2: Average Accuracy -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-DEFAULT">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed/40 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">verified</span>
+</div>
+<div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Akurasi Rata-rata</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">92%</div>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">Luar biasa!</span>
+</div>
+<!-- Metric 3: Words Mastered -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-DEFAULT">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed/50 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">school</span>
+</div>
+<div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Kosakata Dikuasai</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">+24 Kata</div>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-bold">Minggu ini</span>
+</div>
+<!-- Mini Inline Chart: Practice Consistency (Last 7 Days) -->
+<div class="pt-2 flex flex-col gap-space-xs">
+<div class="flex justify-between items-center text-on-surface-variant font-label-sm text-label-sm">
+<span>Konsistensi 7 Hari Terakhir</span>
+<span class="font-bold text-primary">6 Hari Aktif</span>
+</div>
+<div class="flex items-end justify-between h-16 pt-2 px-1">
+<div class="flex flex-col items-center gap-1">
+<div class="w-5 bg-primary-container rounded-t-md h-10"></div>
+<span class="text-[11px] font-bold text-on-surface-variant">Sen</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-5 bg-primary-container rounded-t-md h-12"></div>
+<span class="text-[11px] font-bold text-on-surface-variant">Sel</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-5 bg-primary-container rounded-t-md h-8"></div>
+<span class="text-[11px] font-bold text-on-surface-variant">Rab</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-5 bg-primary-container rounded-t-md h-14"></div>
+<span class="text-[11px] font-bold text-on-surface-variant">Kam</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-5 bg-surface-dim rounded-t-md h-2"></div>
+<span class="text-[11px] font-bold text-on-surface-variant">Jum</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-5 bg-primary-container rounded-t-md h-11"></div>
+<span class="text-[11px] font-bold text-on-surface-variant">Sab</span>
+</div>
+<div class="flex flex-col items-center gap-1">
+<div class="w-5 bg-secondary-container rounded-t-md h-10 ring-2 ring-primary-container"></div>
+<span class="text-[11px] font-bold text-primary">Min</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function playAudio(word) {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+
+  function filterWords(type) {
+    const cards = document.querySelectorAll('.word-card');
+    const allBtn = document.getElementById('filter-all');
+    const weakBtn = document.getElementById('filter-weak');
+    const masteredBtn = document.getElementById('filter-mastered');
+
+    const activeClasses = ['bg-surface-container-lowest', 'text-on-surface', 'shadow-sm'];
+    const inactiveClasses = ['text-on-surface-variant'];
+
+    [allBtn, weakBtn, masteredBtn].forEach(btn => {
+      btn.classList.remove(...activeClasses);
+      btn.classList.add(...inactiveClasses);
+    });
+
+    if (type === 'all') {
+      allBtn.classList.add(...activeClasses);
+      allBtn.classList.remove(...inactiveClasses);
+      cards.forEach(c => c.style.display = 'flex');
+    } else if (type === 'weak') {
+      weakBtn.classList.add(...activeClasses);
+      weakBtn.classList.remove(...inactiveClasses);
+      cards.forEach(c => {
+        c.style.display = c.classList.contains('weak') ? 'flex' : 'none';
+      });
+    } else if (type === 'mastered') {
+      masteredBtn.classList.add(...activeClasses);
+      masteredBtn.classList.remove(...inactiveClasses);
+      cards.forEach(c => {
+        c.style.display = c.classList.contains('mastered') ? 'flex' : 'none';
+      });
+    }
+  }
+</script></main></div></body></html>
