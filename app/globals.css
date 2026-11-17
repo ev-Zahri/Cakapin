@@ -1,26 +1,97 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Design tokens — sumber: docs/DESIGN.md ("Belajar Seru") */
+@theme {
+  --color-surface: #fbf9f8;
+  --color-surface-low: #f5f3f3;
+  --color-surface-high: #eae8e7;
+  --color-surface-highest: #e4e2e2;
+  --color-ink: #4b4b4b;
+  --color-ink-muted: #777777;
+  --color-line: #e5e5e5;
+  --color-line-strong: #cecece;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-primary: #58cc02;
+  --color-primary-edge: #46a302;
+  --color-primary-soft: #d7ffb8;
+  --color-primary-dark: #2b6c00;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-streak: #ffc800;
+  --color-streak-edge: #e5a500;
+
+  --color-gem: #1cb0f6;
+  --color-gem-edge: #1899d6;
+  --color-gem-soft: #ddf4ff;
+
+  --color-ruby: #ff4b4b;
+  --color-ruby-edge: #ea2b2b;
+  --color-ruby-soft: #ffdfe0;
+
+  --font-sans: var(--font-nunito), "Nunito Sans", system-ui, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-weight: 600;
 }
+
+/* Tombol 3D "chunky" */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  padding: 0.85rem 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  border-bottom-width: 4px;
+  cursor: pointer;
+  transition: transform 100ms, filter 100ms, border-bottom-width 100ms;
+}
+.btn:hover:not(:disabled) { filter: brightness(1.05); }
+.btn:active:not(:disabled) { transform: translateY(3px); border-bottom-width: 1px; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-primary { background: var(--color-primary); border-color: var(--color-primary-edge); color: #fff; }
+.btn-ruby { background: var(--color-ruby); border-color: var(--color-ruby-edge); color: #fff; }
+.btn-gem { background: var(--color-gem); border-color: var(--color-gem-edge); color: #fff; }
+.btn-ghost { background: #fff; border-color: var(--color-line); color: var(--color-gem); }
+
+/* Kartu dengan ekstrusi bawah */
+.card {
+  background: #fff;
+  border: 2px solid var(--color-line);
+  border-bottom-width: 5px;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.field {
+  width: 100%;
+  border-radius: 1rem;
+  border: 2px solid var(--color-line);
+  background: var(--color-surface-low);
+  padding: 0.85rem 1rem;
+  outline: none;
+  font-weight: 700;
+}
+.field:focus { border-color: var(--color-gem); background: #fff; }
+
+.icon {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  font-variation-settings: "FILL" 1;
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(88, 204, 2, 0.5); }
+  100% { box-shadow: 0 0 0 16px rgba(88, 204, 2, 0); }
+}
+.pulse-ring { animation: pulse-ring 1.4s infinite; }
