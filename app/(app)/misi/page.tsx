@@ -1,4 +1,7 @@
 import { Suspense } from "react";
+
+export const instant = false;
+
 import { DAILY_XP_GOAL } from "../../lib/curriculum";
 import { COSTUMES, LEAGUES, MONTHLY_TARGET, daysLeftInMonth, leagueFor } from "../../lib/shop";
 import { getRank, requireUser, thisMonth, today } from "../../lib/users";

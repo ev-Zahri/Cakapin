@@ -1,4 +1,7 @@
 import Link from "next/link";
+
+export const instant = false;
+
 import { allLessons } from "../../lib/curriculum";
 import { requireUser } from "../../lib/users";
 import { StatBar } from "../../components/stats";
