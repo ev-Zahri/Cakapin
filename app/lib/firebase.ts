@@ -54,8 +54,9 @@ function getDb(): Firestore {
     if (cred) {
       initializeApp({ credential: cert(cred) });
     } else {
-      // Fallback jika env belum diset saat build static analyzer Vercel
-      initializeApp({ projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ?? "cakapin-app" });
+      throw new Error(
+        "Kredensial Firebase tidak ditemukan! Pastikan environment variable FIREBASE_SERVICE_ACCOUNT_JSON sudah diatur di Vercel Settings -> Environment Variables, atau file serviceAccountKey.json ada di root proyek.",
+      );
     }
   }
   return getFirestore();

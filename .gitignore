@@ -34,8 +34,7 @@ yarn-error.log*
 .env*
 
 # secrets & logs
-serviceAccountKey*.json
-serviceAccountKey.json
+serviceAccountKey*
 *-service-account*.json
 firebase-debug.log
 
