@@ -12,7 +12,18 @@ function loadServiceAccount(): ServiceAccount | null {
   const inline = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
   if (inline) {
     try {
-      return JSON.parse(inline);
+      // Tangani jika diinput sebagai base64 string
+      const jsonStr = inline.trim().startsWith("{")
+        ? inline.trim()
+        : Buffer.from(inline.trim(), "base64").toString("utf8");
+
+      const parsed = JSON.parse(jsonStr);
+
+      // Normalisasi private_key jika newline ter-escape menjadi '\\n'
+      if (parsed.private_key && typeof parsed.private_key === "string") {
+        parsed.private_key = parsed.private_key.replace(/\\n/g, "\n");
+      }
+      return parsed;
     } catch (e) {
       console.error("Gagal parse FIREBASE_SERVICE_ACCOUNT_JSON:", e);
     }
@@ -24,7 +35,11 @@ function loadServiceAccount(): ServiceAccount | null {
 
   if (existsSync(filePath)) {
     try {
-      return JSON.parse(readFileSync(filePath, "utf8"));
+      const parsed = JSON.parse(readFileSync(filePath, "utf8"));
+      if (parsed.private_key && typeof parsed.private_key === "string") {
+        parsed.private_key = parsed.private_key.replace(/\\n/g, "\n");
+      }
+      return parsed;
     } catch (e) {
       console.error("Gagal membaca serviceAccountKey file:", e);
     }

@@ -46,27 +46,33 @@ export async function signup(_prev: FormState, formData: FormData): Promise<Form
   const uid = userIdFromEmail(email);
   try {
     await users().doc(uid).create(newUserDoc(name, email, await hashPassword(password), language));
+    await createSession(uid);
   } catch (e) {
+    console.error("Signup Server Action Error:", e);
     if ((e as { code?: number }).code === 6) return { error: "Email sudah terdaftar. Silakan masuk." };
-    throw e;
+    return { error: (e as Error).message || "Gagal mendaftarkan akun." };
   }
-  await createSession(uid);
   redirect("/belajar");
 }
 
 export async function login(_prev: FormState, formData: FormData): Promise<FormState> {
-  const email = String(formData.get("email") ?? "").trim().toLowerCase();
-  const password = String(formData.get("password") ?? "");
-  const remember = formData.get("remember") === "on";
-  const invalid = { error: "Email atau kata sandi salah." };
+  try {
+    const email = String(formData.get("email") ?? "").trim().toLowerCase();
+    const password = String(formData.get("password") ?? "");
+    const remember = formData.get("remember") === "on";
+    const invalid = { error: "Email atau kata sandi salah." };
 
-  if (!EMAIL_RE.test(email) || !password) return invalid;
-  const uid = userIdFromEmail(email);
-  const snap = await users().doc(uid).get();
-  if (!snap.exists) return invalid;
-  if (!(await verifyPassword(password, (snap.data() as UserDoc).passwordHash))) return invalid;
+    if (!EMAIL_RE.test(email) || !password) return invalid;
+    const uid = userIdFromEmail(email);
+    const snap = await users().doc(uid).get();
+    if (!snap.exists) return invalid;
+    if (!(await verifyPassword(password, (snap.data() as UserDoc).passwordHash))) return invalid;
 
-  await createSession(uid, remember);
+    await createSession(uid, remember);
+  } catch (err) {
+    console.error("Login Server Action Error:", err);
+    return { error: (err as Error).message || "Terjadi kesalahan server saat masuk." };
+  }
   redirect("/belajar");
 }
 
