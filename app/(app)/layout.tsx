@@ -19,11 +19,14 @@ export default function AppLayout({ children }: Props) {
         <NavLink href="/latihan" icon="fitness_center" label="Latihan" />
         <NavLink href="/misi" icon="flag" label="Misi & Toko" />
         <NavLink href="/peringkat" icon="leaderboard" label="Peringkat" />
-        <form action={logout} className="mt-auto">
-          <button className="flex w-full items-center gap-3 rounded-2xl px-4 py-3 text-left font-extrabold uppercase tracking-wide text-ink-muted hover:bg-surface-low">
-            <span className="icon text-2xl">logout</span> Keluar
-          </button>
-        </form>
+        <div className="mt-auto flex flex-col gap-2">
+          <NavLink href="/pengaturan" icon="settings" label="Pengaturan" />
+          <form action={logout}>
+            <button className="flex w-full items-center gap-3 rounded-2xl px-4 py-3 text-left font-extrabold uppercase tracking-wide text-ink-muted hover:bg-surface-low cursor-pointer transition-colors">
+              <span className="icon text-2xl">logout</span> Keluar
+            </button>
+          </form>
+        </div>
       </aside>
 
       <div className="flex min-w-0 flex-1 flex-col pb-24 md:pb-8">
@@ -37,6 +40,7 @@ export default function AppLayout({ children }: Props) {
           ["/latihan", "fitness_center"],
           ["/misi", "flag"],
           ["/peringkat", "leaderboard"],
+          ["/pengaturan", "settings"],
         ].map(([href, icon]) => (
           <Link key={href} href={href} className="p-2 text-ink-muted">
             <span className="icon text-3xl">{icon}</span>

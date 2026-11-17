@@ -14,7 +14,7 @@ export default function Home() {
         <Item><h1 className="text-6xl font-black text-primary">cakapin</h1></Item>
         <Item>
           <p className="max-w-md text-xl font-bold text-ink">
-            Belajar bahasa Inggris dengan seru — sedikit demi sedikit, setiap hari.
+            Belajar bahasa Inggris dengan seru sedikit demi sedikit, setiap hari.
           </p>
         </Item>
         <Item className="flex w-full max-w-xs flex-col gap-3">

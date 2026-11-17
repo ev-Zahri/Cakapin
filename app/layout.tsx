@@ -9,7 +9,7 @@ const nunito = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Cakapin — Belajar Bahasa Inggris",
+  title: "Cakapin Belajar Bahasa Inggris",
   description: "Belajar bahasa Inggris dengan seru, sedikit demi sedikit setiap hari.",
 };
 

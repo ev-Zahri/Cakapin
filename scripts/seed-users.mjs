@@ -1,6 +1,4 @@
 /**
- * Seed 30 pengguna dummy ke Firestore (agar papan peringkat terlihat ramai).
- *
  *   npm run seed:users
  *
  * - Idempotent: dokumen dummy lama (dummy == true) dihapus lalu dibuat ulang.
