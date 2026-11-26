@@ -84,7 +84,6 @@ function parseSession(raw: string | undefined): string | null {
  * "uncached data during a navigation" hilang. Lihat docs: authentication-with-cache-components.
  */
 export async function getSessionUid(): Promise<string | null> {
-  "use cache: private";
   return parseSession((await cookies()).get(COOKIE)?.value);
 }
 

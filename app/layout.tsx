@@ -13,7 +13,13 @@ export const metadata: Metadata = {
   description: "Belajar bahasa Inggris dengan seru, sedikit demi sedikit setiap hari.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const isProduction = process.env.NEXT_PUBLIC_MIDTRANS_IS_PRODUCTION === "true";
+  const snapUrl = isProduction
+    ? "https://app.midtrans.com/snap/snap.js"
+    : "https://app.sandbox.midtrans.com/snap/snap.js";
+  const clientKey = process.env.NEXT_PUBLIC_MIDTRANS_CLIENT_KEY || "";
+
   return (
     <html lang="id" className={`${nunito.variable} h-full antialiased`}>
       <head>
@@ -21,6 +27,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0"
+        />
+        {/* Midtrans Snap JS Popup */}
+        <script
+          src={snapUrl}
+          data-client-key={clientKey}
+          async
         />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>

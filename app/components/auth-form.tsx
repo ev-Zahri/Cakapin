@@ -63,17 +63,14 @@ export function AuthForm({ mode, action }: Props) {
         className={`w-full overflow-hidden rounded-3xl bg-white shadow-xl shadow-surface-highest/60 ${signup ? "max-w-xl" : "max-w-md"}`}
       >
         <div className="p-6 sm:p-8">
-          {/* Google (belum tersedia: backend memakai Firebase Admin saja) */}
-          <button
-            type="button"
-            disabled
-            title="Segera hadir"
-            className="flex w-full cursor-not-allowed items-center justify-center gap-3 rounded-2xl bg-surface-low p-4 font-extrabold opacity-60 shadow-[0_4px_0_#dbd9d9]"
+          {/* Login / Signup dengan Google OAuth */}
+          <a
+            href="/auth/google"
+            className="flex w-full cursor-pointer items-center justify-center gap-3 rounded-2xl border-2 border-b-4 border-line bg-white p-4 font-extrabold text-ink transition-all hover:bg-surface-low active:translate-y-1 active:border-b-2"
           >
             <GoogleLogo />
-            <span>{signup ? "Daftar" : "Masuk"} Cepat dengan Google</span>
-            <span className="rounded-full bg-streak px-2 py-0.5 text-[10px] font-black uppercase text-white">Segera</span>
-          </button>
+            <span>{signup ? "Daftar" : "Masuk"} dengan Google</span>
+          </a>
 
           <div className="flex items-center gap-3 py-5">
             <div className="h-0.5 flex-1 rounded-full bg-surface-high" />
@@ -220,7 +217,7 @@ export function AuthForm({ mode, action }: Props) {
 
         <div className="bg-surface-low p-5 text-center text-sm text-ink-muted">
           {signup ? "Sudah punya akun? " : "Belum punya akun Cakapin? "}
-          <Link href={signup ? "/masuk" : "/daftar"} className="ml-1 font-black uppercase tracking-wide text-primary-dark hover:underline">
+          <Link href={signup ? "/auth/login" : "/auth/signup"} className="ml-1 font-black uppercase tracking-wide text-primary-dark hover:underline">
             {signup ? "Masuk ke akun" : "Daftar sekarang"}
           </Link>
         </div>

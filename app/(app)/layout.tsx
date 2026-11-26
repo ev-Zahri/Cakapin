@@ -12,15 +12,15 @@ export default function AppLayout({ children }: Props) {
   return (
     <div className="mx-auto flex w-full max-w-[1280px] flex-1 gap-8 px-4 lg:px-8">
       <aside className="sticky top-0 hidden h-screen w-64 shrink-0 flex-col gap-2 border-r-2 border-line py-6 pr-6 md:flex">
-        <Link href="/belajar" className="mb-6 flex items-center gap-2 text-3xl font-black text-primary">
+        <Link href="/learn" className="mb-6 flex items-center gap-2 text-3xl font-black text-primary">
           <GameIcon name="mascot" size={44} alt="" /> cakapin
         </Link>
-        <NavLink href="/belajar" icon="home" label="Belajar" />
-        <NavLink href="/latihan" icon="fitness_center" label="Latihan" />
-        <NavLink href="/misi" icon="flag" label="Misi & Toko" />
-        <NavLink href="/peringkat" icon="leaderboard" label="Peringkat" />
+        <NavLink href="/learn" icon="home" label="Belajar" />
+        <NavLink href="/practice" icon="fitness_center" label="Latihan" />
+        <NavLink href="/quests" icon="flag" label="Misi & Toko" />
+        <NavLink href="/leaderboard" icon="leaderboard" label="Peringkat" />
         <div className="mt-auto flex flex-col gap-2">
-          <NavLink href="/pengaturan" icon="settings" label="Pengaturan" />
+          <NavLink href="/settings" icon="settings" label="Pengaturan" />
           <form action={logout}>
             <button className="flex w-full items-center gap-3 rounded-2xl px-4 py-3 text-left font-extrabold uppercase tracking-wide text-ink-muted hover:bg-surface-low cursor-pointer transition-colors">
               <span className="icon text-2xl">logout</span> Keluar
@@ -36,11 +36,11 @@ export default function AppLayout({ children }: Props) {
       {/* Navigasi bawah untuk layar kecil */}
       <nav className="fixed inset-x-0 bottom-0 z-20 flex justify-around border-t-2 border-line bg-white py-2 md:hidden">
         {[
-          ["/belajar", "home"],
-          ["/latihan", "fitness_center"],
-          ["/misi", "flag"],
-          ["/peringkat", "leaderboard"],
-          ["/pengaturan", "settings"],
+          ["/learn", "home"],
+          ["/practice", "fitness_center"],
+          ["/quests", "flag"],
+          ["/leaderboard", "leaderboard"],
+          ["/settings", "settings"],
         ].map(([href, icon]) => (
           <Link key={href} href={href} className="p-2 text-ink-muted">
             <span className="icon text-3xl">{icon}</span>

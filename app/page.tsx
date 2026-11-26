@@ -1,8 +1,15 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { Float, Item, Stagger } from "./components/motion";
 import { GameIcon } from "./components/game-icon";
+import { getSessionUid } from "./lib/session";
 
-export default function Home() {
+export default async function Home() {
+  const uid = await getSessionUid();
+  if (uid) {
+    redirect("/learn");
+  }
+
   return (
     <main className="flex flex-1 flex-col items-center justify-center gap-6 px-6 py-10 text-center">
       <Stagger className="flex flex-col items-center gap-6">
@@ -18,8 +25,8 @@ export default function Home() {
           </p>
         </Item>
         <Item className="flex w-full max-w-xs flex-col gap-3">
-          <Link href="/daftar" className="btn btn-primary">Mulai sekarang</Link>
-          <Link href="/masuk" className="btn btn-ghost">Saya sudah punya akun</Link>
+          <Link href="/auth/signup" className="btn btn-primary">Mulai sekarang</Link>
+          <Link href="/auth/login" className="btn btn-ghost">Saya sudah punya akun</Link>
         </Item>
       </Stagger>
     </main>

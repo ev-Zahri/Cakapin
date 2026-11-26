@@ -113,9 +113,9 @@ export async function getUser(uid: string): Promise<User | null> {
 export async function requireUser(): Promise<User> {
   await connection();
   const uid = await getSessionUid();
-  if (!uid) redirect("/masuk");
+  if (!uid) redirect("/auth/login");
   const user = await getUser(uid);
-  if (!user) redirect("/masuk");
+  if (!user) redirect("/auth/login");
   return user;
 }
 

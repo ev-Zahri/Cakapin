@@ -52,7 +52,7 @@ export async function signup(_prev: FormState, formData: FormData): Promise<Form
     if ((e as { code?: number }).code === 6) return { error: "Email sudah terdaftar. Silakan masuk." };
     return { error: (e as Error).message || "Gagal mendaftarkan akun." };
   }
-  redirect("/belajar");
+  redirect("/learn");
 }
 
 export async function login(_prev: FormState, formData: FormData): Promise<FormState> {
@@ -73,12 +73,12 @@ export async function login(_prev: FormState, formData: FormData): Promise<FormS
     console.error("Login Server Action Error:", err);
     return { error: (err as Error).message || "Terjadi kesalahan server saat masuk." };
   }
-  redirect("/belajar");
+  redirect("/learn");
 }
 
 export async function logout() {
   await destroySession();
-  redirect("/masuk");
+  redirect("/auth/login");
 }
 
 /* ---------- Gameplay ---------- */
@@ -246,6 +246,75 @@ export async function claimMonthly(): Promise<Result> {
   });
   revalidatePath("/", "layout");
   return res;
+}
+
+/* ---------- Midtrans Payment Permata ---------- */
+export type PaymentResult =
+  | { ok: true; token: string; orderId: string; redirectUrl?: string }
+  | { ok: false; error: string };
+
+export async function createGemPayment(packageId: string): Promise<PaymentResult> {
+  const uid = await readSessionUid();
+  if (!uid) return { ok: false, error: "Silakan masuk lagi untuk melanjutkan pembelian." };
+
+  const { GEM_PACKAGES, getSnapClient } = await import("./lib/midtrans");
+  const selected = GEM_PACKAGES[packageId];
+  if (!selected) return { ok: false, error: "Paket permata tidak valid." };
+
+  const snap = await users().doc(uid).get();
+  if (!snap.exists) return { ok: false, error: "Pengguna tidak ditemukan." };
+  const user = snap.data() as UserDoc;
+
+  try {
+    const snapClient = getSnapClient();
+    const orderId = `CKP-GEM-${uid.slice(0, 6)}-${Date.now()}`;
+
+    const parameter = {
+      transaction_details: {
+        order_id: orderId,
+        gross_amount: selected.price,
+      },
+      customer_details: {
+        first_name: user.name || "Siswa Cakapin",
+        email: user.email,
+      },
+      item_details: [
+        {
+          id: selected.id,
+          price: selected.price,
+          quantity: 1,
+          name: selected.name,
+        },
+      ],
+      custom_field1: uid,
+      custom_field2: String(selected.gems),
+    };
+
+    // Catat transaksi pending awal ke Firestore
+    await db.collection("transactions").doc(orderId).set({
+      orderId,
+      grossAmount: selected.price,
+      packageName: selected.name,
+      gems: selected.gems,
+      uid,
+      userEmail: user.email,
+      userName: user.name,
+      transactionStatus: "pending",
+      createdAt: FieldValue.serverTimestamp(),
+      updatedAt: FieldValue.serverTimestamp(),
+    });
+
+    const transaction = await snapClient.createTransaction(parameter);
+    return {
+      ok: true,
+      token: transaction.token,
+      orderId,
+      redirectUrl: transaction.redirect_url,
+    };
+  } catch (err) {
+    console.error("Gagal membuat transaksi Midtrans:", err);
+    return { ok: false, error: (err as Error).message || "Gagal menginisiasi pembayaran Midtrans." };
+  }
 }
 
 /* ---------- helper transaksi ---------- */
