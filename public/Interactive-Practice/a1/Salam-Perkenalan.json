@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Salam & Perkenalan",
+    "color": "primary",
+    "levels": [
+      {
+        "level": "Salam formal/informal",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Salam informal apa yang biasa digunakan untuk menyapa teman?",
+                "options": ["Hi", "Good morning", "How do you do", "Good evening"],
+                "answer": "Hi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Salam formal apa yang digunakan pada pagi hari?",
+                "options": ["Good morning", "Hi", "Hey", "What's up"],
+                "answer": "Good morning"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'selamat malam' (saat bertemu)?",
+                "options": ["Good evening", "Good night", "Good afternoon", "Good morning"],
+                "answer": "Good evening"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'selamat tinggal'?",
+                "options": ["Goodbye", "Hello", "Hi", "Welcome"],
+                "answer": "Goodbye"
+              },
+              {
+                "type": "choice",
+                "prompt": "Salam informal apa yang berarti 'apa kabar'?",
+                "options": ["What's up?", "How do you do?", "Good morning", "Nice to meet you"],
+                "answer": "What's up?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat pagi, semuanya'",
+                "words": ["Good", "morning", "everyone"],
+                "answer": ["Good", "morning", "everyone"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Hai, apa kabar?'",
+                "words": ["Hi", "how", "are", "you"],
+                "answer": ["Hi", "how", "are", "you"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat malam, Tuan Brown'",
+                "words": ["Good", "evening", "Mr", "Brown"],
+                "answer": ["Good", "evening", "Mr", "Brown"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sampai jumpa besok'",
+                "words": ["See", "you", "tomorrow"],
+                "answer": ["See", "you", "tomorrow"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat datang di kelas kami'",
+                "words": ["Welcome", "to", "our", "class"],
+                "answer": ["Welcome", "to", "our", "class"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Salam informal apa yang biasa digunakan untuk berpamitan?",
+                "options": ["Bye", "Goodbye", "Farewell", "Good night"],
+                "answer": "Bye"
+              },
+              {
+                "type": "choice",
+                "prompt": "Salam formal apa yang digunakan pada siang hari?",
+                "options": ["Good afternoon", "Hi", "Hey", "What's up"],
+                "answer": "Good afternoon"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'selamat malam' (sebelum tidur)?",
+                "options": ["Good night", "Good evening", "Good afternoon", "Good morning"],
+                "answer": "Good night"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'halo'?",
+                "options": ["Hello", "Bye", "Thanks", "Please"],
+                "answer": "Hello"
+              },
+              {
+                "type": "choice",
+                "prompt": "Ungkapan formal apa yang berarti 'senang bertemu denganmu'?",
+                "options": ["Nice to meet you", "What's up", "See you", "How are you"],
+                "answer": "Nice to meet you"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat siang, semuanya'",
+                "words": ["Good", "afternoon", "everyone"],
+                "answer": ["Good", "afternoon", "everyone"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Halo, senang bertemu denganmu'",
+                "words": ["Hello", "nice", "to", "meet", "you"],
+                "answer": ["Hello", "nice", "to", "meet", "you"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat tinggal, sampai jumpa lagi'",
+                "words": ["Goodbye", "see", "you", "again"],
+                "answer": ["Goodbye", "see", "you", "again"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat malam, Bu Smith'",
+                "words": ["Good", "evening", "Mrs", "Smith"],
+                "answer": ["Good", "evening", "Mrs", "Smith"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat datang di rumah kami'",
+                "words": ["Welcome", "to", "our", "house"],
+                "answer": ["Welcome", "to", "our", "house"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Salam informal apa yang biasa digunakan untuk menyapa teman dekat?",
+                "options": ["Hey", "Good morning", "How do you do", "Good afternoon"],
+                "answer": "Hey"
+              },
+              {
+                "type": "choice",
+                "prompt": "Salam formal apa yang digunakan pada malam hari?",
+                "options": ["Good evening", "Hi", "Hey", "What's up"],
+                "answer": "Good evening"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'selamat pagi'?",
+                "options": ["Good morning", "Good night", "Good afternoon", "Good evening"],
+                "answer": "Good morning"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'selamat datang'?",
+                "options": ["Welcome", "Goodbye", "Hello", "Thanks"],
+                "answer": "Welcome"
+              },
+              {
+                "type": "choice",
+                "prompt": "Ungkapan formal apa yang berarti 'apa kabar'?",
+                "options": ["How do you do?", "What's up?", "Hi", "See you"],
+                "answer": "How do you do?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat malam, semuanya'",
+                "words": ["Good", "evening", "everyone"],
+                "answer": ["Good", "evening", "everyone"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Hai, senang bertemu denganmu'",
+                "words": ["Hey", "nice", "to", "meet", "you"],
+                "answer": ["Hey", "nice", "to", "meet", "you"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat tinggal, sampai jumpa besok'",
+                "words": ["Goodbye", "see", "you", "tomorrow"],
+                "answer": ["Goodbye", "see", "you", "tomorrow"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat siang, Tuan dan Nyonya Lee'",
+                "words": ["Good", "afternoon", "Mr", "and", "Mrs", "Lee"],
+                "answer": ["Good", "afternoon", "Mr", "and", "Mrs", "Lee"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selamat datang di Indonesia'",
+                "words": ["Welcome", "to", "Indonesia"],
+                "answer": ["Welcome", "to", "Indonesia"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Nama & asal",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan nama seseorang?",
+                "options": ["What is your name?", "How is your name?", "Who is your name?", "Where is your name?"],
+                "answer": "What is your name?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan asal seseorang?",
+                "options": ["Where are you from?", "What are you from?", "Who are you from?", "When are you from?"],
+                "answer": "Where are you from?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Saya berasal dari Indonesia'?",
+                "options": ["I am from Indonesia", "I from Indonesia", "I am Indonesia", "I from am Indonesia"],
+                "answer": "I am from Indonesia"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Namaku Budi'?",
+                "options": ["My name is Budi", "My name Budi", "I name is Budi", "My is name Budi"],
+                "answer": "My name is Budi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Dia berasal dari Jepang'?",
+                "options": ["He is from Japan", "He from Japan", "He is Japan", "He from is Japan"],
+                "answer": "He is from Japan"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Siapa namamu?'",
+                "words": ["What", "is", "your", "name"],
+                "answer": ["What", "is", "your", "name"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dari mana asalmu?'",
+                "words": ["Where", "are", "you", "from"],
+                "answer": ["Where", "are", "you", "from"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Namaku Siti'",
+                "words": ["My", "is", "name", "Siti"],
+                "answer": ["My", "name", "is", "Siti"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku berasal dari Bandung'",
+                "words": ["I", "from", "am", "Bandung"],
+                "answer": ["I", "am", "from", "Bandung"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berasal dari Australia'",
+                "words": ["She", "is", "from", "Australia"],
+                "answer": ["She", "is", "from", "Australia"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan nama dengan sopan?",
+                "options": ["May I know your name?", "What your name?", "How your name?", "Who your name?"],
+                "answer": "May I know your name?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan asal seseorang dengan sopan?",
+                "options": ["Where do you come from?", "Where you come from?", "What do you come from?", "Who do you come from?"],
+                "answer": "Where do you come from?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Saya berasal dari Korea'?",
+                "options": ["I am from Korea", "I from Korea", "I am Korea", "I from am Korea"],
+                "answer": "I am from Korea"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Namaku Anna'?",
+                "options": ["My name is Anna", "My name Anna", "I name is Anna", "My is name Anna"],
+                "answer": "My name is Anna"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Dia berasal dari Inggris'?",
+                "options": ["He is from England", "He from England", "He is England", "He from is England"],
+                "answer": "He is from England"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Boleh aku tahu namamu?'",
+                "words": ["May", "I", "know", "your", "name"],
+                "answer": ["May", "I", "know", "your", "name"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dari mana kamu berasal?'",
+                "words": ["Where", "do", "you", "come", "from"],
+                "answer": ["Where", "do", "you", "come", "from"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Namaku Andi'",
+                "words": ["My", "is", "name", "Andi"],
+                "answer": ["My", "name", "is", "Andi"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku berasal dari Surabaya'",
+                "words": ["I", "from", "am", "Surabaya"],
+                "answer": ["I", "am", "from", "Surabaya"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berasal dari Kanada'",
+                "words": ["She", "is", "from", "Canada"],
+                "answer": ["She", "is", "from", "Canada"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan nama lengkap seseorang?",
+                "options": ["What is your full name?", "What your full name?", "How is your full name?", "Who is your full name?"],
+                "answer": "What is your full name?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan kota asal seseorang?",
+                "options": ["Which city are you from?", "What city you from?", "Who city are you from?", "When city are you from?"],
+                "answer": "Which city are you from?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Saya berasal dari Amerika Serikat'?",
+                "options": ["I am from the United States", "I from the United States", "I am the United States", "I from am the United States"],
+                "answer": "I am from the United States"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Nama lengkapku adalah Budi Santoso'?",
+                "options": ["My full name is Budi Santoso", "My full name Budi Santoso", "I full name is Budi Santoso", "My is full name Budi Santoso"],
+                "answer": "My full name is Budi Santoso"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Dia berasal dari Jerman'?",
+                "options": ["He is from Germany", "He from Germany", "He is Germany", "He from is Germany"],
+                "answer": "He is from Germany"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apa nama lengkapmu?'",
+                "words": ["What", "is", "your", "full", "name"],
+                "answer": ["What", "is", "your", "full", "name"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kota mana asalmu?'",
+                "words": ["Which", "city", "are", "you", "from"],
+                "answer": ["Which", "city", "are", "you", "from"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Nama lengkapku adalah Siti Rahma'",
+                "words": ["My", "full", "name", "is", "Siti", "Rahma"],
+                "answer": ["My", "full", "name", "is", "Siti", "Rahma"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku berasal dari Amerika Serikat'",
+                "words": ["I", "from", "am", "the", "United", "States"],
+                "answer": ["I", "am", "from", "the", "United", "States"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berasal dari Jerman'",
+                "words": ["He", "is", "from", "Germany"],
+                "answer": ["He", "is", "from", "Germany"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Subject pronouns",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek untuk 'I' adalah...",
+                "options": ["I", "you", "he", "she"],
+                "answer": "I"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek untuk 'kamu' adalah...",
+                "options": ["you", "I", "we", "they"],
+                "answer": "you"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek untuk 'dia (laki-laki)' adalah...",
+                "options": ["he", "she", "it", "they"],
+                "answer": "he"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek untuk 'dia (perempuan)' adalah...",
+                "options": ["she", "he", "it", "we"],
+                "answer": "she"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek untuk 'mereka' adalah...",
+                "options": ["they", "we", "you", "it"],
+                "answer": "they"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (laki-laki) adalah temanku'",
+                "words": ["He", "my", "is", "friend"],
+                "answer": ["He", "is", "my", "friend"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (perempuan) adalah guruku'",
+                "words": ["She", "my", "is", "teacher"],
+                "answer": ["She", "is", "my", "teacher"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka adalah teman-temanku'",
+                "words": ["They", "my", "are", "friends"],
+                "answer": ["They", "are", "my", "friends"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami adalah siswa'",
+                "words": ["We", "are", "students"],
+                "answer": ["We", "are", "students"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku adalah orang Indonesia'",
+                "words": ["I", "am", "Indonesian"],
+                "answer": ["I", "am", "Indonesian"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek untuk 'kami/kita' adalah...",
+                "options": ["we", "they", "you", "I"],
+                "answer": "we"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek untuk 'itu (benda)' adalah...",
+                "options": ["it", "he", "she", "they"],
+                "answer": "it"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ is my brother' (dia laki-laki)",
+                "options": ["He", "She", "It", "They"],
+                "answer": "He"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ is my sister' (dia perempuan)",
+                "options": ["She", "He", "It", "We"],
+                "answer": "She"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ are my parents' (mereka)",
+                "options": ["They", "We", "You", "It"],
+                "answer": "They"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (laki-laki) adalah ayahku'",
+                "words": ["He", "my", "is", "father"],
+                "answer": ["He", "is", "my", "father"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (perempuan) adalah ibuku'",
+                "words": ["She", "my", "is", "mother"],
+                "answer": ["She", "is", "my", "mother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka adalah orang tuaku'",
+                "words": ["They", "my", "are", "parents"],
+                "answer": ["They", "are", "my", "parents"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami adalah teman sekelas'",
+                "words": ["We", "are", "classmates"],
+                "answer": ["We", "are", "classmates"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah kucingku'",
+                "words": ["It", "my", "is", "cat"],
+                "answer": ["It", "is", "my", "cat"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek mana yang digunakan untuk benda tunggal?",
+                "options": ["it", "they", "we", "you"],
+                "answer": "it"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti subjek mana yang digunakan untuk orang banyak?",
+                "options": ["they", "he", "she", "it"],
+                "answer": "they"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ am a student' (aku)",
+                "options": ["I", "You", "He", "They"],
+                "answer": "I"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ are a good person' (kamu)",
+                "options": ["You", "I", "She", "It"],
+                "answer": "You"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ is a doctor' (dia perempuan)",
+                "options": ["She", "He", "It", "They"],
+                "answer": "She"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (laki-laki) adalah dokter'",
+                "words": ["He", "a", "is", "doctor"],
+                "answer": ["He", "is", "a", "doctor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (perempuan) adalah perawat'",
+                "words": ["She", "a", "is", "nurse"],
+                "answer": ["She", "is", "a", "nurse"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka adalah saudara-saudaraku'",
+                "words": ["They", "my", "are", "siblings"],
+                "answer": ["They", "are", "my", "siblings"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami adalah keluarga bahagia'",
+                "words": ["We", "a", "are", "happy", "family"],
+                "answer": ["We", "are", "a", "happy", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah rumahku'",
+                "words": ["It", "my", "is", "house"],
+                "answer": ["It", "is", "my", "house"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "To be (am/is/are)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ a student'",
+                "options": ["am", "is", "are", "be"],
+                "answer": "am"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ my sister'",
+                "options": ["is", "am", "are", "be"],
+                "answer": "is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ my friends'",
+                "options": ["are", "am", "is", "be"],
+                "answer": "are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ a teacher'",
+                "options": ["is", "am", "are", "be"],
+                "answer": "is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ from Indonesia'",
+                "options": ["are", "am", "is", "be"],
+                "answer": "are"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku adalah seorang siswa'",
+                "words": ["I", "a", "am", "student"],
+                "answer": ["I", "am", "a", "student"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (perempuan) adalah temanku'",
+                "words": ["She", "my", "is", "friend"],
+                "answer": ["She", "is", "my", "friend"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka adalah guruku'",
+                "words": ["They", "my", "are", "teachers"],
+                "answer": ["They", "are", "my", "teachers"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (laki-laki) adalah kakakku'",
+                "words": ["He", "my", "is", "brother"],
+                "answer": ["He", "is", "my", "brother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami berasal dari Jakarta'",
+                "words": ["We", "from", "are", "Jakarta"],
+                "answer": ["We", "are", "from", "Jakarta"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My father ___ a doctor'",
+                "options": ["is", "am", "are", "be"],
+                "answer": "is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My parents ___ kind'",
+                "options": ["are", "am", "is", "be"],
+                "answer": "are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My brother ___ tall'",
+                "options": ["is", "am", "are", "be"],
+                "answer": "is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ a good friend'",
+                "options": ["are", "am", "is", "be"],
+                "answer": "are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My sister ___ beautiful'",
+                "options": ["is", "am", "are", "be"],
+                "answer": "is"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ayahku adalah seorang dokter'",
+                "words": ["My", "a", "father", "is", "doctor"],
+                "answer": ["My", "father", "is", "a", "doctor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Orang tuaku baik hati'",
+                "words": ["My", "are", "parents", "kind"],
+                "answer": ["My", "parents", "are", "kind"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara laki-lakiku tinggi'",
+                "words": ["My", "is", "brother", "tall"],
+                "answer": ["My", "brother", "is", "tall"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu adalah teman yang baik'",
+                "words": ["You", "a", "are", "good", "friend"],
+                "answer": ["You", "are", "a", "good", "friend"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara perempuanku cantik'",
+                "words": ["My", "is", "sister", "beautiful"],
+                "answer": ["My", "sister", "is", "beautiful"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ you a student?'",
+                "options": ["Are", "Is", "Am", "Be"],
+                "answer": "Are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ she your sister?'",
+                "options": ["Is", "Are", "Am", "Be"],
+                "answer": "Is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ not a teacher' (negatif)",
+                "options": ["am", "is", "are", "be"],
+                "answer": "am"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ not my friends' (negatif)",
+                "options": ["are", "am", "is", "be"],
+                "answer": "are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ not my brother' (negatif)",
+                "options": ["is", "am", "are", "be"],
+                "answer": "is"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu seorang siswa?'",
+                "words": ["Are", "a", "you", "student"],
+                "answer": ["Are", "you", "a", "student"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia (perempuan) saudara perempuanmu?'",
+                "words": ["Is", "she", "your", "sister"],
+                "answer": ["Is", "she", "your", "sister"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku bukan seorang guru'",
+                "words": ["I", "a", "am", "not", "teacher"],
+                "answer": ["I", "am", "not", "a", "teacher"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka bukan temanku'",
+                "words": ["They", "my", "are", "not", "friends"],
+                "answer": ["They", "are", "not", "my", "friends"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia (laki-laki) bukan saudara laki-lakiku'",
+                "words": ["He", "my", "is", "not", "brother"],
+                "answer": ["He", "is", "not", "my", "brother"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: percakapan perkenalan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Hello, my name is Anna. What is your name?' Pertanyaan: Siapa nama pembicara?",
+                "options": ["Anna", "Siti", "Budi", "Rina"],
+                "answer": "Anna"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Hi, I am Budi. I am from Indonesia.' Pertanyaan: Dari mana Budi berasal?",
+                "options": ["Indonesia", "Malaysia", "Singapura", "Thailand"],
+                "answer": "Indonesia"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Nice to meet you, Siti. I am Rina.' Pertanyaan: Siapa yang memperkenalkan diri sebagai Rina?",
+                "options": ["Rina", "Siti", "Anna", "Budi"],
+                "answer": "Rina"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She is my sister. Her name is Dewi.' Pertanyaan: Siapa nama saudara perempuan itu?",
+                "options": ["Dewi", "Rina", "Anna", "Siti"],
+                "answer": "Dewi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He is my friend from Japan. His name is Kenji.' Pertanyaan: Dari mana teman itu berasal?",
+                "options": ["Jepang", "Korea", "Cina", "Indonesia"],
+                "answer": "Jepang"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Halo, namaku Anna. Siapa namamu?'",
+                "words": ["Hello", "my", "is", "name", "Anna", "what", "your", "is", "name"],
+                "answer": ["Hello", "my", "name", "is", "Anna", "what", "is", "your", "name"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Hai, aku Budi. Aku berasal dari Indonesia'",
+                "words": ["Hi", "I", "am", "Budi", "I", "am", "from", "Indonesia"],
+                "answer": ["Hi", "I", "am", "Budi", "I", "am", "from", "Indonesia"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Senang bertemu denganmu, Siti. Aku Rina'",
+                "words": ["Nice", "to", "meet", "you", "Siti", "I", "am", "Rina"],
+                "answer": ["Nice", "to", "meet", "you", "Siti", "I", "am", "Rina"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Dia adalah saudara perempuanku. Namanya Dewi'",
+                "words": ["She", "is", "my", "sister", "her", "is", "name", "Dewi"],
+                "answer": ["She", "is", "my", "sister", "her", "name", "is", "Dewi"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Dia adalah temanku dari Jepang. Namanya Kenji'",
+                "words": ["He", "is", "my", "friend", "from", "Japan", "his", "is", "name", "Kenji"],
+                "answer": ["He", "is", "my", "friend", "from", "Japan", "his", "name", "is", "Kenji"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Good morning, my name is Mr. Brown. What is your name?' Pertanyaan: Siapa nama pembicara?",
+                "options": ["Mr. Brown", "Mr. Smith", "Mrs. Lee", "Mr. White"],
+                "answer": "Mr. Brown"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Hello, I am Siti. I come from Bandung.' Pertanyaan: Dari mana Siti berasal?",
+                "options": ["Bandung", "Jakarta", "Surabaya", "Medan"],
+                "answer": "Bandung"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Nice to meet you, Budi. I am Mrs. Lee.' Pertanyaan: Siapa yang memperkenalkan diri sebagai Mrs. Lee?",
+                "options": ["Mrs. Lee", "Budi", "Siti", "Mr. Brown"],
+                "answer": "Mrs. Lee"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He is my brother. His name is Andi.' Pertanyaan: Siapa nama saudara laki-laki itu?",
+                "options": ["Andi", "Budi", "Kenji", "Dewi"],
+                "answer": "Andi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She is my friend from Korea. Her name is Mina.' Pertanyaan: Dari mana teman itu berasal?",
+                "options": ["Korea", "Jepang", "Cina", "Indonesia"],
+                "answer": "Korea"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Selamat pagi, namaku Tuan Brown. Siapa namamu?'",
+                "words": ["Good", "morning", "my", "is", "name", "Mr", "Brown", "what", "your", "is", "name"],
+                "answer": ["Good", "morning", "my", "name", "is", "Mr", "Brown", "what", "is", "your", "name"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Halo, aku Siti. Aku berasal dari Bandung'",
+                "words": ["Hello", "I", "am", "Siti", "I", "come", "from", "Bandung"],
+                "answer": ["Hello", "I", "am", "Siti", "I", "come", "from", "Bandung"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Senang bertemu denganmu, Budi. Aku Nyonya Lee'",
+                "words": ["Nice", "to", "meet", "you", "Budi", "I", "am", "Mrs", "Lee"],
+                "answer": ["Nice", "to", "meet", "you", "Budi", "I", "am", "Mrs", "Lee"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Dia adalah saudara laki-lakiku. Namanya Andi'",
+                "words": ["He", "is", "my", "brother", "his", "is", "name", "Andi"],
+                "answer": ["He", "is", "my", "brother", "his", "name", "is", "Andi"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Dia adalah temanku dari Korea. Namanya Mina'",
+                "words": ["She", "is", "my", "friend", "from", "Korea", "her", "is", "name", "Mina"],
+                "answer": ["She", "is", "my", "friend", "from", "Korea", "her", "name", "is", "Mina"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Hello everyone, my name is Mr. White. I am your new teacher.' Pertanyaan: Siapa nama guru baru itu?",
+                "options": ["Mr. White", "Mr. Brown", "Mrs. Lee", "Mr. Smith"],
+                "answer": "Mr. White"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Hi, I am Kenji. I am from Japan.' Pertanyaan: Dari mana Kenji berasal?",
+                "options": ["Jepang", "Korea", "Cina", "Indonesia"],
+                "answer": "Jepang"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Nice to meet you, Dewi. I am Anna.' Pertanyaan: Siapa yang memperkenalkan diri sebagai Anna?",
+                "options": ["Anna", "Dewi", "Siti", "Rina"],
+                "answer": "Anna"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She is my mother. Her name is Mrs. Sari.' Pertanyaan: Siapa nama ibu itu?",
+                "options": ["Mrs. Sari", "Mrs. Lee", "Mrs. Smith", "Mrs. Brown"],
+                "answer": "Mrs. Sari"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He is my friend from Canada. His name is John.' Pertanyaan: Dari mana teman itu berasal?",
+                "options": ["Kanada", "Amerika Serikat", "Inggris", "Australia"],
+                "answer": "Kanada"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Halo semuanya, namaku Tuan White. Aku guru barumu'",
+                "words": ["Hello", "everyone", "my", "is", "name", "Mr", "White", "I", "am", "your", "new", "teacher"],
+                "answer": ["Hello", "everyone", "my", "name", "is", "Mr", "White", "I", "am", "your", "new", "teacher"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Hai, aku Kenji. Aku berasal dari Jepang'",
+                "words": ["Hi", "I", "am", "Kenji", "I", "am", "from", "Japan"],
+                "answer": ["Hi", "I", "am", "Kenji", "I", "am", "from", "Japan"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Senang bertemu denganmu, Dewi. Aku Anna'",
+                "words": ["Nice", "to", "meet", "you", "Dewi", "I", "am", "Anna"],
+                "answer": ["Nice", "to", "meet", "you", "Dewi", "I", "am", "Anna"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Dia adalah ibuku. Namanya Nyonya Sari'",
+                "words": ["She", "is", "my", "mother", "her", "is", "name", "Mrs", "Sari"],
+                "answer": ["She", "is", "my", "mother", "her", "name", "is", "Mrs", "Sari"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun percakapan: 'Dia adalah temanku dari Kanada. Namanya John'",
+                "words": ["He", "is", "my", "friend", "from", "Canada", "his", "is", "name", "John"],
+                "answer": ["He", "is", "my", "friend", "from", "Canada", "his", "name", "is", "John"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: memperkenalkan diri",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Namaku Budi'?",
+                "options": ["My name is Budi", "My name Budi", "I name is Budi", "My is name Budi"],
+                "answer": "My name is Budi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Aku berasal dari Indonesia'?",
+                "options": ["I am from Indonesia", "I from Indonesia", "I am Indonesia", "I from am Indonesia"],
+                "answer": "I am from Indonesia"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Aku seorang siswa'?",
+                "options": ["I am a student", "I a student", "I am student", "I am student a"],
+                "answer": "I am a student"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Senang bertemu denganmu'?",
+                "options": ["Nice to meet you", "Nice meet you", "Nice to meeting you", "Nice you meet"],
+                "answer": "Nice to meet you"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan nama seseorang?",
+                "options": ["What is your name?", "What your name?", "How is your name?", "Who is your name?"],
+                "answer": "What is your name?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Halo, namaku Siti'",
+                "words": ["Hello", "my", "is", "name", "Siti"],
+                "answer": ["Hello", "my", "name", "is", "Siti"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Aku berasal dari Bandung'",
+                "words": ["I", "from", "am", "Bandung"],
+                "answer": ["I", "am", "from", "Bandung"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Aku seorang pelajar'",
+                "words": ["I", "a", "am", "student"],
+                "answer": ["I", "am", "a", "student"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Senang bertemu denganmu'",
+                "words": ["Nice", "to", "meet", "you"],
+                "answer": ["Nice", "to", "meet", "you"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Siapa namamu?'",
+                "words": ["What", "is", "your", "name"],
+                "answer": ["What", "is", "your", "name"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Namaku Anna'?",
+                "options": ["My name is Anna", "My name Anna", "I name is Anna", "My is name Anna"],
+                "answer": "My name is Anna"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Aku berasal dari Korea'?",
+                "options": ["I am from Korea", "I from Korea", "I am Korea", "I from am Korea"],
+                "answer": "I am from Korea"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Aku seorang guru'?",
+                "options": ["I am a teacher", "I a teacher", "I am teacher", "I am teacher a"],
+                "answer": "I am a teacher"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Senang berkenalan denganmu'?",
+                "options": ["Nice to meet you", "Nice meet you", "Nice to meeting you", "Nice you meet"],
+                "answer": "Nice to meet you"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan asal seseorang?",
+                "options": ["Where are you from?", "What are you from?", "Who are you from?", "When are you from?"],
+                "answer": "Where are you from?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Hai, namaku Andi'",
+                "words": ["Hi", "my", "is", "name", "Andi"],
+                "answer": ["Hi", "my", "name", "is", "Andi"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Aku berasal dari Surabaya'",
+                "words": ["I", "from", "am", "Surabaya"],
+                "answer": ["I", "am", "from", "Surabaya"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Aku seorang guru'",
+                "words": ["I", "a", "am", "teacher"],
+                "answer": ["I", "am", "a", "teacher"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Senang berkenalan denganmu'",
+                "words": ["Nice", "to", "meet", "you"],
+                "answer": ["Nice", "to", "meet", "you"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Dari mana asalmu?'",
+                "words": ["Where", "are", "you", "from"],
+                "answer": ["Where", "are", "you", "from"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Namaku Kenji'?",
+                "options": ["My name is Kenji", "My name Kenji", "I name is Kenji", "My is name Kenji"],
+                "answer": "My name is Kenji"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Aku berasal dari Jepang'?",
+                "options": ["I am from Japan", "I from Japan", "I am Japan", "I from am Japan"],
+                "answer": "I am from Japan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memperkenalkan diri 'Aku seorang dokter'?",
+                "options": ["I am a doctor", "I a doctor", "I am doctor", "I am doctor a"],
+                "answer": "I am a doctor"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Senang bertemu dengan kalian semua'?",
+                "options": ["Nice to meet you all", "Nice meet you all", "Nice to meeting you all", "Nice you all meet"],
+                "answer": "Nice to meet you all"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menanyakan kota asal seseorang?",
+                "options": ["Which city are you from?", "What city you from?", "Who city are you from?", "When city are you from?"],
+                "answer": "Which city are you from?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Halo semuanya, namaku Kenji'",
+                "words": ["Hello", "everyone", "my", "is", "name", "Kenji"],
+                "answer": ["Hello", "everyone", "my", "name", "is", "Kenji"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Aku berasal dari Jepang'",
+                "words": ["I", "from", "am", "Japan"],
+                "answer": ["I", "am", "from", "Japan"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Aku seorang dokter'",
+                "words": ["I", "a", "am", "doctor"],
+                "answer": ["I", "am", "a", "doctor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Senang bertemu dengan kalian semua'",
+                "words": ["Nice", "to", "meet", "you", "all"],
+                "answer": ["Nice", "to", "meet", "you", "all"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perkenalan: 'Kota mana asalmu?'",
+                "words": ["Which", "city", "are", "you", "from"],
+                "answer": ["Which", "city", "are", "you", "from"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

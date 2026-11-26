@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Pakaian & Warna Lanjutan",
+    "color": "ruby",
+    "levels": [
+      {
+        "level": "Jenis pakaian",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'baju'?",
+                "options": ["shirt", "pants", "shoes", "hat"],
+                "answer": "shirt"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'celana'?",
+                "options": ["pants", "shirt", "skirt", "shoes"],
+                "answer": "pants"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sepatu'?",
+                "options": ["shoes", "socks", "sandals", "boots"],
+                "answer": "shoes"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'topi'?",
+                "options": ["hat", "cap", "helmet", "scarf"],
+                "answer": "hat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'rok'?",
+                "options": ["skirt", "dress", "pants", "shirt"],
+                "answer": "skirt"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku memakai kemeja putih'",
+                "words": ["I", "a", "wear", "white", "shirt"],
+                "answer": ["I", "wear", "a", "white", "shirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai celana biru'",
+                "words": ["He", "blue", "wears", "pants"],
+                "answer": ["He", "wears", "blue", "pants"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu baruku sangat nyaman'",
+                "words": ["My", "are", "new", "shoes", "very", "comfortable"],
+                "answer": ["My", "new", "shoes", "are", "very", "comfortable"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai topi merah'",
+                "words": ["She", "a", "wears", "red", "hat"],
+                "answer": ["She", "wears", "a", "red", "hat"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka rok panjang itu'",
+                "words": ["I", "the", "like", "long", "skirt"],
+                "answer": ["I", "like", "the", "long", "skirt"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'jaket'?",
+                "options": ["jacket", "shirt", "sweater", "coat"],
+                "answer": "jacket"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'gaun'?",
+                "options": ["dress", "skirt", "shirt", "blouse"],
+                "answer": "dress"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kaus kaki'?",
+                "options": ["socks", "shoes", "gloves", "boots"],
+                "answer": "socks"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'syal'?",
+                "options": ["scarf", "hat", "gloves", "belt"],
+                "answer": "scarf"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kemeja'?",
+                "options": ["shirt", "t-shirt", "blouse", "jacket"],
+                "answer": "shirt"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku memakai jaket hitam'",
+                "words": ["I", "a", "wear", "black", "jacket"],
+                "answer": ["I", "wear", "a", "black", "jacket"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai gaun merah'",
+                "words": ["She", "a", "wears", "red", "dress"],
+                "answer": ["She", "wears", "a", "red", "dress"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kaus kakiku berwarna putih'",
+                "words": ["My", "are", "socks", "white"],
+                "answer": ["My", "socks", "are", "white"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai syal biru'",
+                "words": ["He", "a", "wears", "blue", "scarf"],
+                "answer": ["He", "wears", "a", "blue", "scarf"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka kemeja itu'",
+                "words": ["I", "the", "like", "shirt"],
+                "answer": ["I", "like", "the", "shirt"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sweter'?",
+                "options": ["sweater", "jacket", "coat", "cardigan"],
+                "answer": "sweater"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sarung tangan'?",
+                "options": ["gloves", "socks", "mittens", "scarf"],
+                "answer": "gloves"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ikat pinggang'?",
+                "options": ["belt", "scarf", "tie", "watch"],
+                "answer": "belt"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kaos'?",
+                "options": ["t-shirt", "shirt", "blouse", "sweater"],
+                "answer": "t-shirt"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sandal'?",
+                "options": ["sandals", "shoes", "slippers", "boots"],
+                "answer": "sandals"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku memakai sweter hangat'",
+                "words": ["I", "a", "wear", "warm", "sweater"],
+                "answer": ["I", "wear", "a", "warm", "sweater"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai sarung tangan hitam'",
+                "words": ["She", "black", "wears", "gloves"],
+                "answer": ["She", "wears", "black", "gloves"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ikat pinggangku berwarna cokelat'",
+                "words": ["My", "is", "belt", "brown"],
+                "answer": ["My", "belt", "is", "brown"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai kaos putih'",
+                "words": ["He", "a", "wears", "white", "t-shirt"],
+                "answer": ["He", "wears", "a", "white", "t-shirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka sandal itu'",
+                "words": ["I", "the", "like", "sandals"],
+                "answer": ["I", "like", "the", "sandals"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Warna & pola",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'bergaris-garis'?",
+                "options": ["striped", "checked", "polka dot", "plain"],
+                "answer": "striped"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kotak-kotak'?",
+                "options": ["checked", "striped", "plain", "floral"],
+                "answer": "checked"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'polos'?",
+                "options": ["plain", "striped", "patterned", "checked"],
+                "answer": "plain"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berbunga'?",
+                "options": ["floral", "striped", "checked", "plain"],
+                "answer": "floral"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berbintik-bintik'?",
+                "options": ["polka dot", "striped", "checked", "plain"],
+                "answer": "polka dot"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai kemeja bergaris-garis'",
+                "words": ["He", "a", "wears", "striped", "shirt"],
+                "answer": ["He", "wears", "a", "striped", "shirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Roknya kotak-kotak'",
+                "words": ["Her", "is", "skirt", "checked"],
+                "answer": ["Her", "skirt", "is", "checked"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka kaos polos'",
+                "words": ["I", "plain", "like", "t-shirts"],
+                "answer": ["I", "like", "plain", "t-shirts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gaunnya berbunga-bunga'",
+                "words": ["Her", "is", "dress", "floral"],
+                "answer": ["Her", "dress", "is", "floral"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dasi berbintik-bintik itu lucu'",
+                "words": ["The", "tie", "is", "polka", "dot", "cute"],
+                "answer": ["The", "polka", "dot", "tie", "is", "cute"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berwarna-warni'?",
+                "options": ["colorful", "plain", "striped", "checked"],
+                "answer": "colorful"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'gelap'?",
+                "options": ["dark", "light", "bright", "pale"],
+                "answer": "dark"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'terang'?",
+                "options": ["light", "dark", "bright", "pale"],
+                "answer": "light"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'cerah'?",
+                "options": ["bright", "dark", "pale", "light"],
+                "answer": "bright"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pucat'?",
+                "options": ["pale", "bright", "dark", "light"],
+                "answer": "pale"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai kaos berwarna-warni'",
+                "words": ["She", "a", "wears", "colorful", "t-shirt"],
+                "answer": ["She", "wears", "a", "colorful", "t-shirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jaketnya berwarna biru gelap'",
+                "words": ["His", "is", "jacket", "dark", "blue"],
+                "answer": ["His", "jacket", "is", "dark", "blue"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka warna-warna cerah'",
+                "words": ["I", "bright", "like", "colors"],
+                "answer": ["I", "like", "bright", "colors"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kemejanya berwarna hijau muda'",
+                "words": ["His", "is", "shirt", "light", "green"],
+                "answer": ["His", "shirt", "is", "light", "green"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Warna pucat itu tidak cocok untukmu'",
+                "words": ["The", "color", "is", "pale", "not", "good", "for", "you"],
+                "answer": ["The", "pale", "color", "is", "not", "good", "for", "you"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'bermotif'?",
+                "options": ["patterned", "plain", "striped", "checked"],
+                "answer": "patterned"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'polos tanpa motif'?",
+                "options": ["solid", "striped", "checked", "patterned"],
+                "answer": "solid"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'bergradasi'?",
+                "options": ["gradient", "striped", "checked", "plain"],
+                "answer": "gradient"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berkilau'?",
+                "options": ["shiny", "matte", "plain", "dark"],
+                "answer": "shiny"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tidak berkilau'?",
+                "options": ["matte", "shiny", "bright", "pale"],
+                "answer": "matte"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai rok bermotif'",
+                "words": ["She", "a", "wears", "patterned", "skirt"],
+                "answer": ["She", "wears", "a", "patterned", "skirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kemejanya berwarna biru polos'",
+                "words": ["His", "is", "shirt", "solid", "blue"],
+                "answer": ["His", "shirt", "is", "solid", "blue"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gaunnya berwarna gradasi'",
+                "words": ["Her", "is", "dress", "gradient"],
+                "answer": ["Her", "dress", "is", "gradient"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu berkilau itu sangat mahal'",
+                "words": ["The", "shiny", "shoes", "are", "very", "expensive"],
+                "answer": ["The", "shiny", "shoes", "are", "very", "expensive"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jaket tidak berkilau itu lebih baik'",
+                "words": ["The", "matte", "jacket", "is", "better"],
+                "answer": ["The", "matte", "jacket", "is", "better"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Adjective order",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah gaun merah panjang'",
+                "options": ["a long red dress", "a red long dress", "a dress long red", "a long dress red"],
+                "answer": "a long red dress"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah kemeja putih bersih'",
+                "options": ["a clean white shirt", "a white clean shirt", "a shirt clean white", "a clean shirt white"],
+                "answer": "a clean white shirt"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sepatu kulit hitam baru'",
+                "options": ["new black leather shoes", "black new leather shoes", "leather black new shoes", "new leather black shoes"],
+                "answer": "new black leather shoes"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah topi bulat besar'",
+                "options": ["a big round hat", "a round big hat", "a big hat round", "a hat big round"],
+                "answer": "a big round hat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah jaket biru tua yang hangat'",
+                "options": ["a warm dark blue jacket", "a dark blue warm jacket", "a warm jacket dark blue", "a blue dark warm jacket"],
+                "answer": "a warm dark blue jacket"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai gaun merah panjang'",
+                "words": ["She", "a", "wears", "long", "red", "dress"],
+                "answer": ["She", "wears", "a", "long", "red", "dress"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka kemeja putih bersih itu'",
+                "words": ["I", "the", "like", "clean", "white", "shirt"],
+                "answer": ["I", "like", "the", "clean", "white", "shirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu kulit hitam baru itu mahal'",
+                "words": ["The", "new", "black", "leather", "shoes", "are", "expensive"],
+                "answer": ["The", "new", "black", "leather", "shoes", "are", "expensive"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai topi bulat besar'",
+                "words": ["He", "a", "wears", "big", "round", "hat"],
+                "answer": ["He", "wears", "a", "big", "round", "hat"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka jaket biru tua yang hangat'",
+                "words": ["I", "the", "like", "warm", "dark", "blue", "jacket"],
+                "answer": ["I", "like", "the", "warm", "dark", "blue", "jacket"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah rok pendek hitam'",
+                "options": ["a short black skirt", "a black short skirt", "a skirt short black", "a short skirt black"],
+                "answer": "a short black skirt"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah sweter hangat abu-abu'",
+                "options": ["a warm grey sweater", "a grey warm sweater", "a sweater warm grey", "a warm sweater grey"],
+                "answer": "a warm grey sweater"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sepatu olahraga putih baru'",
+                "options": ["new white sports shoes", "white new sports shoes", "sports white new shoes", "new sports white shoes"],
+                "answer": "new white sports shoes"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah syal sutra merah yang indah'",
+                "options": ["a beautiful red silk scarf", "a red beautiful silk scarf", "a silk red beautiful scarf", "a beautiful silk red scarf"],
+                "answer": "a beautiful red silk scarf"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah tas kulit cokelat yang besar'",
+                "options": ["a big brown leather bag", "a brown big leather bag", "a leather brown big bag", "a big leather brown bag"],
+                "answer": "a big brown leather bag"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai rok pendek hitam'",
+                "words": ["She", "a", "wears", "short", "black", "skirt"],
+                "answer": ["She", "wears", "a", "short", "black", "skirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka sweter hangat abu-abu itu'",
+                "words": ["I", "the", "like", "warm", "grey", "sweater"],
+                "answer": ["I", "like", "the", "warm", "grey", "sweater"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu olahraga putih baru itu nyaman'",
+                "words": ["The", "new", "white", "sports", "shoes", "are", "comfortable"],
+                "answer": ["The", "new", "white", "sports", "shoes", "are", "comfortable"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai syal sutra merah yang indah'",
+                "words": ["She", "a", "wears", "beautiful", "red", "silk", "scarf"],
+                "answer": ["She", "wears", "a", "beautiful", "red", "silk", "scarf"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka tas kulit cokelat yang besar'",
+                "words": ["I", "the", "like", "big", "brown", "leather", "bag"],
+                "answer": ["I", "like", "the", "big", "brown", "leather", "bag"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah topi jerami kuning yang lucu'",
+                "options": ["a cute yellow straw hat", "a yellow cute straw hat", "a straw yellow cute hat", "a cute straw yellow hat"],
+                "answer": "a cute yellow straw hat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah kemeja katun biru yang nyaman'",
+                "options": ["a comfortable blue cotton shirt", "a blue comfortable cotton shirt", "a cotton blue comfortable shirt", "a comfortable cotton blue shirt"],
+                "answer": "a comfortable blue cotton shirt"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sepatu bot kulit hitam yang mahal'",
+                "options": ["expensive black leather boots", "black expensive leather boots", "leather black expensive boots", "expensive leather black boots"],
+                "answer": "expensive black leather boots"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah gaun pesta merah yang cantik'",
+                "options": ["a beautiful red party dress", "a red beautiful party dress", "a party red beautiful dress", "a beautiful party red dress"],
+                "answer": "a beautiful red party dress"
+              },
+              {
+                "type": "choice",
+                "prompt": "Urutan kata sifat yang benar: 'sebuah jaket denim biru yang trendi'",
+                "options": ["a trendy blue denim jacket", "a blue trendy denim jacket", "a denim blue trendy jacket", "a trendy denim blue jacket"],
+                "answer": "a trendy blue denim jacket"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai topi jerami kuning yang lucu'",
+                "words": ["She", "a", "wears", "cute", "yellow", "straw", "hat"],
+                "answer": ["She", "wears", "a", "cute", "yellow", "straw", "hat"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka kemeja katun biru yang nyaman itu'",
+                "words": ["I", "the", "like", "comfortable", "blue", "cotton", "shirt"],
+                "answer": ["I", "like", "the", "comfortable", "blue", "cotton", "shirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu bot kulit hitam yang mahal itu baru'",
+                "words": ["The", "expensive", "black", "leather", "boots", "are", "new"],
+                "answer": ["The", "expensive", "black", "leather", "boots", "are", "new"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai gaun pesta merah yang cantik'",
+                "words": ["She", "a", "wears", "beautiful", "red", "party", "dress"],
+                "answer": ["She", "wears", "a", "beautiful", "red", "party", "dress"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka jaket denim biru yang trendi'",
+                "words": ["I", "the", "like", "trendy", "blue", "denim", "jacket"],
+                "answer": ["I", "like", "the", "trendy", "blue", "denim", "jacket"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "This/that/these/those + clothes",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ shirt is very nice' (kemeja dekat)",
+                "options": ["This", "That", "These", "Those"],
+                "answer": "This"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ shoes are expensive' (sepatu jauh)",
+                "options": ["Those", "This", "That", "These"],
+                "answer": "Those"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ pants are too small' (celana dekat)",
+                "options": ["These", "This", "That", "Those"],
+                "answer": "These"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ dress is beautiful' (gaun jauh)",
+                "options": ["That", "This", "These", "Those"],
+                "answer": "That"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ jacket is warm' (jaket dekat)",
+                "options": ["This", "That", "These", "Those"],
+                "answer": "This"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kemeja ini sangat bagus'",
+                "words": ["This", "is", "shirt", "very", "nice"],
+                "answer": ["This", "shirt", "is", "very", "nice"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu itu mahal'",
+                "words": ["Those", "are", "shoes", "expensive"],
+                "answer": ["Those", "shoes", "are", "expensive"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Celana ini terlalu kecil'",
+                "words": ["These", "are", "pants", "too", "small"],
+                "answer": ["These", "pants", "are", "too", "small"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gaun itu cantik'",
+                "words": ["That", "is", "dress", "beautiful"],
+                "answer": ["That", "dress", "is", "beautiful"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jaket ini hangat'",
+                "words": ["This", "is", "jacket", "warm"],
+                "answer": ["This", "jacket", "is", "warm"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ skirt is too long' (rok dekat)",
+                "options": ["This", "That", "These", "Those"],
+                "answer": "This"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ socks are dirty' (kaus kaki jauh)",
+                "options": ["Those", "This", "That", "These"],
+                "answer": "Those"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ gloves are warm' (sarung tangan dekat)",
+                "options": ["These", "This", "That", "Those"],
+                "answer": "These"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ hat is red' (topi jauh)",
+                "options": ["That", "This", "These", "Those"],
+                "answer": "That"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ sweater is soft' (sweter dekat)",
+                "options": ["This", "That", "These", "Those"],
+                "answer": "This"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rok ini terlalu panjang'",
+                "words": ["This", "is", "skirt", "too", "long"],
+                "answer": ["This", "skirt", "is", "too", "long"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kaus kaki itu kotor'",
+                "words": ["Those", "are", "socks", "dirty"],
+                "answer": ["Those", "socks", "are", "dirty"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sarung tangan ini hangat'",
+                "words": ["These", "are", "gloves", "warm"],
+                "answer": ["These", "gloves", "are", "warm"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Topi itu merah'",
+                "words": ["That", "is", "hat", "red"],
+                "answer": ["That", "hat", "is", "red"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sweter ini lembut'",
+                "words": ["This", "is", "sweater", "soft"],
+                "answer": ["This", "sweater", "is", "soft"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ belt is too tight' (ikat pinggang dekat)",
+                "options": ["This", "That", "These", "Those"],
+                "answer": "This"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ boots are new' (sepatu bot jauh)",
+                "options": ["Those", "This", "That", "These"],
+                "answer": "Those"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ earrings are pretty' (anting-anting dekat)",
+                "options": ["These", "This", "That", "Those"],
+                "answer": "These"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ scarf is colourful' (syal jauh)",
+                "options": ["That", "This", "These", "Those"],
+                "answer": "That"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ t-shirt is my favourite' (kaos dekat)",
+                "options": ["This", "That", "These", "Those"],
+                "answer": "This"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ikat pinggang ini terlalu ketat'",
+                "words": ["This", "is", "belt", "too", "tight"],
+                "answer": ["This", "belt", "is", "too", "tight"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu bot itu baru'",
+                "words": ["Those", "are", "boots", "new"],
+                "answer": ["Those", "boots", "are", "new"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Anting-anting ini cantik'",
+                "words": ["These", "are", "earrings", "pretty"],
+                "answer": ["These", "earrings", "are", "pretty"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Syal itu berwarna-warni'",
+                "words": ["That", "is", "scarf", "colourful"],
+                "answer": ["That", "scarf", "is", "colourful"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kaos ini adalah favoritku'",
+                "words": ["This", "is", "t-shirt", "my", "favourite"],
+                "answer": ["This", "t-shirt", "is", "my", "favourite"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: belanja pakaian",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I would like to buy this blue shirt.' Pertanyaan: Kemeja warna apa yang ingin dibeli?",
+                "options": ["Biru", "Merah", "Hitam", "Putih"],
+                "answer": "Biru"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'How much are these black shoes?' Pertanyaan: Apa yang ditanyakan pembeli?",
+                "options": ["Harga sepatu hitam", "Ukuran sepatu hitam", "Warna sepatu hitam", "Bahan sepatu hitam"],
+                "answer": "Harga sepatu hitam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Do you have this dress in a smaller size?' Pertanyaan: Ukuran apa yang diminta pembeli?",
+                "options": ["Lebih kecil", "Lebih besar", "Sama", "Lebih panjang"],
+                "answer": "Lebih kecil"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The red skirt is on sale.' Pertanyaan: Pakaian apa yang sedang diskon?",
+                "options": ["Rok merah", "Gaun merah", "Kemeja merah", "Jaket merah"],
+                "answer": "Rok merah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I will take these white socks, please.' Pertanyaan: Apa yang akan dibeli?",
+                "options": ["Kaus kaki putih", "Sepatu putih", "Kaos putih", "Topi putih"],
+                "answer": "Kaus kaki putih"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Aku ingin membeli kemeja biru ini'",
+                "words": ["I", "to", "would", "like", "buy", "this", "blue", "shirt"],
+                "answer": ["I", "would", "like", "to", "buy", "this", "blue", "shirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Berapa harga sepatu hitam ini?'",
+                "words": ["How", "are", "much", "these", "black", "shoes"],
+                "answer": ["How", "much", "are", "these", "black", "shoes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Apakah kamu punya gaun ini dalam ukuran lebih kecil?'",
+                "words": ["Do", "have", "you", "this", "dress", "in", "a", "smaller", "size"],
+                "answer": ["Do", "you", "have", "this", "dress", "in", "a", "smaller", "size"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Rok merah itu sedang diskon'",
+                "words": ["The", "skirt", "is", "on", "sale", "red"],
+                "answer": ["The", "red", "skirt", "is", "on", "sale"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Aku akan mengambil kaus kaki putih ini'",
+                "words": ["I", "take", "will", "these", "white", "socks"],
+                "answer": ["I", "will", "take", "these", "white", "socks"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I am looking for a long black skirt.' Pertanyaan: Rok seperti apa yang dicari?",
+                "options": ["Panjang dan hitam", "Pendek dan hitam", "Panjang dan merah", "Pendek dan putih"],
+                "answer": "Panjang dan hitam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'How much is this red jacket?' Pertanyaan: Apa yang ditanyakan pembeli?",
+                "options": ["Harga jaket merah", "Ukuran jaket merah", "Warna jaket merah", "Bahan jaket merah"],
+                "answer": "Harga jaket merah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Do you have these pants in a bigger size?' Pertanyaan: Ukuran apa yang diminta pembeli?",
+                "options": ["Lebih besar", "Lebih kecil", "Sama", "Lebih pendek"],
+                "answer": "Lebih besar"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The blue sweater is 20 percent off.' Pertanyaan: Pakaian apa yang didiskon?",
+                "options": ["Sweter biru", "Jaket biru", "Kemeja biru", "Rok biru"],
+                "answer": "Sweter biru"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I will buy this grey hat, please.' Pertanyaan: Apa yang akan dibeli?",
+                "options": ["Topi abu-abu", "Topi hitam", "Syal abu-abu", "Sarung tangan abu-abu"],
+                "answer": "Topi abu-abu"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Aku sedang mencari rok hitam panjang'",
+                "words": ["I", "for", "am", "looking", "a", "long", "black", "skirt"],
+                "answer": ["I", "am", "looking", "for", "a", "long", "black", "skirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Berapa harga jaket merah ini?'",
+                "words": ["How", "is", "much", "this", "red", "jacket"],
+                "answer": ["How", "much", "is", "this", "red", "jacket"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Apakah kamu punya celana ini dalam ukuran lebih besar?'",
+                "words": ["Do", "have", "you", "these", "pants", "in", "a", "bigger", "size"],
+                "answer": ["Do", "you", "have", "these", "pants", "in", "a", "bigger", "size"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Sweter biru itu didiskon dua puluh persen'",
+                "words": ["The", "sweater", "is", "blue", "twenty", "percent", "off"],
+                "answer": ["The", "blue", "sweater", "is", "twenty", "percent", "off"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Aku akan membeli topi abu-abu ini'",
+                "words": ["I", "buy", "will", "this", "grey", "hat"],
+                "answer": ["I", "will", "buy", "this", "grey", "hat"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I want to try on these brown boots.' Pertanyaan: Apa yang ingin dicoba?",
+                "options": ["Sepatu bot cokelat", "Sepatu bot hitam", "Sepatu cokelat", "Sandal cokelat"],
+                "answer": "Sepatu bot cokelat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'How much does this silk scarf cost?' Pertanyaan: Apa yang ditanyakan pembeli?",
+                "options": ["Harga syal sutra", "Ukuran syal sutra", "Warna syal sutra", "Bahan syal sutra"],
+                "answer": "Harga syal sutra"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Do you have this t-shirt in a different colour?' Pertanyaan: Apa yang diminta pembeli?",
+                "options": ["Warna yang berbeda", "Ukuran yang berbeda", "Bahan yang berbeda", "Motif yang berbeda"],
+                "answer": "Warna yang berbeda"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The white sandals are half price.' Pertanyaan: Pakaian apa yang didiskon?",
+                "options": ["Sandal putih", "Sepatu putih", "Kaos putih", "Topi putih"],
+                "answer": "Sandal putih"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I will pay for this yellow dress by card.' Pertanyaan: Bagaimana cara membayar?",
+                "options": ["Dengan kartu", "Dengan uang tunai", "Dengan cek", "Dengan transfer"],
+                "answer": "Dengan kartu"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Aku ingin mencoba sepatu bot cokelat ini'",
+                "words": ["I", "to", "want", "try", "on", "these", "brown", "boots"],
+                "answer": ["I", "want", "to", "try", "on", "these", "brown", "boots"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Berapa harga syal sutra ini?'",
+                "words": ["How", "does", "much", "this", "silk", "scarf", "cost"],
+                "answer": ["How", "much", "does", "this", "silk", "scarf", "cost"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Apakah kamu punya kaos ini dalam warna yang berbeda?'",
+                "words": ["Do", "have", "you", "this", "t-shirt", "in", "a", "different", "colour"],
+                "answer": ["Do", "you", "have", "this", "t-shirt", "in", "a", "different", "colour"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Sandal putih itu setengah harga'",
+                "words": ["The", "sandals", "are", "white", "half", "price"],
+                "answer": ["The", "white", "sandals", "are", "half", "price"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun dialog: 'Aku akan membayar gaun kuning ini dengan kartu'",
+                "words": ["I", "pay", "will", "for", "this", "yellow", "dress", "by", "card"],
+                "answer": ["I", "will", "pay", "for", "this", "yellow", "dress", "by", "card"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: mendeskripsikan pakaian",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku memakai kemeja putih'?",
+                "options": ["I am wearing a white shirt", "I wearing a white shirt", "I am wear a white shirt", "I am wearing white shirt a"],
+                "answer": "I am wearing a white shirt"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Dia memakai celana biru'?",
+                "options": ["He is wearing blue pants", "He wearing blue pants", "He is wear blue pants", "He is wearing pants blue"],
+                "answer": "He is wearing blue pants"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Sepatu itu sangat nyaman'?",
+                "options": ["The shoes are very comfortable", "The shoes very comfortable", "The shoes is very comfortable", "The shoes are comfortable very"],
+                "answer": "The shoes are very comfortable"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Dia memakai gaun merah yang cantik'?",
+                "options": ["She is wearing a beautiful red dress", "She wearing a beautiful red dress", "She is wear a beautiful red dress", "She is wearing a red beautiful dress"],
+                "answer": "She is wearing a beautiful red dress"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku suka jaketmu'?",
+                "options": ["I like your jacket", "I likes your jacket", "I liking your jacket", "I am like your jacket"],
+                "answer": "I like your jacket"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku memakai kemeja putih dan celana hitam'",
+                "words": ["I", "am", "wearing", "a", "white", "shirt", "and", "black", "pants"],
+                "answer": ["I", "am", "wearing", "a", "white", "shirt", "and", "black", "pants"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dia memakai rok panjang berwarna biru'",
+                "words": ["She", "is", "wearing", "a", "long", "blue", "skirt"],
+                "answer": ["She", "is", "wearing", "a", "long", "blue", "skirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Sepatu baruku sangat nyaman'",
+                "words": ["My", "new", "shoes", "are", "very", "comfortable"],
+                "answer": ["My", "new", "shoes", "are", "very", "comfortable"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dia memakai topi merah yang lucu'",
+                "words": ["He", "is", "wearing", "a", "cute", "red", "hat"],
+                "answer": ["He", "is", "wearing", "a", "cute", "red", "hat"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku suka jaket birumu'",
+                "words": ["I", "your", "like", "blue", "jacket"],
+                "answer": ["I", "like", "your", "blue", "jacket"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku memakai sweter hangat'?",
+                "options": ["I am wearing a warm sweater", "I wearing a warm sweater", "I am wear a warm sweater", "I am wearing warm sweater a"],
+                "answer": "I am wearing a warm sweater"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Dia memakai kaus kaki putih'?",
+                "options": ["He is wearing white socks", "He wearing white socks", "He is wear white socks", "He is wearing socks white"],
+                "answer": "He is wearing white socks"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Jaket itu sangat hangat'?",
+                "options": ["The jacket is very warm", "The jacket very warm", "The jacket are very warm", "The jacket is warm very"],
+                "answer": "The jacket is very warm"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Dia memakai gaun merah muda yang indah'?",
+                "options": ["She is wearing a beautiful pink dress", "She wearing a beautiful pink dress", "She is wear a beautiful pink dress", "She is wearing a pink beautiful dress"],
+                "answer": "She is wearing a beautiful pink dress"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku suka sepatumu'?",
+                "options": ["I like your shoes", "I likes your shoes", "I liking your shoes", "I am like your shoes"],
+                "answer": "I like your shoes"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku memakai sweter hangat dan celana hitam'",
+                "words": ["I", "am", "wearing", "a", "warm", "sweater", "and", "black", "pants"],
+                "answer": ["I", "am", "wearing", "a", "warm", "sweater", "and", "black", "pants"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dia memakai kaos kaki putih dan sepatu hitam'",
+                "words": ["He", "is", "wearing", "white", "socks", "and", "black", "shoes"],
+                "answer": ["He", "is", "wearing", "white", "socks", "and", "black", "shoes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Jaket baruku sangat hangat'",
+                "words": ["My", "new", "jacket", "is", "very", "warm"],
+                "answer": ["My", "new", "jacket", "is", "very", "warm"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dia memakai gaun merah muda yang indah'",
+                "words": ["She", "is", "wearing", "a", "beautiful", "pink", "dress"],
+                "answer": ["She", "is", "wearing", "a", "beautiful", "pink", "dress"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku suka sepatu hitammu'",
+                "words": ["I", "your", "like", "black", "shoes"],
+                "answer": ["I", "like", "your", "black", "shoes"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku memakai jaket denim yang trendi'?",
+                "options": ["I am wearing a trendy denim jacket", "I wearing a trendy denim jacket", "I am wear a trendy denim jacket", "I am wearing a denim trendy jacket"],
+                "answer": "I am wearing a trendy denim jacket"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Dia memakai sepatu bot kulit cokelat'?",
+                "options": ["She is wearing brown leather boots", "She wearing brown leather boots", "She is wear brown leather boots", "She is wearing boots brown leather"],
+                "answer": "She is wearing brown leather boots"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Gaun itu sangat elegan'?",
+                "options": ["The dress is very elegant", "The dress very elegant", "The dress are very elegant", "The dress is elegant very"],
+                "answer": "The dress is very elegant"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Dia memakai syal sutra merah yang indah'?",
+                "options": ["He is wearing a beautiful red silk scarf", "He wearing a beautiful red silk scarf", "He is wear a beautiful red silk scarf", "He is wearing a red beautiful silk scarf"],
+                "answer": "He is wearing a beautiful red silk scarf"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku sangat suka gaya pakaianmu'?",
+                "options": ["I really like your clothing style", "I really likes your clothing style", "I really liking your clothing style", "I am really like your clothing style"],
+                "answer": "I really like your clothing style"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku memakai jaket denim yang trendi dan celana hitam'",
+                "words": ["I", "am", "wearing", "a", "trendy", "denim", "jacket", "and", "black", "pants"],
+                "answer": ["I", "am", "wearing", "a", "trendy", "denim", "jacket", "and", "black", "pants"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dia memakai sepatu bot kulit cokelat dan rok panjang'",
+                "words": ["She", "is", "wearing", "brown", "leather", "boots", "and", "a", "long", "skirt"],
+                "answer": ["She", "is", "wearing", "brown", "leather", "boots", "and", "a", "long", "skirt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Gaun merah itu sangat elegan'",
+                "words": ["The", "red", "dress", "is", "very", "elegant"],
+                "answer": ["The", "red", "dress", "is", "very", "elegant"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dia memakai syal sutra merah yang indah'",
+                "words": ["He", "is", "wearing", "a", "beautiful", "red", "silk", "scarf"],
+                "answer": ["He", "is", "wearing", "a", "beautiful", "red", "silk", "scarf"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku sangat suka gaya pakaianmu'",
+                "words": ["I", "really", "like", "your", "clothing", "style"],
+                "answer": ["I", "really", "like", "your", "clothing", "style"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

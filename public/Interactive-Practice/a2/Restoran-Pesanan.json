@@ -1,0 +1,1212 @@
+{
+  "title": "Restoran & Pesanan",
+  "color": "primary",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Kosakata restoran & menu",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Apa istilah bahasa Inggris untuk 'hidangan pembuka' dalam menu restoran?",
+              "options": ["Appetizer", "Main course", "Dessert", "Beverage"],
+              "answer": "Appetizer"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Bolehkah kami melihat menunya?'",
+              "words": ["menu", "Can", "the", "we", "see"],
+              "answer": ["Can", "we", "see", "the", "menu"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata 'beverage' di dalam daftar menu merujuk pada...",
+              "options": ["Minuman", "Makanan penutup", "Makanan laut", "Lauk tambahan"],
+              "answer": "Minuman"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Hidangan utamanya sangat lezat'",
+              "words": ["delicious", "The", "course", "main", "is", "very"],
+              "answer": ["The", "main", "course", "is", "very", "delicious"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika kamu memesan makanan untuk dibawa pulang, istilahnya adalah...",
+              "options": ["Takeaway", "Dine-in", "Buffet", "Catering"],
+              "answer": "Takeaway"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya sudah memesan meja untuk dua orang'",
+              "words": ["two", "I", "a", "reserved", "table", "for"],
+              "answer": ["I", "reserved", "a", "table", "for", "two"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti kata 'cutlery' di restoran?",
+              "options": ["Peralatan makan seperti sendok dan garpu", "Daftar harga minuman", "Serbet kain", "Taplak meja"],
+              "answer": "Peralatan makan seperti sendok dan garpu"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Pelayan itu sangat ramah dan membantu'",
+              "words": ["helpful", "The", "is", "waiter", "friendly", "and"],
+              "answer": ["The", "waiter", "is", "friendly", "and", "helpful"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Hidangan manis yang disajikan di akhir sesi makan disebut...",
+              "options": ["Dessert", "Starter", "Side dish", "Snack"],
+              "answer": "Dessert"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah restoran ini punya menu vegetarian?'",
+              "words": ["menu", "Does", "restaurant", "this", "have", "a", "vegetarian"],
+              "answer": ["Does", "this", "restaurant", "have", "a", "vegetarian", "menu"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Apa arti 'side dish' pada pesanan makanan?",
+              "options": ["Makanan pendamping", "Minuman gratis", "Piring kotor", "Makanan sisa"],
+              "answer": "Makanan pendamping"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami ingin makan di tempat'",
+              "words": ["in", "We", "to", "want", "dine"],
+              "answer": ["We", "want", "to", "dine", "in"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika daging steik dimasak hingga matang sempurna tanpa warna merah muda, tingkat kematangannya disebut...",
+              "options": ["Well-done", "Medium-rare", "Raw", "Half-baked"],
+              "answer": "Well-done"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apa menu spesial hari ini?'",
+              "words": ["special", "What", "today's", "is"],
+              "answer": ["What", "is", "today's", "special"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata bahasa Inggris untuk 'serbet' adalah...",
+              "options": ["Napkin", "Apron", "Saucer", "Tray"],
+              "answer": "Napkin"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya alergi terhadap kacang tanah'",
+              "words": ["peanuts", "I", "allergic", "am", "to"],
+              "answer": ["I", "am", "allergic", "to", "peanuts"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa maksud dari konsep restoran 'all-you-can-eat'?",
+              "options": ["Makan sepuasnya dengan satu harga tetap", "Hanya boleh memesan satu menu", "Makanan harus dibungkus pulang", "Pelanggan memasak makanannya sendiri"],
+              "answer": "Makan sepuasnya dengan satu harga tetap"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Sup ini terlalu asin bagi saya'",
+              "words": ["me", "This", "too", "soup", "is", "salty", "for"],
+              "answer": ["This", "soup", "is", "too", "salty", "for", "me"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Koki kepala yang memimpin dapur restoran disebut...",
+              "options": ["Head chef", "Cashier", "Hostess", "Busboy"],
+              "answer": "Head chef"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Bolehkah saya meminta segelas air putih?'",
+              "words": ["water", "Can", "a", "I", "have", "glass", "of"],
+              "answer": ["Can", "I", "have", "a", "glass", "of", "water"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Apa arti kata 'seasoning' dalam masakan?",
+              "options": ["Bumbu penyedap rasa", "Alat pemanggang", "Sisa makanan", "Cara penyajian"],
+              "answer": "Bumbu penyedap rasa"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Meja di dekat jendela sudah penuh'",
+              "words": ["full", "The", "by", "tables", "the", "window", "are"],
+              "answer": ["The", "tables", "by", "the", "window", "are", "full"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika sebuah hidangan terasa 'spicy', artinya hidangan tersebut...",
+              "options": ["Pedas dan kaya rempah", "Sangat manis", "Terlalu asam", "Hambar tanpa rasa"],
+              "answer": "Pedas dan kaya rempah"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah makanan ini mengandung susu?'",
+              "words": ["dairy", "Does", "dish", "this", "contain"],
+              "answer": ["Does", "this", "dish", "contain", "dairy"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Istilah 'house specialty' di menu berarti...",
+              "options": ["Hidangan andalan khas restoran tersebut", "Makanan yang dibuat di rumah pelanggan", "Menu termurah di restoran", "Minuman gratis untuk tamu"],
+              "answer": "Hidangan andalan khas restoran tersebut"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Porsinya cukup besar untuk dua orang'",
+              "words": ["two", "The", "big", "portion", "is", "enough", "for"],
+              "answer": ["The", "portion", "is", "big", "enough", "for", "two"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti kata 'refill' pada minuman?",
+              "options": ["Isi ulang minuman", "Es batu tambahan", "Sedotan plastik", "Potongan harga"],
+              "answer": "Isi ulang minuman"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami butuh kursi bayi untuk anak kami'",
+              "words": ["child", "We", "a", "need", "high", "chair", "for", "our"],
+              "answer": ["We", "need", "a", "high", "chair", "for", "our", "child"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Makanan yang dimasak dengan cara dipanggang di atas bara api disebut...",
+              "options": ["Grilled", "Steamed", "Boiled", "Fried"],
+              "answer": "Grilled"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kue keju ini adalah favorit saya'",
+              "words": ["favorite", "This", "is", "cheesecake", "my"],
+              "answer": ["This", "cheesecake", "is", "my", "favorite"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Would like / I'd like",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Pilih cara paling sopan untuk memesan ayam panggang:",
+              "options": ["I'd like the roasted chicken, please.", "I want roasted chicken now.", "Give me roasted chicken.", "I liking the roasted chicken."],
+              "answer": "I'd like the roasted chicken, please."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya ingin memesan sup jamur'",
+              "words": ["soup", "I", "like", "would", "to", "order", "mushroom"],
+              "answer": ["I", "would", "like", "to", "order", "mushroom", "soup"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana pelayan menawarkan minuman secara sopan?",
+              "options": ["Would you like something to drink?", "Do you wanting something to drink?", "Would you liking a drink?", "You would like a drink?"],
+              "answer": "Would you like something to drink?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami ingin meja di area bebas asap rokok'",
+              "words": ["area", "We'd", "a", "like", "table", "in", "the", "non-smoking"],
+              "answer": ["We'd", "like", "a", "table", "in", "the", "non-smoking", "area"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Singkatan dari 'I would like' adalah...",
+              "options": ["I'd like", "I'll like", "I'm like", "I've like"],
+              "answer": "I'd like"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah Anda ingin melihat daftar makanan penutup?'",
+              "words": ["list", "Would", "like", "you", "to", "see", "the", "dessert"],
+              "answer": ["Would", "you", "like", "to", "see", "the", "dessert", "list"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi kalimat: 'She ___ a cup of green tea without sugar.'",
+              "options": ["would like", "would likes", "is like", "would liking"],
+              "answer": "would like"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya ingin kentang goreng sebagai pendamping'",
+              "words": ["side", "I'd", "fries", "like", "French", "on", "the"],
+              "answer": ["I'd", "like", "French", "fries", "on", "the", "side"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika ditanya 'Would you like any dessert?', jawaban sopan untuk menolak adalah...",
+              "options": ["No, thank you. I'm full.", "No, I wouldn't.", "No, go away.", "I don't like."],
+              "answer": "No, thank you. I'm full."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apa yang ingin Anda pesan untuk hidangan pembuka?'",
+              "words": ["appetizer", "What", "you", "would", "like", "for", "an"],
+              "answer": ["What", "would", "you", "like", "for", "an", "appetizer"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'I ___ to try the chef's recommendation.'",
+              "options": ["would like", "like", "am like", "will like"],
+              "answer": "would like"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya ingin segelas jus jeruk segar'",
+              "words": ["juice", "I'd", "a", "like", "glass", "of", "fresh", "orange"],
+              "answer": ["I'd", "like", "a", "glass", "of", "fresh", "orange", "juice"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih struktur kalimat yang benar setelah 'would like' jika diikuti kata kerja:",
+              "options": ["Would you like to order now?", "Would you like ordering now?", "Would you like order now?", "Would you like ordered now?"],
+              "answer": "Would you like to order now?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia ingin steiknya dimasak setengah matang'",
+              "words": ["medium", "He", "like", "would", "his", "steak"],
+              "answer": ["He", "would", "like", "his", "steak", "medium"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pelayan bertanya: 'Would you like ice in your water?' Jawaban positif yang sopan adalah...",
+              "options": ["Yes, please.", "Yes, I like.", "Yes, I would to.", "Yes, give me."],
+              "answer": "Yes, please."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami ingin memesan makanan penutup sekarang'",
+              "words": ["now", "We", "like", "would", "to", "order", "dessert"],
+              "answer": ["We", "would", "like", "to", "order", "dessert", "now"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa perbedaan utama antara 'I like coffee' dan 'I'd like coffee'?",
+              "options": ["'I like' menyatakan kesukaan umum, 'I'd like' adalah permintaan sopan saat ini", "Keduanya memiliki arti yang persis sama", "'I'd like' digunakan untuk masa lalu", "'I like' jauh lebih sopan daripada 'I'd like'"],
+              "answer": "'I like' menyatakan kesukaan umum, 'I'd like' adalah permintaan sopan saat ini"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya ingin sausnya dipisah'",
+              "words": ["separate", "I'd", "the", "like", "sauce"],
+              "answer": ["I'd", "like", "the", "sauce", "separate"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: '___ you like some more bread?'",
+              "options": ["Would", "Do", "Are", "Have"],
+              "answer": "Would"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka ingin duduk di teras luar'",
+              "words": ["patio", "They'd", "to", "like", "sit", "on", "the"],
+              "answer": ["They'd", "like", "to", "sit", "on", "the", "patio"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat pemesanan yang paling tepat dan sopan:",
+              "options": ["I'd like the seafood pasta and a lemonade, please.", "I would liked the seafood pasta and a lemonade.", "I'd liking the seafood pasta and a lemonade.", "I would like having the seafood pasta."],
+              "answer": "I'd like the seafood pasta and a lemonade, please."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah Anda ingin tambahan keju di atasnya?'",
+              "words": ["top", "Would", "like", "you", "extra", "cheese", "on"],
+              "answer": ["Would", "you", "like", "extra", "cheese", "on", "top"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'My friend ___ to have the grilled salmon.'",
+              "options": ["would like", "would likes", "like", "liking"],
+              "answer": "would like"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya ingin mengganti nasi dengan salad'",
+              "words": ["salad", "I'd", "to", "like", "substitute", "rice", "with"],
+              "answer": ["I'd", "like", "to", "substitute", "rice", "with", "salad"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pelayan bertanya: 'How would you like your eggs?' Jawaban yang tepat adalah...",
+              "options": ["Scrambled, please.", "Yes, I would.", "I like eggs very much.", "With a fork, please."],
+              "answer": "Scrambled, please."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami ingin berbagi satu porsi kue cokelat'",
+              "words": ["cake", "We'd", "to", "like", "share", "one", "chocolate"],
+              "answer": ["We'd", "like", "to", "share", "one", "chocolate", "cake"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'What ___ you like to have for lunch?'",
+              "options": ["would", "are", "do", "will"],
+              "answer": "would"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya ingin membayar dengan uang tunai'",
+              "words": ["cash", "I", "like", "would", "to", "pay", "in"],
+              "answer": ["I", "would", "like", "to", "pay", "in", "cash"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat penawaran yang tepat:",
+              "options": ["Would you like me to bring the menu now?", "Would you like I bring the menu now?", "Do you would like the menu now?", "Are you would like the menu now?"],
+              "answer": "Would you like me to bring the menu now?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya ingin membungkus sisa makanan ini'",
+              "words": ["leftovers", "I'd", "to", "like", "take", "these", "home"],
+              "answer": ["I'd", "like", "to", "take", "these", "leftovers", "home"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Much, many, a lot of",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi kalimat tanya untuk benda tak terhitung: 'How ___ sugar do you want in your coffee?'",
+              "options": ["much", "many", "few", "several"],
+              "answer": "much"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Ada banyak pelanggan di restoran malam ini'",
+              "words": ["tonight", "There", "a", "are", "lot", "of", "customers", "here"],
+              "answer": ["There", "are", "a", "lot", "of", "customers", "here", "tonight"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi kalimat untuk benda yang dapat dihitung: 'How ___ slices of pizza did you eat?'",
+              "options": ["many", "much", "little", "less"],
+              "answer": "many"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya tidak minum banyak kopi hari ini'",
+              "words": ["today", "I", "drink", "didn't", "much", "coffee"],
+              "answer": ["I", "didn't", "drink", "much", "coffee", "today"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kata yang tepat: 'This dish has ___ garlic, so it smells amazing.'",
+              "options": ["a lot of", "many", "few", "several"],
+              "answer": "a lot of"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Berapa banyak gelas air yang kita butuhkan?'",
+              "words": ["need", "How", "glasses", "many", "of", "water", "do", "we"],
+              "answer": ["How", "many", "glasses", "of", "water", "do", "we", "need"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Mengapa kita menggunakan 'much' pada kata 'salt'?",
+              "options": ["Karena 'salt' adalah uncountable noun (benda tak terhitung)", "Karena 'salt' selalu berbentuk jamak", "Karena 'salt' bisa dihitung butirannya", "Karena hanya dipakai di kalimat positif"],
+              "answer": "Karena 'salt' adalah uncountable noun (benda tak terhitung)"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Tidak banyak kursi yang tersisa di dalam'",
+              "words": ["inside", "There", "many", "aren't", "seats", "left"],
+              "answer": ["There", "aren't", "many", "seats", "left", "inside"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'We ordered ___ food, so let's share it together.'",
+              "options": ["a lot of", "many", "a few", "several"],
+              "answer": "a lot of"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Berapa harga hidangan ini?'",
+              "words": ["dish", "How", "is", "much", "this"],
+              "answer": ["How", "much", "is", "this", "dish"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'There isn't ___ milk left in the pitcher.'",
+              "options": ["much", "many", "a few", "several"],
+              "answer": "much"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka punya banyak pilihan makanan penutup'",
+              "words": ["options", "They", "a", "have", "lot", "of", "dessert"],
+              "answer": ["They", "have", "a", "lot", "of", "dessert", "options"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'How ___ people are coming to the dinner party?'",
+              "options": ["many", "much", "little", "any"],
+              "answer": "many"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Jangan taruh terlalu banyak garam di supnya'",
+              "words": ["soup", "Don't", "too", "put", "much", "salt", "in", "the"],
+              "answer": ["Don't", "put", "too", "much", "salt", "in", "the", "soup"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang benar secara tata bahasa:",
+              "options": ["She eats a lot of vegetables every day.", "She eats much vegetables every day.", "She eats many rice every day.", "She eats a lot vegetables every day."],
+              "answer": "She eats a lot of vegetables every day."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami tidak punya banyak waktu untuk makan siang'",
+              "words": ["lunch", "We", "have", "don't", "much", "time", "for"],
+              "answer": ["We", "don't", "have", "much", "time", "for", "lunch"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'There are too ___ chili peppers in this curry!'",
+              "options": ["many", "much", "little", "less"],
+              "answer": "many"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia minum banyak air setelah makan pedas'",
+              "words": ["food", "He", "a", "drank", "lot", "of", "water", "after", "spicy"],
+              "answer": ["He", "drank", "a", "lot", "of", "water", "after", "spicy", "food"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata manakah yang bisa digunakan baik untuk countable maupun uncountable nouns dalam kalimat positif?",
+              "options": ["A lot of", "Many", "Much", "Few"],
+              "answer": "A lot of"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Berapa banyak porsi yang ingin Anda pesan?'",
+              "words": ["order", "How", "portions", "many", "would", "you", "like", "to"],
+              "answer": ["How", "many", "portions", "would", "you", "like", "to", "order"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'How ___ butter do we need for this recipe?'",
+              "options": ["much", "many", "few", "number"],
+              "answer": "much"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Ada banyak buah segar di atas meja'",
+              "words": ["table", "There", "a", "is", "lot", "of", "fresh", "fruit", "on", "the"],
+              "answer": ["There", "is", "a", "lot", "of", "fresh", "fruit", "on", "the", "table"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'I didn't see ___ waiters in the dining room.'",
+              "options": ["many", "much", "little", "a lot"],
+              "answer": "many"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Terlalu banyak gula tidak baik untuk kesehatan'",
+              "words": ["health", "Too", "sugar", "much", "is", "bad", "for", "your"],
+              "answer": ["Too", "much", "sugar", "is", "bad", "for", "your", "health"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kata yang tepat: 'This bakery makes ___ delicious pastries.'",
+              "options": ["a lot of", "much", "a little", "less"],
+              "answer": "a lot of"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Berapa banyak uang yang harus kita bayar?'",
+              "words": ["pay", "How", "money", "much", "do", "we", "have", "to"],
+              "answer": ["How", "much", "money", "do", "we", "have", "to", "pay"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'How ___ cups of tea do you drink a day?'",
+              "options": ["many", "much", "little", "amount"],
+              "answer": "many"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Tidak ada banyak saus tomat di botol itu'",
+              "words": ["bottle", "There", "much", "isn't", "ketchup", "in", "that"],
+              "answer": ["There", "isn't", "much", "ketchup", "in", "that", "bottle"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang salah secara tata bahasa:",
+              "options": ["We have much plates on the table.", "We have many plates on the table.", "We have a lot of plates on the table.", "We don't have many plates on the table."],
+              "answer": "We have much plates on the table."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka menyajikan banyak hidangan tradisional'",
+              "words": ["dishes", "They", "a", "serve", "lot", "of", "traditional"],
+              "answer": ["They", "serve", "a", "lot", "of", "traditional", "dishes"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Meminta tagihan & sopan santun",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara memanggil pelayan dan meminta tagihan dengan sopan?",
+              "options": ["Excuse me, could we have the bill, please?", "Hey, give me the money paper!", "Waiter, bill now!", "Bring bill to me."],
+              "answer": "Excuse me, could we have the bill, please?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Bisakah kita membagi tagihannya?'",
+              "words": ["bill", "Could", "split", "we", "the"],
+              "answer": ["Could", "we", "split", "the", "bill"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Di Amerika Serikat, kata yang paling umum digunakan untuk menyebut 'tagihan restoran' adalah...",
+              "options": ["The check", "The receipt", "The ticket", "The invoice"],
+              "answer": "The check"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Simpan saja kembaliannya'",
+              "words": ["change", "Keep", "the"],
+              "answer": ["Keep", "the", "change"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika kamu ingin membayar masing-masing sesuai pesanan sendiri, frasa populernya adalah...",
+              "options": ["Go Dutch / Separate checks", "On the house", "All inclusive", "Free of charge"],
+              "answer": "Go Dutch / Separate checks"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah biaya layanan sudah termasuk dalam tagihan?'",
+              "words": ["bill", "Is", "service", "the", "included", "in", "the"],
+              "answer": ["Is", "the", "service", "included", "in", "the", "bill"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika pelayan berkata 'It's on the house', artinya makanan/minuman tersebut...",
+              "options": ["Gratis ditanggung oleh restoran", "Harus dimakan di rumah", "Sangat mahal harganya", "Sudah habis terjual"],
+              "answer": "Gratis ditanggung oleh restoran"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Terima kasih atas pelayanan yang luar biasa'",
+              "words": ["service", "Thank", "for", "you", "the", "wonderful"],
+              "answer": ["Thank", "you", "for", "the", "wonderful", "service"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara mengomplain pesanan yang salah dengan tetap sopan?",
+              "options": ["Excuse me, I think there's a mistake with my order.", "You brought the wrong food, fix it!", "This is terrible, why are you so careless?", "I won't pay for this wrong food."],
+              "answer": "Excuse me, I think there's a mistake with my order."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah Anda menerima pembayaran dengan kartu?'",
+              "words": ["cards", "Do", "accept", "you", "credit"],
+              "answer": ["Do", "you", "accept", "credit", "cards"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang sopan untuk meminta struk pembayaran:",
+              "options": ["Could I get a receipt, please?", "Give receipt.", "I want paper proof.", "Where is receipt?"],
+              "answer": "Could I get a receipt, please?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Biar saya yang mentraktir makan malam ini'",
+              "words": ["me", "Dinner", "on", "is", "tonight"],
+              "answer": ["Dinner", "is", "on", "me", "tonight"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Saat pelayan menyajikan makanan dan berkata 'Enjoy your meal!', respons terbaik adalah...",
+              "options": ["Thank you!", "You too!", "Yes, I will eat.", "No problem."],
+              "answer": "Thank you!"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Maaf mengganggu, bisakah saya minta sendok bersih?'",
+              "words": ["spoon", "Sorry", "bother", "to", "you,", "could", "I", "have", "a", "clean"],
+              "answer": ["Sorry", "to", "bother", "you,", "could", "I", "have", "a", "clean", "spoon"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti 'separate checks' saat meminta tagihan?",
+              "options": ["Tagihan dipisah per orang", "Tagihan digabung menjadi satu", "Membayar dengan cek bank", "Membatalkan semua tagihan"],
+              "answer": "Tagihan dipisah per orang"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Sepertinya ada kesalahan pada tagihan ini'",
+              "words": ["bill", "There", "to", "seems", "be", "an", "error", "on", "this"],
+              "answer": ["There", "seems", "to", "be", "an", "error", "on", "this", "bill"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata modal manakah yang paling sopan untuk mengajukan permintaan di restoran?",
+              "options": ["Could / May", "Must / Have to", "Should / Ought to", "Will / Shall"],
+              "answer": "Could / May"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah pajak sudah termasuk dalam harga?'",
+              "words": ["price", "Is", "included", "tax", "in", "the"],
+              "answer": ["Is", "tax", "included", "in", "the", "price"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara memuji makanan kepada pelayan sebelum pulang?",
+              "options": ["Compliments to the chef! Everything was delicious.", "The food was okay, not bad.", "Chef cooked good food today.", "I ate everything, bye."],
+              "answer": "Compliments to the chef! Everything was delicious."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Di mana saya bisa membayar tagihannya?'",
+              "words": ["bill", "Where", "I", "can", "pay", "the"],
+              "answer": ["Where", "can", "I", "pay", "the", "bill"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Pilih ungkapan yang tepat untuk memberi uang tip kepada pelayan:",
+              "options": ["This is for you. Thank you for taking care of us.", "Take this extra money.", "You need money, take it.", "Keep the tip, waiter."],
+              "answer": "This is for you. Thank you for taking care of us."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami sudah siap untuk membayar sekarang'",
+              "words": ["now", "We're", "to", "ready", "pay"],
+              "answer": ["We're", "ready", "to", "pay", "now"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika makananmu belum datang setelah menunggu sangat lama, bagaimana cara menanyakannya dengan sopan?",
+              "options": ["Excuse me, could you please check on our order?", "Where is our food? We are starving!", "Why is the kitchen so slow?", "Bring our food right now!"],
+              "answer": "Excuse me, could you please check on our order?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Bolehkah saya meminta kotak untuk membungkus makanan?'",
+              "words": ["box", "May", "have", "I", "a", "to-go"],
+              "answer": ["May", "I", "have", "a", "to-go", "box"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti frasa 'gratuity' pada struk tagihan restoran?",
+              "options": ["Uang tip atau biaya layanan untuk pelayan", "Diskon khusus anggota", "Pajak pertambahan nilai", "Biaya parkir kendaraan"],
+              "answer": "Uang tip atau biaya layanan untuk pelayan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah saya bisa membayar dengan dompet digital?'",
+              "words": ["wallet", "Can", "pay", "I", "with", "a", "digital"],
+              "answer": ["Can", "I", "pay", "with", "a", "digital", "wallet"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara sopan meminta pelayan membersihkan piring kosong:",
+              "options": ["Excuse me, we're finished with these plates.", "Take these dirty plates away.", "Clean the table now.", "Plates are empty, move them."],
+              "answer": "Excuse me, we're finished with these plates."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami sangat menikmati waktu makan kami di sini'",
+              "words": ["here", "We", "enjoyed", "really", "our", "meal"],
+              "answer": ["We", "really", "enjoyed", "our", "meal", "here"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika temanmu menawarkan untuk membayar, cara sopan untuk menolak dan tetap membayar bersama adalah...",
+              "options": ["That's very kind of you, but let's split it.", "No, I have my own money.", "Don't pay for me.", "I will pay everything, not you."],
+              "answer": "That's very kind of you, but let's split it."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Tolong sampaikan pujian kami kepada koki'",
+              "words": ["chef", "Please", "our", "give", "compliments", "to", "the"],
+              "answer": ["Please", "give", "our", "compliments", "to", "the", "chef"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Listening: memesan di restoran",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Good evening, welcome to Bella Vista. Do you have a reservation?' Apa yang ditanyakan petugas restoran?",
+              "options": ["Apakah tamu sudah memesan tempat sebelumnya", "Apakah tamu sudah siap memesan makanan", "Berapa banyak tamu yang datang", "Apakah tamu ingin membayar sekarang"],
+              "answer": "Apakah tamu sudah memesan tempat sebelumnya"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya ingin memesan steik daging sapi'",
+              "words": ["steak", "I'd", "to", "like", "order", "the", "beef"],
+              "answer": ["I'd", "like", "to", "order", "the", "beef", "steak"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I'll start with the Caesar salad, and for my main course, I'd like the grilled salmon.' Apa hidangan pembuka yang dipesan?",
+              "options": ["Salad Caesar", "Salmon panggang", "Sup krim jagung", "Roti bawang putih"],
+              "answer": "Salad Caesar"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Apakah Anda ingin minum sesuatu?'",
+              "words": ["drink", "Would", "like", "you", "something", "to"],
+              "answer": ["Would", "you", "like", "something", "to", "drink"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'We're out of the chocolate lava cake tonight, I'm afraid.' Apa maksud ucapan pelayan tersebut?",
+              "options": ["Kue cokelatnya sudah habis malam ini", "Kue cokelatnya sedang dibuat", "Kue cokelatnya gratis malam ini", "Kue cokelatnya sangat pedas"],
+              "answer": "Kue cokelatnya sudah habis malam ini"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Tolong tanpa es di dalam es teh saya'",
+              "words": ["tea", "No", "in", "ice", "my", "iced", "please"],
+              "answer": ["No", "ice", "in", "my", "iced", "tea", "please"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Your food will be ready in about fifteen minutes.' Berapa lama waktu tunggu makanannya?",
+              "options": ["Sekitar lima belas menit", "Sekitar lima puluh menit", "Sekitar lima menit", "Satu jam penuh"],
+              "answer": "Sekitar lima belas menit"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Bolehkah saya meminta tambahan saus sambal?'",
+              "words": ["sauce", "Could", "have", "I", "some", "extra", "chili"],
+              "answer": ["Could", "I", "have", "some", "extra", "chili", "sauce"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Can I get you anything else, or would you like the check?' Apa yang ditawarkan pelayan?",
+              "options": ["Memesan tambahan atau meminta tagihan", "Pindah meja atau pulang", "Membungkus makanan atau makan di tempat", "Mengganti menu atau membatalkan pesanan"],
+              "answer": "Memesan tambahan atau meminta tagihan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Semuanya terasa sangat lezat'",
+              "words": ["delicious", "Everything", "so", "tasted"],
+              "answer": ["Everything", "tasted", "so", "delicious"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'There's a twenty-minute wait for a table right now.' Berapa lama tamu harus menunggu meja?",
+              "options": ["Dua puluh menit", "Dua belas menit", "Tiga puluh menit", "Lima belas menit"],
+              "answer": "Dua puluh menit"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kami siap untuk memesan sekarang'",
+              "words": ["now", "We", "ready", "are", "to", "order"],
+              "answer": ["We", "are", "ready", "to", "order", "now"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Could you make my pasta without mushrooms, please? I don't like them.' Apa permintaan khusus pelanggan?",
+              "options": ["Membuat pasta tanpa jamur", "Menambahkan ekstra jamur", "Membuat pasta yang sangat pedas", "Mengganti pasta dengan nasi"],
+              "answer": "Membuat pasta tanpa jamur"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya akan memesan kopi hitam panas'",
+              "words": ["coffee", "I'll", "a", "have", "hot", "black"],
+              "answer": ["I'll", "have", "a", "hot", "black", "coffee"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Would you prefer still or sparkling water?' Pilihan minuman apa yang ditawarkan pelayan?",
+              "options": ["Air mineral biasa atau air soda", "Air dingin atau air hangat", "Air putih atau jus buah", "Teh manis atau teh tawar"],
+              "answer": "Air mineral biasa atau air soda"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Bisakah Anda membawakan kami tagihannya?'",
+              "words": ["bill", "Could", "bring", "you", "us", "the"],
+              "answer": ["Could", "you", "bring", "us", "the", "bill"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I ordered the iced latte, not the hot cappuccino.' Masalah apa yang terjadi?",
+              "options": ["Pelayan membawakan minuman yang salah", "Minumannya tumpah di meja", "Harganya terlalu mahal", "Kopi terasa terlalu pahit"],
+              "answer": "Pelayan membawakan minuman yang salah"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Terima kasih banyak atas bantuan Anda'",
+              "words": ["help", "Thank", "much", "you", "very", "for", "your"],
+              "answer": ["Thank", "you", "very", "much", "for", "your", "help"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Our daily special today is pan-seared sea bass with lemon butter sauce.' Apa menu spesial hari ini?",
+              "options": ["Ikan kakap putih dengan saus mentega lemon", "Ayam goreng krispi dengan saus keju", "Iga sapi bakar dengan saus barbeku", "Udang goreng tepung dengan saus asam manis"],
+              "answer": "Ikan kakap putih dengan saus mentega lemon"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya akan membayarnya menggunakan kartu debit'",
+              "words": ["card", "I'll", "by", "pay", "debit"],
+              "answer": ["I'll", "pay", "by", "debit", "card"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Follow me, please. Your table is right over there by the garden.' Di mana letak meja mereka?",
+              "options": ["Di dekat taman", "Di dekat pintu masuk", "Di lantai dua", "Di dekat dapur"],
+              "answer": "Di dekat taman"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Apa yang Anda rekomendasikan dari menu ini?'",
+              "words": ["menu", "What", "you", "do", "recommend", "on", "this"],
+              "answer": ["What", "do", "you", "recommend", "on", "this", "menu"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Please be careful, the plate is extremely hot.' Apa peringatan pelayan kepada tamu?",
+              "options": ["Piringnya sangat panas", "Makanannya sangat pedas", "Lantainya sedang licin", "Kursinya agak goyang"],
+              "answer": "Piringnya sangat panas"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kami ingin memesan dua porsi nasi goreng'",
+              "words": ["rice", "We'd", "two", "like", "orders", "of", "fried"],
+              "answer": ["We'd", "like", "two", "orders", "of", "fried", "rice"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Does this burger come with fries, or do I need to order them separately?' Apa yang ditanyakan pelanggan?",
+              "options": ["Apakah burger sudah termasuk kentang goreng", "Apakah burger ini halal", "Berapa harga seporsi kentang goreng", "Apakah kentang gorengnya renyah"],
+              "answer": "Apakah burger sudah termasuk kentang goreng"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Bisakah kita membagi tagihan ini menjadi dua?'",
+              "words": ["two", "Can", "split", "we", "this", "bill", "in"],
+              "answer": ["Can", "we", "split", "this", "bill", "in", "two"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I'm sorry for the delay. Your dessert is coming right out.' Apa yang disampaikan pelayan?",
+              "options": ["Meminta maaf atas keterlambatan dan makanan penutup segera keluar", "Makanan penutup tidak bisa dibuat", "Pelanggan harus membayar di kasir", "Restoran akan segera tutup"],
+              "answer": "Meminta maaf atas keterlambatan dan makanan penutup segera keluar"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya tidak butuh kembaliannya, terima kasih'",
+              "words": ["you", "I", "need", "don't", "the", "change,", "thank"],
+              "answer": ["I", "don't", "need", "the", "change,", "thank", "you"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'We have a party of six under the name Budi.' Berapa jumlah tamu dalam reservasi Budi?",
+              "options": ["Enam orang", "Empat orang", "Delapan orang", "Dua orang"],
+              "answer": "Enam orang"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Sampai jumpa lagi di kunjungan berikutnya'",
+              "words": ["visit", "See", "again", "you", "on", "your", "next"],
+              "answer": ["See", "you", "again", "on", "your", "next", "visit"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Speaking: role-play memesan makanan",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Pelayan menyapa: 'Good afternoon! Table for how many?' Pilih respons lisan yang paling natural:",
+              "options": ["Good afternoon! A table for three, please.", "Afternoon! Three people sit.", "I want three tables.", "Yes, we are three."],
+              "answer": "Good afternoon! A table for three, please."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Bisakah kami duduk di dekat jendela?'",
+              "words": ["window", "Could", "sit", "we", "near", "the"],
+              "answer": ["Could", "we", "sit", "near", "the", "window"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pelayan bertanya: 'Are you ready to order, or do you need a few more minutes?' Jika belum siap, kamu berkata...",
+              "options": ["Could you give us a few more minutes, please?", "No, go away now.", "We not ready order.", "Wait five minutes, okay?"],
+              "answer": "Could you give us a few more minutes, please?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya ingin memesan sup ayam sebagai pembuka'",
+              "words": ["starter", "I'd", "the", "like", "chicken", "soup", "as", "a"],
+              "answer": ["I'd", "like", "the", "chicken", "soup", "as", "a", "starter"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara bertanya tentang bahan makanan secara sopan karena kamu punya pantangan?",
+              "options": ["Excuse me, does this dish have any nuts in it?", "Tell me if there is nut.", "I cannot eat nut, what is this?", "Is nut inside this food?"],
+              "answer": "Excuse me, does this dish have any nuts in it?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Tolong buat tingkat kepedasannya sedang saja'",
+              "words": ["level", "Please", "the", "make", "spice", "medium"],
+              "answer": ["Please", "make", "the", "spice", "level", "medium"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pelayan bertanya: 'How is everything tasting so far?' Respons ramah yang tepat adalah...",
+              "options": ["Everything is delicious, thank you!", "Food is good, eat now.", "Yes, I am tasting it.", "No problem with food."],
+              "answer": "Everything is delicious, thank you!"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Bisakah saya meminta tambahan serbet?'",
+              "words": ["napkins", "Could", "have", "I", "some", "extra"],
+              "answer": ["Could", "I", "have", "some", "extra", "napkins"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara meminta tagihan di akhir sesi makan:",
+              "options": ["Excuse me, whenever you're ready, could we get the check?", "Hey, we finished, bring check!", "Check please, hurry up.", "Give us total price now."],
+              "answer": "Excuse me, whenever you're ready, could we get the check?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Terima kasih banyak, kami pasti akan kembali lagi'",
+              "words": ["back", "Thank", "so", "you", "much,", "we'll", "definitely", "be"],
+              "answer": ["Thank", "you", "so", "much,", "we'll", "definitely", "be", "back"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Kamu datang dengan reservasi. Apa yang kamu katakan kepada resepsionis restoran?",
+              "options": ["Hi, I have a reservation under the name Rina for 7 PM.", "Hi, my name Rina, 7 PM table.", "I booked table, give me.", "Rina reservation at 7 PM."],
+              "answer": "Hi, I have a reservation under the name Rina for 7 PM."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Apa minuman paling populer di sini?'",
+              "words": ["here", "What", "the", "is", "most", "popular", "drink"],
+              "answer": ["What", "is", "the", "most", "popular", "drink", "here"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara alami untuk memesan menu yang sama dengan temanmu:",
+              "options": ["That sounds great. I'll have the same thing, please.", "I want like him.", "Give me same food too.", "Me also order that."],
+              "answer": "That sounds great. I'll have the same thing, please."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Bisakah saya memesan satu porsi kentang goreng lagi?'",
+              "words": ["fries", "Can", "order", "I", "another", "portion", "of"],
+              "answer": ["Can", "I", "order", "another", "portion", "of", "fries"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika minumanmu belum diantar padahal makanan sudah datang, ucapkan...",
+              "options": ["Excuse me, we're still waiting for our drinks.", "Where is our drink? Food is here!", "You forgot our drinks!", "Bring drinks quickly."],
+              "answer": "Excuse me, we're still waiting for our drinks."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Apakah hidangan ini cocok untuk anak-anak?'",
+              "words": ["kids", "Is", "dish", "this", "suitable", "for"],
+              "answer": ["Is", "this", "dish", "suitable", "for", "kids"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pelayan bertanya: 'Would you care for some coffee or tea after your meal?' Jawaban sopan untuk menerima adalah...",
+              "options": ["A cup of peppermint tea would be lovely, thank you.", "Yes, give me tea.", "I want coffee now.", "Tea is okay."],
+              "answer": "A cup of peppermint tea would be lovely, thank you."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Kami ingin membayar secara terpisah'",
+              "words": ["separately", "We", "like", "would", "to", "pay"],
+              "answer": ["We", "would", "like", "to", "pay", "separately"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara meminta rekomendasi makanan penutup kepada pelayan?",
+              "options": ["Which dessert would you recommend?", "Tell me good dessert.", "What dessert is best?", "I want recommend dessert."],
+              "answer": "Which dessert would you recommend?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Semoga malam Anda menyenangkan'",
+              "words": ["evening", "Have", "lovely", "a"],
+              "answer": ["Have", "a", "lovely", "evening"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Kamu menelepon restoran untuk memesan meja. Kalimat pembuka yang paling tepat adalah...",
+              "options": ["Hello, I'd like to book a table for four tonight at 8.", "Hello, I want four chairs tonight.", "Book table four people at 8.", "Tonight at 8 I come with four."],
+              "answer": "Hello, I'd like to book a table for four tonight at 8."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Bolehkah saya meminta segelas air hangat dengan lemon?'",
+              "words": ["lemon", "May", "have", "I", "a", "glass", "of", "warm", "water", "with"],
+              "answer": ["May", "I", "have", "a", "glass", "of", "warm", "water", "with", "lemon"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara sopan untuk meminta pengurangan gula pada minumanmu:",
+              "options": ["Could you make it less sweet, please?", "Don't put many sugar.", "Make it not sweet.", "Less sugar inside."],
+              "answer": "Could you make it less sweet, please?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya rasa saya sudah cukup kenyang'",
+              "words": ["full", "I", "I'm", "think", "quite"],
+              "answer": ["I", "think", "I'm", "quite", "full"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika makananmu terasa dingin dan ingin dihangatkan kembali, katakan...",
+              "options": ["Excuse me, could you possibly warm this up a bit?", "This food is cold, heat it!", "Why is my food cold?", "Make this hot again."],
+              "answer": "Excuse me, could you possibly warm this up a bit?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Bisakah saya membungkus sisa pizza ini?'",
+              "words": ["pizza", "Can", "get", "I", "this", "leftover", "wrapped", "up"],
+              "answer": ["Can", "I", "get", "this", "leftover", "pizza", "wrapped", "up"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pelayan bertanya: 'Will that be cash or card?' Jawaban yang paling natural adalah...",
+              "options": ["I'll pay by card, please.", "I am card.", "Yes, cash or card.", "Card payment me."],
+              "answer": "I'll pay by card, please."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Apakah Anda punya koneksi Wi-Fi di sini?'",
+              "words": ["here", "Do", "have", "you", "Wi-Fi", "access"],
+              "answer": ["Do", "you", "have", "Wi-Fi", "access", "here"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara mengucapkan terima kasih saat pelayan membukakan pintu keluar restoran?",
+              "options": ["Thank you very much, have a great night!", "Thanks, bye.", "Okay, I go out now.", "Good night, door."],
+              "answer": "Thank you very much, have a great night!"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Makanan di sini selalu memuaskan'",
+              "words": ["satisfying", "The", "here", "food", "is", "always"],
+              "answer": ["The", "food", "here", "is", "always", "satisfying"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

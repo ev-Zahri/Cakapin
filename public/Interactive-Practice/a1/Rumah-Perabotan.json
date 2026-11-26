@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Rumah & Perabotan",
+    "color": "streak",
+    "levels": [
+      {
+        "level": "Ruangan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'dapur'?",
+                "options": ["kitchen", "bedroom", "bathroom", "living room"],
+                "answer": "kitchen"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kamar tidur'?",
+                "options": ["bedroom", "bathroom", "kitchen", "garage"],
+                "answer": "bedroom"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kamar mandi'?",
+                "options": ["bathroom", "bedroom", "kitchen", "dining room"],
+                "answer": "bathroom"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ruang tamu'?",
+                "options": ["living room", "bedroom", "kitchen", "garage"],
+                "answer": "living room"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ruang makan'?",
+                "options": ["dining room", "living room", "bedroom", "bathroom"],
+                "answer": "dining room"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku memasak di dapur'",
+                "words": ["My", "cooks", "mother", "in", "the", "kitchen"],
+                "answer": ["My", "mother", "cooks", "in", "the", "kitchen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidur di kamar tidur'",
+                "words": ["I", "sleep", "in", "the", "bedroom"],
+                "answer": ["I", "sleep", "in", "the", "bedroom"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mandi di kamar mandi'",
+                "words": ["He", "bathes", "in", "the", "bathroom"],
+                "answer": ["He", "bathes", "in", "the", "bathroom"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami menonton TV di ruang tamu'",
+                "words": ["We", "TV", "watch", "in", "the", "living", "room"],
+                "answer": ["We", "watch", "TV", "in", "the", "living", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami makan malam di ruang makan'",
+                "words": ["We", "dinner", "eat", "in", "the", "dining", "room"],
+                "answer": ["We", "eat", "dinner", "in", "the", "dining", "room"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'garasi'?",
+                "options": ["garage", "garden", "attic", "basement"],
+                "answer": "garage"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'taman'?",
+                "options": ["garden", "garage", "yard", "balcony"],
+                "answer": "garden"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'loteng'?",
+                "options": ["attic", "basement", "garage", "balcony"],
+                "answer": "attic"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'balkon'?",
+                "options": ["balcony", "attic", "basement", "garage"],
+                "answer": "balcony"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ruang belajar'?",
+                "options": ["study room", "living room", "bedroom", "kitchen"],
+                "answer": "study room"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ayahku memarkir mobil di garasi'",
+                "words": ["My", "parks", "father", "the", "car", "in", "the", "garage"],
+                "answer": ["My", "father", "parks", "the", "car", "in", "the", "garage"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku menyiram bunga di taman'",
+                "words": ["I", "water", "the", "flowers", "in", "the", "garden"],
+                "answer": ["I", "water", "the", "flowers", "in", "the", "garden"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami menyimpan barang-barang lama di loteng'",
+                "words": ["We", "old", "keep", "things", "in", "the", "attic"],
+                "answer": ["We", "keep", "old", "things", "in", "the", "attic"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia duduk di balkon'",
+                "words": ["She", "sits", "on", "the", "balcony"],
+                "answer": ["She", "sits", "on", "the", "balcony"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku belajar di ruang belajar'",
+                "words": ["I", "study", "in", "the", "study", "room"],
+                "answer": ["I", "study", "in", "the", "study", "room"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ruang bawah tanah'?",
+                "options": ["basement", "attic", "garage", "balcony"],
+                "answer": "basement"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'halaman'?",
+                "options": ["yard", "garden", "garage", "balcony"],
+                "answer": "yard"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lorong'?",
+                "options": ["hallway", "attic", "basement", "garage"],
+                "answer": "hallway"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tangga'?",
+                "options": ["stairs", "hallway", "attic", "basement"],
+                "answer": "stairs"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pintu masuk'?",
+                "options": ["entrance", "hallway", "stairs", "balcony"],
+                "answer": "entrance"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami menyimpan makanan di ruang bawah tanah'",
+                "words": ["We", "food", "keep", "in", "the", "basement"],
+                "answer": ["We", "keep", "food", "in", "the", "basement"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Anak-anak bermain di halaman'",
+                "words": ["The", "play", "children", "in", "the", "yard"],
+                "answer": ["The", "children", "play", "in", "the", "yard"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berjalan di lorong'",
+                "words": ["He", "walks", "in", "the", "hallway"],
+                "answer": ["He", "walks", "in", "the", "hallway"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku naik tangga'",
+                "words": ["I", "go", "up", "the", "stairs"],
+                "answer": ["I", "go", "up", "the", "stairs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami menunggu di pintu masuk'",
+                "words": ["We", "wait", "at", "the", "entrance"],
+                "answer": ["We", "wait", "at", "the", "entrance"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Perabotan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'meja'?",
+                "options": ["table", "chair", "bed", "sofa"],
+                "answer": "table"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kursi'?",
+                "options": ["chair", "table", "bed", "sofa"],
+                "answer": "chair"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tempat tidur'?",
+                "options": ["bed", "sofa", "chair", "table"],
+                "answer": "bed"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lemari'?",
+                "options": ["cupboard", "table", "chair", "bed"],
+                "answer": "cupboard"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sofa'?",
+                "options": ["sofa", "bed", "chair", "table"],
+                "answer": "sofa"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah meja di ruang makan'",
+                "words": ["There", "a", "is", "table", "in", "the", "dining", "room"],
+                "answer": ["There", "is", "a", "table", "in", "the", "dining", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku duduk di kursi'",
+                "words": ["I", "sit", "on", "the", "chair"],
+                "answer": ["I", "sit", "on", "the", "chair"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tempat tidurnya sangat nyaman'",
+                "words": ["The", "is", "bed", "very", "comfortable"],
+                "answer": ["The", "bed", "is", "very", "comfortable"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Piring-piring ada di lemari'",
+                "words": ["The", "are", "plates", "in", "the", "cupboard"],
+                "answer": ["The", "plates", "are", "in", "the", "cupboard"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami duduk di sofa'",
+                "words": ["We", "sit", "on", "the", "sofa"],
+                "answer": ["We", "sit", "on", "the", "sofa"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kulkas'?",
+                "options": ["fridge", "oven", "stove", "sink"],
+                "answer": "fridge"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kompor'?",
+                "options": ["stove", "oven", "fridge", "sink"],
+                "answer": "stove"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lemari pakaian'?",
+                "options": ["wardrobe", "cupboard", "drawer", "shelf"],
+                "answer": "wardrobe"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'cermin'?",
+                "options": ["mirror", "window", "door", "wall"],
+                "answer": "mirror"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'rak'?",
+                "options": ["shelf", "drawer", "cupboard", "wardrobe"],
+                "answer": "shelf"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah kulkas di dapur'",
+                "words": ["There", "a", "is", "fridge", "in", "the", "kitchen"],
+                "answer": ["There", "is", "a", "fridge", "in", "the", "kitchen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku memasak di atas kompor'",
+                "words": ["My", "cooks", "mother", "on", "the", "stove"],
+                "answer": ["My", "mother", "cooks", "on", "the", "stove"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pakaian-pakaian ada di lemari pakaian'",
+                "words": ["The", "are", "clothes", "in", "the", "wardrobe"],
+                "answer": ["The", "clothes", "are", "in", "the", "wardrobe"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku melihat diriku di cermin'",
+                "words": ["I", "myself", "see", "in", "the", "mirror"],
+                "answer": ["I", "see", "myself", "in", "the", "mirror"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Buku-buku ada di rak'",
+                "words": ["The", "are", "books", "on", "the", "shelf"],
+                "answer": ["The", "books", "are", "on", "the", "shelf"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'laci'?",
+                "options": ["drawer", "shelf", "cupboard", "wardrobe"],
+                "answer": "drawer"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'oven'?",
+                "options": ["oven", "stove", "fridge", "sink"],
+                "answer": "oven"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'wastafel'?",
+                "options": ["sink", "stove", "oven", "fridge"],
+                "answer": "sink"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lampu'?",
+                "options": ["lamp", "mirror", "shelf", "drawer"],
+                "answer": "lamp"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'karpet'?",
+                "options": ["carpet", "curtain", "pillow", "blanket"],
+                "answer": "carpet"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah laci di kamar tidur'",
+                "words": ["There", "a", "is", "drawer", "in", "the", "bedroom"],
+                "answer": ["There", "is", "a", "drawer", "in", "the", "bedroom"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku memanggang kue di oven'",
+                "words": ["My", "bakes", "mother", "a", "cake", "in", "the", "oven"],
+                "answer": ["My", "mother", "bakes", "a", "cake", "in", "the", "oven"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku mencuci piring di wastafel'",
+                "words": ["I", "the", "wash", "dishes", "in", "the", "sink"],
+                "answer": ["I", "wash", "the", "dishes", "in", "the", "sink"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Lampu ada di atas meja'",
+                "words": ["The", "is", "lamp", "on", "the", "table"],
+                "answer": ["The", "lamp", "is", "on", "the", "table"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Karpetnya sangat lembut'",
+                "words": ["The", "is", "carpet", "very", "soft"],
+                "answer": ["The", "carpet", "is", "very", "soft"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Preposisi tempat",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The book is ___ the table'?",
+                "options": ["on", "in", "under", "behind"],
+                "answer": "on"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The cat is ___ the box'?",
+                "options": ["in", "on", "under", "next to"],
+                "answer": "in"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The dog is ___ the table'?",
+                "options": ["under", "on", "in", "behind"],
+                "answer": "under"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The chair is ___ the desk'?",
+                "options": ["next to", "in", "on", "under"],
+                "answer": "next to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The picture is ___ the wall'?",
+                "options": ["on", "in", "under", "behind"],
+                "answer": "on"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Buku itu ada di atas meja'",
+                "words": ["The", "is", "book", "on", "the", "table"],
+                "answer": ["The", "book", "is", "on", "the", "table"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kucing itu ada di dalam kotak'",
+                "words": ["The", "is", "cat", "in", "the", "box"],
+                "answer": ["The", "cat", "is", "in", "the", "box"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Anjing itu ada di bawah meja'",
+                "words": ["The", "is", "dog", "under", "the", "table"],
+                "answer": ["The", "dog", "is", "under", "the", "table"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kursi itu ada di samping meja'",
+                "words": ["The", "is", "chair", "next", "to", "the", "desk"],
+                "answer": ["The", "chair", "is", "next", "to", "the", "desk"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gambar itu ada di dinding'",
+                "words": ["The", "is", "picture", "on", "the", "wall"],
+                "answer": ["The", "picture", "is", "on", "the", "wall"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The lamp is ___ the bed'?",
+                "options": ["above", "in", "under", "next to"],
+                "answer": "above"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The car is ___ the garage'?",
+                "options": ["in", "on", "under", "next to"],
+                "answer": "in"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The shoes are ___ the bed'?",
+                "options": ["under", "on", "in", "above"],
+                "answer": "under"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The sofa is ___ the TV'?",
+                "options": ["in front of", "in", "on", "under"],
+                "answer": "in front of"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The garden is ___ the house'?",
+                "options": ["behind", "in", "on", "under"],
+                "answer": "behind"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Lampu itu ada di atas tempat tidur'",
+                "words": ["The", "is", "lamp", "above", "the", "bed"],
+                "answer": ["The", "lamp", "is", "above", "the", "bed"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mobil itu ada di dalam garasi'",
+                "words": ["The", "is", "car", "in", "the", "garage"],
+                "answer": ["The", "car", "is", "in", "the", "garage"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu-sepatu itu ada di bawah tempat tidur'",
+                "words": ["The", "are", "shoes", "under", "the", "bed"],
+                "answer": ["The", "shoes", "are", "under", "the", "bed"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sofa itu ada di depan TV'",
+                "words": ["The", "is", "sofa", "in", "front", "of", "the", "TV"],
+                "answer": ["The", "sofa", "is", "in", "front", "of", "the", "TV"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Taman itu ada di belakang rumah'",
+                "words": ["The", "is", "garden", "behind", "the", "house"],
+                "answer": ["The", "garden", "is", "behind", "the", "house"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The picture is ___ the door'?",
+                "options": ["near", "in", "on", "under"],
+                "answer": "near"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The ball is ___ the box'?",
+                "options": ["between", "in", "on", "under"],
+                "answer": "between"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The clock is ___ the wall'?",
+                "options": ["on", "in", "under", "behind"],
+                "answer": "on"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The cat is ___ the sofa'?",
+                "options": ["behind", "in", "on", "under"],
+                "answer": "behind"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The rug is ___ the floor'?",
+                "options": ["on", "in", "under", "above"],
+                "answer": "on"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gambar itu ada di dekat pintu'",
+                "words": ["The", "is", "picture", "near", "the", "door"],
+                "answer": ["The", "picture", "is", "near", "the", "door"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bola itu ada di antara dua kursi'",
+                "words": ["The", "is", "ball", "between", "the", "two", "chairs"],
+                "answer": ["The", "ball", "is", "between", "the", "two", "chairs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jam itu ada di dinding'",
+                "words": ["The", "is", "clock", "on", "the", "wall"],
+                "answer": ["The", "clock", "is", "on", "the", "wall"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kucing itu ada di belakang sofa'",
+                "words": ["The", "is", "cat", "behind", "the", "sofa"],
+                "answer": ["The", "cat", "is", "behind", "the", "sofa"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Karpet itu ada di atas lantai'",
+                "words": ["The", "is", "rug", "on", "the", "floor"],
+                "answer": ["The", "rug", "is", "on", "the", "floor"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "There is/There are",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ a table in the kitchen'",
+                "options": ["There is", "There are", "There have", "There has"],
+                "answer": "There is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ two chairs in the living room'",
+                "options": ["There are", "There is", "There have", "There has"],
+                "answer": "There are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ a bed in the bedroom'",
+                "options": ["There is", "There are", "There have", "There has"],
+                "answer": "There is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ three windows in the room'",
+                "options": ["There are", "There is", "There have", "There has"],
+                "answer": "There are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ a sofa in the living room'",
+                "options": ["There is", "There are", "There have", "There has"],
+                "answer": "There is"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah meja di dapur'",
+                "words": ["There", "a", "is", "table", "in", "the", "kitchen"],
+                "answer": ["There", "is", "a", "table", "in", "the", "kitchen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada dua kursi di ruang tamu'",
+                "words": ["There", "two", "are", "chairs", "in", "the", "living", "room"],
+                "answer": ["There", "are", "two", "chairs", "in", "the", "living", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah tempat tidur di kamar tidur'",
+                "words": ["There", "a", "is", "bed", "in", "the", "bedroom"],
+                "answer": ["There", "is", "a", "bed", "in", "the", "bedroom"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada tiga jendela di ruangan itu'",
+                "words": ["There", "three", "are", "windows", "in", "the", "room"],
+                "answer": ["There", "are", "three", "windows", "in", "the", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah sofa di ruang tamu'",
+                "words": ["There", "a", "is", "sofa", "in", "the", "living", "room"],
+                "answer": ["There", "is", "a", "sofa", "in", "the", "living", "room"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ a fridge in the kitchen'",
+                "options": ["There is", "There are", "There have", "There has"],
+                "answer": "There is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ four plates on the table'",
+                "options": ["There are", "There is", "There have", "There has"],
+                "answer": "There are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ a mirror in the bathroom'",
+                "options": ["There is", "There are", "There have", "There has"],
+                "answer": "There is"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ five books on the shelf'",
+                "options": ["There are", "There is", "There have", "There has"],
+                "answer": "There are"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ a lamp in the bedroom'",
+                "options": ["There is", "There are", "There have", "There has"],
+                "answer": "There is"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah kulkas di dapur'",
+                "words": ["There", "a", "is", "fridge", "in", "the", "kitchen"],
+                "answer": ["There", "is", "a", "fridge", "in", "the", "kitchen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada empat piring di meja'",
+                "words": ["There", "four", "are", "plates", "on", "the", "table"],
+                "answer": ["There", "are", "four", "plates", "on", "the", "table"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah cermin di kamar mandi'",
+                "words": ["There", "a", "is", "mirror", "in", "the", "bathroom"],
+                "answer": ["There", "is", "a", "mirror", "in", "the", "bathroom"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada lima buku di rak'",
+                "words": ["There", "five", "are", "books", "on", "the", "shelf"],
+                "answer": ["There", "are", "five", "books", "on", "the", "shelf"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah lampu di kamar tidur'",
+                "words": ["There", "a", "is", "lamp", "in", "the", "bedroom"],
+                "answer": ["There", "is", "a", "lamp", "in", "the", "bedroom"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ any milk in the fridge?' (tanya)",
+                "options": ["Is there", "Are there", "Have there", "Has there"],
+                "answer": "Is there"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ any chairs in the room?' (tanya)",
+                "options": ["Are there", "Is there", "Have there", "Has there"],
+                "answer": "Are there"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ any sugar in the cupboard' (negatif)",
+                "options": ["There isn't", "There aren't", "There haven't", "There hasn't"],
+                "answer": "There isn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ any plates on the table' (negatif)",
+                "options": ["There aren't", "There isn't", "There haven't", "There hasn't"],
+                "answer": "There aren't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ a garden behind the house'",
+                "options": ["There is", "There are", "There have", "There has"],
+                "answer": "There is"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah ada susu di kulkas?'",
+                "words": ["Is", "any", "there", "milk", "in", "the", "fridge"],
+                "answer": ["Is", "there", "any", "milk", "in", "the", "fridge"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah ada kursi di ruangan itu?'",
+                "words": ["Are", "any", "there", "chairs", "in", "the", "room"],
+                "answer": ["Are", "there", "any", "chairs", "in", "the", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tidak ada gula di lemari'",
+                "words": ["There", "any", "isn't", "sugar", "in", "the", "cupboard"],
+                "answer": ["There", "isn't", "any", "sugar", "in", "the", "cupboard"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tidak ada piring di meja'",
+                "words": ["There", "any", "aren't", "plates", "on", "the", "table"],
+                "answer": ["There", "aren't", "any", "plates", "on", "the", "table"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah taman di belakang rumah'",
+                "words": ["There", "a", "is", "garden", "behind", "the", "house"],
+                "answer": ["There", "is", "a", "garden", "behind", "the", "house"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: deskripsi rumah",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My house has three bedrooms and one bathroom.' Pertanyaan: Berapa kamar tidur di rumah pembicara?",
+                "options": ["Tiga", "Dua", "Satu", "Empat"],
+                "answer": "Tiga"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The kitchen is next to the dining room.' Pertanyaan: Di mana dapur berada?",
+                "options": ["Di samping ruang makan", "Di depan ruang tamu", "Di belakang kamar tidur", "Di atas garasi"],
+                "answer": "Di samping ruang makan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'There is a big sofa in the living room.' Pertanyaan: Apa yang ada di ruang tamu?",
+                "options": ["Sofa besar", "Meja besar", "Tempat tidur besar", "Lemari besar"],
+                "answer": "Sofa besar"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My bedroom is on the second floor.' Pertanyaan: Di lantai berapa kamar tidur pembicara?",
+                "options": ["Lantai dua", "Lantai satu", "Lantai tiga", "Lantai empat"],
+                "answer": "Lantai dua"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'There are two windows in my room.' Pertanyaan: Berapa jendela di kamar pembicara?",
+                "options": ["Dua", "Satu", "Tiga", "Empat"],
+                "answer": "Dua"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Rumahku punya tiga kamar tidur dan satu kamar mandi'",
+                "words": ["My", "three", "house", "has", "bedrooms", "and", "one", "bathroom"],
+                "answer": ["My", "house", "has", "three", "bedrooms", "and", "one", "bathroom"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dapur berada di samping ruang makan'",
+                "words": ["The", "is", "kitchen", "next", "to", "the", "dining", "room"],
+                "answer": ["The", "kitchen", "is", "next", "to", "the", "dining", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada sebuah sofa besar di ruang tamu'",
+                "words": ["There", "a", "is", "big", "sofa", "in", "the", "living", "room"],
+                "answer": ["There", "is", "a", "big", "sofa", "in", "the", "living", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Kamar tidurku ada di lantai dua'",
+                "words": ["My", "is", "bedroom", "on", "the", "second", "floor"],
+                "answer": ["My", "bedroom", "is", "on", "the", "second", "floor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada dua jendela di kamarku'",
+                "words": ["There", "two", "are", "windows", "in", "my", "room"],
+                "answer": ["There", "are", "two", "windows", "in", "my", "room"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My house has two bedrooms and two bathrooms.' Pertanyaan: Berapa kamar mandi di rumah pembicara?",
+                "options": ["Dua", "Satu", "Tiga", "Empat"],
+                "answer": "Dua"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The living room is in front of the kitchen.' Pertanyaan: Di mana ruang tamu berada?",
+                "options": ["Di depan dapur", "Di belakang dapur", "Di samping dapur", "Di atas dapur"],
+                "answer": "Di depan dapur"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'There is a round table in the dining room.' Pertanyaan: Apa yang ada di ruang makan?",
+                "options": ["Meja bundar", "Meja persegi", "Kursi besar", "Lemari besar"],
+                "answer": "Meja bundar"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The bathroom is on the first floor.' Pertanyaan: Di lantai berapa kamar mandi?",
+                "options": ["Lantai satu", "Lantai dua", "Lantai tiga", "Lantai empat"],
+                "answer": "Lantai satu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'There are three chairs in my room.' Pertanyaan: Berapa kursi di kamar pembicara?",
+                "options": ["Tiga", "Dua", "Satu", "Empat"],
+                "answer": "Tiga"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Rumahku punya dua kamar tidur dan dua kamar mandi'",
+                "words": ["My", "two", "house", "has", "bedrooms", "and", "two", "bathrooms"],
+                "answer": ["My", "house", "has", "two", "bedrooms", "and", "two", "bathrooms"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ruang tamu berada di depan dapur'",
+                "words": ["The", "is", "living", "room", "in", "front", "of", "the", "kitchen"],
+                "answer": ["The", "living", "room", "is", "in", "front", "of", "the", "kitchen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada sebuah meja bundar di ruang makan'",
+                "words": ["There", "a", "is", "round", "table", "in", "the", "dining", "room"],
+                "answer": ["There", "is", "a", "round", "table", "in", "the", "dining", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Kamar mandi ada di lantai satu'",
+                "words": ["The", "is", "bathroom", "on", "the", "first", "floor"],
+                "answer": ["The", "bathroom", "is", "on", "the", "first", "floor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada tiga kursi di kamarku'",
+                "words": ["There", "three", "are", "chairs", "in", "my", "room"],
+                "answer": ["There", "are", "three", "chairs", "in", "my", "room"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My house has four rooms and a big garden.' Pertanyaan: Berapa ruangan di rumah pembicara?",
+                "options": ["Empat", "Tiga", "Lima", "Dua"],
+                "answer": "Empat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The bedroom is behind the living room.' Pertanyaan: Di mana kamar tidur berada?",
+                "options": ["Di belakang ruang tamu", "Di depan ruang tamu", "Di samping ruang tamu", "Di atas ruang tamu"],
+                "answer": "Di belakang ruang tamu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'There is a small garden behind my house.' Pertanyaan: Apa yang ada di belakang rumah pembicara?",
+                "options": ["Taman kecil", "Garasi", "Kolam", "Dapur"],
+                "answer": "Taman kecil"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My kitchen is on the first floor.' Pertanyaan: Di lantai berapa dapur pembicara?",
+                "options": ["Lantai satu", "Lantai dua", "Lantai tiga", "Lantai empat"],
+                "answer": "Lantai satu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'There are five windows in my house.' Pertanyaan: Berapa jendela di rumah pembicara?",
+                "options": ["Lima", "Empat", "Tiga", "Enam"],
+                "answer": "Lima"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Rumahku punya empat ruangan dan taman besar'",
+                "words": ["My", "four", "house", "has", "rooms", "and", "a", "big", "garden"],
+                "answer": ["My", "house", "has", "four", "rooms", "and", "a", "big", "garden"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Kamar tidur berada di belakang ruang tamu'",
+                "words": ["The", "is", "bedroom", "behind", "the", "living", "room"],
+                "answer": ["The", "bedroom", "is", "behind", "the", "living", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada sebuah taman kecil di belakang rumahku'",
+                "words": ["There", "a", "is", "small", "garden", "behind", "my", "house"],
+                "answer": ["There", "is", "a", "small", "garden", "behind", "my", "house"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dapurku ada di lantai satu'",
+                "words": ["My", "is", "kitchen", "on", "the", "first", "floor"],
+                "answer": ["My", "kitchen", "is", "on", "the", "first", "floor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada lima jendela di rumahku'",
+                "words": ["There", "five", "are", "windows", "in", "my", "house"],
+                "answer": ["There", "are", "five", "windows", "in", "my", "house"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: mendeskripsikan rumah",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Rumahku besar'?",
+                "options": ["My house is big", "My house big", "My house are big", "My house is bigly"],
+                "answer": "My house is big"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku punya tiga kamar tidur'?",
+                "options": ["I have three bedrooms", "I has three bedrooms", "I having three bedrooms", "I have bedrooms three"],
+                "answer": "I have three bedrooms"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Ada sebuah sofa di ruang tamu'?",
+                "options": ["There is a sofa in the living room", "There are a sofa in the living room", "There have a sofa in the living room", "There is sofa in living room"],
+                "answer": "There is a sofa in the living room"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Dapurku sangat bersih'?",
+                "options": ["My kitchen is very clean", "My kitchen very clean", "My kitchen are very clean", "My kitchen is clean very"],
+                "answer": "My kitchen is very clean"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku suka rumahku'?",
+                "options": ["I love my house", "I loves my house", "I loving my house", "I am love my house"],
+                "answer": "I love my house"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Rumahku sangat besar dan indah'",
+                "words": ["My", "is", "house", "very", "big", "and", "beautiful"],
+                "answer": ["My", "house", "is", "very", "big", "and", "beautiful"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku punya dua kamar tidur'",
+                "words": ["I", "two", "have", "bedrooms"],
+                "answer": ["I", "have", "two", "bedrooms"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada sebuah meja di dapur'",
+                "words": ["There", "a", "is", "table", "in", "the", "kitchen"],
+                "answer": ["There", "is", "a", "table", "in", "the", "kitchen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ruang tamuku sangat nyaman'",
+                "words": ["My", "is", "living", "room", "very", "comfortable"],
+                "answer": ["My", "living", "room", "is", "very", "comfortable"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku suka dapurnya'",
+                "words": ["I", "the", "like", "kitchen"],
+                "answer": ["I", "like", "the", "kitchen"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Rumahku kecil'?",
+                "options": ["My house is small", "My house small", "My house are small", "My house is smallly"],
+                "answer": "My house is small"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku punya dua kamar mandi'?",
+                "options": ["I have two bathrooms", "I has two bathrooms", "I having two bathrooms", "I have bathrooms two"],
+                "answer": "I have two bathrooms"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Ada sebuah tempat tidur di kamar tidur'?",
+                "options": ["There is a bed in the bedroom", "There are a bed in the bedroom", "There have a bed in the bedroom", "There is bed in bedroom"],
+                "answer": "There is a bed in the bedroom"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Kamarku sangat rapi'?",
+                "options": ["My room is very tidy", "My room very tidy", "My room are very tidy", "My room is tidy very"],
+                "answer": "My room is very tidy"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku suka kamar tidurku'?",
+                "options": ["I love my bedroom", "I loves my bedroom", "I loving my bedroom", "I am love my bedroom"],
+                "answer": "I love my bedroom"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Rumahku kecil tapi nyaman'",
+                "words": ["My", "is", "house", "small", "but", "comfortable"],
+                "answer": ["My", "house", "is", "small", "but", "comfortable"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku punya tiga kamar tidur'",
+                "words": ["I", "three", "have", "bedrooms"],
+                "answer": ["I", "have", "three", "bedrooms"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada sebuah kulkas di dapur'",
+                "words": ["There", "a", "is", "fridge", "in", "the", "kitchen"],
+                "answer": ["There", "is", "a", "fridge", "in", "the", "kitchen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Kamarku sangat terang'",
+                "words": ["My", "is", "room", "very", "bright"],
+                "answer": ["My", "room", "is", "very", "bright"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku suka ruang tamunya'",
+                "words": ["I", "the", "like", "living", "room"],
+                "answer": ["I", "like", "the", "living", "room"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Rumahku sangat luas'?",
+                "options": ["My house is very spacious", "My house very spacious", "My house are very spacious", "My house is spacious very"],
+                "answer": "My house is very spacious"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku punya empat ruangan'?",
+                "options": ["I have four rooms", "I has four rooms", "I having four rooms", "I have rooms four"],
+                "answer": "I have four rooms"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Ada sebuah taman di belakang rumah'?",
+                "options": ["There is a garden behind the house", "There are a garden behind the house", "There have a garden behind the house", "There is garden behind house"],
+                "answer": "There is a garden behind the house"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Ruang tamuku sangat luas'?",
+                "options": ["My living room is very spacious", "My living room very spacious", "My living room are very spacious", "My living room is spacious very"],
+                "answer": "My living room is very spacious"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku bangga dengan rumahku'?",
+                "options": ["I am proud of my house", "I proud of my house", "I am proud my house", "I am proud of house my"],
+                "answer": "I am proud of my house"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Rumahku sangat luas dan terang'",
+                "words": ["My", "is", "house", "very", "spacious", "and", "bright"],
+                "answer": ["My", "house", "is", "very", "spacious", "and", "bright"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku punya empat kamar'",
+                "words": ["I", "four", "have", "rooms"],
+                "answer": ["I", "have", "four", "rooms"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ada sebuah taman di belakang rumah'",
+                "words": ["There", "a", "is", "garden", "behind", "the", "house"],
+                "answer": ["There", "is", "a", "garden", "behind", "the", "house"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Dapurnya sangat modern'",
+                "words": ["The", "is", "kitchen", "very", "modern"],
+                "answer": ["The", "kitchen", "is", "very", "modern"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku sangat menyukai rumahku'",
+                "words": ["I", "my", "really", "love", "house"],
+                "answer": ["I", "really", "love", "my", "house"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Tubuh & Kesehatan Dasar",
+    "color": "gem",
+    "levels": [
+      {
+        "level": "Bagian tubuh",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kepala'?",
+                "options": ["head", "hand", "foot", "hair"],
+                "answer": "head"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tangan'?",
+                "options": ["hand", "foot", "arm", "leg"],
+                "answer": "hand"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'mata'?",
+                "options": ["eye", "ear", "nose", "mouth"],
+                "answer": "eye"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kaki'?",
+                "options": ["foot", "hand", "head", "leg"],
+                "answer": "foot"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'mulut'?",
+                "options": ["mouth", "nose", "eye", "ear"],
+                "answer": "mouth"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kepalaku sakit'",
+                "words": ["My", "head", "hurts"],
+                "answer": ["My", "head", "hurts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya dua tangan'",
+                "words": ["I", "two", "have", "hands"],
+                "answer": ["I", "have", "two", "hands"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Matanya berwarna biru'",
+                "words": ["Her", "eyes", "are", "blue"],
+                "answer": ["Her", "eyes", "are", "blue"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mencuci tangannya'",
+                "words": ["He", "his", "washes", "hands"],
+                "answer": ["He", "washes", "his", "hands"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya hidung dan mulut'",
+                "words": ["I", "a", "have", "nose", "and", "a", "mouth"],
+                "answer": ["I", "have", "a", "nose", "and", "a", "mouth"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'telinga'?",
+                "options": ["ear", "eye", "nose", "mouth"],
+                "answer": "ear"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lengan'?",
+                "options": ["arm", "leg", "hand", "foot"],
+                "answer": "arm"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'rambut'?",
+                "options": ["hair", "head", "face", "neck"],
+                "answer": "hair"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kaki (tungkai)'?",
+                "options": ["leg", "foot", "arm", "hand"],
+                "answer": "leg"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'hidung'?",
+                "options": ["nose", "mouth", "eye", "ear"],
+                "answer": "nose"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Telingaku sakit'",
+                "words": ["My", "ear", "hurts"],
+                "answer": ["My", "ear", "hurts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya dua kaki'",
+                "words": ["I", "two", "have", "legs"],
+                "answer": ["I", "have", "two", "legs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rambutnya panjang'",
+                "words": ["Her", "hair", "is", "long"],
+                "answer": ["Her", "hair", "is", "long"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mengangkat lengannya'",
+                "words": ["He", "his", "raises", "arm"],
+                "answer": ["He", "raises", "his", "arm"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya dua telinga dan satu hidung'",
+                "words": ["I", "two", "have", "ears", "and", "one", "nose"],
+                "answer": ["I", "have", "two", "ears", "and", "one", "nose"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'leher'?",
+                "options": ["neck", "head", "shoulder", "back"],
+                "answer": "neck"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'bahu'?",
+                "options": ["shoulder", "arm", "neck", "chest"],
+                "answer": "shoulder"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'punggung'?",
+                "options": ["back", "chest", "stomach", "neck"],
+                "answer": "back"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'jari'?",
+                "options": ["finger", "toe", "hand", "foot"],
+                "answer": "finger"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'gigi'?",
+                "options": ["tooth", "tongue", "lip", "mouth"],
+                "answer": "tooth"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Leherku sakit'",
+                "words": ["My", "neck", "hurts"],
+                "answer": ["My", "neck", "hurts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya sepuluh jari'",
+                "words": ["I", "ten", "have", "fingers"],
+                "answer": ["I", "have", "ten", "fingers"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Giginya sangat putih'",
+                "words": ["His", "teeth", "are", "very", "white"],
+                "answer": ["His", "teeth", "are", "very", "white"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia menyentuh bahunya'",
+                "words": ["She", "her", "touches", "shoulder"],
+                "answer": ["She", "touches", "her", "shoulder"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Punggungku sakit'",
+                "words": ["My", "back", "hurts"],
+                "answer": ["My", "back", "hurts"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Have/has + body parts",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ two eyes'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ long hair'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ big hands'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ a small nose'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ ten fingers'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya dua mata'",
+                "words": ["I", "two", "have", "eyes"],
+                "answer": ["I", "have", "two", "eyes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia punya rambut panjang'",
+                "words": ["She", "long", "has", "hair"],
+                "answer": ["She", "has", "long", "hair"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka punya tangan besar'",
+                "words": ["They", "big", "have", "hands"],
+                "answer": ["They", "have", "big", "hands"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia punya hidung kecil'",
+                "words": ["He", "a", "has", "small", "nose"],
+                "answer": ["He", "has", "a", "small", "nose"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami punya sepuluh jari'",
+                "words": ["We", "ten", "have", "fingers"],
+                "answer": ["We", "have", "ten", "fingers"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My mother ___ beautiful eyes'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My parents ___ small ears'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My brother ___ short hair'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ a big mouth'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My sister ___ long legs'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku punya mata yang indah'",
+                "words": ["My", "beautiful", "mother", "has", "eyes"],
+                "answer": ["My", "mother", "has", "beautiful", "eyes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Orang tuaku punya telinga kecil'",
+                "words": ["My", "small", "parents", "have", "ears"],
+                "answer": ["My", "parents", "have", "small", "ears"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara laki-lakiku punya rambut pendek'",
+                "words": ["My", "short", "brother", "has", "hair"],
+                "answer": ["My", "brother", "has", "short", "hair"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu punya mulut besar'",
+                "words": ["You", "a", "have", "big", "mouth"],
+                "answer": ["You", "have", "a", "big", "mouth"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara perempuanku punya kaki panjang'",
+                "words": ["My", "long", "sister", "has", "legs"],
+                "answer": ["My", "sister", "has", "long", "legs"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ you have long hair?'",
+                "options": ["Do", "Does", "Has", "Have"],
+                "answer": "Do"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ she have blue eyes?'",
+                "options": ["Does", "Do", "Has", "Have"],
+                "answer": "Does"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ have any teeth' (negatif)",
+                "options": ["doesn't", "don't", "hasn't", "haven't"],
+                "answer": "doesn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ have any hair' (negatif)",
+                "options": ["don't", "doesn't", "hasn't", "haven't"],
+                "answer": "don't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My grandfather ___ white hair'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu punya rambut panjang?'",
+                "words": ["Do", "have", "you", "long", "hair"],
+                "answer": ["Do", "you", "have", "long", "hair"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia punya mata biru?'",
+                "words": ["Does", "have", "she", "blue", "eyes"],
+                "answer": ["Does", "she", "have", "blue", "eyes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak punya gigi'",
+                "words": ["He", "any", "doesn't", "have", "teeth"],
+                "answer": ["He", "doesn't", "have", "any", "teeth"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka tidak punya rambut'",
+                "words": ["They", "any", "don't", "have", "hair"],
+                "answer": ["They", "don't", "have", "any", "hair"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kakekku punya rambut putih'",
+                "words": ["My", "white", "grandfather", "has", "hair"],
+                "answer": ["My", "grandfather", "has", "white", "hair"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Sakit sederhana",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit kepala'?",
+                "options": ["headache", "stomachache", "toothache", "backache"],
+                "answer": "headache"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit perut'?",
+                "options": ["stomachache", "headache", "toothache", "earache"],
+                "answer": "stomachache"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit gigi'?",
+                "options": ["toothache", "headache", "backache", "sore throat"],
+                "answer": "toothache"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'demam'?",
+                "options": ["fever", "cough", "cold", "flu"],
+                "answer": "fever"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'batuk'?",
+                "options": ["cough", "fever", "sneeze", "cold"],
+                "answer": "cough"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sakit kepala'",
+                "words": ["I", "a", "have", "headache"],
+                "answer": ["I", "have", "a", "headache"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sakit perut'",
+                "words": ["He", "a", "has", "stomachache"],
+                "answer": ["He", "has", "a", "stomachache"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sakit gigi'",
+                "words": ["I", "a", "have", "toothache"],
+                "answer": ["I", "have", "a", "toothache"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia demam'",
+                "words": ["She", "a", "has", "fever"],
+                "answer": ["She", "has", "a", "fever"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku batuk'",
+                "words": ["I", "a", "have", "cough"],
+                "answer": ["I", "have", "a", "cough"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit tenggorokan'?",
+                "options": ["sore throat", "headache", "stomachache", "toothache"],
+                "answer": "sore throat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pilek'?",
+                "options": ["cold", "fever", "cough", "flu"],
+                "answer": "cold"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit punggung'?",
+                "options": ["backache", "headache", "stomachache", "earache"],
+                "answer": "backache"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'flu'?",
+                "options": ["flu", "fever", "cold", "cough"],
+                "answer": "flu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit telinga'?",
+                "options": ["earache", "toothache", "headache", "backache"],
+                "answer": "earache"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sakit tenggorokan'",
+                "words": ["I", "a", "have", "sore", "throat"],
+                "answer": ["I", "have", "a", "sore", "throat"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia pilek'",
+                "words": ["He", "a", "has", "cold"],
+                "answer": ["He", "has", "a", "cold"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sakit punggung'",
+                "words": ["I", "a", "have", "backache"],
+                "answer": ["I", "have", "a", "backache"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia flu'",
+                "words": ["She", "the", "has", "flu"],
+                "answer": ["She", "has", "the", "flu"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sakit telinga'",
+                "words": ["I", "an", "have", "earache"],
+                "answer": ["I", "have", "an", "earache"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'mual'?",
+                "options": ["nausea", "fever", "cough", "cold"],
+                "answer": "nausea"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pusing'?",
+                "options": ["dizzy", "tired", "sick", "weak"],
+                "answer": "dizzy"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lelah'?",
+                "options": ["tired", "dizzy", "sick", "weak"],
+                "answer": "tired"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pilek dan bersin'?",
+                "options": ["sneeze", "cough", "fever", "headache"],
+                "answer": "sneeze"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'luka'?",
+                "options": ["wound", "pain", "sick", "hurt"],
+                "answer": "wound"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku merasa mual'",
+                "words": ["I", "feel", "nausea"],
+                "answer": ["I", "feel", "nausea"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia merasa pusing'",
+                "words": ["He", "feels", "dizzy"],
+                "answer": ["He", "feels", "dizzy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sangat lelah'",
+                "words": ["I", "am", "very", "tired"],
+                "answer": ["I", "am", "very", "tired"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia bersin'",
+                "words": ["She", "sneezes"],
+                "answer": ["She", "sneezes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya luka di tanganku'",
+                "words": ["I", "a", "have", "wound", "on", "my", "hand"],
+                "answer": ["I", "have", "a", "wound", "on", "my", "hand"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Imperative",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'membuka mulut'?",
+                "options": ["Open your mouth", "You open your mouth", "Opening your mouth", "To open your mouth"],
+                "answer": "Open your mouth"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'mencuci tangan'?",
+                "options": ["Wash your hands", "You wash your hands", "Washing your hands", "To wash your hands"],
+                "answer": "Wash your hands"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'minum obat'?",
+                "options": ["Take your medicine", "You take your medicine", "Taking your medicine", "To take your medicine"],
+                "answer": "Take your medicine"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'beristirahat'?",
+                "options": ["Rest", "You rest", "Resting", "To rest"],
+                "answer": "Rest"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'tidak makan makanan pedas'?",
+                "options": ["Don't eat spicy food", "You don't eat spicy food", "Not eating spicy food", "To not eat spicy food"],
+                "answer": "Don't eat spicy food"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bukalah mulutmu'",
+                "words": ["Open", "your", "mouth"],
+                "answer": ["Open", "your", "mouth"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Cucilah tanganmu'",
+                "words": ["Wash", "your", "hands"],
+                "answer": ["Wash", "your", "hands"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Minumlah obatmu'",
+                "words": ["Take", "your", "medicine"],
+                "answer": ["Take", "your", "medicine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Beristirahatlah'",
+                "words": ["Rest"],
+                "answer": ["Rest"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jangan makan makanan pedas'",
+                "words": ["Don't", "spicy", "eat", "food"],
+                "answer": ["Don't", "eat", "spicy", "food"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'menutup mata'?",
+                "options": ["Close your eyes", "You close your eyes", "Closing your eyes", "To close your eyes"],
+                "answer": "Close your eyes"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'mengangkat tangan'?",
+                "options": ["Raise your hand", "You raise your hand", "Raising your hand", "To raise your hand"],
+                "answer": "Raise your hand"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'makan sayur'?",
+                "options": ["Eat your vegetables", "You eat your vegetables", "Eating your vegetables", "To eat your vegetables"],
+                "answer": "Eat your vegetables"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'tidur'?",
+                "options": ["Sleep", "You sleep", "Sleeping", "To sleep"],
+                "answer": "Sleep"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'tidak minum kopi'?",
+                "options": ["Don't drink coffee", "You don't drink coffee", "Not drinking coffee", "To not drink coffee"],
+                "answer": "Don't drink coffee"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tutuplah matamu'",
+                "words": ["Close", "your", "eyes"],
+                "answer": ["Close", "your", "eyes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Angkatlah tanganmu'",
+                "words": ["Raise", "your", "hand"],
+                "answer": ["Raise", "your", "hand"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Makanlah sayurmu'",
+                "words": ["Eat", "your", "vegetables"],
+                "answer": ["Eat", "your", "vegetables"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tidurlah'",
+                "words": ["Sleep"],
+                "answer": ["Sleep"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jangan minum kopi'",
+                "words": ["Don't", "coffee", "drink"],
+                "answer": ["Don't", "drink", "coffee"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'menarik napas dalam-dalam'?",
+                "options": ["Take a deep breath", "You take a deep breath", "Taking a deep breath", "To take a deep breath"],
+                "answer": "Take a deep breath"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'duduk'?",
+                "options": ["Sit down", "You sit down", "Sitting down", "To sit down"],
+                "answer": "Sit down"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'berdiri'?",
+                "options": ["Stand up", "You stand up", "Standing up", "To stand up"],
+                "answer": "Stand up"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'pergi ke dokter'?",
+                "options": ["Go to the doctor", "You go to the doctor", "Going to the doctor", "To go to the doctor"],
+                "answer": "Go to the doctor"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bentuk imperatif dari 'tidak merokok'?",
+                "options": ["Don't smoke", "You don't smoke", "Not smoking", "To not smoke"],
+                "answer": "Don't smoke"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tarik napas dalam-dalam'",
+                "words": ["Take", "a", "deep", "breath"],
+                "answer": ["Take", "a", "deep", "breath"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Duduklah'",
+                "words": ["Sit", "down"],
+                "answer": ["Sit", "down"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Berdirilah'",
+                "words": ["Stand", "up"],
+                "answer": ["Stand", "up"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pergilah ke dokter'",
+                "words": ["Go", "to", "the", "doctor"],
+                "answer": ["Go", "to", "the", "doctor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jangan merokok'",
+                "words": ["Don't", "smoke"],
+                "answer": ["Don't", "smoke"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: instruksi dokter",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Open your mouth and say ah.' Pertanyaan: Apa instruksi dokter?",
+                "options": ["Buka mulut dan katakan ah", "Tutup mulut dan diam", "Angkat tangan", "Tarik napas"],
+                "answer": "Buka mulut dan katakan ah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Take this medicine twice a day.' Pertanyaan: Berapa kali minum obat?",
+                "options": ["Dua kali sehari", "Satu kali sehari", "Tiga kali sehari", "Empat kali sehari"],
+                "answer": "Dua kali sehari"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You should rest and drink a lot of water.' Pertanyaan: Apa saran dokter?",
+                "options": ["Istirahat dan minum banyak air", "Olahraga dan minum sedikit air", "Tidur dan makan banyak", "Bekerja dan minum kopi"],
+                "answer": "Istirahat dan minum banyak air"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Don't eat spicy food for three days.' Pertanyaan: Berapa lama tidak boleh makan makanan pedas?",
+                "options": ["Tiga hari", "Dua hari", "Empat hari", "Satu minggu"],
+                "answer": "Tiga hari"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Come back next week for a check-up.' Pertanyaan: Kapan harus kembali ke dokter?",
+                "options": ["Minggu depan", "Besok", "Hari ini", "Bulan depan"],
+                "answer": "Minggu depan"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Buka mulutmu dan katakan ah'",
+                "words": ["Open", "your", "mouth", "and", "say", "ah"],
+                "answer": ["Open", "your", "mouth", "and", "say", "ah"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Minum obat ini dua kali sehari'",
+                "words": ["Take", "this", "medicine", "twice", "a", "day"],
+                "answer": ["Take", "this", "medicine", "twice", "a", "day"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Kamu harus istirahat dan minum banyak air'",
+                "words": ["You", "rest", "should", "and", "drink", "a", "lot", "of", "water"],
+                "answer": ["You", "should", "rest", "and", "drink", "a", "lot", "of", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Jangan makan makanan pedas selama tiga hari'",
+                "words": ["Don't", "spicy", "eat", "food", "for", "three", "days"],
+                "answer": ["Don't", "eat", "spicy", "food", "for", "three", "days"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Kembalilah minggu depan untuk pemeriksaan'",
+                "words": ["Come", "back", "next", "week", "for", "a", "check-up"],
+                "answer": ["Come", "back", "next", "week", "for", "a", "check-up"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Close your eyes and breathe deeply.' Pertanyaan: Apa instruksi dokter?",
+                "options": ["Tutup mata dan tarik napas dalam-dalam", "Buka mata dan bernapas cepat", "Tutup mulut dan diam", "Angkat tangan"],
+                "answer": "Tutup mata dan tarik napas dalam-dalam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Take this medicine three times a day.' Pertanyaan: Berapa kali minum obat?",
+                "options": ["Tiga kali sehari", "Dua kali sehari", "Satu kali sehari", "Empat kali sehari"],
+                "answer": "Tiga kali sehari"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You should sleep early and eat healthy food.' Pertanyaan: Apa saran dokter?",
+                "options": ["Tidur lebih awal dan makan makanan sehat", "Tidur larut dan makan makanan cepat saji", "Olahraga dan minum kopi", "Bekerja dan minum sedikit air"],
+                "answer": "Tidur lebih awal dan makan makanan sehat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Don't drink cold water for two days.' Pertanyaan: Berapa lama tidak boleh minum air dingin?",
+                "options": ["Dua hari", "Tiga hari", "Satu hari", "Satu minggu"],
+                "answer": "Dua hari"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Come back tomorrow for a blood test.' Pertanyaan: Kapan harus kembali ke dokter?",
+                "options": ["Besok", "Minggu depan", "Hari ini", "Bulan depan"],
+                "answer": "Besok"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Tutup matamu dan tarik napas dalam-dalam'",
+                "words": ["Close", "your", "eyes", "and", "breathe", "deeply"],
+                "answer": ["Close", "your", "eyes", "and", "breathe", "deeply"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Minum obat ini tiga kali sehari'",
+                "words": ["Take", "this", "medicine", "three", "times", "a", "day"],
+                "answer": ["Take", "this", "medicine", "three", "times", "a", "day"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Kamu harus tidur lebih awal dan makan makanan sehat'",
+                "words": ["You", "sleep", "should", "early", "and", "eat", "healthy", "food"],
+                "answer": ["You", "should", "sleep", "early", "and", "eat", "healthy", "food"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Jangan minum air dingin selama dua hari'",
+                "words": ["Don't", "cold", "drink", "water", "for", "two", "days"],
+                "answer": ["Don't", "drink", "cold", "water", "for", "two", "days"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Kembalilah besok untuk tes darah'",
+                "words": ["Come", "back", "tomorrow", "for", "a", "blood", "test"],
+                "answer": ["Come", "back", "tomorrow", "for", "a", "blood", "test"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Raise your arms and take a deep breath.' Pertanyaan: Apa instruksi dokter?",
+                "options": ["Angkat tangan dan tarik napas dalam-dalam", "Turunkan tangan dan bernapas cepat", "Angkat kaki dan melompat", "Duduk dan diam"],
+                "answer": "Angkat tangan dan tarik napas dalam-dalam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Take this medicine once a day before breakfast.' Pertanyaan: Kapan minum obat?",
+                "options": ["Sekali sehari sebelum sarapan", "Dua kali sehari setelah sarapan", "Sekali sehari setelah makan malam", "Tiga kali sehari sebelum tidur"],
+                "answer": "Sekali sehari sebelum sarapan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You should exercise lightly and avoid stress.' Pertanyaan: Apa saran dokter?",
+                "options": ["Olahraga ringan dan hindari stres", "Olahraga berat dan banyak bekerja", "Tidur sepanjang hari", "Makan banyak dan minum kopi"],
+                "answer": "Olahraga ringan dan hindari stres"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Don't lift heavy things for one week.' Pertanyaan: Berapa lama tidak boleh mengangkat barang berat?",
+                "options": ["Satu minggu", "Dua hari", "Tiga hari", "Satu bulan"],
+                "answer": "Satu minggu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Come back in three days for a follow-up.' Pertanyaan: Kapan harus kembali ke dokter?",
+                "options": ["Tiga hari lagi", "Besok", "Minggu depan", "Bulan depan"],
+                "answer": "Tiga hari lagi"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Angkat tanganmu dan tarik napas dalam-dalam'",
+                "words": ["Raise", "your", "arms", "and", "take", "a", "deep", "breath"],
+                "answer": ["Raise", "your", "arms", "and", "take", "a", "deep", "breath"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Minum obat ini sekali sehari sebelum sarapan'",
+                "words": ["Take", "this", "medicine", "once", "a", "day", "before", "breakfast"],
+                "answer": ["Take", "this", "medicine", "once", "a", "day", "before", "breakfast"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Kamu harus olahraga ringan dan hindari stres'",
+                "words": ["You", "exercise", "should", "lightly", "and", "avoid", "stress"],
+                "answer": ["You", "should", "exercise", "lightly", "and", "avoid", "stress"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Jangan mengangkat barang berat selama satu minggu'",
+                "words": ["Don't", "heavy", "lift", "things", "for", "one", "week"],
+                "answer": ["Don't", "lift", "heavy", "things", "for", "one", "week"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun instruksi: 'Kembalilah dalam tiga hari untuk pemeriksaan lanjutan'",
+                "words": ["Come", "back", "in", "three", "days", "for", "a", "follow-up"],
+                "answer": ["Come", "back", "in", "three", "days", "for", "a", "follow-up"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: kondisi tubuh",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku sakit'?",
+                "options": ["I am sick", "I sick", "I am sickly", "I have sick"],
+                "answer": "I am sick"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku merasa tidak enak badan'?",
+                "options": ["I feel unwell", "I feel not good", "I am unwell feel", "I feeling unwell"],
+                "answer": "I feel unwell"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Kepalaku sakit'?",
+                "options": ["My head hurts", "My head is hurt", "My head pain", "My head is sick"],
+                "answer": "My head hurts"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku demam'?",
+                "options": ["I have a fever", "I am fever", "I have fever", "I fever"],
+                "answer": "I have a fever"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku butuh istirahat'?",
+                "options": ["I need rest", "I need resting", "I am need rest", "I need to rest"],
+                "answer": "I need rest"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku merasa sakit'",
+                "words": ["I", "feel", "sick"],
+                "answer": ["I", "feel", "sick"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku merasa tidak enak badan'",
+                "words": ["I", "feel", "unwell"],
+                "answer": ["I", "feel", "unwell"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Perutku sakit'",
+                "words": ["My", "stomach", "hurts"],
+                "answer": ["My", "stomach", "hurts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pilek'",
+                "words": ["I", "a", "have", "cold"],
+                "answer": ["I", "have", "a", "cold"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku butuh minum obat'",
+                "words": ["I", "to", "need", "take", "medicine"],
+                "answer": ["I", "need", "to", "take", "medicine"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku merasa lelah'?",
+                "options": ["I feel tired", "I feel tire", "I am tired feel", "I feeling tired"],
+                "answer": "I feel tired"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku tidak enak badan hari ini'?",
+                "options": ["I am unwell today", "I unwell today", "I am today unwell", "I feel today unwell"],
+                "answer": "I am unwell today"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Tenggorokanku sakit'?",
+                "options": ["My throat hurts", "My throat is hurt", "My throat pain", "My throat is sick"],
+                "answer": "My throat hurts"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku batuk'?",
+                "options": ["I have a cough", "I am cough", "I have cough", "I cough have"],
+                "answer": "I have a cough"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku perlu tidur'?",
+                "options": ["I need sleep", "I need sleeping", "I am need sleep", "I need to sleep"],
+                "answer": "I need sleep"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku merasa lelah'",
+                "words": ["I", "feel", "tired"],
+                "answer": ["I", "feel", "tired"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak enak badan hari ini'",
+                "words": ["I", "am", "unwell", "today"],
+                "answer": ["I", "am", "unwell", "today"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tenggorokanku sakit'",
+                "words": ["My", "throat", "hurts"],
+                "answer": ["My", "throat", "hurts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku batuk'",
+                "words": ["I", "a", "have", "cough"],
+                "answer": ["I", "have", "a", "cough"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku perlu tidur'",
+                "words": ["I", "to", "need", "sleep"],
+                "answer": ["I", "need", "to", "sleep"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku merasa pusing'?",
+                "options": ["I feel dizzy", "I feel dizz", "I am dizzy feel", "I feeling dizzy"],
+                "answer": "I feel dizzy"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku merasa mual'?",
+                "options": ["I feel nauseous", "I feel nausea", "I am nauseous feel", "I feeling nauseous"],
+                "answer": "I feel nauseous"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Punggungku sakit'?",
+                "options": ["My back hurts", "My back is hurt", "My back pain", "My back is sick"],
+                "answer": "My back hurts"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku flu'?",
+                "options": ["I have the flu", "I am flu", "I have flu", "I flu have"],
+                "answer": "I have the flu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku perlu pergi ke dokter'?",
+                "options": ["I need to go to the doctor", "I need go to the doctor", "I am need to go to the doctor", "I need going to the doctor"],
+                "answer": "I need to go to the doctor"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku merasa pusing'",
+                "words": ["I", "feel", "dizzy"],
+                "answer": ["I", "feel", "dizzy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku merasa mual'",
+                "words": ["I", "feel", "nauseous"],
+                "answer": ["I", "feel", "nauseous"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Punggungku sakit'",
+                "words": ["My", "back", "hurts"],
+                "answer": ["My", "back", "hurts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku flu'",
+                "words": ["I", "the", "have", "flu"],
+                "answer": ["I", "have", "the", "flu"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku perlu pergi ke dokter'",
+                "words": ["I", "to", "need", "go", "to", "the", "doctor"],
+                "answer": ["I", "need", "to", "go", "to", "the", "doctor"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

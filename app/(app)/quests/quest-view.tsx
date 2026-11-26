@@ -272,8 +272,10 @@ function ShopSection(p: MisiProps) {
 
       <section>
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-          <h2 className="flex items-center gap-2 text-2xl font-black text-ink"><span className="icon text-3xl text-streak-edge">checkroom</span> Kostum &amp; Aksesoris</h2>
-          <span className="text-sm font-bold text-ink-muted">Koleksi aksesoris maskot untuk profil belajarmu</span>
+          <h2 className="flex items-center gap-2 text-2xl font-black text-ink">
+            <span className="icon text-3xl text-indigo-500">auto_stories</span> Paket Modul Spesialis
+          </h2>
+          <span className="text-xs font-bold text-ink-muted">Tingkatkan karir &amp; percakapan dunia nyata</span>
         </div>
         <Grid>
           {p.costumes.map((c) => {
@@ -285,27 +287,27 @@ function ShopSection(p: MisiProps) {
                   <div className={`relative flex h-36 w-full items-center justify-center overflow-hidden rounded-2xl ${active ? "bg-primary-soft/40" : "bg-surface-low"}`}>
                     {active && (
                       <span className="absolute right-2 top-2 flex items-center gap-1 rounded-full bg-primary px-2.5 py-0.5 text-xs font-black text-white">
-                        <span className="icon text-sm">check</span> Dipakai
+                        <span className="icon text-sm">check</span> Aktif
                       </span>
                     )}
                     <motion.div whileHover={{ scale: 1.08 }}>
-                      <GameIcon name={c.icon} size={110} alt={c.name} />
+                      <GameIcon name={c.icon} size={96} alt={c.name} />
                     </motion.div>
                   </div>
                   <h3 className="mt-1 text-lg font-black text-ink">{c.name}</h3>
-                  <p className="text-sm font-medium text-ink-muted">{c.desc}</p>
+                  <p className="text-xs font-medium text-ink-muted leading-relaxed">{c.desc}</p>
                 </div>
                 <div className="mt-6 flex flex-col gap-3 border-t border-line pt-4">
                   {owned ? (
                     <>
-                      <span className="text-center text-xs font-black uppercase text-ink-muted">Tersimpan di Lemari</span>
+                      <span className="text-center text-xs font-black uppercase text-emerald-700 bg-emerald-50 py-1 rounded-lg">Modul Dimiliki</span>
                       <ActionButton
                         action={equipCostume.bind(null, active ? null : c.id)}
                         variant={active ? "ghost" : "super"}
                         size="md"
                         className="w-full"
                       >
-                        {active ? "Lepas" : "Pakai"}
+                        {active ? "Buka Modul" : "Pelajari"}
                       </ActionButton>
                     </>
                   ) : (
@@ -318,7 +320,7 @@ function ShopSection(p: MisiProps) {
                         size="md"
                         className="w-full"
                       >
-                        Beli Kostum
+                        Buka Akses Modul
                       </ActionButton>
                     </>
                   )}
@@ -511,19 +513,19 @@ function Monthly(m: MisiProps["monthly"]) {
 
 function League({ name, nextName, xpToNext, rank }: MisiProps["league"]) {
   return (
-    <div className="flex flex-col gap-3 rounded-3xl border-2 border-b-4 border-line bg-gradient-to-br from-gem-soft to-white p-6">
+    <div className="flex flex-col gap-3 rounded-3xl border border-line bg-gradient-to-br from-indigo-50/60 to-white p-6 shadow-xs">
       <div className="flex items-center gap-3">
-        <GameIcon name="badgeLeague" size={52} alt="" />
+        <GameIcon name="badgeLeague" size={48} alt="" />
         <div>
-          <h4 className="text-lg font-black">{name}</h4>
-          <span className="text-sm text-ink-muted">Posisi #{rank} di klasemen</span>
+          <h4 className="text-base font-black text-ink">{name}</h4>
+          <span className="text-xs font-bold text-ink-muted">Posisi #{rank} di klasemen</span>
         </div>
       </div>
-      <p className="text-sm text-ink-muted">
-        {nextName ? `Kumpulkan ${xpToNext} XP lagi untuk naik ke ${nextName}!` : "Kamu sudah di liga tertinggi. Pertahankan!"}
+      <p className="text-xs font-medium text-ink-muted leading-relaxed">
+        {nextName ? `Kumpulkan ${xpToNext} XP lagi untuk promosi ke ${nextName}!` : "Kamu sudah di divisi liga tertinggi!"}
       </p>
-      <Link href="/peringkat" className="flex items-center gap-1 self-start text-sm font-black text-gem-edge hover:underline">
-        Lihat Papan Peringkat <span className="icon text-base">arrow_forward</span>
+      <Link href="/leaderboard" className="flex items-center gap-1 self-start text-xs font-black text-primary hover:underline mt-1">
+        Buka Papan Peringkat <span className="icon text-sm">arrow_forward</span>
       </Link>
     </div>
   );

@@ -4,6 +4,8 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import { GameIcon } from "../../components/game-icon";
 import { StatBar } from "../../components/stats";
+import { Button } from "../../components/ui/button";
+import { Card } from "../../components/ui/card";
 import type { User } from "../../lib/users";
 
 export interface PeringkatProps {
@@ -14,8 +16,10 @@ export interface PeringkatProps {
 }
 
 export function PeringkatView({ user, board, rank, leagueName }: PeringkatProps) {
-  // Pastikan user masuk ke list tampilan jika di luar 20 besar
-  const userInTop = board.some((b) => b.id === user.id);
+  // Temukan peserta tepat 1 peringkat di atas user untuk perbandingan Rival
+  const rivalIndex = Math.max(0, rank - 2);
+  const rival = board[rivalIndex] && board[rivalIndex].id !== user.id ? board[rivalIndex] : board[0];
+  const xpDifference = rival ? Math.max(1, rival.xp - user.xp) : 0;
 
   // Zona Promosi (Top 7)
   const promotionZone = board.slice(0, 7);
@@ -25,217 +29,195 @@ export function PeringkatView({ user, board, rank, leagueName }: PeringkatProps)
   const demotionZone = board.slice(24);
 
   return (
-    <div className="w-full max-w-6xl mx-auto py-6">
+    <div className="w-full py-6">
       <div className="mb-6">
         <StatBar user={user} />
       </div>
 
-      {/* Top League Hero Banner dengan 3D tactile style */}
-      <div className="relative overflow-hidden rounded-3xl bg-white border-2 border-line p-6 sm:p-8 shadow-sm mb-8">
-        <div className="absolute -right-16 -top-20 w-80 h-80 rounded-full bg-gem-soft/50 blur-3xl pointer-events-none" />
-        <div className="absolute -left-12 -bottom-20 w-64 h-64 rounded-full bg-streak/20 blur-2xl pointer-events-none" />
-
+      {/* Top League Hero Banner Modern */}
+      <div className="relative overflow-hidden rounded-3xl border border-line bg-gradient-to-r from-slate-900 to-slate-800 p-6 sm:p-8 text-white shadow-md mb-8">
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-5 sm:gap-6">
-            {/* 3D League Emblem Trophy */}
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ translateY: 4 }}
-              className="relative flex-shrink-0 cursor-pointer"
-            >
-              <div className="w-24 h-24 rounded-3xl bg-gem-soft flex items-center justify-center p-3 border-2 border-gem shadow-inner">
-                <GameIcon name="crown" size={68} alt="League Crown" />
-              </div>
-              <div className="absolute -bottom-2 -right-1 bg-streak text-white font-black text-xs px-2.5 py-0.5 rounded-full shadow-sm">
-                DIVISI I
-              </div>
-            </motion.div>
-
-            {/* Title & Info */}
-            <div className="flex flex-col">
-              <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                <span className="bg-gem-soft text-gem-edge font-black text-xs px-3 py-1 rounded-full">
-                  Minggu Ini
+          <div className="flex items-center gap-5">
+            <div className="flex h-16 w-16 sm:h-20 sm:w-20 shrink-0 items-center justify-center rounded-2xl bg-amber-400/20 border border-amber-400/40 text-amber-300">
+              <span className="icon text-4xl sm:text-5xl">military_tech</span>
+            </div>
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="rounded-full bg-amber-400/20 border border-amber-300/30 px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider text-amber-300">
+                  Divisi Aktif
                 </span>
-                <span className="bg-primary-soft text-primary-dark font-black text-xs px-2.5 py-1 rounded-full flex items-center gap-1">
-                  <span className="icon text-[16px]">military_tech</span> Zona Promosi Terbuka
-                </span>
+                <span className="text-xs font-bold text-slate-300">Periode Mingguan</span>
               </div>
-              <h1 className="text-3xl font-black text-on-surface tracking-tight">
-                {leagueName}
-              </h1>
-              <p className="text-sm font-bold text-ink-muted mt-1 max-w-xl">
-                Raih posisi 7 teratas untuk promosi langsung ke kasta liga berikutnya minggu depan!
+              <h1 className="text-2xl sm:text-3xl font-black text-white">{leagueName}</h1>
+              <p className="mt-1 text-xs sm:text-sm font-medium text-slate-300">
+                Amankan posisi 7 besar teratas sebelum hari Minggu untuk promosi ke kasta liga berikutnya!
               </p>
             </div>
           </div>
 
-          {/* Sisa Waktu Liga Box */}
-          <div className="flex flex-col items-center md:items-end bg-surface-low px-6 py-4 rounded-2xl border-2 border-line w-full md:w-auto">
-            <div className="flex items-center gap-1.5 text-ink-muted text-xs font-black uppercase tracking-wider mb-1">
-              <span className="icon text-ruby-edge text-sm">timer</span> Sisa Waktu Liga
+          <div className="flex flex-col items-center md:items-end rounded-2xl bg-slate-800/80 border border-slate-700/80 px-5 py-3.5 shrink-0">
+            <div className="flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-rose-400 mb-0.5">
+              <span className="icon text-base">timer</span> Sisa Waktu Liga
             </div>
-            <span className="text-2xl font-black text-on-surface tracking-wide">
-              1 Hari 14 Jam
-            </span>
-            <span className="text-xs font-bold text-ink-muted mt-0.5">Reset setiap Senin 00:00 WIB</span>
+            <span className="text-xl font-black text-white">1 Hari 14 Jam</span>
+            <span className="text-[11px] font-medium text-slate-400">Reset Senin 00:00 WIB</span>
           </div>
         </div>
       </div>
 
-      {/* Main Grid: Tabel Peringkat + Sidebar Panduan */}
+      {/* Main Grid: Tabel Peringkat + Sidebar Interaktif */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Kolom Kiri: Tabel Peserta (8 Cols) */}
+        {/* Kolom Kiri: Tabel Peserta (8 Kolom) */}
         <div className="lg:col-span-8 flex flex-col gap-4">
-          {/* Table Header Bar */}
-          <div className="bg-white px-6 py-4 rounded-2xl border-2 border-line shadow-xs flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">
-                <span className="icon text-xl">leaderboard</span>
-              </div>
+          <Card className="p-4 flex items-center justify-between">
+            <div className="flex items-center gap-2.5">
+              <span className="icon text-primary text-2xl">leaderboard</span>
               <div>
-                <span className="font-black text-base text-on-surface">Papan Peringkat Peserta</span>
-                <p className="text-xs text-ink-muted font-bold">30 Pembelajar terpilih dalam grup mingguan Anda</p>
+                <h2 className="text-base font-black text-ink">Klasemen Peserta Grup</h2>
+                <p className="text-xs font-medium text-ink-muted">30 Siswa yang setara di grup mingguanmu</p>
               </div>
             </div>
-            <div className="flex items-center gap-1 bg-surface-low p-1 rounded-full">
-              <span className="px-3 py-1 text-xs font-black bg-white text-on-surface rounded-full shadow-xs">
-                Mingguan
-              </span>
-            </div>
-          </div>
+            <span className="rounded-full bg-surface-low px-3 py-1 text-xs font-black text-ink">
+              Top 30
+            </span>
+          </Card>
 
-          {/* Table Column Legend */}
-          <div className="grid grid-cols-12 px-6 py-1 text-ink-muted text-xs font-black uppercase tracking-wider">
-            <div className="col-span-2 text-center">Peringkat</div>
+          {/* Table Header Legend */}
+          <div className="grid grid-cols-12 px-5 py-1 text-xs font-black uppercase tracking-wider text-ink-muted">
+            <div className="col-span-2 text-center">Posisi</div>
             <div className="col-span-6">Pengguna</div>
             <div className="col-span-2 text-right">Poin XP</div>
             <div className="col-span-2 text-center">Status</div>
           </div>
 
-          {/* 1. ZONA PROMOSI (Top 1 - 7) */}
-          <div className="flex flex-col gap-2.5 p-3 rounded-3xl bg-primary-soft/30 border-2 border-primary/20">
-            <div className="flex items-center justify-between px-3 pt-1 pb-1">
-              <div className="flex items-center gap-2 text-primary-dark font-black text-xs uppercase tracking-wide">
-                <span className="icon text-lg">workspace_premium</span>
-                <span>ZONA PROMOSI (TOP 7)</span>
+          {/* Kontainer Scroll Internal agar pas dengan Sidebar */}
+          <div className="flex flex-col gap-4 max-h-[720px] overflow-y-auto pr-1">
+            {/* 1. Zona Promosi (Top 7) */}
+            <div className="flex flex-col gap-2 p-3 rounded-3xl bg-emerald-50/50 border border-emerald-200">
+              <div className="flex items-center justify-between px-2 py-1">
+                <span className="flex items-center gap-1.5 text-xs font-black uppercase tracking-wide text-emerald-800">
+                  <span className="icon text-base text-emerald-600">arrow_upward</span> ZONA PROMOSI (TOP 7)
+                </span>
+                <span className="text-[11px] font-black text-emerald-700 bg-white px-2 py-0.5 rounded-full border border-emerald-200">
+                  Naik Kasta Liga
+                </span>
               </div>
-              <span className="text-xs font-black text-ink-muted bg-white px-2.5 py-0.5 rounded-full shadow-xs">
-                Peringkat 1 - 7
-              </span>
+              {promotionZone.map((u, i) => (
+                <UserRow key={u.id} user={u} rank={i + 1} isCurrentUser={u.id === user.id} status="promo" />
+              ))}
             </div>
 
-            {promotionZone.map((u, i) => (
-              <UserRow key={u.id} user={u} rank={i + 1} isCurrentUser={u.id === user.id} status="promo" />
-            ))}
+            {/* 2. Zona Bertahan */}
+            {safeZone.length > 0 && (
+              <div className="flex flex-col gap-2 p-3 rounded-3xl bg-white border border-line">
+                <div className="flex items-center justify-between px-2 py-1">
+                  <span className="flex items-center gap-1.5 text-xs font-black uppercase tracking-wide text-ink-muted">
+                    <span className="icon text-base text-slate-400">shield</span> ZONA BERTAHAN
+                  </span>
+                  <span className="text-[11px] font-black text-ink-muted bg-surface-low px-2 py-0.5 rounded-full">
+                    Peringkat 8 - 24
+                  </span>
+                </div>
+                {safeZone.map((u, i) => (
+                  <UserRow key={u.id} user={u} rank={i + 8} isCurrentUser={u.id === user.id} status="safe" />
+                ))}
+              </div>
+            )}
+
+            {/* 3. Zona Degradasi */}
+            {demotionZone.length > 0 && (
+              <div className="flex flex-col gap-2 p-3 rounded-3xl bg-rose-50/40 border border-rose-200">
+                <div className="flex items-center justify-between px-2 py-1">
+                  <span className="flex items-center gap-1.5 text-xs font-black uppercase tracking-wide text-rose-800">
+                    <span className="icon text-base text-rose-600">arrow_downward</span> ZONA DEGRADASI (TERBAWAH)
+                  </span>
+                  <span className="text-[11px] font-black text-rose-700 bg-white px-2 py-0.5 rounded-full border border-rose-200">
+                    Turun Kasta
+                  </span>
+                </div>
+                {demotionZone.map((u, i) => (
+                  <UserRow key={u.id} user={u} rank={i + 25} isCurrentUser={u.id === user.id} status="demote" />
+                ))}
+              </div>
+            )}
           </div>
-
-          {/* 2. ZONA BERTAHAN (Peringkat 8 - 24) */}
-          {safeZone.length > 0 && (
-            <div className="flex flex-col gap-2 p-3 rounded-3xl bg-white border-2 border-line">
-              <div className="flex items-center justify-between px-3 pt-1 pb-1">
-                <div className="flex items-center gap-2 text-ink-muted font-black text-xs uppercase tracking-wide">
-                  <span className="icon text-lg">shield</span>
-                  <span>ZONA BERTAHAN</span>
-                </div>
-                <span className="text-xs font-black text-ink-muted bg-surface-low px-2.5 py-0.5 rounded-full">
-                  Peringkat 8 - 24
-                </span>
-              </div>
-
-              {safeZone.map((u, idx) => (
-                <UserRow key={u.id} user={u} rank={idx + 8} isCurrentUser={u.id === user.id} status="stay" />
-              ))}
-            </div>
-          )}
-
-          {/* 3. ZONA DEGRADASI (Peringkat 25 - 30) */}
-          {demotionZone.length > 0 && (
-            <div className="flex flex-col gap-2 p-3 rounded-3xl bg-ruby-soft/40 border-2 border-ruby/30">
-              <div className="flex items-center justify-between px-3 pt-1 pb-1">
-                <div className="flex items-center gap-2 text-ruby-edge font-black text-xs uppercase tracking-wide">
-                  <span className="icon text-lg">warning</span>
-                  <span>ZONA DEGRADASI (5 TERBAWAH)</span>
-                </div>
-                <span className="text-xs font-black text-ruby-edge bg-white px-2.5 py-0.5 rounded-full shadow-xs">
-                  Peringkat 25 - 30
-                </span>
-              </div>
-
-              {demotionZone.map((u, idx) => (
-                <UserRow key={u.id} user={u} rank={idx + 25} isCurrentUser={u.id === user.id} status="down" />
-              ))}
-            </div>
-          )}
-
-          {/* Bar jika user berada di luar 30 besar */}
-          {!userInTop && (
-            <div className="mt-4 p-4 rounded-2xl bg-primary text-white font-black flex items-center justify-between shadow-md">
-              <div className="flex items-center gap-3">
-                <span className="w-8 h-8 rounded-full bg-white text-primary flex items-center justify-center font-black">
-                  #{rank}
-                </span>
-                <span>{user.name} (Kamu)</span>
-              </div>
-              <span>{user.xp} XP</span>
-            </div>
-          )}
         </div>
 
-        {/* Kolom Kanan: Panduan & Sidebar (4 Cols) */}
-        <aside className="lg:col-span-4 flex flex-col gap-6 sticky top-24">
-          {/* Card Boost CTA */}
-          <div className="rounded-3xl border-2 border-b-4 border-streak bg-gradient-to-br from-streak/20 to-white p-6 shadow-sm flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-streak flex items-center justify-center text-white shadow-sm flex-shrink-0">
-                <span className="icon text-3xl">bolt</span>
+        {/* Kolom Kanan: Head-to-Head Rival & Hadiah Liga (4 Kolom) */}
+        <aside className="lg:col-span-4 flex flex-col gap-6 lg:sticky lg:top-6 lg:h-fit">
+          {/* Head-to-Head Rival Card (Pembeda Kuat & Pendorong Belajar) */}
+          {rival && (
+            <Card className="p-5 border-amber-300/80 bg-gradient-to-br from-amber-50/40 to-white shadow-xs">
+              <div className="flex items-center justify-between mb-3 pb-2 border-b border-amber-200/60">
+                <span className="flex items-center gap-1.5 text-xs font-black uppercase text-amber-800">
+                  <span className="icon text-base text-amber-500">sports_kabaddi</span> Rival Terdekat
+                </span>
+                <span className="text-[10px] font-black uppercase bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full">
+                  Target Salip
+                </span>
               </div>
-              <div>
-                <h3 className="font-black text-lg text-on-surface">Tingkatkan XP Kamu!</h3>
-                <p className="text-xs text-ink-muted font-bold">Amankan posisimu di zona promosi liga.</p>
-              </div>
-            </div>
-            <Link
-              href="/belajar"
-              className="btn btn-primary w-full !py-3.5 flex items-center justify-center gap-2 text-sm"
-            >
-              <span className="icon text-xl">play_arrow</span> MULAI BELAJAR SEKARANG
-            </Link>
-          </div>
 
-          {/* Card Panduan & Aturan Liga */}
-          <div className="rounded-3xl border-2 border-line bg-white p-6 shadow-sm flex flex-col gap-4">
-            <div className="flex items-center gap-2 pb-2 border-b-2 border-line">
-              <span className="icon text-gem text-2xl">help</span>
-              <h3 className="font-black text-lg text-on-surface">Panduan &amp; Aturan Liga</h3>
+              <div className="flex items-center justify-between gap-3 mb-4">
+                <div className="flex items-center gap-2.5">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-500 text-white font-black text-sm">
+                    {rival.name.slice(0, 2).toUpperCase()}
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-black text-ink">{rival.name}</h4>
+                    <span className="text-xs font-extrabold text-slate-500">{rival.xp} XP</span>
+                  </div>
+                </div>
+
+                <div className="text-right">
+                  <span className="block text-xs font-black text-rose-600">+{xpDifference} XP</span>
+                  <span className="text-[10px] font-bold text-ink-muted">Jarak Selisih</span>
+                </div>
+              </div>
+
+              <p className="text-xs font-medium text-slate-600 mb-4 leading-relaxed">
+                Hanya butuh sekitar <strong>{Math.ceil(xpDifference / 15)} sesi latihan</strong> lagi untuk melompati rivalmu di papan klasemen!
+              </p>
+
+              <Link href="/learn" className="block">
+                <Button variant="primary" size="md" className="w-full">
+                  Kejar Sekarang (+15 XP)
+                </Button>
+              </Link>
+            </Card>
+          )}
+
+          {/* Hadiah Papan Peringkat Mingguan */}
+          <Card className="p-5">
+            <div className="flex items-center gap-2 pb-3 border-b border-line mb-3">
+              <span className="icon text-amber-500 text-xl">military_tech</span>
+              <h3 className="text-sm font-black uppercase tracking-wider text-ink">Hadiah Akhir Pekan</h3>
             </div>
-            <ul className="flex flex-col gap-3.5 text-xs font-bold text-ink-muted">
-              <li className="flex items-start gap-2.5">
-                <span className="icon text-primary text-lg mt-0.5">check_circle</span>
-                <span>
-                  <strong className="text-ink">Top 7:</strong> Dipromosikan ke kasta liga berikutnya serta mendapat bonus permata.
+
+            <div className="flex flex-col gap-2.5 text-xs font-bold text-slate-700">
+              <div className="flex items-center justify-between p-2.5 rounded-xl bg-amber-50/70 border border-amber-200/50">
+                <span className="flex items-center gap-2 font-black text-amber-900">
+                  <span className="icon text-base text-amber-500">looks_one</span> Juara 1
                 </span>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <span className="icon text-gem text-lg mt-0.5">check_circle</span>
-                <span>
-                  <strong className="text-ink">Peringkat 8 - 24:</strong> Bertahan di liga saat ini untuk minggu depan.
+                <span className="font-black text-amber-700">+500 Permata</span>
+              </div>
+              <div className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 border border-slate-200/60">
+                <span className="flex items-center gap-2 font-black text-slate-800">
+                  <span className="icon text-base text-slate-400">looks_two</span> Juara 2
                 </span>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <span className="icon text-ruby-edge text-lg mt-0.5">warning</span>
-                <span>
-                  <strong className="text-ink">Peringkat 25 - 30:</strong> Didegradasi ke liga yang lebih rendah.
+                <span className="font-black text-slate-700">+300 Permata</span>
+              </div>
+              <div className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 border border-slate-200/60">
+                <span className="flex items-center gap-2 font-black text-slate-800">
+                  <span className="icon text-base text-amber-700">looks_3</span> Juara 3
                 </span>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <span className="icon text-streak-edge text-lg mt-0.5">local_fire_department</span>
-                <span>
-                  <strong className="text-ink">Rangkaian Streak:</strong> Belajar konsisten setiap hari untuk menjaga momentum XP ganda!
-                </span>
-              </li>
-            </ul>
-          </div>
+                <span className="font-black text-slate-700">+150 Permata</span>
+              </div>
+            </div>
+
+            <p className="mt-3 text-[11px] font-medium text-ink-muted leading-relaxed">
+              *Hadiah permata akan dikreditkan otomatis setiap hari Senin pukul 00:00 WIB.
+            </p>
+          </Card>
         </aside>
       </div>
     </div>
@@ -251,99 +233,62 @@ function UserRow({
   user: User;
   rank: number;
   isCurrentUser: boolean;
-  status: "promo" | "stay" | "down";
+  status: "promo" | "safe" | "demote";
 }) {
   return (
-    <motion.div
-      whileHover={{ scale: 1.01 }}
-      className={`grid grid-cols-12 items-center p-3.5 rounded-2xl border-2 transition-all ${
+    <div
+      className={`grid grid-cols-12 items-center px-4 py-3 rounded-2xl border transition-all ${
         isCurrentUser
-          ? "bg-primary text-white border-primary-edge shadow-md"
-          : "bg-white hover:bg-surface-low border-line shadow-xs"
+          ? "border-emerald-500 bg-emerald-50/80 shadow-xs"
+          : "border-slate-200/80 bg-white hover:border-slate-300"
       }`}
     >
-      {/* Kolom Peringkat */}
-      <div className="col-span-2 flex items-center justify-center">
-        {rank === 1 ? (
-          <span className="w-8 h-8 rounded-full bg-streak text-white font-black text-base flex items-center justify-center shadow-xs">
-            1
-          </span>
-        ) : rank === 2 ? (
-          <span className="w-8 h-8 rounded-full bg-surface-high text-on-surface font-black text-base flex items-center justify-center shadow-xs">
-            2
-          </span>
-        ) : rank === 3 ? (
-          <span className="w-8 h-8 rounded-full bg-[#E5A500] text-white font-black text-base flex items-center justify-center shadow-xs">
-            3
-          </span>
-        ) : (
-          <span className={`font-black text-base ${isCurrentUser ? "text-white" : "text-ink-muted"}`}>
-            {rank}
-          </span>
-        )}
-      </div>
-
-      {/* Kolom User */}
-      <div className="col-span-6 flex items-center gap-3 min-w-0">
-        <div
-          className={`w-10 h-10 rounded-full flex items-center justify-center font-black text-base uppercase shrink-0 ${
-            isCurrentUser ? "bg-white text-primary" : "bg-gem-soft text-gem-edge"
+      <div className="col-span-2 text-center">
+        <span
+          className={`inline-flex h-7 w-7 items-center justify-center rounded-xl text-xs font-black ${
+            rank === 1
+              ? "bg-amber-400 text-white"
+              : rank === 2
+              ? "bg-slate-300 text-slate-800"
+              : rank === 3
+              ? "bg-amber-600 text-white"
+              : "text-ink-muted"
           }`}
         >
-          {user.name.charAt(0)}
+          {rank}
+        </span>
+      </div>
+
+      <div className="col-span-6 flex items-center gap-2.5 min-w-0 pr-2">
+        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-surface-low text-xs font-black text-ink uppercase">
+          {user.name.slice(0, 2)}
         </div>
-        <div className="flex flex-col min-w-0">
-          <div className="flex items-center gap-1.5 truncate">
-            <span className={`font-black text-sm truncate ${isCurrentUser ? "text-white" : "text-on-surface"}`}>
-              {isCurrentUser ? `${user.name} (Kamu)` : user.name}
-            </span>
-            {rank === 1 && <span className="icon text-streak text-sm">crown</span>}
-          </div>
-          <div className={`flex items-center gap-1 text-xs font-bold ${isCurrentUser ? "text-white/80" : "text-ink-muted"}`}>
-            <span className="icon text-[13px] text-streak">local_fire_department</span>
-            <span>{user.streak} Hari</span>
-          </div>
+        <div className="min-w-0 flex-1">
+          <p className="truncate text-xs font-black text-ink">
+            {user.name} {isCurrentUser && <span className="text-emerald-700 font-extrabold">(Kamu)</span>}
+          </p>
+          <span className="text-[10px] font-bold text-ink-muted">{user.streak} Hari Streak</span>
         </div>
       </div>
 
-      {/* Kolom XP */}
       <div className="col-span-2 text-right">
-        <span className={`font-black text-sm ${isCurrentUser ? "text-white" : "text-primary"}`}>
-          {user.xp.toLocaleString("id-ID")}
-        </span>
-        <span className={`block text-[10px] font-bold ${isCurrentUser ? "text-white/80" : "text-ink-muted"}`}>
-          XP
-        </span>
+        <span className="text-xs font-black text-ink">{user.xp}</span>
+        <span className="block text-[9px] font-bold text-ink-muted uppercase">XP</span>
       </div>
 
-      {/* Kolom Status Badge */}
-      <div className="col-span-2 flex justify-center">
-        {status === "promo" ? (
-          <span
-            className={`inline-flex items-center gap-0.5 px-2.5 py-0.5 rounded-full text-xs font-black ${
-              isCurrentUser ? "bg-white text-primary-dark" : "bg-primary-soft text-primary-dark"
-            }`}
-          >
-            <span className="icon text-xs">arrow_upward</span> Naik
-          </span>
-        ) : status === "down" ? (
-          <span
-            className={`inline-flex items-center gap-0.5 px-2.5 py-0.5 rounded-full text-xs font-black ${
-              isCurrentUser ? "bg-white text-ruby-edge" : "bg-ruby-soft text-ruby-edge"
-            }`}
-          >
-            <span className="icon text-xs">arrow_downward</span> Turun
-          </span>
-        ) : (
-          <span
-            className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-black ${
-              isCurrentUser ? "bg-white/20 text-white" : "bg-surface-low text-ink-muted"
-            }`}
-          >
-            Tetap
-          </span>
-        )}
+      <div className="col-span-2 text-center">
+        <span
+          className={`inline-block px-2 py-0.5 rounded-full text-[10px] font-black uppercase ${
+            status === "promo"
+              ? "bg-emerald-100 text-emerald-800"
+              : status === "demote"
+              ? "bg-rose-100 text-rose-800"
+              : "bg-slate-100 text-slate-600"
+          }`}
+        >
+          {status === "promo" ? "Naik" : status === "demote" ? "Turun" : "Tetap"}
+        </span>
       </div>
-    </motion.div>
+    </div>
   );
 }

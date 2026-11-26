@@ -2,31 +2,106 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { motion } from "motion/react";
+import { motion, AnimatePresence } from "motion/react";
 import { GameIcon } from "../../components/game-icon";
 import { StatBar } from "../../components/stats";
+import { Button } from "../../components/ui/button";
+import { Card, CardHeader, CardTitle, CardContent } from "../../components/ui/card";
 import type { User } from "../../lib/users";
 import type { Lesson } from "../../lib/curriculum";
 
-interface WordItem {
+export interface WordItem {
+  id: string;
   word: string;
+  ipa: string;
   meaning: string;
-  level: "weak" | "mastered";
+  example: string;
+  category: "Percakapan" | "Tata Bahasa" | "Kosakata Kerja" | "Umum";
+  level: "weak" | "learning" | "mastered";
   mastery: number; // 0 - 100
 }
 
-// Koleksi kosakata interaktif dari materi babak dasar
-const VOCABULARY_LIST: WordItem[] = [
-  { word: "Good morning", meaning: "Selamat pagi", level: "mastered", mastery: 100 },
-  { word: "Good afternoon", meaning: "Selamat siang / sore", level: "mastered", mastery: 85 },
-  { word: "Good night", meaning: "Selamat malam / tidur", level: "mastered", mastery: 90 },
-  { word: "Where are you from?", meaning: "Kamu berasal dari mana?", level: "weak", mastery: 45 },
-  { word: "Subject pronouns", meaning: "Kata ganti subjek (I, You, They, We)", level: "mastered", mastery: 80 },
-  { word: "Doctor", meaning: "Dokter", level: "mastered", mastery: 100 },
-  { word: "Student", meaning: "Siswa / pelajar", level: "mastered", mastery: 95 },
-  { word: "Awkward", meaning: "Canggung / kikuk", level: "weak", mastery: 30 },
-  { word: "Thorough", meaning: "Menyeluruh / teliti", level: "weak", mastery: 40 },
-  { word: "Accomplish", meaning: "Mencapai / menuntaskan", level: "mastered", mastery: 80 },
+const RICH_VOCABULARY: WordItem[] = [
+  {
+    id: "v1",
+    word: "Good morning",
+    ipa: "/ɡʊd ˈmɔː.nɪŋ/",
+    meaning: "Selamat pagi (sapaan formal/santai)",
+    example: "Good morning! Did you sleep well last night?",
+    category: "Percakapan",
+    level: "mastered",
+    mastery: 100,
+  },
+  {
+    id: "v2",
+    word: "Where are you from?",
+    ipa: "/weər ɑːr juː frɒm/",
+    meaning: "Kamu berasal dari mana? (menanyakan asal)",
+    example: "I am from Indonesia, where are you from?",
+    category: "Percakapan",
+    level: "weak",
+    mastery: 45,
+  },
+  {
+    id: "v3",
+    word: "Subject pronouns",
+    ipa: "/ˈsʌb.dʒɪkt ˈprəʊ.naʊn/",
+    meaning: "Kata ganti subjek pelaku (I, You, They, We, He, She, It)",
+    example: "She is a doctor and they are university students.",
+    category: "Tata Bahasa",
+    level: "mastered",
+    mastery: 90,
+  },
+  {
+    id: "v4",
+    word: "Awkward",
+    ipa: "/ˈɔː.kwəd/",
+    meaning: "Canggung, kikuk, atau serba salah",
+    example: "There was an awkward silence when he walked in.",
+    category: "Umum",
+    level: "weak",
+    mastery: 30,
+  },
+  {
+    id: "v5",
+    word: "Thorough",
+    ipa: "/ˈθʌr.ə/",
+    meaning: "Menyeluruh, teliti, dan cermat",
+    example: "She gave the contract a thorough review before signing.",
+    category: "Kosakata Kerja",
+    level: "weak",
+    mastery: 40,
+  },
+  {
+    id: "v6",
+    word: "Accomplish",
+    ipa: "/əˈkʌm.plɪʃ/",
+    meaning: "Mencapai, menuntaskan, atau berhasil menyelesaikan",
+    example: "We accomplished all our daily study goals today.",
+    category: "Kosakata Kerja",
+    level: "mastered",
+    mastery: 85,
+  },
+  {
+    id: "v7",
+    word: "How do you do",
+    ipa: "/haʊ duː juː duː/",
+    meaning: "Salam perkenalan sangat formal (dijawab dengan kalimat yang sama)",
+    example: "Pleased to meet you, Mr. Smith. How do you do?",
+    category: "Percakapan",
+    level: "learning",
+    mastery: 60,
+  },
+  {
+    id: "v8",
+    word: "Preposition of time",
+    ipa: "/ˌprep.əˈzɪʃ.ən əv taɪm/",
+    meaning: "Kata depan waktu (in untuk bulan/tahun, on untuk hari, at untuk jam)",
+    example: "Our meeting starts at 9 AM on Monday.",
+    category: "Tata Bahasa",
+    level: "learning",
+    mastery: 55,
+  },
 ];
 
 export interface LatihanProps {
@@ -37,21 +112,25 @@ export interface LatihanProps {
 
 export function LatihanView({ user, doneLessons, firstLessonId }: LatihanProps) {
   const [filter, setFilter] = useState<"all" | "weak" | "mastered">("all");
+  const [search, setSearch] = useState("");
+  const [activeVoiceId, setActiveVoiceId] = useState<string | null>(null);
 
-  const filteredWords = VOCABULARY_LIST.filter((w) => {
-    if (filter === "all") return true;
-    return w.level === filter;
+  const filteredWords = RICH_VOCABULARY.filter((w) => {
+    const matchesFilter = filter === "all" ? true : w.level === filter;
+    const matchesSearch =
+      w.word.toLowerCase().includes(search.toLowerCase()) ||
+      w.meaning.toLowerCase().includes(search.toLowerCase());
+    return matchesFilter && matchesSearch;
   });
 
-  const weakCount = VOCABULARY_LIST.filter((w) => w.level === "weak").length;
-  const masteredCount = VOCABULARY_LIST.filter((w) => w.level === "mastered").length;
-
-  // Latih suara (SpeechSynthesis)
-  const speakWord = (text: string) => {
+  const speak = (text: string, id: string) => {
     if (typeof window !== "undefined" && "speechSynthesis" in window) {
       window.speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
       u.lang = "en-US";
+      u.rate = 0.9;
+      setActiveVoiceId(id);
+      u.onend = () => setActiveVoiceId(null);
       window.speechSynthesis.speak(u);
     }
   };
@@ -59,396 +138,301 @@ export function LatihanView({ user, doneLessons, firstLessonId }: LatihanProps) 
   const targetLessonId = doneLessons[0]?.id ?? firstLessonId;
 
   return (
-    <div className="w-full max-w-7xl mx-auto py-6">
+    <div className="w-full py-6">
       <div className="mb-6">
         <StatBar user={user} />
       </div>
 
-      {/* Top Practice Hub Hero Header Card */}
-      <div className="w-full bg-white rounded-3xl border-2 border-line p-4 shadow-sm mb-4 relative overflow-hidden">
-        {/* <div className="absolute -right-12 -top-12 w-64 h-64 bg-primary-soft/40 rounded-full blur-2xl pointer-events-none" />
-        <div className="absolute right-48 -bottom-16 w-48 h-48 bg-gem-soft/50 rounded-full blur-xl pointer-events-none" /> */}
-
-        <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between">
-          <div className="pl-2">
-            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-primary-soft text-primary-dark rounded-full mb-3 text-xs font-black tracking-wider">
-              <span className="icon text-lg">bolt</span>
-              <span>Pusat Latihan Cepat</span>
-            </div>
-            <h1 className="text-xl font-black text-on-surface tracking-tight">
-              Pusat Latihan Mandiri
+      {/* Hero Banner: English Skill Lab */}
+      <div className="relative overflow-hidden rounded-3xl border border-line bg-gradient-to-r from-slate-900 to-slate-800 p-6 sm:p-8 text-white shadow-md mb-8">
+        <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div className="max-w-xl">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/20 border border-emerald-400/30 px-3 py-1 text-xs font-black uppercase tracking-wider text-emerald-300 mb-3">
+              <span className="icon text-sm">auto_awesome</span> English Skill Lab
+            </span>
+            <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
+              Pusat Latihan Mandiri &amp; Bicara
             </h1>
-            <p className="text-sm text-ink-muted">
-              Asah kemampuanmu, tinjau kembali kata-kata yang sulit, atau dapatkan hati tambahan secara cuma-cuma!
+            <p className="mt-1 text-sm font-medium text-slate-300 leading-relaxed">
+              Tingkatkan kelancaran berbicara, perbaiki kesalahan tata bahasa yang sering dilakukan, dan kuasai kosakata aktif setiap hari.
             </p>
           </div>
 
-          {/* Daily Practice Goal Progress Capsule */}
-          <div className="w-full md:w-80 bg-surface-low px-4 py-6 rounded-xl border-1 border-line flex flex-col gap-2 shadow-xs shrink-0">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-1.5">
-                <GameIcon name="crown" size={24} alt="Target" />
-                <span className="font-black text-xs text-on-surface">Target Latihan Hari Ini</span>
-              </div>
-              <span className="font-black text-xs text-primary-dark bg-primary-soft px-2.5 py-0.5 rounded-full">
-                +40 XP
-              </span>
-            </div>
-            <div className="flex items-center justify-between text-xs font-bold text-ink-muted mt-1">
-              <span>{Math.min(user.daily.lessons, 3)} dari 3 Sesi Selesai</span>
-              <span className="text-primary-dark font-black">
-                {Math.round((Math.min(user.daily.lessons, 3) / 3) * 100)}%
-              </span>
-            </div>
-            {/* Tactile Glossy Progress Tube */}
-            <div className="w-full h-3.5 bg-line rounded-full overflow-hidden p-0.5 relative shadow-inner">
-              <motion.div
-                className="h-full bg-primary rounded-full relative"
-                initial={{ width: 0 }}
-                animate={{ width: `${(Math.min(user.daily.lessons, 3) / 3) * 100}%` }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
-              >
-                <div className="absolute top-0 left-0 right-0 h-1 bg-white/40 rounded-full" />
-              </motion.div>
-            </div>
+          <div className="flex shrink-0 flex-col sm:flex-row gap-3">
+            <Link href={`/lesson/${targetLessonId}`}>
+              <Button variant="primary" size="lg" className="w-full sm:w-auto">
+                <span className="icon text-xl">play_arrow</span> Latihan Kilat (+15 XP)
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
 
-      {/* Main Content Layout (2 Columns: Main Hub 8 Cols + Right Sidebar 4 Cols) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Left Column: Training Modes & Word Bank (8 Cols) */}
-        <div className="lg:col-span-8 flex flex-col gap-4">
-          {/* Section Header */}
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="icon text-primary text-2xl">fitness_center</span>
-              <h2 className="text-xl font-black text-on-surface">Mode Latihan Unggulan</h2>
-            </div>
-            <span className="text-xs font-black text-ink-muted uppercase tracking-wider">
-              Pilih jenis latihan harianmu
-            </span>
-          </div>
-
-          {/* 4 Primary Training Mode Bento Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-            {/* Card 1: Latihan Hati */}
-            <div className="bg-white rounded-3xl border-2 border-line p-6 flex flex-col justify-between shadow-xs">
+      <div className="grid gap-8 lg:grid-cols-12">
+        {/* Kolom Kiri: 4 Mode Latihan Utama + Vocabulary Vault (8 Kolom) */}
+        <div className="lg:col-span-8 flex flex-col gap-8">
+          {/* Section: 4 Mode Latihan Spesialis */}
+          <section>
+            <div className="mb-4 flex items-center justify-between">
               <div>
-                <div className="flex items-start justify-between mb-2">
-                  <div className="w-14 h-14 rounded-2xl bg-ruby-soft/60 flex items-center justify-center border-2 border-ruby/20">
-                    <GameIcon name="heart" size={36} alt="Hati" />
-                  </div>
-                  <div className="grid gap-1">
-                    <span className="px-3 py-1 bg-green/50 border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
-                      <span className="icon text-green-600 text-sm">favorite</span> +1 Setiap 30 Menit
-                    </span>
-                    <span className="px-3 py-1 bg-surface-low border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
-                      <span className="icon text-yellow-600 text-sm">watch_later</span> Tiap 30 Menit
+                <h2 className="text-xl font-black text-ink">4 Pilar Latihan Bahasa</h2>
+                <p className="text-xs font-bold text-ink-muted">Pilih mode latihan sesuai keterampilan yang ingin kamu asah hari ini</p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {/* 1. Pronunciation Lab */}
+              <Card className="p-5 flex flex-col justify-between hover:border-slate-300 transition-all">
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600">
+                      <span className="icon text-2xl">mic</span>
+                    </div>
+                    <span className="rounded-full bg-indigo-50 border border-indigo-200/60 px-2.5 py-0.5 text-[10px] font-black uppercase text-indigo-700">
+                      Pelafalan &amp; IPA
                     </span>
                   </div>
+                  <h3 className="text-base font-black text-ink">Latihan Pelafalan (Speaking)</h3>
+                  <p className="mt-1 text-xs font-medium text-ink-muted leading-relaxed">
+                    Latih aksen dan kelancaran intonasi kata sulit dengan panduan fonetik resmi IPA dan speech synthesis.
+                  </p>
                 </div>
-                <h3 className="text-lg font-black text-on-surface mb-1">Latihan Pemulihan Hati</h3>
-                <p className="text-xs font-bold text-ink-muted mb-3 leading-relaxed">
-                  Selesaikan sesi kilat tanpa batas untuk memulihkan 1 Hati cadangan tanpa menunggu timer reset.
-                </p>
-              </div>
-              <Link
-                href={`/lesson/${targetLessonId}`}
-                className={`w-full btn ${user.hearts >= 5 ? "btn-ghost opacity-70" : "btn-ruby"} !py-3 text-sm`}
-              >
-                <span className="icon text-lg">{user.hearts >= 5 ? "check_circle" : "favorite"}</span>
-                {user.hearts >= 5 ? "Hati Sudah Penuh (+10 XP)" : "Latih Hati (+10 XP)"}
-              </Link>
-            </div>
+                <Link href={`/lesson/${targetLessonId}`} className="mt-4 block">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Latih Suara (+20 XP)
+                  </Button>
+                </Link>
+              </Card>
 
-            {/* Card 2: Review Kosakata Lemah */}
-            <div className="bg-white rounded-3xl border-2 border-line p-6 flex flex-col justify-between shadow-xs">
-              <div>
-                <div className="flex items-start justify-between mb-2">
-                  <div className="w-14 h-14 rounded-2xl bg-streak/20 flex items-center justify-center border-2 border-streak/40">
-                    <span className="icon text-streak-edge text-3xl">target</span>
-                  </div>
-                  <div className="grid gap-1">
-                    <span className="px-3 py-1 bg-surface-low border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
-                      <span className="icon text-streak-edge text-sm">target</span> {weakCount} Perlu Diulang
-                    </span>
-                    <span className="px-3 py-1 bg-surface-low border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
-                      <span className="icon text-streak-edge text-sm">watch_later</span> Tiap 1 Jam
+              {/* 2. Grammar Clinic */}
+              <Card className="p-5 flex flex-col justify-between hover:border-slate-300 transition-all">
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-amber-50 text-amber-600">
+                      <span className="icon text-2xl">menu_book</span>
+                    </div>
+                    <span className="rounded-full bg-amber-50 border border-amber-200/60 px-2.5 py-0.5 text-[10px] font-black uppercase text-amber-700">
+                      Klinik Grammar
                     </span>
                   </div>
+                  <h3 className="text-base font-black text-ink">Bedah Tata Bahasa</h3>
+                  <p className="mt-1 text-xs font-medium text-ink-muted leading-relaxed">
+                    Pelajari pola tenses, preposition (in/on/at), dan perbaiki kekeliruan struktur kalimat umum.
+                  </p>
                 </div>
-                <h3 className="text-lg font-black text-on-surface mb-1">Tinjau Kesalahan</h3>
-                <p className="text-xs font-bold text-ink-muted mb-3 leading-relaxed">
-                  Kosakata yang sempat keliru pada kuis sebelumnya membutuhkan perhatian khusus agar terekam optimal.
-                </p>
-              </div>
-              <Link
-                href={`/lesson/${targetLessonId}`}
-                className="w-full btn btn-primary !py-3 text-sm flex items-center justify-center gap-1.5"
-              >
-                <span className="icon text-lg">replay</span> Tinjau Kesalahan (+15 XP)
-              </Link>
-            </div>
+                <Link href={`/lesson/${targetLessonId}`} className="mt-4 block">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Mulai Klinik (+15 XP)
+                  </Button>
+                </Link>
+              </Card>
 
-            {/* Card 3: Latihan Mendengarkan & Pengucapan */}
-            <div className="bg-white rounded-3xl border-2 border-line p-6 flex flex-col justify-between shadow-xs">
-              <div>
-                <div className="flex items-start justify-between mb-4">
-                  <div className="w-14 h-14 rounded-2xl bg-gem-soft flex items-center justify-center border-2 border-gem/30">
-                    <span className="icon text-gem-edge text-3xl">graphic_eq</span>
+              {/* 3. Daily Dialogue Bites */}
+              <Card className="p-5 flex flex-col justify-between hover:border-slate-300 transition-all">
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-600">
+                      <span className="icon text-2xl">forum</span>
+                    </div>
+                    <span className="rounded-full bg-emerald-50 border border-emerald-200/60 px-2.5 py-0.5 text-[10px] font-black uppercase text-emerald-700">
+                      Simulasi Percakapan
+                    </span>
                   </div>
-                  <span className="px-3 py-1 bg-gem-soft text-gem-edge font-black text-xs rounded-full">
-                    Audio &amp; Bicara
-                  </span>
+                  <h3 className="text-base font-black text-ink">Dialog Dunia Nyata</h3>
+                  <p className="mt-1 text-xs font-medium text-ink-muted leading-relaxed">
+                    Simulasi 3 kalimat percakapan situasional saat di kantor, memesan kopi di kafe, atau menyapa rekan baru.
+                  </p>
                 </div>
-                <h3 className="text-lg font-black text-on-surface mb-1">Mendengar &amp; Bicara</h3>
-                <p className="text-xs font-bold text-ink-muted mb-6 leading-relaxed">
-                  Tingkatkan aksen, intonasi, dan kepekaan telinga dengan latihan audio interaktif langsung dari sistem speech synthesis.
-                </p>
-              </div>
-              <Link
-                href={`/lesson/${targetLessonId}`}
-                className="w-full btn btn-gem !py-3 text-sm flex items-center justify-center gap-1.5"
-              >
-                <span className="icon text-lg">mic</span> Latih Suara (+20 XP)
-              </Link>
-            </div>
+                <Link href={`/lesson/${targetLessonId}`} className="mt-4 block">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Buka Dialog (+15 XP)
+                  </Button>
+                </Link>
+              </Card>
 
-            {/* Card 4: Tantangan Kilat Waktu */}
-            <div className="bg-white rounded-3xl border-2 border-line p-6 flex flex-col justify-between shadow-xs">
-              <div>
-                <div className="flex items-start justify-between mb-4">
-                  <div className="w-14 h-14 rounded-2xl bg-primary-soft flex items-center justify-center border-2 border-primary/30">
-                    <GameIcon name="bolt" size={32} alt="Speed" />
+              {/* 4. Speed Sprint */}
+              <Card className="p-5 flex flex-col justify-between hover:border-slate-300 transition-all">
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+                      <span className="icon text-2xl">timer</span>
+                    </div>
+                    <span className="rounded-full bg-rose-50 border border-rose-200/60 px-2.5 py-0.5 text-[10px] font-black uppercase text-rose-700">
+                      Refleks 60 Detik
+                    </span>
                   </div>
-                  <span className="px-3 py-1 bg-surface-low border border-line font-black text-xs text-ink-muted rounded-full">
-                    Refleks Cepat
-                  </span>
+                  <h3 className="text-base font-black text-ink">Tantangan Kilat Refleks</h3>
+                  <p className="mt-1 text-xs font-medium text-ink-muted leading-relaxed">
+                    Pacu kecepatan otak menerjemahkan kata dan memilih sinonim dalam 60 detik tanpa jeda.
+                  </p>
                 </div>
-                <h3 className="text-lg font-black text-on-surface mb-1">Tantangan Kilat</h3>
-                <p className="text-xs font-bold text-ink-muted mb-6 leading-relaxed">
-                  Cocokkan kosakata dan artinya secepat mungkin sebelum waktu habis. Pacu refleks berpikir bahasamumu!
-                </p>
-              </div>
-              <Link
-                href={`/lesson/${targetLessonId}`}
-                className="w-full btn btn-primary !py-3 text-sm flex items-center justify-center gap-1.5"
-              >
-                <span className="icon text-lg">speed</span> Mulai Kilat (+25 XP)
-              </Link>
+                <Link href={`/lesson/${targetLessonId}`} className="mt-4 block">
+                  <Button variant="outline" size="sm" className="w-full">
+                    Mulai Sprint (+25 XP)
+                  </Button>
+                </Link>
+              </Card>
             </div>
-          </div>
+          </section>
 
-          {/* Section: Koleksi Kosakata Terpelajari (Vocabulary Vault) */}
-          <div className="bg-white rounded-3xl border-2 border-line p-6 sm:p-8 shadow-xs flex flex-col gap-6">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          {/* Section: Vocabulary Vault (Kaya Konteks Kalimat) */}
+          <section>
+            <div className="mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div>
-                <h3 className="text-xl font-black text-on-surface">Koleksi Kosakata Terpelajari</h3>
-                <p className="text-xs font-bold text-ink-muted">Pantau kekuatan memori dari kata-kata yang telah kamu kuasai</p>
+                <h2 className="text-xl font-black text-ink">Gudang Kosakata Aktif (Vault)</h2>
+                <p className="text-xs font-bold text-ink-muted">Koleksi kata yang dipelajari lengkap dengan simbol IPA &amp; contoh kalimat</p>
               </div>
 
-              {/* Filter Tabs */}
-              <div className="flex items-center gap-1 bg-surface-low p-1 rounded-2xl border border-line">
-                <button
-                  onClick={() => setFilter("all")}
-                  className={`px-3 py-1.5 rounded-xl font-black text-xs transition-all ${
-                    filter === "all" ? "bg-white text-on-surface shadow-xs" : "text-ink-muted hover:text-ink"
-                  }`}
-                >
-                  Semua ({VOCABULARY_LIST.length})
-                </button>
-                <button
-                  onClick={() => setFilter("weak")}
-                  className={`px-3 py-1.5 rounded-xl font-black text-xs transition-all ${
-                    filter === "weak" ? "bg-white text-on-surface shadow-xs" : "text-ink-muted hover:text-ink"
-                  }`}
-                >
-                  Perlu Diulang ({weakCount})
-                </button>
-                <button
-                  onClick={() => setFilter("mastered")}
-                  className={`px-3 py-1.5 rounded-xl font-black text-xs transition-all ${
-                    filter === "mastered" ? "bg-white text-on-surface shadow-xs" : "text-ink-muted hover:text-ink"
-                  }`}
-                >
-                  Dikuasai ({masteredCount})
-                </button>
+              {/* Filter Tabs & Search */}
+              <div className="flex items-center gap-2">
+                <div className="inline-flex rounded-xl bg-surface-low p-1 border border-line text-xs font-black">
+                  <button
+                    onClick={() => setFilter("all")}
+                    className={`px-3 py-1 rounded-lg transition-colors cursor-pointer ${
+                      filter === "all" ? "bg-white text-ink shadow-xs" : "text-ink-muted"
+                    }`}
+                  >
+                    Semua ({RICH_VOCABULARY.length})
+                  </button>
+                  <button
+                    onClick={() => setFilter("weak")}
+                    className={`px-3 py-1 rounded-lg transition-colors cursor-pointer ${
+                      filter === "weak" ? "bg-white text-rose-600 shadow-xs" : "text-ink-muted"
+                    }`}
+                  >
+                    Perlu Latihan (3)
+                  </button>
+                  <button
+                    onClick={() => setFilter("mastered")}
+                    className={`px-3 py-1 rounded-lg transition-colors cursor-pointer ${
+                      filter === "mastered" ? "bg-white text-emerald-600 shadow-xs" : "text-ink-muted"
+                    }`}
+                  >
+                    Dikuasai (4)
+                  </button>
+                </div>
               </div>
             </div>
 
-            {/* Words List Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-              {filteredWords.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="flex items-center justify-between p-3.5 bg-surface-low border border-line/60 rounded-2xl hover:bg-surface-container transition-colors"
-                >
-                  <div className="flex items-center gap-3">
-                    <button
-                      onClick={() => speakWord(item.word)}
-                      title="Dengarkan pengucapan"
-                      className="w-9 h-9 rounded-full bg-white border border-line flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors shadow-xs"
-                    >
-                      <span className="icon text-base">volume_up</span>
-                    </button>
-                    <div>
-                      <div className="font-black text-sm text-on-surface flex items-center gap-1.5">
-                        <span>{item.word}</span>
-                        {item.level === "weak" ? (
-                          <span className="text-[10px] font-black text-ruby-edge bg-ruby-soft px-1.5 py-0.2 rounded-md">
-                            Lemah
-                          </span>
-                        ) : (
-                          <span className="text-[10px] font-black text-primary-dark bg-primary-soft px-1.5 py-0.2 rounded-md">
-                            Dikuasai
-                          </span>
-                        )}
+            {/* List Kartu Kosakata Kaya Konteks */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+              {filteredWords.map((item) => (
+                <Card key={item.id} className="p-4 flex flex-col justify-between hover:border-slate-300 transition-all">
+                  <div>
+                    <div className="flex items-start justify-between gap-2 mb-1.5">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <h4 className="text-base font-black text-ink">{item.word}</h4>
+                          <button
+                            type="button"
+                            onClick={() => speak(item.word, item.id)}
+                            className="flex h-7 w-7 items-center justify-center rounded-lg bg-surface-low text-primary hover:bg-primary hover:text-white transition-colors cursor-pointer"
+                            title="Dengarkan pengucapan"
+                          >
+                            <span className="icon text-base">
+                              {activeVoiceId === item.id ? "graphic_eq" : "volume_up"}
+                            </span>
+                          </button>
+                        </div>
+                        <span className="font-mono text-xs font-semibold text-slate-500">{item.ipa}</span>
                       </div>
-                      <div className="text-xs font-bold text-ink-muted">{item.meaning}</div>
+
+                      <span
+                        className={`rounded-full px-2 py-0.5 text-[10px] font-black uppercase ${
+                          item.level === "mastered"
+                            ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                            : item.level === "weak"
+                            ? "bg-rose-50 text-rose-700 border border-rose-200"
+                            : "bg-amber-50 text-amber-700 border border-amber-200"
+                        }`}
+                      >
+                        {item.level === "mastered" ? "Dikuasai" : item.level === "weak" ? "Perlu Dilatih" : "Sedang Dipelajari"}
+                      </span>
+                    </div>
+
+                    <p className="text-xs font-bold text-ink-muted mb-2.5">{item.meaning}</p>
+
+                    <div className="rounded-xl bg-surface-low p-2.5 border border-slate-200/60">
+                      <p className="text-xs font-medium text-slate-700 italic">
+                        &ldquo;{item.example}&rdquo;
+                      </p>
                     </div>
                   </div>
 
-                  <div className="flex flex-col items-end gap-1">
-                    <div className="flex gap-1">
-                      {[1, 2, 3, 4].map((bar) => {
-                        const filled = item.mastery >= bar * 25;
-                        return (
-                          <span
-                            key={bar}
-                            className={`w-2 h-1.5 rounded-full ${
-                              filled
-                                ? item.level === "weak"
-                                  ? "bg-ruby"
-                                  : "bg-primary"
-                                : "bg-line"
-                            }`}
-                          />
-                        );
-                      })}
-                    </div>
-                    <span
-                      className={`text-[11px] font-black ${
-                        item.level === "weak" ? "text-ruby-edge" : "text-primary-dark"
-                      }`}
-                    >
-                      {item.mastery}%
-                    </span>
+                  <div className="mt-3 pt-2.5 border-t border-line flex items-center justify-between text-[11px] font-bold text-ink-muted">
+                    <span>Kategori: {item.category}</span>
+                    <span className="font-mono font-black text-emerald-600">{item.mastery}% Hafal</span>
                   </div>
-                </div>
+                </Card>
               ))}
             </div>
-          </div>
+          </section>
         </div>
 
-        {/* Right Column: Mascot Recommendation & Weekly Practice Analytics (4 Cols) */}
-        <aside className="lg:col-span-4 flex flex-col gap-6 sticky top-24">
-          {/* Mascot Advice Card with Speech Bubble */}
-          <div className="bg-white rounded-3xl border-2 border-line p-6 shadow-xs flex flex-col gap-4 relative overflow-hidden">
-            <div className="flex items-center gap-2">
-              <span className="px-3 py-1 bg-streak/20 text-streak-edge font-black text-xs rounded-full uppercase tracking-wider">
-                Tips Maskot Cakapin
-              </span>
+        {/* Kolom Kanan: Sticky Insights, AI Tutor Tip, & Statistik (4 Kolom) */}
+        <aside className="lg:col-span-4 flex flex-col gap-6 lg:sticky lg:top-6 lg:h-fit">
+          {/* AI Language Insight Box */}
+          <Card className="p-5 border-emerald-500/30 bg-emerald-50/20">
+            <div className="flex items-center gap-2 text-emerald-800 mb-3">
+              <span className="icon text-2xl text-emerald-600">tips_and_updates</span>
+              <h3 className="text-sm font-black uppercase tracking-wider">Cakapin Grammar Insight</h3>
+            </div>
+            <p className="text-xs font-bold text-slate-700 leading-relaxed">
+              Banyak yang keliru antara <strong className="text-emerald-950">&ldquo;Hear&rdquo;</strong> dan{" "}
+              <strong className="text-emerald-950">&ldquo;Listen&rdquo;</strong>.
+            </p>
+            <div className="mt-2.5 rounded-2xl bg-white p-3 border border-emerald-200/60 text-xs text-slate-600 space-y-1.5 font-medium">
+              <p>
+                • <strong>Hear:</strong> Menangkap suara tanpa sengaja (refleks telinga).
+              </p>
+              <p>
+                • <strong>Listen:</strong> Memperhatikan suara secara sadar dan aktif.
+              </p>
+            </div>
+          </Card>
+
+          {/* Statistik Belajar Pekan Ini */}
+          <Card className="p-5">
+            <div className="flex items-center justify-between pb-3 border-b border-line mb-4">
+              <h3 className="text-sm font-black uppercase tracking-wider text-ink">Performa Pekan Ini</h3>
+              <span className="icon text-slate-400 text-xl">analytics</span>
             </div>
 
-            <div className="flex items-start gap-3">
-              <div className="w-16 h-16 shrink-0 rounded-2xl bg-primary-soft flex items-center justify-center p-1 border-2 border-primary/20 shadow-xs">
-                <GameIcon name="mascotSpeak" size={48} alt="Maskot" />
-              </div>
-              {/* Speech Bubble */}
-              <div className="bg-surface-low border border-line p-3.5 rounded-2xl rounded-tl-none relative shadow-xs">
-                <p className="text-xs font-bold text-on-surface leading-snug">
-                  “Kamu hebat dalam tata bahasa! Coba fokus pada{" "}
-                  <span className="text-gem-edge font-black">Latihan Suara &amp; Mendengarkan</span> hari ini agar skor ligamu makin melesat naik!”
-                </p>
-              </div>
-            </div>
-
-            <Link
-              href={`/lesson/${targetLessonId}`}
-              className="w-full btn btn-primary !py-3 text-sm flex items-center justify-center gap-2"
-            >
-              <span className="icon text-xl">play_circle</span> Ikuti Saran Maskot
-            </Link>
-          </div>
-
-          {/* Weekly Practice Analytics Card */}
-          <div className="bg-white rounded-3xl border-2 border-line p-6 shadow-xs flex flex-col gap-4">
-            <div className="flex items-center justify-between pb-1 border-b-2 border-line">
-              <h3 className="font-black text-base text-on-surface">Statistik Pekan Ini</h3>
-              <span className="icon text-ink-muted text-xl">insights</span>
-            </div>
-
-            {/* Metric 1 */}
-            <div className="flex items-center justify-between p-3 bg-surface-low rounded-2xl border border-line">
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-gem-soft text-gem-edge flex items-center justify-center">
-                  <span className="icon text-xl">schedule</span>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center justify-between p-3 rounded-2xl bg-surface-low">
+                <div className="flex items-center gap-2.5">
+                  <span className="icon text-primary text-xl">schedule</span>
+                  <div>
+                    <span className="block text-xs font-black text-ink">45 Menit</span>
+                    <span className="text-[10px] font-bold text-ink-muted">Waktu Berlatih</span>
+                  </div>
                 </div>
-                <div>
-                  <div className="text-xs font-bold text-ink-muted">Waktu Latihan</div>
-                  <div className="font-black text-sm text-on-surface">45 Menit</div>
-                </div>
+                <span className="text-xs font-black text-emerald-600">+12% vs lalu</span>
               </div>
-              <span className="text-xs font-black text-primary-dark bg-primary-soft px-2 py-0.5 rounded-full">
-                +12% vs lalu
-              </span>
-            </div>
 
-            {/* Metric 2 */}
-            <div className="flex items-center justify-between p-3 bg-surface-low rounded-2xl border border-line">
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-primary-soft text-primary-dark flex items-center justify-center">
-                  <span className="icon text-xl">verified</span>
+              <div className="flex items-center justify-between p-3 rounded-2xl bg-surface-low">
+                <div className="flex items-center gap-2.5">
+                  <span className="icon text-indigo-500 text-xl">verified</span>
+                  <div>
+                    <span className="block text-xs font-black text-ink">92%</span>
+                    <span className="text-[10px] font-bold text-ink-muted">Akurasi Jawaban</span>
+                  </div>
                 </div>
-                <div>
-                  <div className="text-xs font-bold text-ink-muted">Akurasi Rata-rata</div>
-                  <div className="font-black text-sm text-on-surface">92%</div>
-                </div>
+                <span className="text-xs font-black text-indigo-600">Sangat Baik</span>
               </div>
-              <span className="text-xs font-black text-primary-dark bg-primary-soft px-2 py-0.5 rounded-full">
-                Luar biasa!
-              </span>
-            </div>
 
-            {/* Metric 3 */}
-            <div className="flex items-center justify-between p-3 bg-surface-low rounded-2xl border border-line">
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-streak/20 text-streak-edge flex items-center justify-center">
-                  <span className="icon text-xl">school</span>
+              <div className="flex items-center justify-between p-3 rounded-2xl bg-surface-low">
+                <div className="flex items-center gap-2.5">
+                  <span className="icon text-amber-500 text-xl">menu_book</span>
+                  <div>
+                    <span className="block text-xs font-black text-ink">{RICH_VOCABULARY.length} Kosakata</span>
+                    <span className="text-[10px] font-bold text-ink-muted">Tersimpan di Vault</span>
+                  </div>
                 </div>
-                <div>
-                  <div className="text-xs font-bold text-ink-muted">Kosakata Dikuasai</div>
-                  <div className="font-black text-sm text-on-surface">+{VOCABULARY_LIST.length} Kata</div>
-                </div>
-              </div>
-              <span className="text-xs font-black text-streak-edge bg-streak/20 px-2 py-0.5 rounded-full">
-                Minggu ini
-              </span>
-            </div>
-
-            {/* 7-Day Consistency Bars */}
-            <div className="pt-2 flex flex-col gap-1.5">
-              <div className="flex justify-between items-center text-xs font-black">
-                <span className="text-ink-muted">Konsistensi 7 Hari</span>
-                <span className="text-primary-dark font-black">{Math.min(user.streak, 7)} Hari Aktif 🔥</span>
-              </div>
-              <div className="flex items-end justify-between h-14 pt-2 px-2 bg-surface-low rounded-2xl border border-line">
-                {["Sen", "Sel", "Rab", "Kam", "Jum", "Sab", "Min"].map((day, i) => {
-                  const active = i < Math.min(user.streak, 7);
-                  return (
-                    <div key={day} className="flex flex-col items-center gap-1">
-                      <div
-                        className={`w-4 rounded-t-sm ${active ? "bg-primary" : "bg-line"}`}
-                        style={{ height: active ? `${20 + (i % 3) * 8}px` : "6px" }}
-                      />
-                      <span className="text-[10px] font-bold text-ink-muted">{day}</span>
-                    </div>
-                  );
-                })}
+                <span className="text-xs font-black text-amber-600">+5 Kata Baru</span>
               </div>
             </div>
-          </div>
+          </Card>
         </aside>
       </div>
     </div>

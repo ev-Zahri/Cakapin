@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Kegiatan Kemarin",
+    "color": "primary",
+    "levels": [
+      {
+        "level": "Kosakata aktivitas lampau",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pergi' (bentuk lampau)?",
+                "options": ["went", "go", "going", "gone"],
+                "answer": "went"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'makan' (bentuk lampau)?",
+                "options": ["ate", "eat", "eaten", "eating"],
+                "answer": "ate"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'minum' (bentuk lampau)?",
+                "options": ["drank", "drink", "drunk", "drinking"],
+                "answer": "drank"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tidur' (bentuk lampau)?",
+                "options": ["slept", "sleep", "sleeping", "slepted"],
+                "answer": "slept"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'membeli' (bentuk lampau)?",
+                "options": ["bought", "buy", "buying", "boughted"],
+                "answer": "bought"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke sekolah kemarin'",
+                "words": ["I", "to", "went", "school", "yesterday"],
+                "answer": ["I", "went", "to", "school", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia makan nasi tadi malam'",
+                "words": ["He", "rice", "ate", "last", "night"],
+                "answer": ["He", "ate", "rice", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku minum kopi pagi ini'",
+                "words": ["I", "coffee", "drank", "this", "morning"],
+                "answer": ["I", "drank", "coffee", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidur jam sepuluh tadi malam'",
+                "words": ["She", "at", "slept", "ten", "last", "night"],
+                "answer": ["She", "slept", "at", "ten", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membeli buku baru kemarin'",
+                "words": ["I", "a", "bought", "new", "book", "yesterday"],
+                "answer": ["I", "bought", "a", "new", "book", "yesterday"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'melihat' (bentuk lampau)?",
+                "options": ["saw", "see", "seen", "seeing"],
+                "answer": "saw"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'menulis' (bentuk lampau)?",
+                "options": ["wrote", "write", "written", "writing"],
+                "answer": "wrote"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berbicara' (bentuk lampau)?",
+                "options": ["spoke", "speak", "spoken", "speaking"],
+                "answer": "spoke"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berlari' (bentuk lampau)?",
+                "options": ["ran", "run", "running", "runned"],
+                "answer": "ran"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'memberi' (bentuk lampau)?",
+                "options": ["gave", "give", "given", "giving"],
+                "answer": "gave"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku melihat film kemarin'",
+                "words": ["I", "a", "saw", "movie", "yesterday"],
+                "answer": ["I", "saw", "a", "movie", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia menulis surat tadi malam'",
+                "words": ["He", "a", "wrote", "letter", "last", "night"],
+                "answer": ["He", "wrote", "a", "letter", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku berbicara dengan guruku kemarin'",
+                "words": ["I", "to", "spoke", "my", "teacher", "yesterday"],
+                "answer": ["I", "spoke", "to", "my", "teacher", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berlari di taman tadi pagi'",
+                "words": ["She", "in", "ran", "the", "park", "this", "morning"],
+                "answer": ["She", "ran", "in", "the", "park", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku memberinya hadiah kemarin'",
+                "words": ["I", "him", "gave", "a", "gift", "yesterday"],
+                "answer": ["I", "gave", "him", "a", "gift", "yesterday"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'membuat' (bentuk lampau)?",
+                "options": ["made", "make", "making", "maked"],
+                "answer": "made"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'mengambil' (bentuk lampau)?",
+                "options": ["took", "take", "taken", "taking"],
+                "answer": "took"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'datang' (bentuk lampau)?",
+                "options": ["came", "come", "coming", "comed"],
+                "answer": "came"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'mendengar' (bentuk lampau)?",
+                "options": ["heard", "hear", "hearing", "heared"],
+                "answer": "heard"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'memulai' (bentuk lampau)?",
+                "options": ["began", "begin", "begun", "beginning"],
+                "answer": "began"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membuat kue kemarin'",
+                "words": ["I", "a", "made", "cake", "yesterday"],
+                "answer": ["I", "made", "a", "cake", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mengambil tasku tadi pagi'",
+                "words": ["He", "my", "took", "bag", "this", "morning"],
+                "answer": ["He", "took", "my", "bag", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku datang ke pesta tadi malam'",
+                "words": ["I", "to", "came", "the", "party", "last", "night"],
+                "answer": ["I", "came", "to", "the", "party", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mendengar suara aneh tadi malam'",
+                "words": ["She", "a", "heard", "strange", "sound", "last", "night"],
+                "answer": ["She", "heard", "a", "strange", "sound", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kelas dimulai jam delapan kemarin'",
+                "words": ["The", "at", "class", "began", "eight", "yesterday"],
+                "answer": ["The", "class", "began", "at", "eight", "yesterday"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Simple Past: regular verbs",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'play' adalah...",
+                "options": ["played", "plaied", "playd", "playing"],
+                "answer": "played"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'watch' adalah...",
+                "options": ["watched", "watchd", "watchied", "watching"],
+                "answer": "watched"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'study' adalah...",
+                "options": ["studied", "studyed", "studed", "studying"],
+                "answer": "studied"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'cook' adalah...",
+                "options": ["cooked", "cookd", "cookied", "cooking"],
+                "answer": "cooked"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'visit' adalah...",
+                "options": ["visited", "visitted", "visitd", "visiting"],
+                "answer": "visited"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku bermain sepak bola kemarin'",
+                "words": ["I", "soccer", "played", "yesterday"],
+                "answer": ["I", "played", "soccer", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia menonton TV tadi malam'",
+                "words": ["He", "TV", "watched", "last", "night"],
+                "answer": ["He", "watched", "TV", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku belajar bahasa Inggris kemarin'",
+                "words": ["I", "English", "studied", "yesterday"],
+                "answer": ["I", "studied", "English", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku memasak makan malam tadi malam'",
+                "words": ["My", "cooked", "mother", "dinner", "last", "night"],
+                "answer": ["My", "mother", "cooked", "dinner", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami mengunjungi kakek kemarin'",
+                "words": ["We", "my", "visited", "grandfather", "yesterday"],
+                "answer": ["We", "visited", "my", "grandfather", "yesterday"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'clean' adalah...",
+                "options": ["cleaned", "cleand", "cleanied", "cleaning"],
+                "answer": "cleaned"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'dance' adalah...",
+                "options": ["danced", "danceed", "dancd", "dancing"],
+                "answer": "danced"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'carry' adalah...",
+                "options": ["carried", "carryed", "carrid", "carrying"],
+                "answer": "carried"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'help' adalah...",
+                "options": ["helped", "helpd", "helpied", "helping"],
+                "answer": "helped"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'call' adalah...",
+                "options": ["called", "calld", "callied", "calling"],
+                "answer": "called"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membersihkan kamarku kemarin'",
+                "words": ["I", "my", "cleaned", "room", "yesterday"],
+                "answer": ["I", "cleaned", "my", "room", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia menari di pesta tadi malam'",
+                "words": ["She", "at", "danced", "the", "party", "last", "night"],
+                "answer": ["She", "danced", "at", "the", "party", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membawa tasku kemarin'",
+                "words": ["I", "my", "carried", "bag", "yesterday"],
+                "answer": ["I", "carried", "my", "bag", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia membantuku kemarin'",
+                "words": ["He", "me", "helped", "yesterday"],
+                "answer": ["He", "helped", "me", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku menelepon ibuku tadi malam'",
+                "words": ["I", "my", "called", "mother", "last", "night"],
+                "answer": ["I", "called", "my", "mother", "last", "night"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'stop' adalah...",
+                "options": ["stopped", "stoped", "stopd", "stoping"],
+                "answer": "stopped"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'plan' adalah...",
+                "options": ["planned", "planed", "pland", "planing"],
+                "answer": "planned"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'try' adalah...",
+                "options": ["tried", "tryed", "tryd", "trying"],
+                "answer": "tried"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'open' adalah...",
+                "options": ["opened", "openned", "opend", "opening"],
+                "answer": "opened"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'travel' adalah...",
+                "options": ["travelled", "traveled", "travelled", "travelling"],
+                "answer": "travelled"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku berhenti di toko kemarin'",
+                "words": ["I", "at", "stopped", "the", "store", "yesterday"],
+                "answer": ["I", "stopped", "at", "the", "store", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami merencanakan perjalanan tadi malam'",
+                "words": ["We", "a", "planned", "trip", "last", "night"],
+                "answer": ["We", "planned", "a", "trip", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku mencoba makanan baru kemarin'",
+                "words": ["I", "new", "tried", "food", "yesterday"],
+                "answer": ["I", "tried", "new", "food", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia membuka jendela tadi pagi'",
+                "words": ["She", "the", "opened", "window", "this", "morning"],
+                "answer": ["She", "opened", "the", "window", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami bepergian ke Bali tahun lalu'",
+                "words": ["We", "to", "travelled", "Bali", "last", "year"],
+                "answer": ["We", "travelled", "to", "Bali", "last", "year"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Simple Past: irregular verbs",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'go' adalah...",
+                "options": ["went", "goed", "gone", "going"],
+                "answer": "went"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'eat' adalah...",
+                "options": ["ate", "eated", "eaten", "eating"],
+                "answer": "ate"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'have' adalah...",
+                "options": ["had", "haved", "having", "has"],
+                "answer": "had"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'do' adalah...",
+                "options": ["did", "doed", "done", "doing"],
+                "answer": "did"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'say' adalah...",
+                "options": ["said", "sayed", "sayd", "saying"],
+                "answer": "said"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke pantai kemarin'",
+                "words": ["I", "to", "went", "the", "beach", "yesterday"],
+                "answer": ["I", "went", "to", "the", "beach", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia makan apel tadi pagi'",
+                "words": ["He", "an", "ate", "apple", "this", "morning"],
+                "answer": ["He", "ate", "an", "apple", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya banyak pekerjaan kemarin'",
+                "words": ["I", "a", "had", "lot", "of", "work", "yesterday"],
+                "answer": ["I", "had", "a", "lot", "of", "work", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia melakukan pekerjaan rumahnya tadi malam'",
+                "words": ["She", "her", "did", "homework", "last", "night"],
+                "answer": ["She", "did", "her", "homework", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mengatakan sesuatu yang penting kemarin'",
+                "words": ["He", "something", "said", "important", "yesterday"],
+                "answer": ["He", "said", "something", "important", "yesterday"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'see' adalah...",
+                "options": ["saw", "seed", "seen", "seeing"],
+                "answer": "saw"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'come' adalah...",
+                "options": ["came", "comed", "coming", "come"],
+                "answer": "came"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'take' adalah...",
+                "options": ["took", "taked", "taken", "taking"],
+                "answer": "took"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'give' adalah...",
+                "options": ["gave", "gived", "given", "giving"],
+                "answer": "gave"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'know' adalah...",
+                "options": ["knew", "knowed", "known", "knowing"],
+                "answer": "knew"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku melihat temanku kemarin'",
+                "words": ["I", "my", "saw", "friend", "yesterday"],
+                "answer": ["I", "saw", "my", "friend", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia datang terlambat tadi pagi'",
+                "words": ["He", "late", "came", "this", "morning"],
+                "answer": ["He", "came", "late", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku mengambil foto kemarin'",
+                "words": ["I", "a", "took", "photo", "yesterday"],
+                "answer": ["I", "took", "a", "photo", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memberiku buku tadi malam'",
+                "words": ["She", "me", "gave", "a", "book", "last", "night"],
+                "answer": ["She", "gave", "me", "a", "book", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tahu jawabannya kemarin'",
+                "words": ["I", "the", "knew", "answer", "yesterday"],
+                "answer": ["I", "knew", "the", "answer", "yesterday"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'buy' adalah...",
+                "options": ["bought", "buyed", "buying", "boughten"],
+                "answer": "bought"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'think' adalah...",
+                "options": ["thought", "thinked", "thinking", "thoughten"],
+                "answer": "thought"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'bring' adalah...",
+                "options": ["brought", "bringed", "bringing", "broughten"],
+                "answer": "brought"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'teach' adalah...",
+                "options": ["taught", "teached", "teaching", "taughten"],
+                "answer": "taught"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk lampau dari 'find' adalah...",
+                "options": ["found", "finded", "finding", "founden"],
+                "answer": "found"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membeli sepatu baru kemarin'",
+                "words": ["I", "new", "bought", "shoes", "yesterday"],
+                "answer": ["I", "bought", "new", "shoes", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berpikir tentang masalah itu tadi malam'",
+                "words": ["He", "about", "thought", "the", "problem", "last", "night"],
+                "answer": ["He", "thought", "about", "the", "problem", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membawa payung kemarin'",
+                "words": ["I", "an", "brought", "umbrella", "yesterday"],
+                "answer": ["I", "brought", "an", "umbrella", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mengajar bahasa Inggris tahun lalu'",
+                "words": ["She", "English", "taught", "last", "year"],
+                "answer": ["She", "taught", "English", "last", "year"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku menemukan dompet di jalan kemarin'",
+                "words": ["I", "a", "found", "wallet", "on", "the", "street", "yesterday"],
+                "answer": ["I", "found", "a", "wallet", "on", "the", "street", "yesterday"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Negatif & tanya (didn't / Did you...?)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ go to school yesterday' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ you watch TV last night?'",
+                "options": ["Did", "Do", "Was", "Were"],
+                "answer": "Did"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ eat breakfast this morning' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ he call you yesterday?'",
+                "options": ["Did", "Do", "Was", "Were"],
+                "answer": "Did"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ come to the party' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak pergi ke sekolah kemarin'",
+                "words": ["I", "to", "didn't", "go", "school", "yesterday"],
+                "answer": ["I", "didn't", "go", "to", "school", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu menonton TV tadi malam?'",
+                "words": ["Did", "watch", "you", "TV", "last", "night"],
+                "answer": ["Did", "you", "watch", "TV", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak makan sarapan pagi ini'",
+                "words": ["She", "eat", "didn't", "breakfast", "this", "morning"],
+                "answer": ["She", "didn't", "eat", "breakfast", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia meneleponmu kemarin?'",
+                "words": ["Did", "call", "he", "you", "yesterday"],
+                "answer": ["Did", "he", "call", "you", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka tidak datang ke pesta'",
+                "words": ["They", "to", "didn't", "come", "the", "party"],
+                "answer": ["They", "didn't", "come", "to", "the", "party"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ buy a new car last year' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ they visit you last week?'",
+                "options": ["Did", "Do", "Was", "Were"],
+                "answer": "Did"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ see the movie yesterday' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ she finish her homework?'",
+                "options": ["Did", "Do", "Was", "Were"],
+                "answer": "Did"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ know the answer yesterday' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak membeli mobil baru tahun lalu'",
+                "words": ["He", "a", "didn't", "buy", "new", "car", "last", "year"],
+                "answer": ["He", "didn't", "buy", "a", "new", "car", "last", "year"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah mereka mengunjungimu minggu lalu?'",
+                "words": ["Did", "visit", "they", "you", "last", "week"],
+                "answer": ["Did", "they", "visit", "you", "last", "week"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami tidak menonton film kemarin'",
+                "words": ["We", "the", "didn't", "see", "movie", "yesterday"],
+                "answer": ["We", "didn't", "see", "the", "movie", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia menyelesaikan pekerjaan rumahnya?'",
+                "words": ["Did", "finish", "she", "her", "homework"],
+                "answer": ["Did", "she", "finish", "her", "homework"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak tahu jawabannya kemarin'",
+                "words": ["I", "the", "didn't", "know", "answer", "yesterday"],
+                "answer": ["I", "didn't", "know", "the", "answer", "yesterday"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ come to school because they were sick' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ you eat breakfast this morning?'",
+                "options": ["Did", "Do", "Was", "Were"],
+                "answer": "Did"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ call her mother last night' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ he go to the gym yesterday?'",
+                "options": ["Did", "Do", "Was", "Were"],
+                "answer": "Did"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ have any homework yesterday' (negatif)",
+                "options": ["didn't", "don't", "wasn't", "not"],
+                "answer": "didn't"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka tidak datang ke sekolah karena sakit'",
+                "words": ["They", "to", "didn't", "come", "school", "because", "they", "were", "sick"],
+                "answer": ["They", "didn't", "come", "to", "school", "because", "they", "were", "sick"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu makan sarapan pagi ini?'",
+                "words": ["Did", "eat", "you", "breakfast", "this", "morning"],
+                "answer": ["Did", "you", "eat", "breakfast", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak menelepon ibunya tadi malam'",
+                "words": ["She", "her", "didn't", "call", "mother", "last", "night"],
+                "answer": ["She", "didn't", "call", "her", "mother", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia pergi ke gym kemarin?'",
+                "words": ["Did", "go", "he", "to", "the", "gym", "yesterday"],
+                "answer": ["Did", "he", "go", "to", "the", "gym", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami tidak punya pekerjaan rumah kemarin'",
+                "words": ["We", "any", "didn't", "have", "homework", "yesterday"],
+                "answer": ["We", "didn't", "have", "any", "homework", "yesterday"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: cerita kemarin",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Yesterday, I woke up at six and went to school.' Pertanyaan: Jam berapa pembicara bangun kemarin?",
+                "options": ["Jam enam", "Jam lima", "Jam tujuh", "Jam delapan"],
+                "answer": "Jam enam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I ate breakfast with my family and then watched TV.' Pertanyaan: Apa yang dilakukan pembicara setelah sarapan?",
+                "options": ["Menonton TV", "Pergi ke sekolah", "Tidur", "Membaca buku"],
+                "answer": "Menonton TV"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She cooked dinner and cleaned the kitchen last night.' Pertanyaan: Apa yang dilakukan dia tadi malam?",
+                "options": ["Memasak makan malam dan membersihkan dapur", "Menonton TV dan tidur", "Membaca buku dan belajar", "Menelepon teman dan menulis"],
+                "answer": "Memasak makan malam dan membersihkan dapur"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We went to the beach and played soccer yesterday.' Pertanyaan: Di mana mereka bermain sepak bola?",
+                "options": ["Di pantai", "Di sekolah", "Di taman", "Di rumah"],
+                "answer": "Di pantai"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He bought a new book and read it all day.' Pertanyaan: Apa yang dibeli dia?",
+                "options": ["Buku baru", "Majalah", "Koran", "Komik"],
+                "answer": "Buku baru"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kemarin, aku bangun jam enam dan pergi ke sekolah'",
+                "words": ["Yesterday", "I", "woke", "up", "at", "six", "and", "went", "to", "school"],
+                "answer": ["Yesterday", "I", "woke", "up", "at", "six", "and", "went", "to", "school"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku sarapan dengan keluargaku lalu menonton TV'",
+                "words": ["I", "ate", "breakfast", "with", "my", "family", "and", "then", "watched", "TV"],
+                "answer": ["I", "ate", "breakfast", "with", "my", "family", "and", "then", "watched", "TV"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia memasak makan malam dan membersihkan dapur tadi malam'",
+                "words": ["She", "cooked", "dinner", "and", "cleaned", "the", "kitchen", "last", "night"],
+                "answer": ["She", "cooked", "dinner", "and", "cleaned", "the", "kitchen", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami pergi ke pantai dan bermain sepak bola kemarin'",
+                "words": ["We", "went", "to", "the", "beach", "and", "played", "soccer", "yesterday"],
+                "answer": ["We", "went", "to", "the", "beach", "and", "played", "soccer", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia membeli buku baru dan membacanya sepanjang hari'",
+                "words": ["He", "bought", "a", "new", "book", "and", "read", "it", "all", "day"],
+                "answer": ["He", "bought", "a", "new", "book", "and", "read", "it", "all", "day"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Last weekend, I visited my grandparents and had lunch with them.' Pertanyaan: Siapa yang dikunjungi pembicara akhir pekan lalu?",
+                "options": ["Kakek dan nenek", "Orang tua", "Teman", "Saudara"],
+                "answer": "Kakek dan nenek"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I studied English for two hours and then did my homework.' Pertanyaan: Berapa lama pembicara belajar bahasa Inggris?",
+                "options": ["Dua jam", "Satu jam", "Tiga jam", "Empat jam"],
+                "answer": "Dua jam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He played basketball and swam in the pool yesterday.' Pertanyaan: Apa yang dilakukan dia kemarin?",
+                "options": ["Bermain basket dan berenang", "Bermain sepak bola dan berlari", "Bermain tenis dan bersepeda", "Bermain voli dan melompat"],
+                "answer": "Bermain basket dan berenang"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She went to the market and bought some vegetables.' Pertanyaan: Di mana dia pergi?",
+                "options": ["Ke pasar", "Ke mall", "Ke sekolah", "Ke rumah sakit"],
+                "answer": "Ke pasar"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We saw a movie and ate dinner at a restaurant last night.' Pertanyaan: Di mana mereka makan malam?",
+                "options": ["Di restoran", "Di rumah", "Di kantin", "Di kafe"],
+                "answer": "Di restoran"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Akhir pekan lalu, aku mengunjungi kakek dan nenekku dan makan siang bersama mereka'",
+                "words": ["Last", "weekend", "I", "visited", "my", "grandparents", "and", "had", "lunch", "with", "them"],
+                "answer": ["Last", "weekend", "I", "visited", "my", "grandparents", "and", "had", "lunch", "with", "them"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku belajar bahasa Inggris selama dua jam lalu mengerjakan PR'",
+                "words": ["I", "studied", "English", "for", "two", "hours", "and", "then", "did", "my", "homework"],
+                "answer": ["I", "studied", "English", "for", "two", "hours", "and", "then", "did", "my", "homework"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia bermain basket dan berenang di kolam kemarin'",
+                "words": ["He", "played", "basketball", "and", "swam", "in", "the", "pool", "yesterday"],
+                "answer": ["He", "played", "basketball", "and", "swam", "in", "the", "pool", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia pergi ke pasar dan membeli sayuran'",
+                "words": ["She", "went", "to", "the", "market", "and", "bought", "some", "vegetables"],
+                "answer": ["She", "went", "to", "the", "market", "and", "bought", "some", "vegetables"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami menonton film dan makan malam di restoran tadi malam'",
+                "words": ["We", "saw", "a", "movie", "and", "ate", "dinner", "at", "a", "restaurant", "last", "night"],
+                "answer": ["We", "saw", "a", "movie", "and", "ate", "dinner", "at", "a", "restaurant", "last", "night"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Yesterday, I woke up late and missed the bus.' Pertanyaan: Mengapa pembicara melewatkan bus?",
+                "options": ["Bangun terlambat", "Tidak ada bus", "Bus rusak", "Hujan"],
+                "answer": "Bangun terlambat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I finished my project and celebrated with my friends.' Pertanyaan: Apa yang dilakukan pembicara setelah menyelesaikan proyek?",
+                "options": ["Merayakan dengan teman-teman", "Pergi tidur", "Pergi ke sekolah", "Menonton TV"],
+                "answer": "Merayakan dengan teman-teman"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She travelled to Bali and stayed there for a week.' Pertanyaan: Berapa lama dia tinggal di Bali?",
+                "options": ["Satu minggu", "Dua hari", "Tiga minggu", "Satu bulan"],
+                "answer": "Satu minggu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He found a wallet on the street and returned it to its owner.' Pertanyaan: Apa yang ditemukan di jalan?",
+                "options": ["Dompet", "Uang", "Tas", "Ponsel"],
+                "answer": "Dompet"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We planted trees in the garden and watered them yesterday.' Pertanyaan: Apa yang mereka tanam di taman?",
+                "options": ["Pohon", "Bunga", "Sayuran", "Buah"],
+                "answer": "Pohon"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kemarin, aku bangun terlambat dan melewatkan bus'",
+                "words": ["Yesterday", "I", "woke", "up", "late", "and", "missed", "the", "bus"],
+                "answer": ["Yesterday", "I", "woke", "up", "late", "and", "missed", "the", "bus"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku menyelesaikan proyekku dan merayakan dengan teman-temanku'",
+                "words": ["I", "finished", "my", "project", "and", "celebrated", "with", "my", "friends"],
+                "answer": ["I", "finished", "my", "project", "and", "celebrated", "with", "my", "friends"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia bepergian ke Bali dan tinggal di sana selama seminggu'",
+                "words": ["She", "travelled", "to", "Bali", "and", "stayed", "there", "for", "a", "week"],
+                "answer": ["She", "travelled", "to", "Bali", "and", "stayed", "there", "for", "a", "week"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia menemukan dompet di jalan dan mengembalikannya kepada pemiliknya'",
+                "words": ["He", "found", "a", "wallet", "on", "the", "street", "and", "returned", "it", "to", "its", "owner"],
+                "answer": ["He", "found", "a", "wallet", "on", "the", "street", "and", "returned", "it", "to", "its", "owner"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami menanam pohon di taman dan menyiraminya kemarin'",
+                "words": ["We", "planted", "trees", "in", "the", "garden", "and", "watered", "them", "yesterday"],
+                "answer": ["We", "planted", "trees", "in", "the", "garden", "and", "watered", "them", "yesterday"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: menceritakan hari kemarin",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku pergi ke sekolah kemarin'?",
+                "options": ["I went to school yesterday", "I go to school yesterday", "I went school yesterday", "I am go to school yesterday"],
+                "answer": "I went to school yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia makan nasi tadi malam'?",
+                "options": ["He ate rice last night", "He eat rice last night", "He ate rice last night", "He is eat rice last night"],
+                "answer": "He ate rice last night"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku menonton film kemarin'?",
+                "options": ["I watched a movie yesterday", "I watch a movie yesterday", "I watched movie yesterday", "I am watch a movie yesterday"],
+                "answer": "I watched a movie yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami bermain sepak bola kemarin'?",
+                "options": ["We played soccer yesterday", "We play soccer yesterday", "We played soccer yesterday", "We are play soccer yesterday"],
+                "answer": "We played soccer yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku tidak pergi ke sekolah kemarin'?",
+                "options": ["I didn't go to school yesterday", "I don't go to school yesterday", "I didn't went to school yesterday", "I not go to school yesterday"],
+                "answer": "I didn't go to school yesterday"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kemarin, aku bangun jam tujuh dan sarapan'",
+                "words": ["Yesterday", "I", "woke", "up", "at", "seven", "and", "ate", "breakfast"],
+                "answer": ["Yesterday", "I", "woke", "up", "at", "seven", "and", "ate", "breakfast"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku pergi ke sekolah dan belajar bahasa Inggris'",
+                "words": ["I", "went", "to", "school", "and", "studied", "English"],
+                "answer": ["I", "went", "to", "school", "and", "studied", "English"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia makan malam dan menonton TV tadi malam'",
+                "words": ["He", "ate", "dinner", "and", "watched", "TV", "last", "night"],
+                "answer": ["He", "ate", "dinner", "and", "watched", "TV", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami bermain sepak bola dan berenang kemarin'",
+                "words": ["We", "played", "soccer", "and", "swam", "yesterday"],
+                "answer": ["We", "played", "soccer", "and", "swam", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku tidak pergi ke sekolah kemarin karena sakit'",
+                "words": ["I", "to", "didn't", "go", "school", "yesterday", "because", "I", "was", "sick"],
+                "answer": ["I", "didn't", "go", "to", "school", "yesterday", "because", "I", "was", "sick"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku mengunjungi kakekku kemarin'?",
+                "options": ["I visited my grandfather yesterday", "I visit my grandfather yesterday", "I visited my grandfather yesterday", "I am visit my grandfather yesterday"],
+                "answer": "I visited my grandfather yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia membeli buku baru kemarin'?",
+                "options": ["He bought a new book yesterday", "He buy a new book yesterday", "He bought new book yesterday", "He is buy a new book yesterday"],
+                "answer": "He bought a new book yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku membersihkan kamarku kemarin'?",
+                "options": ["I cleaned my room yesterday", "I clean my room yesterday", "I cleaned room yesterday", "I am clean my room yesterday"],
+                "answer": "I cleaned my room yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami mengunjungi pantai kemarin'?",
+                "options": ["We visited the beach yesterday", "We visit the beach yesterday", "We visited beach yesterday", "We are visit the beach yesterday"],
+                "answer": "We visited the beach yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku tidak makan sarapan pagi ini'?",
+                "options": ["I didn't eat breakfast this morning", "I don't eat breakfast this morning", "I didn't ate breakfast this morning", "I not eat breakfast this morning"],
+                "answer": "I didn't eat breakfast this morning"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kemarin, aku mengunjungi kakek dan nenekku'",
+                "words": ["Yesterday", "I", "visited", "my", "grandparents"],
+                "answer": ["Yesterday", "I", "visited", "my", "grandparents"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku membeli buku baru dan membacanya'",
+                "words": ["I", "bought", "a", "new", "book", "and", "read", "it"],
+                "answer": ["I", "bought", "a", "new", "book", "and", "read", "it"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia membersihkan kamarnya dan mencuci pakaian'",
+                "words": ["She", "cleaned", "her", "room", "and", "washed", "clothes"],
+                "answer": ["She", "cleaned", "her", "room", "and", "washed", "clothes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami mengunjungi pantai dan bermain di pasir'",
+                "words": ["We", "visited", "the", "beach", "and", "played", "in", "the", "sand"],
+                "answer": ["We", "visited", "the", "beach", "and", "played", "in", "the", "sand"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku tidak makan sarapan pagi ini karena terburu-buru'",
+                "words": ["I", "eat", "didn't", "breakfast", "this", "morning", "because", "I", "was", "in", "a", "hurry"],
+                "answer": ["I", "didn't", "eat", "breakfast", "this", "morning", "because", "I", "was", "in", "a", "hurry"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku pergi ke pasar kemarin'?",
+                "options": ["I went to the market yesterday", "I go to the market yesterday", "I went market yesterday", "I am go to the market yesterday"],
+                "answer": "I went to the market yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia menulis surat tadi malam'?",
+                "options": ["She wrote a letter last night", "She write a letter last night", "She wrote letter last night", "She is write a letter last night"],
+                "answer": "She wrote a letter last night"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku belajar bahasa Inggris kemarin'?",
+                "options": ["I studied English yesterday", "I study English yesterday", "I studied English yesterday", "I am study English yesterday"],
+                "answer": "I studied English yesterday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami makan malam di restoran tadi malam'?",
+                "options": ["We ate dinner at a restaurant last night", "We eat dinner at a restaurant last night", "We ate dinner at restaurant last night", "We are eat dinner at a restaurant last night"],
+                "answer": "We ate dinner at a restaurant last night"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku tidak menonton TV tadi malam'?",
+                "options": ["I didn't watch TV last night", "I don't watch TV last night", "I didn't watched TV last night", "I not watch TV last night"],
+                "answer": "I didn't watch TV last night"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kemarin, aku pergi ke pasar dan membeli sayuran'",
+                "words": ["Yesterday", "I", "went", "to", "the", "market", "and", "bought", "vegetables"],
+                "answer": ["Yesterday", "I", "went", "to", "the", "market", "and", "bought", "vegetables"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku menulis surat dan mengirimkannya tadi malam'",
+                "words": ["I", "wrote", "a", "letter", "and", "sent", "it", "last", "night"],
+                "answer": ["I", "wrote", "a", "letter", "and", "sent", "it", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia belajar bahasa Inggris dan mengerjakan PR'",
+                "words": ["She", "studied", "English", "and", "did", "her", "homework"],
+                "answer": ["She", "studied", "English", "and", "did", "her", "homework"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami makan malam di restoran dan menonton film'",
+                "words": ["We", "ate", "dinner", "at", "a", "restaurant", "and", "watched", "a", "movie"],
+                "answer": ["We", "ate", "dinner", "at", "a", "restaurant", "and", "watched", "a", "movie"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku tidak menonton TV tadi malam karena belajar'",
+                "words": ["I", "TV", "didn't", "watch", "last", "night", "because", "I", "studied"],
+                "answer": ["I", "didn't", "watch", "TV", "last", "night", "because", "I", "studied"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

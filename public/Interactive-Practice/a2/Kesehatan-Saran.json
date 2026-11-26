@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Kesehatan & Saran",
+    "color": "gem",
+    "levels": [
+      {
+        "level": "Kosakata penyakit & obat",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'obat'?",
+                "options": ["medicine", "pill", "syrup", "tablet"],
+                "answer": "medicine"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'demam'?",
+                "options": ["fever", "cough", "cold", "flu"],
+                "answer": "fever"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'flu'?",
+                "options": ["flu", "fever", "cold", "headache"],
+                "answer": "flu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit kepala'?",
+                "options": ["headache", "stomachache", "toothache", "backache"],
+                "answer": "headache"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'resep dokter'?",
+                "options": ["prescription", "recipe", "receipt", "medicine"],
+                "answer": "prescription"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku harus minum obat ini'",
+                "words": ["I", "to", "have", "take", "this", "medicine"],
+                "answer": ["I", "have", "to", "take", "this", "medicine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia demam dan sakit kepala'",
+                "words": ["He", "a", "has", "fever", "and", "a", "headache"],
+                "answer": ["He", "has", "a", "fever", "and", "a", "headache"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku perlu resep dokter untuk obat ini'",
+                "words": ["I", "a", "need", "prescription", "for", "this", "medicine"],
+                "answer": ["I", "need", "a", "prescription", "for", "this", "medicine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia flu dan batuk'",
+                "words": ["She", "the", "has", "flu", "and", "a", "cough"],
+                "answer": ["She", "has", "the", "flu", "and", "a", "cough"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku minum obat dua kali sehari'",
+                "words": ["I", "take", "medicine", "twice", "a", "day"],
+                "answer": ["I", "take", "medicine", "twice", "a", "day"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pil'?",
+                "options": ["pill", "syrup", "tablet", "capsule"],
+                "answer": "pill"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'batuk'?",
+                "options": ["cough", "fever", "cold", "sneeze"],
+                "answer": "cough"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pilek'?",
+                "options": ["cold", "fever", "flu", "cough"],
+                "answer": "cold"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit perut'?",
+                "options": ["stomachache", "headache", "toothache", "backache"],
+                "answer": "stomachache"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'apotek'?",
+                "options": ["pharmacy", "hospital", "clinic", "drugstore"],
+                "answer": "pharmacy"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku harus minum pil ini setelah makan'",
+                "words": ["I", "to", "have", "take", "this", "pill", "after", "meals"],
+                "answer": ["I", "have", "to", "take", "this", "pill", "after", "meals"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia batuk dan pilek'",
+                "words": ["He", "a", "has", "cough", "and", "a", "cold"],
+                "answer": ["He", "has", "a", "cough", "and", "a", "cold"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membeli obat di apotek'",
+                "words": ["I", "medicine", "bought", "at", "the", "pharmacy"],
+                "answer": ["I", "bought", "medicine", "at", "the", "pharmacy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sakit perut setelah makan'",
+                "words": ["She", "a", "has", "stomachache", "after", "eating"],
+                "answer": ["She", "has", "a", "stomachache", "after", "eating"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku minum sirup obat batuk'",
+                "words": ["I", "cough", "take", "syrup", "medicine"],
+                "answer": ["I", "take", "cough", "syrup", "medicine"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sirup obat'?",
+                "options": ["syrup", "pill", "tablet", "capsule"],
+                "answer": "syrup"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sakit gigi'?",
+                "options": ["toothache", "headache", "stomachache", "earache"],
+                "answer": "toothache"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'alergi'?",
+                "options": ["allergy", "asthma", "infection", "disease"],
+                "answer": "allergy"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'rumah sakit'?",
+                "options": ["hospital", "clinic", "pharmacy", "doctor's office"],
+                "answer": "hospital"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'vitamin'?",
+                "options": ["vitamin", "supplement", "medicine", "pill"],
+                "answer": "vitamin"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku harus minum sirup obat batuk ini'",
+                "words": ["I", "to", "have", "take", "this", "cough", "syrup"],
+                "answer": ["I", "have", "to", "take", "this", "cough", "syrup"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sakit gigi dan alergi'",
+                "words": ["He", "a", "has", "toothache", "and", "an", "allergy"],
+                "answer": ["He", "has", "a", "toothache", "and", "an", "allergy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke rumah sakit kemarin'",
+                "words": ["I", "to", "went", "the", "hospital", "yesterday"],
+                "answer": ["I", "went", "to", "the", "hospital", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum vitamin setiap pagi'",
+                "words": ["She", "vitamins", "takes", "every", "morning"],
+                "answer": ["She", "takes", "vitamins", "every", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku alergi terhadap kacang'",
+                "words": ["I", "an", "have", "allergy", "to", "peanuts"],
+                "answer": ["I", "have", "an", "allergy", "to", "peanuts"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Should / shouldn't",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ rest if you are sick' (saran)",
+                "options": ["should", "shouldn't", "have to", "don't have to"],
+                "answer": "should"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ eat too much sugar' (saran negatif)",
+                "options": ["shouldn't", "should", "have to", "don't have to"],
+                "answer": "shouldn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ drink more water' (saran)",
+                "options": ["should", "shouldn't", "have to", "don't have to"],
+                "answer": "should"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ smoke cigarettes' (saran negatif)",
+                "options": ["shouldn't", "should", "have to", "don't have to"],
+                "answer": "shouldn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ see a doctor' (saran)",
+                "options": ["should", "shouldn't", "have to", "don't have to"],
+                "answer": "should"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu sebaiknya beristirahat jika sakit'",
+                "words": ["You", "rest", "should", "if", "you", "are", "sick"],
+                "answer": ["You", "should", "rest", "if", "you", "are", "sick"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu sebaiknya tidak makan terlalu banyak gula'",
+                "words": ["You", "eat", "shouldn't", "too", "much", "sugar"],
+                "answer": ["You", "shouldn't", "eat", "too", "much", "sugar"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sebaiknya minum lebih banyak air'",
+                "words": ["She", "drink", "should", "more", "water"],
+                "answer": ["She", "should", "drink", "more", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sebaiknya tidak merokok'",
+                "words": ["He", "smoke", "shouldn't", "cigarettes"],
+                "answer": ["He", "shouldn't", "smoke", "cigarettes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka sebaiknya pergi ke dokter'",
+                "words": ["They", "see", "should", "a", "doctor"],
+                "answer": ["They", "should", "see", "a", "doctor"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ take this medicine twice a day' (saran)",
+                "options": ["should", "shouldn't", "have to", "don't have to"],
+                "answer": "should"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ stay up too late' (saran negatif)",
+                "options": ["shouldn't", "should", "have to", "don't have to"],
+                "answer": "shouldn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ exercise regularly' (saran)",
+                "options": ["should", "shouldn't", "have to", "don't have to"],
+                "answer": "should"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ skip breakfast' (saran negatif)",
+                "options": ["shouldn't", "should", "have to", "don't have to"],
+                "answer": "shouldn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ eat more vegetables' (saran)",
+                "options": ["should", "shouldn't", "have to", "don't have to"],
+                "answer": "should"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu sebaiknya minum obat ini dua kali sehari'",
+                "words": ["You", "take", "should", "this", "medicine", "twice", "a", "day"],
+                "answer": ["You", "should", "take", "this", "medicine", "twice", "a", "day"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu sebaiknya tidak begadang terlalu larut'",
+                "words": ["You", "stay", "shouldn't", "up", "too", "late"],
+                "answer": ["You", "shouldn't", "stay", "up", "too", "late"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sebaiknya berolahraga secara teratur'",
+                "words": ["He", "exercise", "should", "regularly"],
+                "answer": ["He", "should", "exercise", "regularly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sebaiknya tidak melewatkan sarapan'",
+                "words": ["She", "skip", "shouldn't", "breakfast"],
+                "answer": ["She", "shouldn't", "skip", "breakfast"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami sebaiknya makan lebih banyak sayur'",
+                "words": ["We", "eat", "should", "more", "vegetables"],
+                "answer": ["We", "should", "eat", "more", "vegetables"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ I take this medicine before meals?' (tanya saran)",
+                "options": ["Should", "Shouldn't", "Have to", "Don't have to"],
+                "answer": "Should"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ drink cold water when you have a sore throat' (saran negatif)",
+                "options": ["shouldn't", "should", "have to", "don't have to"],
+                "answer": "shouldn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ get enough sleep every night' (saran)",
+                "options": ["should", "shouldn't", "have to", "don't have to"],
+                "answer": "should"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ eat spicy food with a stomachache' (saran negatif)",
+                "options": ["shouldn't", "should", "have to", "don't have to"],
+                "answer": "shouldn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ drink more water in hot weather' (saran)",
+                "options": ["should", "shouldn't", "have to", "don't have to"],
+                "answer": "should"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah aku sebaiknya minum obat ini sebelum makan?'",
+                "words": ["Should", "I", "take", "this", "medicine", "before", "meals"],
+                "answer": ["Should", "I", "take", "this", "medicine", "before", "meals"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu sebaiknya tidak minum air dingin saat sakit tenggorokan'",
+                "words": ["You", "drink", "shouldn't", "cold", "water", "when", "you", "have", "a", "sore", "throat"],
+                "answer": ["You", "shouldn't", "drink", "cold", "water", "when", "you", "have", "a", "sore", "throat"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sebaiknya tidur yang cukup setiap malam'",
+                "words": ["He", "get", "should", "enough", "sleep", "every", "night"],
+                "answer": ["He", "should", "get", "enough", "sleep", "every", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sebaiknya tidak makan makanan pedas saat sakit perut'",
+                "words": ["She", "eat", "shouldn't", "spicy", "food", "with", "a", "stomachache"],
+                "answer": ["She", "shouldn't", "eat", "spicy", "food", "with", "a", "stomachache"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka sebaiknya minum lebih banyak air saat cuaca panas'",
+                "words": ["They", "drink", "should", "more", "water", "in", "hot", "weather"],
+                "answer": ["They", "should", "drink", "more", "water", "in", "hot", "weather"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Have to / don't have to",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ take this medicine every day' (keharusan)",
+                "options": ["have to", "don't have to", "should", "shouldn't"],
+                "answer": "have to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ come to the clinic today' (tidak wajib)",
+                "options": ["don't have to", "have to", "should", "shouldn't"],
+                "answer": "don't have to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ stay in bed for three days' (keharusan)",
+                "options": ["has to", "doesn't have to", "should", "shouldn't"],
+                "answer": "has to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ go to the hospital' (tidak wajib)",
+                "options": ["doesn't have to", "has to", "should", "shouldn't"],
+                "answer": "doesn't have to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ wear masks in the hospital' (keharusan)",
+                "options": ["have to", "don't have to", "should", "shouldn't"],
+                "answer": "have to"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku harus minum obat ini setiap hari'",
+                "words": ["I", "to", "have", "take", "this", "medicine", "every", "day"],
+                "answer": ["I", "have", "to", "take", "this", "medicine", "every", "day"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu tidak wajib datang ke klinik hari ini'",
+                "words": ["You", "to", "don't", "have", "come", "to", "the", "clinic", "today"],
+                "answer": ["You", "don't", "have", "to", "come", "to", "the", "clinic", "today"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia harus berbaring di tempat tidur selama tiga hari'",
+                "words": ["She", "to", "has", "stay", "in", "bed", "for", "three", "days"],
+                "answer": ["She", "has", "to", "stay", "in", "bed", "for", "three", "days"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak wajib pergi ke rumah sakit'",
+                "words": ["He", "to", "doesn't", "have", "go", "to", "the", "hospital"],
+                "answer": ["He", "doesn't", "have", "to", "go", "to", "the", "hospital"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami harus memakai masker di rumah sakit'",
+                "words": ["We", "to", "have", "wear", "masks", "in", "the", "hospital"],
+                "answer": ["We", "have", "to", "wear", "masks", "in", "the", "hospital"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ take a rest because he is sick' (keharusan)",
+                "options": ["has to", "doesn't have to", "should", "shouldn't"],
+                "answer": "has to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ go to work today' (tidak wajib)",
+                "options": ["doesn't have to", "has to", "should", "shouldn't"],
+                "answer": "doesn't have to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ drink this medicine after meals' (keharusan)",
+                "options": ["have to", "don't have to", "should", "shouldn't"],
+                "answer": "have to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ buy more medicine' (tidak wajib)",
+                "options": ["don't have to", "have to", "should", "shouldn't"],
+                "answer": "don't have to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ see the doctor tomorrow' (keharusan)",
+                "options": ["have to", "don't have to", "should", "shouldn't"],
+                "answer": "have to"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia harus beristirahat karena dia sakit'",
+                "words": ["He", "to", "has", "take", "a", "rest", "because", "he", "is", "sick"],
+                "answer": ["He", "has", "to", "take", "a", "rest", "because", "he", "is", "sick"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak wajib pergi bekerja hari ini'",
+                "words": ["She", "to", "doesn't", "have", "go", "to", "work", "today"],
+                "answer": ["She", "doesn't", "have", "to", "go", "to", "work", "today"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu harus minum obat ini setelah makan'",
+                "words": ["You", "to", "have", "take", "this", "medicine", "after", "meals"],
+                "answer": ["You", "have", "to", "take", "this", "medicine", "after", "meals"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami tidak wajib membeli obat lagi'",
+                "words": ["We", "to", "don't", "have", "buy", "more", "medicine"],
+                "answer": ["We", "don't", "have", "to", "buy", "more", "medicine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka harus menemui dokter besok'",
+                "words": ["They", "to", "have", "see", "the", "doctor", "tomorrow"],
+                "answer": ["They", "have", "to", "see", "the", "doctor", "tomorrow"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ I have to take this medicine every day?' (tanya keharusan)",
+                "options": ["Do", "Does", "Have", "Has"],
+                "answer": "Do"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ she have to stay at home?' (tanya keharusan)",
+                "options": ["Does", "Do", "Have", "Has"],
+                "answer": "Does"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ take this medicine, but I should' (tidak wajib)",
+                "options": ["don't have to", "have to", "should", "shouldn't"],
+                "answer": "don't have to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ drink more water' (keharusan)",
+                "options": ["has to", "doesn't have to", "should", "shouldn't"],
+                "answer": "has to"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ come early to the clinic' (tidak wajib)",
+                "options": ["don't have to", "have to", "should", "shouldn't"],
+                "answer": "don't have to"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah aku harus minum obat ini setiap hari?'",
+                "words": ["Do", "to", "I", "have", "take", "this", "medicine", "every", "day"],
+                "answer": ["Do", "I", "have", "to", "take", "this", "medicine", "every", "day"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia harus tinggal di rumah?'",
+                "words": ["Does", "to", "she", "have", "stay", "at", "home"],
+                "answer": ["Does", "she", "have", "to", "stay", "at", "home"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak wajib minum obat ini, tapi aku sebaiknya minum'",
+                "words": ["I", "to", "don't", "have", "take", "this", "medicine", "but", "I", "should"],
+                "answer": ["I", "don't", "have", "to", "take", "this", "medicine", "but", "I", "should"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia harus minum lebih banyak air'",
+                "words": ["He", "to", "has", "drink", "more", "water"],
+                "answer": ["He", "has", "to", "drink", "more", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka tidak wajib datang lebih awal ke klinik'",
+                "words": ["They", "to", "don't", "have", "come", "early", "to", "the", "clinic"],
+                "answer": ["They", "don't", "have", "to", "come", "early", "to", "the", "clinic"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Memberi saran (Why don't you...?)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak istirahat?'",
+                "options": ["Why don't you take a rest?", "Why you don't take a rest?", "Why not you take a rest?", "Why don't take a rest you?"],
+                "answer": "Why don't you take a rest?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak minum obat?'",
+                "options": ["Why don't you take the medicine?", "Why you don't take the medicine?", "Why not you take the medicine?", "Why don't take the medicine you?"],
+                "answer": "Why don't you take the medicine?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak ke dokter?'",
+                "options": ["Why don't you see a doctor?", "Why you don't see a doctor?", "Why not you see a doctor?", "Why don't see a doctor you?"],
+                "answer": "Why don't you see a doctor?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak minum lebih banyak air?'",
+                "options": ["Why don't you drink more water?", "Why you don't drink more water?", "Why not you drink more water?", "Why don't drink more water you?"],
+                "answer": "Why don't you drink more water?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak tidur lebih awal?'",
+                "options": ["Why don't you go to bed early?", "Why you don't go to bed early?", "Why not you go to bed early?", "Why don't go to bed early you?"],
+                "answer": "Why don't you go to bed early?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak istirahat?'",
+                "words": ["Why", "don't", "you", "take", "a", "rest"],
+                "answer": ["Why", "don't", "you", "take", "a", "rest"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak minum obat ini?'",
+                "words": ["Why", "don't", "you", "take", "this", "medicine"],
+                "answer": ["Why", "don't", "you", "take", "this", "medicine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak pergi ke dokter?'",
+                "words": ["Why", "don't", "you", "go", "to", "the", "doctor"],
+                "answer": ["Why", "don't", "you", "go", "to", "the", "doctor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak minum lebih banyak air?'",
+                "words": ["Why", "don't", "you", "drink", "more", "water"],
+                "answer": ["Why", "don't", "you", "drink", "more", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak tidur lebih awal?'",
+                "words": ["Why", "don't", "you", "go", "to", "bed", "early"],
+                "answer": ["Why", "don't", "you", "go", "to", "bed", "early"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak makan sayur?'",
+                "options": ["Why don't you eat vegetables?", "Why you don't eat vegetables?", "Why not you eat vegetables?", "Why don't eat vegetables you?"],
+                "answer": "Why don't you eat vegetables?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak berolahraga?'",
+                "options": ["Why don't you exercise?", "Why you don't exercise?", "Why not you exercise?", "Why don't exercise you?"],
+                "answer": "Why don't you exercise?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak berhenti merokok?'",
+                "options": ["Why don't you stop smoking?", "Why you don't stop smoking?", "Why not you stop smoking?", "Why don't stop smoking you?"],
+                "answer": "Why don't you stop smoking?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak minum teh hangat?'",
+                "options": ["Why don't you drink warm tea?", "Why you don't drink warm tea?", "Why not you drink warm tea?", "Why don't drink warm tea you?"],
+                "answer": "Why don't you drink warm tea?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak menelepon dokter?'",
+                "options": ["Why don't you call the doctor?", "Why you don't call the doctor?", "Why not you call the doctor?", "Why don't call the doctor you?"],
+                "answer": "Why don't you call the doctor?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak makan sayur?'",
+                "words": ["Why", "don't", "you", "eat", "vegetables"],
+                "answer": ["Why", "don't", "you", "eat", "vegetables"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak berolahraga?'",
+                "words": ["Why", "don't", "you", "exercise"],
+                "answer": ["Why", "don't", "you", "exercise"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak berhenti merokok?'",
+                "words": ["Why", "don't", "you", "stop", "smoking"],
+                "answer": ["Why", "don't", "you", "stop", "smoking"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak minum teh hangat?'",
+                "words": ["Why", "don't", "you", "drink", "warm", "tea"],
+                "answer": ["Why", "don't", "you", "drink", "warm", "tea"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak menelepon dokter?'",
+                "words": ["Why", "don't", "you", "call", "the", "doctor"],
+                "answer": ["Why", "don't", "you", "call", "the", "doctor"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak mencoba resep ini?'",
+                "options": ["Why don't you try this recipe?", "Why you don't try this recipe?", "Why not you try this recipe?", "Why don't try this recipe you?"],
+                "answer": "Why don't you try this recipe?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak pergi ke apotek?'",
+                "options": ["Why don't you go to the pharmacy?", "Why you don't go to the pharmacy?", "Why not you go to the pharmacy?", "Why don't go to the pharmacy you?"],
+                "answer": "Why don't you go to the pharmacy?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak beristirahat lebih lama?'",
+                "options": ["Why don't you rest longer?", "Why you don't rest longer?", "Why not you rest longer?", "Why don't rest longer you?"],
+                "answer": "Why don't you rest longer?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak minum vitamin?'",
+                "options": ["Why don't you take vitamins?", "Why you don't take vitamins?", "Why not you take vitamins?", "Why don't take vitamins you?"],
+                "answer": "Why don't you take vitamins?"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak menghubungi dokter gigi?'",
+                "options": ["Why don't you contact the dentist?", "Why you don't contact the dentist?", "Why not you contact the dentist?", "Why don't contact the dentist you?"],
+                "answer": "Why don't you contact the dentist?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak mencoba resep ini?'",
+                "words": ["Why", "don't", "you", "try", "this", "recipe"],
+                "answer": ["Why", "don't", "you", "try", "this", "recipe"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak pergi ke apotek?'",
+                "words": ["Why", "don't", "you", "go", "to", "the", "pharmacy"],
+                "answer": ["Why", "don't", "you", "go", "to", "the", "pharmacy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak beristirahat lebih lama?'",
+                "words": ["Why", "don't", "you", "rest", "longer"],
+                "answer": ["Why", "don't", "you", "rest", "longer"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak minum vitamin?'",
+                "words": ["Why", "don't", "you", "take", "vitamins"],
+                "answer": ["Why", "don't", "you", "take", "vitamins"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak menghubungi dokter gigi?'",
+                "words": ["Why", "don't", "you", "contact", "the", "dentist"],
+                "answer": ["Why", "don't", "you", "contact", "the", "dentist"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: konsultasi dokter",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You should take this medicine twice a day and rest for two days.' Pertanyaan: Berapa kali minum obat?",
+                "options": ["Dua kali sehari", "Satu kali sehari", "Tiga kali sehari", "Empat kali sehari"],
+                "answer": "Dua kali sehari"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You have a fever. You shouldn't go to work today.' Pertanyaan: Apa saran dokter?",
+                "options": ["Jangan pergi bekerja hari ini", "Pergi bekerja seperti biasa", "Bekerja dari rumah", "Pergi bekerja besok"],
+                "answer": "Jangan pergi bekerja hari ini"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Drink a lot of water and get enough sleep.' Pertanyaan: Apa dua saran dokter?",
+                "options": ["Minum banyak air dan tidur yang cukup", "Minum sedikit air dan tidur larut", "Minum kopi dan begadang", "Minum jus dan berolahraga"],
+                "answer": "Minum banyak air dan tidur yang cukup"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You don't have to come back tomorrow, but you have to finish this medicine.' Pertanyaan: Apakah pasien harus kembali besok?",
+                "options": ["Tidak wajib", "Wajib", "Mungkin", "Tidak disebutkan"],
+                "answer": "Tidak wajib"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Why don't you try this herbal tea for your sore throat?' Pertanyaan: Apa saran dokter?",
+                "options": ["Mencoba teh herbal", "Minum kopi", "Makan es krim", "Minum air dingin"],
+                "answer": "Mencoba teh herbal"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu sebaiknya minum obat ini dua kali sehari dan beristirahat selama dua hari'",
+                "words": ["You", "take", "should", "this", "medicine", "twice", "a", "day", "and", "rest", "for", "two", "days"],
+                "answer": ["You", "should", "take", "this", "medicine", "twice", "a", "day", "and", "rest", "for", "two", "days"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu demam. Kamu sebaiknya tidak pergi bekerja hari ini'",
+                "words": ["You", "have", "a", "fever", "you", "shouldn't", "go", "to", "work", "today"],
+                "answer": ["You", "have", "a", "fever", "you", "shouldn't", "go", "to", "work", "today"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Minum banyak air dan tidur yang cukup'",
+                "words": ["Drink", "a", "lot", "of", "water", "and", "get", "enough", "sleep"],
+                "answer": ["Drink", "a", "lot", "of", "water", "and", "get", "enough", "sleep"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu tidak wajib kembali besok, tapi kamu harus menghabiskan obat ini'",
+                "words": ["You", "to", "don't", "have", "come", "back", "tomorrow", "but", "you", "to", "have", "finish", "this", "medicine"],
+                "answer": ["You", "don't", "have", "to", "come", "back", "tomorrow", "but", "you", "have", "to", "finish", "this", "medicine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kenapa kamu tidak mencoba teh herbal ini untuk sakit tenggorokanmu?'",
+                "words": ["Why", "don't", "you", "try", "this", "herbal", "tea", "for", "your", "sore", "throat"],
+                "answer": ["Why", "don't", "you", "try", "this", "herbal", "tea", "for", "your", "sore", "throat"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You should take this syrup three times a day after meals.' Pertanyaan: Kapan minum sirup?",
+                "options": ["Tiga kali sehari setelah makan", "Dua kali sehari sebelum makan", "Sekali sehari setelah makan", "Tiga kali sehari sebelum makan"],
+                "answer": "Tiga kali sehari setelah makan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You have a stomachache. You shouldn't eat spicy food.' Pertanyaan: Apa saran dokter?",
+                "options": ["Jangan makan makanan pedas", "Makan makanan pedas", "Minum air dingin", "Makan es krim"],
+                "answer": "Jangan makan makanan pedas"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You have to stay in bed for three days and drink a lot of water.' Pertanyaan: Berapa lama harus berbaring di tempat tidur?",
+                "options": ["Tiga hari", "Dua hari", "Empat hari", "Satu minggu"],
+                "answer": "Tiga hari"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You don't have to come back next week, but you should finish this medicine.' Pertanyaan: Apakah pasien harus kembali minggu depan?",
+                "options": ["Tidak wajib", "Wajib", "Mungkin", "Tidak disebutkan"],
+                "answer": "Tidak wajib"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Why don't you take a warm bath before sleeping?' Pertanyaan: Apa saran dokter?",
+                "options": ["Mandi air hangat sebelum tidur", "Mandi air dingin sebelum tidur", "Tidur tanpa mandi", "Mandi setelah tidur"],
+                "answer": "Mandi air hangat sebelum tidur"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu sebaiknya minum sirup ini tiga kali sehari setelah makan'",
+                "words": ["You", "take", "should", "this", "syrup", "three", "times", "a", "day", "after", "meals"],
+                "answer": ["You", "should", "take", "this", "syrup", "three", "times", "a", "day", "after", "meals"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu sakit perut. Kamu sebaiknya tidak makan makanan pedas'",
+                "words": ["You", "have", "a", "stomachache", "you", "shouldn't", "eat", "spicy", "food"],
+                "answer": ["You", "have", "a", "stomachache", "you", "shouldn't", "eat", "spicy", "food"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu harus berbaring di tempat tidur selama tiga hari dan minum banyak air'",
+                "words": ["You", "to", "have", "stay", "in", "bed", "for", "three", "days", "and", "drink", "a", "lot", "of", "water"],
+                "answer": ["You", "have", "to", "stay", "in", "bed", "for", "three", "days", "and", "drink", "a", "lot", "of", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu tidak wajib kembali minggu depan, tapi kamu sebaiknya menghabiskan obat ini'",
+                "words": ["You", "to", "don't", "have", "come", "back", "next", "week", "but", "you", "should", "finish", "this", "medicine"],
+                "answer": ["You", "don't", "have", "to", "come", "back", "next", "week", "but", "you", "should", "finish", "this", "medicine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kenapa kamu tidak mandi air hangat sebelum tidur?'",
+                "words": ["Why", "don't", "you", "take", "a", "warm", "bath", "before", "sleeping"],
+                "answer": ["Why", "don't", "you", "take", "a", "warm", "bath", "before", "sleeping"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You should take this pill once a day before breakfast.' Pertanyaan: Kapan minum pil?",
+                "options": ["Sekali sehari sebelum sarapan", "Dua kali sehari setelah sarapan", "Sekali sehari setelah makan malam", "Tiga kali sehari sebelum tidur"],
+                "answer": "Sekali sehari sebelum sarapan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You have a bad cough. You shouldn't drink cold water.' Pertanyaan: Apa saran dokter?",
+                "options": ["Jangan minum air dingin", "Minum air dingin", "Minum es", "Makan es krim"],
+                "answer": "Jangan minum air dingin"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You have to avoid oily food and exercise lightly.' Pertanyaan: Apa dua saran dokter?",
+                "options": ["Hindari makanan berminyak dan olahraga ringan", "Makan makanan berminyak dan olahraga berat", "Hindari olahraga dan makan banyak", "Makan makanan berminyak dan tidur"],
+                "answer": "Hindari makanan berminyak dan olahraga ringan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'You don't have to take vitamins, but you should eat more fruit.' Pertanyaan: Apakah pasien harus minum vitamin?",
+                "options": ["Tidak wajib", "Wajib", "Mungkin", "Tidak disebutkan"],
+                "answer": "Tidak wajib"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Why don't you try to relax and avoid stress?' Pertanyaan: Apa saran dokter?",
+                "options": ["Mencoba rileks dan menghindari stres", "Bekerja lebih keras", "Begadang setiap malam", "Makan makanan pedas"],
+                "answer": "Mencoba rileks dan menghindari stres"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu sebaiknya minum pil ini sekali sehari sebelum sarapan'",
+                "words": ["You", "take", "should", "this", "pill", "once", "a", "day", "before", "breakfast"],
+                "answer": ["You", "should", "take", "this", "pill", "once", "a", "day", "before", "breakfast"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu batuk parah. Kamu sebaiknya tidak minum air dingin'",
+                "words": ["You", "have", "a", "bad", "cough", "you", "shouldn't", "drink", "cold", "water"],
+                "answer": ["You", "have", "a", "bad", "cough", "you", "shouldn't", "drink", "cold", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu harus menghindari makanan berminyak dan berolahraga ringan'",
+                "words": ["You", "to", "have", "avoid", "oily", "food", "and", "exercise", "lightly"],
+                "answer": ["You", "have", "to", "avoid", "oily", "food", "and", "exercise", "lightly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kamu tidak wajib minum vitamin, tapi kamu sebaiknya makan lebih banyak buah'",
+                "words": ["You", "to", "don't", "have", "take", "vitamins", "but", "you", "should", "eat", "more", "fruit"],
+                "answer": ["You", "don't", "have", "to", "take", "vitamins", "but", "you", "should", "eat", "more", "fruit"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun konsultasi: 'Kenapa kamu tidak mencoba rileks dan menghindari stres?'",
+                "words": ["Why", "don't", "you", "try", "to", "relax", "and", "avoid", "stress"],
+                "answer": ["Why", "don't", "you", "try", "to", "relax", "and", "avoid", "stress"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: memberi saran kesehatan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu sebaiknya beristirahat'?",
+                "options": ["You should take a rest", "You should to take a rest", "You should taking a rest", "You should rest a take"],
+                "answer": "You should take a rest"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu sebaiknya tidak makan makanan pedas'?",
+                "options": ["You shouldn't eat spicy food", "You shouldn't to eat spicy food", "You shouldn't eating spicy food", "You shouldn't eat spicy foods"],
+                "answer": "You shouldn't eat spicy food"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu harus minum obat ini'?",
+                "options": ["You have to take this medicine", "You have to taking this medicine", "You has to take this medicine", "You have take this medicine"],
+                "answer": "You have to take this medicine"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu tidak wajib datang ke klinik'?",
+                "options": ["You don't have to come to the clinic", "You don't have come to the clinic", "You doesn't have to come to the clinic", "You don't has to come to the clinic"],
+                "answer": "You don't have to come to the clinic"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak minum lebih banyak air?'",
+                "options": ["Why don't you drink more water?", "Why don't you to drink more water?", "Why don't you drinking more water?", "Why you don't drink more water?"],
+                "answer": "Why don't you drink more water?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu sebaiknya beristirahat dan minum banyak air'",
+                "words": ["You", "rest", "should", "and", "drink", "a", "lot", "of", "water"],
+                "answer": ["You", "should", "rest", "and", "drink", "a", "lot", "of", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu sebaiknya tidak makan makanan pedas'",
+                "words": ["You", "eat", "shouldn't", "spicy", "food"],
+                "answer": ["You", "shouldn't", "eat", "spicy", "food"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu harus minum obat ini dua kali sehari'",
+                "words": ["You", "to", "have", "take", "this", "medicine", "twice", "a", "day"],
+                "answer": ["You", "have", "to", "take", "this", "medicine", "twice", "a", "day"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu tidak wajib datang ke klinik hari ini'",
+                "words": ["You", "to", "don't", "have", "come", "to", "the", "clinic", "today"],
+                "answer": ["You", "don't", "have", "to", "come", "to", "the", "clinic", "today"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak minum lebih banyak air?'",
+                "words": ["Why", "don't", "you", "drink", "more", "water"],
+                "answer": ["Why", "don't", "you", "drink", "more", "water"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu sebaiknya pergi ke dokter'?",
+                "options": ["You should go to the doctor", "You should to go to the doctor", "You should going to the doctor", "You should go doctor"],
+                "answer": "You should go to the doctor"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu sebaiknya tidak begadang'?",
+                "options": ["You shouldn't stay up late", "You shouldn't to stay up late", "You shouldn't staying up late", "You shouldn't stay up lately"],
+                "answer": "You shouldn't stay up late"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu harus berolahraga secara teratur'?",
+                "options": ["You have to exercise regularly", "You have to exercising regularly", "You has to exercise regularly", "You have exercise regularly"],
+                "answer": "You have to exercise regularly"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu tidak wajib minum vitamin'?",
+                "options": ["You don't have to take vitamins", "You don't have take vitamins", "You doesn't have to take vitamins", "You don't has to take vitamins"],
+                "answer": "You don't have to take vitamins"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak mencoba berolahraga?'",
+                "options": ["Why don't you try exercising?", "Why don't you to try exercising?", "Why don't you trying exercising?", "Why you don't try exercising?"],
+                "answer": "Why don't you try exercising?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu sebaiknya pergi ke dokter dan minum obat'",
+                "words": ["You", "go", "should", "to", "the", "doctor", "and", "take", "medicine"],
+                "answer": ["You", "should", "go", "to", "the", "doctor", "and", "take", "medicine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu sebaiknya tidak begadang'",
+                "words": ["You", "up", "shouldn't", "stay", "late"],
+                "answer": ["You", "shouldn't", "stay", "up", "late"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu harus berolahraga secara teratur'",
+                "words": ["You", "to", "have", "exercise", "regularly"],
+                "answer": ["You", "have", "to", "exercise", "regularly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu tidak wajib minum vitamin'",
+                "words": ["You", "to", "don't", "have", "take", "vitamins"],
+                "answer": ["You", "don't", "have", "to", "take", "vitamins"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak mencoba berolahraga?'",
+                "words": ["Why", "don't", "you", "try", "exercising"],
+                "answer": ["Why", "don't", "you", "try", "exercising"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu sebaiknya minum teh hangat'?",
+                "options": ["You should drink warm tea", "You should to drink warm tea", "You should drinking warm tea", "You should drink tea warm"],
+                "answer": "You should drink warm tea"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu sebaiknya tidak mengonsumsi terlalu banyak gula'?",
+                "options": ["You shouldn't consume too much sugar", "You shouldn't to consume too much sugar", "You shouldn't consuming too much sugar", "You shouldn't consume too many sugar"],
+                "answer": "You shouldn't consume too much sugar"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu harus tidur yang cukup'?",
+                "options": ["You have to get enough sleep", "You have to getting enough sleep", "You has to get enough sleep", "You have get enough sleep"],
+                "answer": "You have to get enough sleep"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kamu tidak wajib menghindari kopi'?",
+                "options": ["You don't have to avoid coffee", "You don't have avoid coffee", "You doesn't have to avoid coffee", "You don't has to avoid coffee"],
+                "answer": "You don't have to avoid coffee"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara memberi saran 'Kenapa kamu tidak mencoba meditasi?'",
+                "options": ["Why don't you try meditation?", "Why don't you to try meditation?", "Why don't you trying meditation?", "Why you don't try meditation?"],
+                "answer": "Why don't you try meditation?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu sebaiknya minum teh hangat dan beristirahat'",
+                "words": ["You", "drink", "should", "warm", "tea", "and", "rest"],
+                "answer": ["You", "should", "drink", "warm", "tea", "and", "rest"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu sebaiknya tidak mengonsumsi terlalu banyak gula'",
+                "words": ["You", "consume", "shouldn't", "too", "much", "sugar"],
+                "answer": ["You", "shouldn't", "consume", "too", "much", "sugar"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu harus tidur yang cukup setiap malam'",
+                "words": ["You", "to", "have", "get", "enough", "sleep", "every", "night"],
+                "answer": ["You", "have", "to", "get", "enough", "sleep", "every", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kamu tidak wajib menghindari kopi'",
+                "words": ["You", "to", "don't", "have", "avoid", "coffee"],
+                "answer": ["You", "don't", "have", "to", "avoid", "coffee"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun saran: 'Kenapa kamu tidak mencoba meditasi?'",
+                "words": ["Why", "don't", "you", "try", "meditation"],
+                "answer": ["Why", "don't", "you", "try", "meditation"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -32,6 +32,28 @@ const RAW: RawUnit[] = [
   { title: "Pakaian & Warna Lanjutan", color: "ruby", levels: ["Jenis pakaian", "Warna & pola", "Adjective order", "This/that/these/those + clothes", "Listening: belanja pakaian", "Speaking: mendeskripsikan pakaian"] },
 ];
 
+// const A2 = [
+//   { title: "Kegiatan Kemarin", color: "primary", levels: ["Kosakata aktivitas lampau", "Simple Past: regular verbs", "Simple Past: irregular verbs", "Negatif & tanya (didn't / Did you...?)", "Listening: cerita kemarin", "Speaking: menceritakan hari kemarin"] },
+//   { title: "Liburan & Perjalanan", color: "gem", levels: ["Kosakata liburan & bandara", "Time expressions (last week, ago)", "Sequencing (first, then, finally)", "Menceritakan perjalanan", "Listening: cerita liburan", "Speaking: menceritakan liburan"] },
+//   { title: "Rencana & Masa Depan", color: "streak", levels: ["Kosakata rencana & jadwal", "Be going to", "Will untuk keputusan spontan", "Present Continuous untuk rencana", "Listening: rencana akhir pekan", "Speaking: menceritakan rencanamu"] },
+//   { title: "Perbandingan", color: "ruby", levels: ["Kosakata sifat & ukuran", "Comparative (bigger, more expensive)", "Superlative (the biggest, the most...)", "As...as & too/enough", "Listening: membandingkan dua benda", "Speaking: membandingkan kota/orang"] },
+//   { title: "Restoran & Pesanan", color: "primary", levels: ["Kosakata restoran & menu", "Would like / I'd like", "Much, many, a lot of", "Meminta tagihan & sopan santun", "Listening: memesan di restoran", "Speaking: role-play memesan makanan"] },
+//   { title: "Kesehatan & Saran", color: "gem", levels: ["Kosakata penyakit & obat", "Should / shouldn't", "Have to / don't have to", "Memberi saran (Why don't you...?)", "Listening: konsultasi dokter", "Speaking: memberi saran kesehatan"] },
+//   { title: "Pengalaman Pertama", color: "streak", levels: ["Kosakata pengalaman (tried, met, visited)", "Present Perfect: pengenalan", "Ever & never", "Present Perfect vs Simple Past", "Listening: percakapan pengalaman", "Speaking: menceritakan pengalaman"] },
+//   { title: "Cerita & Peristiwa", color: "ruby", levels: ["Kosakata kejadian & peristiwa", "Past Continuous", "When & while", "Past Simple vs Past Continuous", "Listening: berita singkat", "Speaking: menceritakan kejadian"] },
+// ];
+
+// const B1 = [
+//   { title: "Pengalaman Hidup", color: "primary", levels: ["Kosakata pencapaian & kenangan", "Present Perfect: for & since", "Present Perfect Continuous", "Just, already, yet", "Listening: kisah hidup seseorang", "Speaking: menceritakan perjalanan hidup"] },
+//   { title: "Opini & Diskusi", color: "gem", levels: ["Kosakata pendapat", "Menyatakan opini (I think, In my view)", "Setuju & tidak setuju", "Although, however, because of", "Listening: diskusi dua orang", "Speaking: berdiskusi tentang topik umum"] },
+//   { title: "Teknologi & Media", color: "streak", levels: ["Kosakata gadget & internet", "Passive Voice: present", "Passive Voice: past", "Question tags", "Listening: ulasan produk", "Speaking: membahas teknologi favorit"] },
+//   { title: "Dunia Kerja", color: "ruby", levels: ["Kosakata pekerjaan & karier", "Must, mustn't, have to", "Menulis CV & email lamaran", "Pertanyaan wawancara kerja", "Listening: wawancara kerja", "Speaking: simulasi wawancara"] },
+//   { title: "Kemungkinan & Pengandaian", color: "primary", levels: ["Kosakata peluang & risiko", "First Conditional (If it rains, I will...)", "Second Conditional (If I were...)", "Might, may, could", "Listening: skenario pengandaian", "Speaking: berandai-andai"] },
+//   { title: "Kebiasaan & Kenangan", color: "gem", levels: ["Kosakata masa kecil", "Used to", "Past Perfect: pengenalan", "Wish & hope", "Listening: kenangan masa kecil", "Speaking: menceritakan masa kecilmu"] },
+//   { title: "Berita & Kabar", color: "streak", levels: ["Kosakata berita & media", "Reported speech: statements", "Reported speech: questions", "Say vs tell", "Listening: laporan berita", "Speaking: menyampaikan ulang informasi"] },
+//   { title: "Lingkungan & Masyarakat", color: "ruby", levels: ["Kosakata lingkungan & isu sosial", "Relative clauses (who, which, that)", "Quantifiers (a few, a little, plenty of)", "Kalimat sebab-akibat (so, therefore)", "Listening: diskusi isu lingkungan", "Speaking: menyampaikan pendapat tentang isu"] },
+// ];
+
 // Soal yang sudah ditulis (Unit 1, Level 1–4). Level lain menyusul.
 const QUESTIONS: Record<string, Question[]> = {
   "u1-l1": [

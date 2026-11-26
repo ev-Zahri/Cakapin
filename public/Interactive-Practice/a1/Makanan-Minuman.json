@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Makanan & Minuman",
+    "color": "primary",
+    "levels": [
+      {
+        "level": "Kosakata makanan & minuman",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'nasi'?",
+                "options": ["rice", "bread", "meat", "milk"],
+                "answer": "rice"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ayam'?",
+                "options": ["chicken", "beef", "fish", "pork"],
+                "answer": "chicken"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sayur'?",
+                "options": ["vegetable", "fruit", "meat", "bread"],
+                "answer": "vegetable"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'air'?",
+                "options": ["water", "milk", "juice", "tea"],
+                "answer": "water"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'buah'?",
+                "options": ["fruit", "vegetable", "rice", "bread"],
+                "answer": "fruit"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan nasi dan ayam'",
+                "words": ["I", "rice", "eat", "and", "chicken"],
+                "answer": ["I", "eat", "rice", "and", "chicken"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum segelas air'",
+                "words": ["He", "a", "drinks", "glass", "of", "water"],
+                "answer": ["He", "drinks", "a", "glass", "of", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka makan buah dan sayur'",
+                "words": ["I", "eating", "like", "fruit", "and", "vegetables"],
+                "answer": ["I", "like", "eating", "fruit", "and", "vegetables"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku memasak ikan untuk makan malam'",
+                "words": ["My", "cooks", "mother", "fish", "for", "dinner"],
+                "answer": ["My", "mother", "cooks", "fish", "for", "dinner"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami minum susu setiap pagi'",
+                "words": ["We", "milk", "drink", "every", "morning"],
+                "answer": ["We", "drink", "milk", "every", "morning"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'roti'?",
+                "options": ["bread", "rice", "cake", "butter"],
+                "answer": "bread"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'daging sapi'?",
+                "options": ["beef", "chicken", "pork", "fish"],
+                "answer": "beef"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'susu'?",
+                "options": ["milk", "water", "juice", "coffee"],
+                "answer": "milk"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'telur'?",
+                "options": ["egg", "cheese", "meat", "bread"],
+                "answer": "egg"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'keju'?",
+                "options": ["cheese", "butter", "milk", "egg"],
+                "answer": "cheese"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan roti dan keju'",
+                "words": ["I", "bread", "eat", "and", "cheese"],
+                "answer": ["I", "eat", "bread", "and", "cheese"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum secangkir kopi'",
+                "words": ["She", "a", "drinks", "cup", "of", "coffee"],
+                "answer": ["She", "drinks", "a", "cup", "of", "coffee"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka makan telur untuk sarapan'",
+                "words": ["I", "eating", "like", "eggs", "for", "breakfast"],
+                "answer": ["I", "like", "eating", "eggs", "for", "breakfast"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ayahku memanggang daging sapi'",
+                "words": ["My", "grills", "father", "beef"],
+                "answer": ["My", "father", "grills", "beef"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami minum jus setiap pagi'",
+                "words": ["We", "juice", "drink", "every", "morning"],
+                "answer": ["We", "drink", "juice", "every", "morning"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'mie'?",
+                "options": ["noodles", "rice", "bread", "soup"],
+                "answer": "noodles"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ikan'?",
+                "options": ["fish", "chicken", "beef", "shrimp"],
+                "answer": "fish"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'teh'?",
+                "options": ["tea", "coffee", "juice", "water"],
+                "answer": "tea"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kue'?",
+                "options": ["cake", "bread", "cookie", "pie"],
+                "answer": "cake"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'gula'?",
+                "options": ["sugar", "salt", "pepper", "honey"],
+                "answer": "sugar"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan mie dan ikan'",
+                "words": ["I", "noodles", "eat", "and", "fish"],
+                "answer": ["I", "eat", "noodles", "and", "fish"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum segelas teh'",
+                "words": ["He", "a", "drinks", "glass", "of", "tea"],
+                "answer": ["He", "drinks", "a", "glass", "of", "tea"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka makan kue cokelat'",
+                "words": ["I", "eating", "like", "chocolate", "cake"],
+                "answer": ["I", "like", "eating", "chocolate", "cake"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku menambahkan gula ke dalam teh'",
+                "words": ["My", "adds", "mother", "sugar", "to", "the", "tea"],
+                "answer": ["My", "mother", "adds", "sugar", "to", "the", "tea"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami minum teh setiap sore'",
+                "words": ["We", "tea", "drink", "every", "afternoon"],
+                "answer": ["We", "drink", "tea", "every", "afternoon"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Countable vs uncountable",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang dapat dihitung (countable)?",
+                "options": ["apple", "water", "rice", "milk"],
+                "answer": "apple"
+              },
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang tidak dapat dihitung (uncountable)?",
+                "options": ["water", "apple", "egg", "banana"],
+                "answer": "water"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I have two ___'",
+                "options": ["apples", "water", "rice", "milk"],
+                "answer": "apples"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'There is some ___ in the glass'",
+                "options": ["water", "apples", "eggs", "bananas"],
+                "answer": "water"
+              },
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang tidak dapat dihitung (uncountable)?",
+                "options": ["rice", "car", "book", "table"],
+                "answer": "rice"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya tiga apel'",
+                "words": ["I", "three", "have", "apples"],
+                "answer": ["I", "have", "three", "apples"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sedikit susu di kulkas'",
+                "words": ["There", "some", "is", "milk", "in", "the", "fridge"],
+                "answer": ["There", "is", "some", "milk", "in", "the", "fridge"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan dua potong roti'",
+                "words": ["I", "two", "eat", "slices", "of", "bread"],
+                "answer": ["I", "eat", "two", "slices", "of", "bread"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum banyak air'",
+                "words": ["He", "a", "drinks", "lot", "of", "water"],
+                "answer": ["He", "drinks", "a", "lot", "of", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami punya beberapa telur'",
+                "words": ["We", "some", "have", "eggs"],
+                "answer": ["We", "have", "some", "eggs"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang dapat dihitung (countable)?",
+                "options": ["egg", "rice", "milk", "water"],
+                "answer": "egg"
+              },
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang tidak dapat dihitung (uncountable)?",
+                "options": ["milk", "apple", "egg", "banana"],
+                "answer": "milk"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I have three ___'",
+                "options": ["eggs", "milk", "rice", "water"],
+                "answer": "eggs"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'There is some ___ in the bowl'",
+                "options": ["rice", "apples", "eggs", "bananas"],
+                "answer": "rice"
+              },
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang tidak dapat dihitung (uncountable)?",
+                "options": ["bread", "car", "book", "table"],
+                "answer": "bread"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya empat telur'",
+                "words": ["I", "four", "have", "eggs"],
+                "answer": ["I", "have", "four", "eggs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sedikit nasi di piring'",
+                "words": ["There", "some", "is", "rice", "on", "the", "plate"],
+                "answer": ["There", "is", "some", "rice", "on", "the", "plate"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan dua potong kue'",
+                "words": ["I", "two", "eat", "pieces", "of", "cake"],
+                "answer": ["I", "eat", "two", "pieces", "of", "cake"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum banyak jus'",
+                "words": ["She", "a", "drinks", "lot", "of", "juice"],
+                "answer": ["She", "drinks", "a", "lot", "of", "juice"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami punya beberapa apel'",
+                "words": ["We", "some", "have", "apples"],
+                "answer": ["We", "have", "some", "apples"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang dapat dihitung (countable)?",
+                "options": ["banana", "milk", "water", "sugar"],
+                "answer": "banana"
+              },
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang tidak dapat dihitung (uncountable)?",
+                "options": ["sugar", "apple", "egg", "banana"],
+                "answer": "sugar"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I have five ___'",
+                "options": ["bananas", "milk", "rice", "water"],
+                "answer": "bananas"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'There is some ___ in the cup'",
+                "options": ["tea", "apples", "eggs", "bananas"],
+                "answer": "tea"
+              },
+              {
+                "type": "choice",
+                "prompt": "Mana yang merupakan kata benda yang tidak dapat dihitung (uncountable)?",
+                "options": ["cheese", "car", "book", "table"],
+                "answer": "cheese"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya enam pisang'",
+                "words": ["I", "six", "have", "bananas"],
+                "answer": ["I", "have", "six", "bananas"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sedikit gula di mangkuk'",
+                "words": ["There", "some", "is", "sugar", "in", "the", "bowl"],
+                "answer": ["There", "is", "some", "sugar", "in", "the", "bowl"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan tiga potong keju'",
+                "words": ["I", "three", "eat", "pieces", "of", "cheese"],
+                "answer": ["I", "eat", "three", "pieces", "of", "cheese"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum banyak teh'",
+                "words": ["He", "a", "drinks", "lot", "of", "tea"],
+                "answer": ["He", "drinks", "a", "lot", "of", "tea"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami punya beberapa pisang'",
+                "words": ["We", "some", "have", "bananas"],
+                "answer": ["We", "have", "some", "bananas"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Article (a/an/the)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I eat ___ apple every day'",
+                "options": ["an", "a", "the", "-"],
+                "answer": "an"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She drinks ___ glass of milk'",
+                "options": ["a", "an", "the", "-"],
+                "answer": "a"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ rice on the plate is delicious'",
+                "options": ["The", "A", "An", "-"],
+                "answer": "The"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I want ___ orange'",
+                "options": ["an", "a", "the", "-"],
+                "answer": "an"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He is eating ___ banana'",
+                "options": ["a", "an", "the", "-"],
+                "answer": "a"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan sebuah apel'",
+                "words": ["I", "an", "eat", "apple"],
+                "answer": ["I", "eat", "an", "apple"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum segelas susu'",
+                "words": ["She", "a", "drinks", "glass", "of", "milk"],
+                "answer": ["She", "drinks", "a", "glass", "of", "milk"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Nasi di piring itu lezat'",
+                "words": ["The", "on", "rice", "the", "plate", "is", "delicious"],
+                "answer": ["The", "rice", "on", "the", "plate", "is", "delicious"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku ingin sebuah jeruk'",
+                "words": ["I", "an", "want", "orange"],
+                "answer": ["I", "want", "an", "orange"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang makan sebuah pisang'",
+                "words": ["He", "a", "is", "eating", "banana"],
+                "answer": ["He", "is", "eating", "a", "banana"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I eat ___ egg for breakfast'",
+                "options": ["an", "a", "the", "-"],
+                "answer": "an"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She drinks ___ cup of tea'",
+                "options": ["a", "an", "the", "-"],
+                "answer": "a"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ bread on the table is fresh'",
+                "options": ["The", "A", "An", "-"],
+                "answer": "The"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I want ___ apple pie'",
+                "options": ["an", "a", "the", "-"],
+                "answer": "an"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He is eating ___ sandwich'",
+                "options": ["a", "an", "the", "-"],
+                "answer": "a"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan sebuah telur'",
+                "words": ["I", "an", "eat", "egg"],
+                "answer": ["I", "eat", "an", "egg"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum secangkir teh'",
+                "words": ["She", "a", "drinks", "cup", "of", "tea"],
+                "answer": ["She", "drinks", "a", "cup", "of", "tea"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Roti di meja itu segar'",
+                "words": ["The", "on", "bread", "the", "table", "is", "fresh"],
+                "answer": ["The", "bread", "on", "the", "table", "is", "fresh"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku ingin sepotong pai apel'",
+                "words": ["I", "a", "want", "slice", "of", "apple", "pie"],
+                "answer": ["I", "want", "a", "slice", "of", "apple", "pie"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang makan sebuah sandwich'",
+                "words": ["He", "a", "is", "eating", "sandwich"],
+                "answer": ["He", "is", "eating", "a", "sandwich"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I eat ___ orange every morning'",
+                "options": ["an", "a", "the", "-"],
+                "answer": "an"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She drinks ___ bottle of water'",
+                "options": ["a", "an", "the", "-"],
+                "answer": "a"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ milk in the fridge is cold'",
+                "options": ["The", "A", "An", "-"],
+                "answer": "The"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I want ___ ice cream'",
+                "options": ["an", "a", "the", "-"],
+                "answer": "an"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He is eating ___ burger'",
+                "options": ["a", "an", "the", "-"],
+                "answer": "a"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan sebuah jeruk'",
+                "words": ["I", "an", "eat", "orange"],
+                "answer": ["I", "eat", "an", "orange"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia minum sebotol air'",
+                "words": ["She", "a", "drinks", "bottle", "of", "water"],
+                "answer": ["She", "drinks", "a", "bottle", "of", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Susu di kulkas itu dingin'",
+                "words": ["The", "in", "milk", "the", "fridge", "is", "cold"],
+                "answer": ["The", "milk", "in", "the", "fridge", "is", "cold"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku ingin es krim'",
+                "words": ["I", "an", "want", "ice", "cream"],
+                "answer": ["I", "want", "an", "ice", "cream"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang makan sebuah burger'",
+                "words": ["He", "a", "is", "eating", "burger"],
+                "answer": ["He", "is", "eating", "a", "burger"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Some/any",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I have ___ apples' (kalimat positif)",
+                "options": ["some", "any", "a", "an"],
+                "answer": "some"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'Do you have ___ milk?' (kalimat tanya)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'There isn't ___ rice' (kalimat negatif)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'Would you like ___ tea?' (tawaran)",
+                "options": ["some", "any", "a", "an"],
+                "answer": "some"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I don't have ___ eggs' (kalimat negatif)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya beberapa apel'",
+                "words": ["I", "some", "have", "apples"],
+                "answer": ["I", "have", "some", "apples"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu punya susu?'",
+                "words": ["Do", "any", "you", "have", "milk"],
+                "answer": ["Do", "you", "have", "any", "milk"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tidak ada nasi di piring'",
+                "words": ["There", "any", "isn't", "rice", "on", "the", "plate"],
+                "answer": ["There", "isn't", "any", "rice", "on", "the", "plate"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Maukah kamu sedikit teh?'",
+                "words": ["Would", "some", "you", "like", "tea"],
+                "answer": ["Would", "you", "like", "some", "tea"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak punya telur'",
+                "words": ["I", "any", "don't", "have", "eggs"],
+                "answer": ["I", "don't", "have", "any", "eggs"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She has ___ bananas' (kalimat positif)",
+                "options": ["some", "any", "a", "an"],
+                "answer": "some"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'Does he have ___ water?' (kalimat tanya)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'There aren't ___ apples' (kalimat negatif)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'Would you like ___ coffee?' (tawaran)",
+                "options": ["some", "any", "a", "an"],
+                "answer": "some"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We don't have ___ bread' (kalimat negatif)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia punya beberapa pisang'",
+                "words": ["She", "some", "has", "bananas"],
+                "answer": ["She", "has", "some", "bananas"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia punya air?'",
+                "words": ["Does", "any", "he", "have", "water"],
+                "answer": ["Does", "he", "have", "any", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tidak ada apel di meja'",
+                "words": ["There", "any", "aren't", "apples", "on", "the", "table"],
+                "answer": ["There", "aren't", "any", "apples", "on", "the", "table"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Maukah kamu sedikit kopi?'",
+                "words": ["Would", "some", "you", "like", "coffee"],
+                "answer": ["Would", "you", "like", "some", "coffee"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami tidak punya roti'",
+                "words": ["We", "any", "don't", "have", "bread"],
+                "answer": ["We", "don't", "have", "any", "bread"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They have ___ eggs' (kalimat positif)",
+                "options": ["some", "any", "a", "an"],
+                "answer": "some"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'Is there ___ juice?' (kalimat tanya)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'There isn't ___ sugar' (kalimat negatif)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'Would you like ___ cake?' (tawaran)",
+                "options": ["some", "any", "a", "an"],
+                "answer": "some"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He doesn't have ___ cheese' (kalimat negatif)",
+                "options": ["any", "some", "a", "an"],
+                "answer": "any"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka punya beberapa telur'",
+                "words": ["They", "some", "have", "eggs"],
+                "answer": ["They", "have", "some", "eggs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah ada jus?'",
+                "words": ["Is", "any", "there", "juice"],
+                "answer": ["Is", "there", "any", "juice"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tidak ada gula di mangkuk'",
+                "words": ["There", "any", "isn't", "sugar", "in", "the", "bowl"],
+                "answer": ["There", "isn't", "any", "sugar", "in", "the", "bowl"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Maukah kamu sedikit kue?'",
+                "words": ["Would", "some", "you", "like", "cake"],
+                "answer": ["Would", "you", "like", "some", "cake"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak punya keju'",
+                "words": ["He", "any", "doesn't", "have", "cheese"],
+                "answer": ["He", "doesn't", "have", "any", "cheese"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: memesan makanan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I would like a bowl of rice and some chicken, please.' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Semangkuk nasi dan ayam", "Sepiring nasi dan ikan", "Semangkuk mie dan ayam", "Sepiring nasi dan telur"],
+                "answer": "Semangkuk nasi dan ayam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Can I have a glass of orange juice?' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Segelas jus jeruk", "Segelas susu", "Secangkir teh", "Sebotol air"],
+                "answer": "Segelas jus jeruk"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I want two slices of pizza and a soda.' Pertanyaan: Berapa potong pizza yang dipesan?",
+                "options": ["Dua", "Satu", "Tiga", "Empat"],
+                "answer": "Dua"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'For dessert, I would like some chocolate ice cream.' Pertanyaan: Apa hidangan penutup yang dipesan?",
+                "options": ["Es krim cokelat", "Kue cokelat", "Pai apel", "Puding"],
+                "answer": "Es krim cokelat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Could I have a cup of coffee with some sugar?' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Secangkir kopi dengan gula", "Secangkir teh dengan madu", "Secangkir kopi tanpa gula", "Segelas susu"],
+                "answer": "Secangkir kopi dengan gula"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Aku ingin semangkuk nasi dan ayam'",
+                "words": ["I", "a", "would", "like", "bowl", "of", "rice", "and", "chicken"],
+                "answer": ["I", "would", "like", "a", "bowl", "of", "rice", "and", "chicken"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Bisakah aku minta segelas jus jeruk?'",
+                "words": ["Can", "a", "I", "have", "glass", "of", "orange", "juice"],
+                "answer": ["Can", "I", "have", "a", "glass", "of", "orange", "juice"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Aku ingin dua potong pizza dan soda'",
+                "words": ["I", "two", "want", "slices", "of", "pizza", "and", "a", "soda"],
+                "answer": ["I", "want", "two", "slices", "of", "pizza", "and", "a", "soda"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Untuk hidangan penutup, aku ingin es krim cokelat'",
+                "words": ["For", "some", "dessert", "I", "would", "like", "chocolate", "ice", "cream"],
+                "answer": ["For", "dessert", "I", "would", "like", "some", "chocolate", "ice", "cream"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Bisakah aku minta secangkir kopi dengan gula?'",
+                "words": ["Could", "a", "I", "have", "cup", "of", "coffee", "with", "some", "sugar"],
+                "answer": ["Could", "I", "have", "a", "cup", "of", "coffee", "with", "some", "sugar"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I would like a plate of noodles and some beef, please.' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Sepiring mie dan daging sapi", "Sepiring nasi dan ayam", "Semangkuk mie dan ikan", "Sepiring mie dan telur"],
+                "answer": "Sepiring mie dan daging sapi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Can I have a bottle of water?' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Sebotol air", "Segelas jus", "Secangkir teh", "Sebotol susu"],
+                "answer": "Sebotol air"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I want three pieces of fried chicken and a salad.' Pertanyaan: Berapa potong ayam goreng yang dipesan?",
+                "options": ["Tiga", "Dua", "Satu", "Empat"],
+                "answer": "Tiga"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'For dessert, I would like a slice of apple pie.' Pertanyaan: Apa hidangan penutup yang dipesan?",
+                "options": ["Sepotong pai apel", "Es krim cokelat", "Kue keju", "Puding"],
+                "answer": "Sepotong pai apel"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Could I have a cup of tea with some honey?' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Secangkir teh dengan madu", "Secangkir kopi dengan gula", "Secangkir teh tanpa madu", "Segelas susu"],
+                "answer": "Secangkir teh dengan madu"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Aku ingin sepiring mie dan daging sapi'",
+                "words": ["I", "a", "would", "like", "plate", "of", "noodles", "and", "beef"],
+                "answer": ["I", "would", "like", "a", "plate", "of", "noodles", "and", "beef"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Bisakah aku minta sebotol air?'",
+                "words": ["Can", "a", "I", "have", "bottle", "of", "water"],
+                "answer": ["Can", "I", "have", "a", "bottle", "of", "water"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Aku ingin tiga potong ayam goreng dan salad'",
+                "words": ["I", "three", "want", "pieces", "of", "fried", "chicken", "and", "a", "salad"],
+                "answer": ["I", "want", "three", "pieces", "of", "fried", "chicken", "and", "a", "salad"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Untuk hidangan penutup, aku ingin sepotong pai apel'",
+                "words": ["For", "a", "dessert", "I", "would", "like", "slice", "of", "apple", "pie"],
+                "answer": ["For", "dessert", "I", "would", "like", "a", "slice", "of", "apple", "pie"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Bisakah aku minta secangkir teh dengan madu?'",
+                "words": ["Could", "a", "I", "have", "cup", "of", "tea", "with", "some", "honey"],
+                "answer": ["Could", "I", "have", "a", "cup", "of", "tea", "with", "some", "honey"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I would like a sandwich and a bowl of soup, please.' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Sebuah sandwich dan semangkuk sup", "Sebuah burger dan kentang", "Sebuah sandwich dan salad", "Sepiring nasi dan sup"],
+                "answer": "Sebuah sandwich dan semangkuk sup"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Can I have a glass of lemonade?' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Segelas limun", "Segelas jus jeruk", "Secangkir teh", "Sebotol air"],
+                "answer": "Segelas limun"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I want four pieces of sushi and some green tea.' Pertanyaan: Berapa potong sushi yang dipesan?",
+                "options": ["Empat", "Tiga", "Dua", "Lima"],
+                "answer": "Empat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'For dessert, I would like some fruit salad.' Pertanyaan: Apa hidangan penutup yang dipesan?",
+                "options": ["Salad buah", "Es krim", "Kue cokelat", "Puding"],
+                "answer": "Salad buah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Could I have a glass of milk with some cookies?' Pertanyaan: Apa yang dipesan pembicara?",
+                "options": ["Segelas susu dengan kue kering", "Secangkir teh dengan biskuit", "Segelas jus dengan kue", "Segelas susu dengan roti"],
+                "answer": "Segelas susu dengan kue kering"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Aku ingin sebuah sandwich dan semangkuk sup'",
+                "words": ["I", "a", "would", "like", "sandwich", "and", "a", "bowl", "of", "soup"],
+                "answer": ["I", "would", "like", "a", "sandwich", "and", "a", "bowl", "of", "soup"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Bisakah aku minta segelas limun?'",
+                "words": ["Can", "a", "I", "have", "glass", "of", "lemonade"],
+                "answer": ["Can", "I", "have", "a", "glass", "of", "lemonade"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Aku ingin empat potong sushi dan teh hijau'",
+                "words": ["I", "four", "want", "pieces", "of", "sushi", "and", "some", "green", "tea"],
+                "answer": ["I", "want", "four", "pieces", "of", "sushi", "and", "some", "green", "tea"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Untuk hidangan penutup, aku ingin salad buah'",
+                "words": ["For", "some", "dessert", "I", "would", "like", "fruit", "salad"],
+                "answer": ["For", "dessert", "I", "would", "like", "some", "fruit", "salad"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun pesanan: 'Bisakah aku minta segelas susu dengan kue kering?'",
+                "words": ["Could", "a", "I", "have", "glass", "of", "milk", "with", "some", "cookies"],
+                "answer": ["Could", "I", "have", "a", "glass", "of", "milk", "with", "some", "cookies"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: suka/tidak suka",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku suka nasi'?",
+                "options": ["I like rice", "I likes rice", "I liking rice", "I am like rice"],
+                "answer": "I like rice"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku tidak suka ayam'?",
+                "options": ["I don't like chicken", "I doesn't like chicken", "I not like chicken", "I am not like chicken"],
+                "answer": "I don't like chicken"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Dia suka ikan'?",
+                "options": ["He likes fish", "He like fish", "He liking fish", "He is like fish"],
+                "answer": "He likes fish"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Dia tidak suka susu'?",
+                "options": ["She doesn't like milk", "She don't like milk", "She not like milk", "She isn't like milk"],
+                "answer": "She doesn't like milk"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Apakah kamu suka buah?'",
+                "options": ["Do you like fruit?", "Does you like fruit?", "Are you like fruit?", "You like fruit?"],
+                "answer": "Do you like fruit?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka makan sayur'",
+                "words": ["I", "eating", "like", "vegetables"],
+                "answer": ["I", "like", "eating", "vegetables"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak suka makan daging'",
+                "words": ["I", "eating", "don't", "like", "meat"],
+                "answer": ["I", "don't", "like", "eating", "meat"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia suka minum jus'",
+                "words": ["He", "drinking", "likes", "juice"],
+                "answer": ["He", "likes", "drinking", "juice"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak suka makan telur'",
+                "words": ["She", "eating", "doesn't", "like", "eggs"],
+                "answer": ["She", "doesn't", "like", "eating", "eggs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu suka makan buah?'",
+                "words": ["Do", "eating", "you", "like", "fruit"],
+                "answer": ["Do", "you", "like", "eating", "fruit"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku suka roti'?",
+                "options": ["I like bread", "I likes bread", "I liking bread", "I am like bread"],
+                "answer": "I like bread"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku tidak suka keju'?",
+                "options": ["I don't like cheese", "I doesn't like cheese", "I not like cheese", "I am not like cheese"],
+                "answer": "I don't like cheese"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Dia suka daging sapi'?",
+                "options": ["He likes beef", "He like beef", "He liking beef", "He is like beef"],
+                "answer": "He likes beef"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Dia tidak suka kopi'?",
+                "options": ["She doesn't like coffee", "She don't like coffee", "She not like coffee", "She isn't like coffee"],
+                "answer": "She doesn't like coffee"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Apakah kamu suka teh?'",
+                "options": ["Do you like tea?", "Does you like tea?", "Are you like tea?", "You like tea?"],
+                "answer": "Do you like tea?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka makan roti'",
+                "words": ["I", "eating", "like", "bread"],
+                "answer": ["I", "like", "eating", "bread"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak suka makan keju'",
+                "words": ["I", "eating", "don't", "like", "cheese"],
+                "answer": ["I", "don't", "like", "eating", "cheese"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia suka minum kopi'",
+                "words": ["He", "drinking", "likes", "coffee"],
+                "answer": ["He", "likes", "drinking", "coffee"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak suka makan pisang'",
+                "words": ["She", "eating", "doesn't", "like", "bananas"],
+                "answer": ["She", "doesn't", "like", "eating", "bananas"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu suka minum teh?'",
+                "words": ["Do", "drinking", "you", "like", "tea"],
+                "answer": ["Do", "you", "like", "drinking", "tea"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku sangat suka cokelat'?",
+                "options": ["I really like chocolate", "I really likes chocolate", "I really liking chocolate", "I am really like chocolate"],
+                "answer": "I really like chocolate"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Aku tidak suka makanan pedas'?",
+                "options": ["I don't like spicy food", "I doesn't like spicy food", "I not like spicy food", "I am not like spicy food"],
+                "answer": "I don't like spicy food"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Dia sangat suka pizza'?",
+                "options": ["He really likes pizza", "He really like pizza", "He really liking pizza", "He is really like pizza"],
+                "answer": "He really likes pizza"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Dia tidak suka makanan manis'?",
+                "options": ["She doesn't like sweet food", "She don't like sweet food", "She not like sweet food", "She isn't like sweet food"],
+                "answer": "She doesn't like sweet food"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'Apakah kamu suka makanan pedas?'",
+                "options": ["Do you like spicy food?", "Does you like spicy food?", "Are you like spicy food?", "You like spicy food?"],
+                "answer": "Do you like spicy food?"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sangat suka makan cokelat'",
+                "words": ["I", "eating", "really", "like", "chocolate"],
+                "answer": ["I", "really", "like", "eating", "chocolate"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak suka makan makanan pedas'",
+                "words": ["I", "eating", "don't", "like", "spicy", "food"],
+                "answer": ["I", "don't", "like", "eating", "spicy", "food"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sangat suka minum soda'",
+                "words": ["He", "drinking", "really", "likes", "soda"],
+                "answer": ["He", "really", "likes", "drinking", "soda"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak suka makan makanan manis'",
+                "words": ["She", "eating", "doesn't", "like", "sweet", "food"],
+                "answer": ["She", "doesn't", "like", "eating", "sweet", "food"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu suka makan makanan pedas?'",
+                "words": ["Do", "eating", "you", "like", "spicy", "food"],
+                "answer": ["Do", "you", "like", "eating", "spicy", "food"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Warna & Bentuk",
+    "color": "streak",
+    "levels": [
+      {
+        "level": "Warna dasar & lanjutan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'merah'?",
+                "options": ["red", "blue", "green", "yellow"],
+                "answer": "red"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'biru'?",
+                "options": ["blue", "black", "brown", "purple"],
+                "answer": "blue"
+              },
+              {
+                "type": "choice",
+                "prompt": "Warna apa yang dihasilkan dari campuran kuning dan biru?",
+                "options": ["green", "orange", "purple", "pink"],
+                "answer": "green"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ungu'?",
+                "options": ["purple", "pink", "orange", "grey"],
+                "answer": "purple"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'abu-abu'?",
+                "options": ["grey", "green", "gold", "brown"],
+                "answer": "grey"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apel itu berwarna merah'",
+                "words": ["red", "The", "apple", "is"],
+                "answer": ["The", "apple", "is", "red"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Langit berwarna biru'",
+                "words": ["blue", "The", "sky", "is"],
+                "answer": ["The", "sky", "is", "blue"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka warna kuning dan hijau'",
+                "words": ["yellow", "I", "and", "like", "green"],
+                "answer": ["I", "like", "yellow", "and", "green"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mobilnya berwarna hitam'",
+                "words": ["black", "His", "car", "is"],
+                "answer": ["His", "car", "is", "black"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bunganya berwarna ungu dan putih'",
+                "words": ["purple", "The", "flowers", "are", "and", "white"],
+                "answer": ["The", "flowers", "are", "purple", "and", "white"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kuning'?",
+                "options": ["yellow", "orange", "green", "red"],
+                "answer": "yellow"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'hijau'?",
+                "options": ["green", "grey", "gold", "blue"],
+                "answer": "green"
+              },
+              {
+                "type": "choice",
+                "prompt": "Warna apa yang dihasilkan dari campuran merah dan kuning?",
+                "options": ["orange", "purple", "green", "brown"],
+                "answer": "orange"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'cokelat'?",
+                "options": ["brown", "black", "blue", "beige"],
+                "answer": "brown"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'merah muda'?",
+                "options": ["pink", "purple", "peach", "red"],
+                "answer": "pink"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pisang itu berwarna kuning'",
+                "words": ["yellow", "The", "banana", "is"],
+                "answer": ["The", "banana", "is", "yellow"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rumput berwarna hijau'",
+                "words": ["green", "The", "grass", "is"],
+                "answer": ["The", "grass", "is", "green"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memakai jaket cokelat'",
+                "words": ["brown", "He", "a", "wears", "jacket"],
+                "answer": ["He", "wears", "a", "brown", "jacket"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rambutnya berwarna hitam'",
+                "words": ["black", "Her", "hair", "is"],
+                "answer": ["Her", "hair", "is", "black"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dindingnya berwarna putih dan abu-abu'",
+                "words": ["white", "The", "walls", "are", "and", "grey"],
+                "answer": ["The", "walls", "are", "white", "and", "grey"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'putih'?",
+                "options": ["white", "black", "grey", "silver"],
+                "answer": "white"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'hitam'?",
+                "options": ["black", "brown", "blue", "navy"],
+                "answer": "black"
+              },
+              {
+                "type": "choice",
+                "prompt": "Warna apa yang dihasilkan dari campuran merah dan biru?",
+                "options": ["purple", "green", "orange", "pink"],
+                "answer": "purple"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'oranye'?",
+                "options": ["orange", "yellow", "red", "peach"],
+                "answer": "orange"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'emas'?",
+                "options": ["gold", "silver", "grey", "green"],
+                "answer": "gold"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Susu itu berwarna putih'",
+                "words": ["white", "The", "milk", "is"],
+                "answer": ["The", "milk", "is", "white"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kucingku berwarna hitam dan putih'",
+                "words": ["black", "My", "cat", "is", "and", "white"],
+                "answer": ["My", "cat", "is", "black", "and", "white"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia punya sepatu oranye'",
+                "words": ["orange", "She", "shoes", "has"],
+                "answer": ["She", "has", "orange", "shoes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Matanya berwarna biru'",
+                "words": ["blue", "His", "eyes", "are"],
+                "answer": ["His", "eyes", "are", "blue"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka warna merah muda dan ungu'",
+                "words": ["pink", "I", "and", "like", "purple"],
+                "answer": ["I", "like", "pink", "and", "purple"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Bentuk (circle, square, triangle)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lingkaran'?",
+                "options": ["circle", "square", "triangle", "rectangle"],
+                "answer": "circle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'persegi'?",
+                "options": ["square", "circle", "triangle", "oval"],
+                "answer": "square"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'segitiga'?",
+                "options": ["triangle", "rectangle", "circle", "square"],
+                "answer": "triangle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk apa yang memiliki tiga sisi?",
+                "options": ["triangle", "square", "circle", "rectangle"],
+                "answer": "triangle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'persegi panjang'?",
+                "options": ["rectangle", "square", "triangle", "circle"],
+                "answer": "rectangle"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bola itu berbentuk lingkaran'",
+                "words": ["circle", "The", "ball", "is", "a"],
+                "answer": ["The", "ball", "is", "a", "circle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jendelanya berbentuk persegi'",
+                "words": ["square", "The", "window", "is", "a"],
+                "answer": ["The", "window", "is", "a", "square"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rambu itu berbentuk segitiga'",
+                "words": ["triangle", "The", "sign", "is", "a"],
+                "answer": ["The", "sign", "is", "a", "triangle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku menggambar sebuah lingkaran dan persegi'",
+                "words": ["circle", "I", "a", "draw", "and", "square", "a"],
+                "answer": ["I", "draw", "a", "circle", "and", "a", "square"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mejanya berbentuk persegi panjang'",
+                "words": ["rectangle", "The", "table", "is", "a"],
+                "answer": ["The", "table", "is", "a", "rectangle"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'oval'?",
+                "options": ["oval", "circle", "square", "triangle"],
+                "answer": "oval"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk apa yang memiliki empat sisi sama panjang?",
+                "options": ["square", "rectangle", "triangle", "circle"],
+                "answer": "square"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'bintang'?",
+                "options": ["star", "circle", "square", "heart"],
+                "answer": "star"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk apa yang tidak memiliki sudut?",
+                "options": ["circle", "square", "triangle", "rectangle"],
+                "answer": "circle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'hati'?",
+                "options": ["heart", "star", "oval", "diamond"],
+                "answer": "heart"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Cermin itu berbentuk oval'",
+                "words": ["oval", "The", "mirror", "is", "an"],
+                "answer": ["The", "mirror", "is", "an", "oval"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bendera itu memiliki bintang'",
+                "words": ["star", "The", "flag", "has", "a"],
+                "answer": ["The", "flag", "has", "a", "star"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia menggambar sebuah hati'",
+                "words": ["heart", "She", "a", "draws"],
+                "answer": ["She", "draws", "a", "heart"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Piringnya berbentuk lingkaran'",
+                "words": ["circle", "The", "plate", "is", "a"],
+                "answer": ["The", "plate", "is", "a", "circle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku melihat sebuah segitiga dan persegi panjang'",
+                "words": ["triangle", "I", "a", "see", "and", "rectangle", "a"],
+                "answer": ["I", "see", "a", "triangle", "and", "a", "rectangle"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'belah ketupat'?",
+                "options": ["diamond", "square", "triangle", "circle"],
+                "answer": "diamond"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'setengah lingkaran'?",
+                "options": ["semicircle", "circle", "oval", "arc"],
+                "answer": "semicircle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk apa yang memiliki lima sisi?",
+                "options": ["pentagon", "square", "triangle", "hexagon"],
+                "answer": "pentagon"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kubus'?",
+                "options": ["cube", "square", "circle", "sphere"],
+                "answer": "cube"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk apa yang menyerupai bola?",
+                "options": ["sphere", "square", "triangle", "rectangle"],
+                "answer": "sphere"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Layang-layang itu berbentuk belah ketupat'",
+                "words": ["diamond", "The", "kite", "is", "a"],
+                "answer": ["The", "kite", "is", "a", "diamond"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bulannya berbentuk setengah lingkaran'",
+                "words": ["semicircle", "The", "moon", "is", "a"],
+                "answer": ["The", "moon", "is", "a", "semicircle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dadu itu berbentuk kubus'",
+                "words": ["cube", "The", "dice", "is", "a"],
+                "answer": ["The", "dice", "is", "a", "cube"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bumi itu berbentuk bola'",
+                "words": ["sphere", "The", "earth", "is", "a"],
+                "answer": ["The", "earth", "is", "a", "sphere"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku menggambar segitiga, persegi, dan lingkaran'",
+                "words": ["triangle", "I", "a", "draw", "square", "a", "and", "a", "circle"],
+                "answer": ["I", "draw", "a", "triangle", "a", "square", "and", "a", "circle"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Adjectives (big, small, long, short)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'besar'?",
+                "options": ["big", "small", "long", "short"],
+                "answer": "big"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kecil'?",
+                "options": ["small", "big", "tall", "wide"],
+                "answer": "small"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'panjang'?",
+                "options": ["long", "short", "big", "thin"],
+                "answer": "long"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pendek'?",
+                "options": ["short", "long", "small", "big"],
+                "answer": "short"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa antonim dari 'big'?",
+                "options": ["small", "long", "tall", "wide"],
+                "answer": "small"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gajah itu besar'",
+                "words": ["big", "The", "elephant", "is"],
+                "answer": ["The", "elephant", "is", "big"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Semut itu kecil'",
+                "words": ["small", "The", "ant", "is"],
+                "answer": ["The", "ant", "is", "small"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ular itu panjang'",
+                "words": ["long", "The", "snake", "is"],
+                "answer": ["The", "snake", "is", "long"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rambutnya pendek'",
+                "words": ["short", "Her", "hair", "is"],
+                "answer": ["Her", "hair", "is", "short"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya tas besar dan tas kecil'",
+                "words": ["big", "I", "a", "have", "bag", "and", "a", "small", "bag"],
+                "answer": ["I", "have", "a", "big", "bag", "and", "a", "small", "bag"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tinggi'?",
+                "options": ["tall", "short", "long", "big"],
+                "answer": "tall"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lebar'?",
+                "options": ["wide", "narrow", "long", "short"],
+                "answer": "wide"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa antonim dari 'long'?",
+                "options": ["short", "big", "small", "tall"],
+                "answer": "short"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tipis'?",
+                "options": ["thin", "thick", "wide", "long"],
+                "answer": "thin"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa antonim dari 'tall'?",
+                "options": ["short", "long", "small", "big"],
+                "answer": "short"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gedung itu tinggi'",
+                "words": ["tall", "The", "building", "is"],
+                "answer": ["The", "building", "is", "tall"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jalannya lebar'",
+                "words": ["wide", "The", "road", "is"],
+                "answer": ["The", "road", "is", "wide"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bukunya tipis'",
+                "words": ["thin", "The", "book", "is"],
+                "answer": ["The", "book", "is", "thin"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tinggi dan rambutnya panjang'",
+                "words": ["tall", "She", "is", "and", "her", "hair", "is", "long"],
+                "answer": ["She", "is", "tall", "and", "her", "hair", "is", "long"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya pensil panjang dan pensil pendek'",
+                "words": ["long", "I", "a", "have", "pencil", "and", "a", "short", "pencil"],
+                "answer": ["I", "have", "a", "long", "pencil", "and", "a", "short", "pencil"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tebal'?",
+                "options": ["thick", "thin", "wide", "narrow"],
+                "answer": "thick"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sempit'?",
+                "options": ["narrow", "wide", "long", "short"],
+                "answer": "narrow"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa antonim dari 'wide'?",
+                "options": ["narrow", "long", "tall", "big"],
+                "answer": "narrow"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berat'?",
+                "options": ["heavy", "light", "big", "small"],
+                "answer": "heavy"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa antonim dari 'heavy'?",
+                "options": ["light", "big", "thick", "tall"],
+                "answer": "light"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dindingnya tebal'",
+                "words": ["thick", "The", "wall", "is"],
+                "answer": ["The", "wall", "is", "thick"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gang itu sempit'",
+                "words": ["narrow", "The", "alley", "is"],
+                "answer": ["The", "alley", "is", "narrow"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Koper itu berat'",
+                "words": ["heavy", "The", "suitcase", "is"],
+                "answer": ["The", "suitcase", "is", "heavy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bulu itu ringan'",
+                "words": ["light", "The", "feather", "is"],
+                "answer": ["The", "feather", "is", "light"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya buku tebal dan buku tipis'",
+                "words": ["thick", "I", "a", "have", "book", "and", "a", "thin", "book"],
+                "answer": ["I", "have", "a", "thick", "book", "and", "a", "thin", "book"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Demonstrative (this/that/these/those)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata tunjuk apa yang tepat untuk benda tunggal yang dekat?",
+                "options": ["this", "that", "these", "those"],
+                "answer": "this"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata tunjuk apa yang tepat untuk benda tunggal yang jauh?",
+                "options": ["that", "this", "these", "those"],
+                "answer": "that"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata tunjuk apa yang tepat untuk benda jamak yang dekat?",
+                "options": ["these", "this", "that", "those"],
+                "answer": "these"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata tunjuk apa yang tepat untuk benda jamak yang jauh?",
+                "options": ["those", "these", "this", "that"],
+                "answer": "those"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ is my book' (buku dekat)",
+                "options": ["This", "That", "These", "Those"],
+                "answer": "This"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah pensilku'",
+                "words": ["This", "my", "is", "pencil"],
+                "answer": ["This", "is", "my", "pencil"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah rumahnya'",
+                "words": ["That", "his", "is", "house"],
+                "answer": ["That", "is", "his", "house"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah sepatu-sepatuku'",
+                "words": ["These", "my", "are", "shoes"],
+                "answer": ["These", "are", "my", "shoes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah bunga-bunga yang indah'",
+                "words": ["Those", "beautiful", "are", "flowers"],
+                "answer": ["Those", "are", "beautiful", "flowers"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah ini bukumu?'",
+                "words": ["Is", "this", "your", "book"],
+                "answer": ["Is", "this", "your", "book"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ are my friends' (teman-teman dekat)",
+                "options": ["These", "This", "That", "Those"],
+                "answer": "These"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ is my car' (mobil jauh)",
+                "options": ["That", "This", "These", "Those"],
+                "answer": "That"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ are stars in the sky' (bintang-bintang jauh)",
+                "options": ["Those", "These", "This", "That"],
+                "answer": "Those"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata tunjuk mana yang digunakan dengan kata benda jamak?",
+                "options": ["these dan those", "this dan that", "this dan these", "that dan those"],
+                "answer": "these dan those"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ apple is red' (apel dekat)",
+                "options": ["This", "These", "Those", "That"],
+                "answer": "This"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah kucingku'",
+                "words": ["This", "my", "is", "cat"],
+                "answer": ["This", "is", "my", "cat"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah sepedanya'",
+                "words": ["That", "her", "is", "bike"],
+                "answer": ["That", "is", "her", "bike"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah teman-temanku'",
+                "words": ["These", "my", "are", "friends"],
+                "answer": ["These", "are", "my", "friends"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah gunung-gunung yang tinggi'",
+                "words": ["Those", "tall", "are", "mountains"],
+                "answer": ["Those", "are", "tall", "mountains"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah itu rumahmu?'",
+                "words": ["Is", "that", "your", "house"],
+                "answer": ["Is", "that", "your", "house"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ books are heavy' (buku-buku dekat)",
+                "options": ["These", "This", "That", "Those"],
+                "answer": "These"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ boy is my brother' (anak laki-laki jauh)",
+                "options": ["That", "This", "These", "Those"],
+                "answer": "That"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ birds are singing' (burung-burung jauh)",
+                "options": ["Those", "These", "This", "That"],
+                "answer": "Those"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata tunjuk mana yang menunjukkan sesuatu yang dekat dengan pembicara?",
+                "options": ["this dan these", "that dan those", "this dan that", "these dan those"],
+                "answer": "this dan these"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ pencil is mine' (pensil jauh)",
+                "options": ["That", "This", "These", "Those"],
+                "answer": "That"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah mejaku'",
+                "words": ["This", "my", "is", "desk"],
+                "answer": ["This", "is", "my", "desk"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah tasnya'",
+                "words": ["That", "his", "is", "bag"],
+                "answer": ["That", "is", "his", "bag"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah apel-apelku'",
+                "words": ["These", "my", "are", "apples"],
+                "answer": ["These", "are", "my", "apples"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah awan-awan putih'",
+                "words": ["Those", "white", "are", "clouds"],
+                "answer": ["Those", "are", "white", "clouds"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah ini kue-kue yang enak?'",
+                "words": ["Are", "these", "delicious", "cakes"],
+                "answer": ["Are", "these", "delicious", "cakes"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: deskripsi benda",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The ball is round and red.' Pertanyaan: Bagaimana bentuk dan warna bola tersebut?",
+                "options": ["Lingkaran dan merah", "Persegi dan biru", "Segitiga dan hijau", "Lingkaran dan biru"],
+                "answer": "Lingkaran dan merah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My box is square and brown.' Pertanyaan: Bagaimana bentuk dan warna kotak itu?",
+                "options": ["Persegi dan cokelat", "Lingkaran dan kuning", "Segitiga dan hitam", "Persegi dan merah"],
+                "answer": "Persegi dan cokelat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She has a long blue pencil.' Pertanyaan: Bagaimana pensil yang dia punya?",
+                "options": ["Panjang dan biru", "Pendek dan merah", "Panjang dan hijau", "Pendek dan biru"],
+                "answer": "Panjang dan biru"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The small triangle is yellow.' Pertanyaan: Bagaimana segitiga itu?",
+                "options": ["Kecil dan kuning", "Besar dan merah", "Kecil dan hijau", "Besar dan kuning"],
+                "answer": "Kecil dan kuning"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Those big circles are white.' Pertanyaan: Bagaimana lingkaran-lingkaran itu?",
+                "options": ["Besar dan putih", "Kecil dan hitam", "Besar dan hitam", "Kecil dan putih"],
+                "answer": "Besar dan putih"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah kotak persegi yang besar'",
+                "words": ["This", "a", "is", "big", "square", "box"],
+                "answer": ["This", "is", "a", "big", "square", "box"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah bola merah yang kecil'",
+                "words": ["That", "a", "is", "small", "red", "ball"],
+                "answer": ["That", "is", "a", "small", "red", "ball"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah penggaris panjang berwarna hijau'",
+                "words": ["This", "a", "is", "long", "green", "ruler"],
+                "answer": ["This", "is", "a", "long", "green", "ruler"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah segitiga kuning yang kecil'",
+                "words": ["That", "a", "is", "small", "yellow", "triangle"],
+                "answer": ["That", "is", "a", "small", "yellow", "triangle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah bintang biru yang besar'",
+                "words": ["This", "a", "is", "big", "blue", "star"],
+                "answer": ["This", "is", "a", "big", "blue", "star"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The triangle is green and small.' Pertanyaan: Bagaimana segitiga itu?",
+                "options": ["Hijau dan kecil", "Merah dan besar", "Hijau dan besar", "Biru dan kecil"],
+                "answer": "Hijau dan kecil"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My shirt is short and yellow.' Pertanyaan: Bagaimana kemejaku?",
+                "options": ["Pendek dan kuning", "Panjang dan kuning", "Pendek dan hijau", "Panjang dan merah"],
+                "answer": "Pendek dan kuning"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'These are small black squares.' Pertanyaan: Bagaimana benda-benda ini?",
+                "options": ["Persegi kecil hitam", "Lingkaran besar hitam", "Persegi besar putih", "Segitiga kecil hitam"],
+                "answer": "Persegi kecil hitam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'That tall building is grey.' Pertanyaan: Bagaimana gedung itu?",
+                "options": ["Tinggi dan abu-abu", "Pendek dan putih", "Tinggi dan hitam", "Pendek dan abu-abu"],
+                "answer": "Tinggi dan abu-abu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The long road is narrow.' Pertanyaan: Bagaimana jalan itu?",
+                "options": ["Panjang dan sempit", "Pendek dan lebar", "Panjang dan lebar", "Pendek dan sempit"],
+                "answer": "Panjang dan sempit"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah meja persegi panjang yang besar'",
+                "words": ["That", "a", "is", "big", "rectangle", "table"],
+                "answer": ["That", "is", "a", "big", "rectangle", "table"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah bola putih yang kecil'",
+                "words": ["This", "a", "is", "small", "white", "ball"],
+                "answer": ["This", "is", "a", "small", "white", "ball"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah penggaris pendek berwarna biru'",
+                "words": ["That", "a", "is", "short", "blue", "ruler"],
+                "answer": ["That", "is", "a", "short", "blue", "ruler"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah lingkaran merah yang besar'",
+                "words": ["This", "a", "is", "big", "red", "circle"],
+                "answer": ["This", "is", "a", "big", "red", "circle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah hati merah muda yang kecil'",
+                "words": ["That", "a", "is", "small", "pink", "heart"],
+                "answer": ["That", "is", "a", "small", "pink", "heart"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The square is big and purple.' Pertanyaan: Bagaimana persegi itu?",
+                "options": ["Besar dan ungu", "Kecil dan ungu", "Besar dan merah", "Kecil dan biru"],
+                "answer": "Besar dan ungu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He has short brown hair.' Pertanyaan: Bagaimana rambutnya?",
+                "options": ["Pendek dan cokelat", "Panjang dan hitam", "Pendek dan hitam", "Panjang dan cokelat"],
+                "answer": "Pendek dan cokelat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Those long white dresses are beautiful.' Pertanyaan: Bagaimana gaun-gaun itu?",
+                "options": ["Panjang putih dan indah", "Pendek putih dan indah", "Panjang hitam dan indah", "Pendek merah dan indah"],
+                "answer": "Panjang putih dan indah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'This small circle is orange.' Pertanyaan: Bagaimana lingkaran ini?",
+                "options": ["Kecil dan oranye", "Besar dan oranye", "Kecil dan merah", "Besar dan kuning"],
+                "answer": "Kecil dan oranye"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The heavy box is square and black.' Pertanyaan: Bagaimana kotak itu?",
+                "options": ["Berat, persegi, dan hitam", "Ringan, persegi, dan hitam", "Berat, lingkaran, dan putih", "Ringan, segitiga, dan hitam"],
+                "answer": "Berat, persegi, dan hitam"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah segitiga hijau yang besar'",
+                "words": ["This", "a", "is", "big", "green", "triangle"],
+                "answer": ["This", "is", "a", "big", "green", "triangle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah kotak hitam yang berat'",
+                "words": ["That", "a", "is", "heavy", "black", "box"],
+                "answer": ["That", "is", "a", "heavy", "black", "box"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah bintang kuning yang kecil'",
+                "words": ["This", "a", "is", "small", "yellow", "star"],
+                "answer": ["This", "is", "a", "small", "yellow", "star"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah cermin oval yang besar'",
+                "words": ["That", "an", "is", "big", "oval", "mirror"],
+                "answer": ["That", "is", "an", "big", "oval", "mirror"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah jalan lebar yang panjang'",
+                "words": ["This", "a", "is", "wide", "long", "road"],
+                "answer": ["This", "is", "a", "wide", "long", "road"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: mendeskripsikan benda",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan bola merah yang besar?",
+                "options": ["It is a big red ball", "It is a red big ball", "It is ball big red", "It is a ball red big"],
+                "answer": "It is a big red ball"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan kotak persegi yang kecil?",
+                "options": ["It is a small square box", "It is a square small box", "It is box small square", "It is a box square small"],
+                "answer": "It is a small square box"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan penggaris panjang berwarna biru?",
+                "options": ["It is a long blue ruler", "It is a blue long ruler", "It is ruler long blue", "It is a ruler blue long"],
+                "answer": "It is a long blue ruler"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan segitiga hijau yang kecil?",
+                "options": ["It is a small green triangle", "It is a green small triangle", "It is triangle small green", "It is a triangle green small"],
+                "answer": "It is a small green triangle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan bintang kuning yang besar?",
+                "options": ["It is a big yellow star", "It is a yellow big star", "It is star big yellow", "It is a star yellow big"],
+                "answer": "It is a big yellow star"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah bola kecil berwarna merah'",
+                "words": ["This", "a", "is", "small", "red", "ball"],
+                "answer": ["This", "is", "a", "small", "red", "ball"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah kotak persegi yang besar'",
+                "words": ["That", "a", "is", "big", "square", "box"],
+                "answer": ["That", "is", "a", "big", "square", "box"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah penggaris panjang berwarna hijau'",
+                "words": ["This", "a", "is", "long", "green", "ruler"],
+                "answer": ["This", "is", "a", "long", "green", "ruler"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah segitiga kecil berwarna kuning'",
+                "words": ["That", "a", "is", "small", "yellow", "triangle"],
+                "answer": ["That", "is", "a", "small", "yellow", "triangle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah bintang biru yang besar'",
+                "words": ["This", "a", "is", "big", "blue", "star"],
+                "answer": ["This", "is", "a", "big", "blue", "star"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan meja persegi panjang yang besar?",
+                "options": ["It is a big rectangle table", "It is a rectangle big table", "It is table big rectangle", "It is a table rectangle big"],
+                "answer": "It is a big rectangle table"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan bola putih yang kecil?",
+                "options": ["It is a small white ball", "It is a white small ball", "It is ball small white", "It is a ball white small"],
+                "answer": "It is a small white ball"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan penggaris pendek berwarna biru?",
+                "options": ["It is a short blue ruler", "It is a blue short ruler", "It is ruler short blue", "It is a ruler blue short"],
+                "answer": "It is a short blue ruler"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan lingkaran merah yang besar?",
+                "options": ["It is a big red circle", "It is a red big circle", "It is circle big red", "It is a circle red big"],
+                "answer": "It is a big red circle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan hati merah muda yang kecil?",
+                "options": ["It is a small pink heart", "It is a pink small heart", "It is heart small pink", "It is a heart pink small"],
+                "answer": "It is a small pink heart"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah meja persegi panjang yang kecil'",
+                "words": ["This", "a", "is", "small", "rectangle", "table"],
+                "answer": ["This", "is", "a", "small", "rectangle", "table"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah bola besar berwarna putih'",
+                "words": ["That", "a", "is", "big", "white", "ball"],
+                "answer": ["That", "is", "a", "big", "white", "ball"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah cermin oval yang besar'",
+                "words": ["This", "an", "is", "big", "oval", "mirror"],
+                "answer": ["This", "is", "an", "big", "oval", "mirror"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah hati merah muda yang kecil'",
+                "words": ["That", "a", "is", "small", "pink", "heart"],
+                "answer": ["That", "is", "a", "small", "pink", "heart"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah persegi panjang berwarna hitam'",
+                "words": ["This", "a", "is", "black", "rectangle"],
+                "answer": ["This", "is", "a", "black", "rectangle"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan segitiga hijau yang besar?",
+                "options": ["It is a big green triangle", "It is a green big triangle", "It is triangle big green", "It is a triangle green big"],
+                "answer": "It is a big green triangle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan kotak hitam yang berat?",
+                "options": ["It is a heavy black box", "It is a black heavy box", "It is box heavy black", "It is a box black heavy"],
+                "answer": "It is a heavy black box"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan bintang kuning yang kecil?",
+                "options": ["It is a small yellow star", "It is a yellow small star", "It is star small yellow", "It is a star yellow small"],
+                "answer": "It is a small yellow star"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan jalan lebar yang panjang?",
+                "options": ["It is a long wide road", "It is a wide long road", "It is road long wide", "It is a road wide long"],
+                "answer": "It is a long wide road"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan cermin oval yang besar?",
+                "options": ["It is a big oval mirror", "It is an oval big mirror", "It is mirror big oval", "It is a mirror oval big"],
+                "answer": "It is a big oval mirror"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah segitiga besar berwarna hijau'",
+                "words": ["This", "a", "is", "big", "green", "triangle"],
+                "answer": ["This", "is", "a", "big", "green", "triangle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah kotak berat berwarna hitam'",
+                "words": ["That", "a", "is", "heavy", "black", "box"],
+                "answer": ["That", "is", "a", "heavy", "black", "box"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah bintang kecil berwarna kuning'",
+                "words": ["This", "a", "is", "small", "yellow", "star"],
+                "answer": ["This", "is", "a", "small", "yellow", "star"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Itu adalah jalan lebar yang panjang'",
+                "words": ["That", "a", "is", "wide", "long", "road"],
+                "answer": ["That", "is", "a", "wide", "long", "road"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ini adalah cermin oval yang besar'",
+                "words": ["This", "a", "is", "big", "oval", "mirror"],
+                "answer": ["This", "is", "a", "big", "oval", "mirror"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

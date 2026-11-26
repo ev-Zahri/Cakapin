@@ -1,4 +1,4 @@
-// Katalog toko, liga, dan lencana (aman dipakai di server maupun client).
+// Katalog toko, liga, dan paket modul pembelajaran Cakapin
 import type { IconName } from "../components/game-icon";
 
 export const SHOP = {
@@ -9,10 +9,31 @@ export const SHOP = {
 export type ShopItem = keyof typeof SHOP;
 
 export const COSTUMES = [
-  { id: "hat", name: "Topi Wisuda", desc: "Gaya sarjana cerdas yang memancarkan pesona penguasa kosakata ulung.", cost: 300, icon: "hat" },
-  { id: "headband", name: "Ikat Kepala Juara", desc: "Semangat sporty untuk menembus peringkat papan atas liga!", cost: 250, icon: "headband" },
-  { id: "magic", name: "Topi Sulap", desc: "Ubah kata-kata biasa jadi kalimat ajaib setiap hari.", cost: 400, icon: "magic" },
-] as const satisfies readonly { id: string; name: string; desc: string; cost: number; icon: IconName }[];
+  {
+    id: "interview",
+    name: "Modul Wawancara Kerja",
+    desc: "Panduan praktis menjawab 15 pertanyaan interview bahasa Inggris paling sering ditanyakan.",
+    cost: 300,
+    icon: "hat",
+    tag: "Karir & Bisnis",
+  },
+  {
+    id: "travel",
+    name: "Travel Emergency Phrases",
+    desc: "Kumpulan frasa darurat di bandara, imigrasi, hotel, dan memesan makanan di luar negeri.",
+    cost: 250,
+    icon: "headband",
+    tag: "Wisata",
+  },
+  {
+    id: "slang",
+    name: "Slang & Idiom Populer",
+    desc: "Pelajari ungkapan kasual sehari-hari yang sering digunakan di podcast dan film barat.",
+    cost: 350,
+    icon: "magic",
+    tag: "Percakapan",
+  },
+] as const satisfies readonly { id: string; name: string; desc: string; cost: number; icon: IconName; tag: string }[];
 
 export const MONTHLY_TARGET = 30;
 export const MONTHLY_REWARD = 500;

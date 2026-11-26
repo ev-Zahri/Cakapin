@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Perbandingan",
+    "color": "ruby",
+    "levels": [
+      {
+        "level": "Kosakata sifat & ukuran",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'besar'?",
+                "options": ["big", "small", "tall", "wide"],
+                "answer": "big"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kecil'?",
+                "options": ["small", "big", "long", "short"],
+                "answer": "small"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tinggi'?",
+                "options": ["tall", "short", "long", "wide"],
+                "answer": "tall"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'mahal'?",
+                "options": ["expensive", "cheap", "rich", "costly"],
+                "answer": "expensive"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'murah'?",
+                "options": ["cheap", "expensive", "free", "low"],
+                "answer": "cheap"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mobil itu besar dan mahal'",
+                "words": ["The", "is", "car", "big", "and", "expensive"],
+                "answer": ["The", "car", "is", "big", "and", "expensive"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rumahku kecil tapi nyaman'",
+                "words": ["My", "is", "house", "small", "but", "comfortable"],
+                "answer": ["My", "house", "is", "small", "but", "comfortable"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sangat tinggi'",
+                "words": ["He", "is", "very", "tall"],
+                "answer": ["He", "is", "very", "tall"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tas itu sangat murah'",
+                "words": ["The", "is", "bag", "very", "cheap"],
+                "answer": ["The", "bag", "is", "very", "cheap"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu ini terlalu mahal'",
+                "words": ["These", "are", "shoes", "too", "expensive"],
+                "answer": ["These", "shoes", "are", "too", "expensive"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'panjang'?",
+                "options": ["long", "short", "tall", "wide"],
+                "answer": "long"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pendek'?",
+                "options": ["short", "long", "small", "narrow"],
+                "answer": "short"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lebar'?",
+                "options": ["wide", "narrow", "long", "thick"],
+                "answer": "wide"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'cepat'?",
+                "options": ["fast", "slow", "quick", "rapid"],
+                "answer": "fast"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lambat'?",
+                "options": ["slow", "fast", "quick", "late"],
+                "answer": "slow"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jalan itu panjang dan lebar'",
+                "words": ["The", "is", "road", "long", "and", "wide"],
+                "answer": ["The", "road", "is", "long", "and", "wide"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kucing itu cepat tapi anjing itu lambat'",
+                "words": ["The", "is", "cat", "fast", "but", "the", "dog", "is", "slow"],
+                "answer": ["The", "cat", "is", "fast", "but", "the", "dog", "is", "slow"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia pendek tapi kuat'",
+                "words": ["He", "is", "short", "but", "strong"],
+                "answer": ["He", "is", "short", "but", "strong"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kemeja itu terlalu panjang'",
+                "words": ["The", "is", "shirt", "too", "long"],
+                "answer": ["The", "shirt", "is", "too", "long"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mobil itu sangat cepat'",
+                "words": ["The", "is", "car", "very", "fast"],
+                "answer": ["The", "car", "is", "very", "fast"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berat'?",
+                "options": ["heavy", "light", "big", "thick"],
+                "answer": "heavy"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ringan'?",
+                "options": ["light", "heavy", "thin", "small"],
+                "answer": "light"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kuat'?",
+                "options": ["strong", "weak", "hard", "tough"],
+                "answer": "strong"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'lemah'?",
+                "options": ["weak", "strong", "soft", "light"],
+                "answer": "weak"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tebal'?",
+                "options": ["thick", "thin", "wide", "heavy"],
+                "answer": "thick"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Koper itu berat dan tebal'",
+                "words": ["The", "is", "suitcase", "heavy", "and", "thick"],
+                "answer": ["The", "suitcase", "is", "heavy", "and", "thick"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bulu itu ringan tapi batu itu berat'",
+                "words": ["The", "is", "feather", "light", "but", "the", "stone", "is", "heavy"],
+                "answer": ["The", "feather", "is", "light", "but", "the", "stone", "is", "heavy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia kuat tapi lembut'",
+                "words": ["He", "is", "strong", "but", "gentle"],
+                "answer": ["He", "is", "strong", "but", "gentle"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Buku ini terlalu tebal'",
+                "words": ["This", "is", "book", "too", "thick"],
+                "answer": ["This", "book", "is", "too", "thick"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sangat kuat'",
+                "words": ["She", "is", "very", "strong"],
+                "answer": ["She", "is", "very", "strong"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Comparative (bigger, more expensive)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'big' adalah...",
+                "options": ["bigger", "more big", "biggest", "big more"],
+                "answer": "bigger"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'expensive' adalah...",
+                "options": ["more expensive", "expensiver", "most expensive", "expensive more"],
+                "answer": "more expensive"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'small' adalah...",
+                "options": ["smaller", "more small", "smallest", "small more"],
+                "answer": "smaller"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'beautiful' adalah...",
+                "options": ["more beautiful", "beautifuler", "most beautiful", "beautiful more"],
+                "answer": "more beautiful"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'tall' adalah...",
+                "options": ["taller", "more tall", "tallest", "tall more"],
+                "answer": "taller"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mobil ini lebih besar dari mobil itu'",
+                "words": ["This", "car", "is", "bigger", "than", "that", "car"],
+                "answer": ["This", "car", "is", "bigger", "than", "that", "car"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Buku ini lebih mahal dari buku itu'",
+                "words": ["This", "book", "is", "more", "expensive", "than", "that", "book"],
+                "answer": ["This", "book", "is", "more", "expensive", "than", "that", "book"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia lebih tinggi dari saudara laki-lakinya'",
+                "words": ["He", "is", "taller", "than", "his", "brother"],
+                "answer": ["He", "is", "taller", "than", "his", "brother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rumah ini lebih kecil dari rumah itu'",
+                "words": ["This", "house", "is", "smaller", "than", "that", "house"],
+                "answer": ["This", "house", "is", "smaller", "than", "that", "house"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia lebih cantik dari saudara perempuannya'",
+                "words": ["She", "is", "more", "beautiful", "than", "her", "sister"],
+                "answer": ["She", "is", "more", "beautiful", "than", "her", "sister"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'fast' adalah...",
+                "options": ["faster", "more fast", "fastest", "fast more"],
+                "answer": "faster"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'interesting' adalah...",
+                "options": ["more interesting", "interestinger", "most interesting", "interesting more"],
+                "answer": "more interesting"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'long' adalah...",
+                "options": ["longer", "more long", "longest", "long more"],
+                "answer": "longer"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'difficult' adalah...",
+                "options": ["more difficult", "difficulter", "most difficult", "difficult more"],
+                "answer": "more difficult"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'heavy' adalah...",
+                "options": ["heavier", "more heavy", "heaviest", "heavy more"],
+                "answer": "heavier"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kereta ini lebih cepat dari bus'",
+                "words": ["This", "train", "is", "faster", "than", "the", "bus"],
+                "answer": ["This", "train", "is", "faster", "than", "the", "bus"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Film ini lebih menarik dari film itu'",
+                "words": ["This", "movie", "is", "more", "interesting", "than", "that", "movie"],
+                "answer": ["This", "movie", "is", "more", "interesting", "than", "that", "movie"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jalan ini lebih panjang dari jalan itu'",
+                "words": ["This", "road", "is", "longer", "than", "that", "road"],
+                "answer": ["This", "road", "is", "longer", "than", "that", "road"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Soal ini lebih sulit dari soal itu'",
+                "words": ["This", "question", "is", "more", "difficult", "than", "that", "question"],
+                "answer": ["This", "question", "is", "more", "difficult", "than", "that", "question"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Koper ini lebih berat dari koper itu'",
+                "words": ["This", "suitcase", "is", "heavier", "than", "that", "suitcase"],
+                "answer": ["This", "suitcase", "is", "heavier", "than", "that", "suitcase"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'happy' adalah...",
+                "options": ["happier", "more happy", "happiest", "happy more"],
+                "answer": "happier"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'good' adalah...",
+                "options": ["better", "gooder", "best", "more good"],
+                "answer": "better"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'bad' adalah...",
+                "options": ["worse", "badder", "worst", "more bad"],
+                "answer": "worse"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'comfortable' adalah...",
+                "options": ["more comfortable", "comfortabler", "most comfortable", "comfortable more"],
+                "answer": "more comfortable"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk comparative dari 'far' adalah...",
+                "options": ["farther", "more far", "farthest", "far more"],
+                "answer": "farther"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku lebih bahagia hari ini dari kemarin'",
+                "words": ["I", "am", "happier", "today", "than", "yesterday"],
+                "answer": ["I", "am", "happier", "today", "than", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini lebih baik dari itu'",
+                "words": ["This", "is", "better", "than", "that"],
+                "answer": ["This", "is", "better", "than", "that"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Cuaca hari ini lebih buruk dari kemarin'",
+                "words": ["The", "weather", "today", "is", "worse", "than", "yesterday"],
+                "answer": ["The", "weather", "today", "is", "worse", "than", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kursi ini lebih nyaman dari kursi itu'",
+                "words": ["This", "chair", "is", "more", "comfortable", "than", "that", "chair"],
+                "answer": ["This", "chair", "is", "more", "comfortable", "than", "that", "chair"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekolahku lebih jauh dari rumahmu'",
+                "words": ["My", "school", "is", "farther", "than", "your", "house"],
+                "answer": ["My", "school", "is", "farther", "than", "your", "house"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Superlative (the biggest, the most...)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'big' adalah...",
+                "options": ["the biggest", "the most big", "bigger", "the big most"],
+                "answer": "the biggest"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'expensive' adalah...",
+                "options": ["the most expensive", "the expensivest", "more expensive", "the expensive most"],
+                "answer": "the most expensive"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'small' adalah...",
+                "options": ["the smallest", "the most small", "smaller", "the small most"],
+                "answer": "the smallest"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'beautiful' adalah...",
+                "options": ["the most beautiful", "the beautifulest", "more beautiful", "the beautiful most"],
+                "answer": "the most beautiful"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'tall' adalah...",
+                "options": ["the tallest", "the most tall", "taller", "the tall most"],
+                "answer": "the tallest"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah mobil terbesar di dunia'",
+                "words": ["This", "is", "the", "biggest", "car", "in", "the", "world"],
+                "answer": ["This", "is", "the", "biggest", "car", "in", "the", "world"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah buku termahal di toko'",
+                "words": ["This", "is", "the", "most", "expensive", "book", "in", "the", "store"],
+                "answer": ["This", "is", "the", "most", "expensive", "book", "in", "the", "store"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia adalah siswa tertinggi di kelas'",
+                "words": ["He", "is", "the", "tallest", "student", "in", "the", "class"],
+                "answer": ["He", "is", "the", "tallest", "student", "in", "the", "class"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah rumah terkecil di jalan ini'",
+                "words": ["This", "is", "the", "smallest", "house", "on", "this", "street"],
+                "answer": ["This", "is", "the", "smallest", "house", "on", "this", "street"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia adalah gadis tercantik di sekolah'",
+                "words": ["She", "is", "the", "most", "beautiful", "girl", "in", "the", "school"],
+                "answer": ["She", "is", "the", "most", "beautiful", "girl", "in", "the", "school"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'fast' adalah...",
+                "options": ["the fastest", "the most fast", "faster", "the fast most"],
+                "answer": "the fastest"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'interesting' adalah...",
+                "options": ["the most interesting", "the interestingest", "more interesting", "the interesting most"],
+                "answer": "the most interesting"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'long' adalah...",
+                "options": ["the longest", "the most long", "longer", "the long most"],
+                "answer": "the longest"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'difficult' adalah...",
+                "options": ["the most difficult", "the difficultest", "more difficult", "the difficult most"],
+                "answer": "the most difficult"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'heavy' adalah...",
+                "options": ["the heaviest", "the most heavy", "heavier", "the heavy most"],
+                "answer": "the heaviest"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah kereta tercepat di Indonesia'",
+                "words": ["This", "is", "the", "fastest", "train", "in", "Indonesia"],
+                "answer": ["This", "is", "the", "fastest", "train", "in", "Indonesia"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah film paling menarik tahun ini'",
+                "words": ["This", "is", "the", "most", "interesting", "movie", "of", "the", "year"],
+                "answer": ["This", "is", "the", "most", "interesting", "movie", "of", "the", "year"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah jalan terpanjang di kota'",
+                "words": ["This", "is", "the", "longest", "road", "in", "the", "city"],
+                "answer": ["This", "is", "the", "longest", "road", "in", "the", "city"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah soal paling sulit di ujian'",
+                "words": ["This", "is", "the", "most", "difficult", "question", "on", "the", "test"],
+                "answer": ["This", "is", "the", "most", "difficult", "question", "on", "the", "test"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah koper terberat di bandara'",
+                "words": ["This", "is", "the", "heaviest", "suitcase", "at", "the", "airport"],
+                "answer": ["This", "is", "the", "heaviest", "suitcase", "at", "the", "airport"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'happy' adalah...",
+                "options": ["the happiest", "the most happy", "happier", "the happy most"],
+                "answer": "the happiest"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'good' adalah...",
+                "options": ["the best", "the goodest", "better", "the most good"],
+                "answer": "the best"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'bad' adalah...",
+                "options": ["the worst", "the baddest", "worse", "the most bad"],
+                "answer": "the worst"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'comfortable' adalah...",
+                "options": ["the most comfortable", "the comfortablest", "more comfortable", "the comfortable most"],
+                "answer": "the most comfortable"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bentuk superlative dari 'far' adalah...",
+                "options": ["the farthest", "the most far", "farther", "the far most"],
+                "answer": "the farthest"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah hari terbahagia dalam hidupku'",
+                "words": ["This", "is", "the", "happiest", "day", "of", "my", "life"],
+                "answer": ["This", "is", "the", "happiest", "day", "of", "my", "life"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah restoran terbaik di kota'",
+                "words": ["This", "is", "the", "best", "restaurant", "in", "the", "city"],
+                "answer": ["This", "is", "the", "best", "restaurant", "in", "the", "city"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah film terburuk yang pernah aku tonton'",
+                "words": ["This", "is", "the", "worst", "movie", "I", "have", "ever", "seen"],
+                "answer": ["This", "is", "the", "worst", "movie", "I", "have", "ever", "seen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah kursi paling nyaman di rumah'",
+                "words": ["This", "is", "the", "most", "comfortable", "chair", "in", "the", "house"],
+                "answer": ["This", "is", "the", "most", "comfortable", "chair", "in", "the", "house"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah tempat terjauh yang pernah aku kunjungi'",
+                "words": ["This", "is", "the", "farthest", "place", "I", "have", "ever", "visited"],
+                "answer": ["This", "is", "the", "farthest", "place", "I", "have", "ever", "visited"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "As...as & too/enough",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She is ___ tall ___ her brother'",
+                "options": ["as ... as", "more ... than", "too ... to", "enough ... to"],
+                "answer": "as ... as"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'This bag is ___ expensive' (terlalu mahal)",
+                "options": ["too", "enough", "as", "more"],
+                "answer": "too"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He is old ___ to drive a car' (cukup tua)",
+                "options": ["enough", "too", "as", "more"],
+                "answer": "enough"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'This movie is ___ boring' (terlalu membosankan)",
+                "options": ["too", "enough", "as", "more"],
+                "answer": "too"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She is ___ kind ___ her mother'",
+                "options": ["as ... as", "more ... than", "too ... to", "enough ... to"],
+                "answer": "as ... as"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia setinggi saudara perempuannya'",
+                "words": ["She", "is", "as", "tall", "as", "her", "sister"],
+                "answer": ["She", "is", "as", "tall", "as", "her", "sister"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tas ini terlalu mahal untukku'",
+                "words": ["This", "bag", "is", "too", "expensive", "for", "me"],
+                "answer": ["This", "bag", "is", "too", "expensive", "for", "me"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia cukup tua untuk mengemudi'",
+                "words": ["He", "is", "old", "enough", "to", "drive"],
+                "answer": ["He", "is", "old", "enough", "to", "drive"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Film ini terlalu membosankan untuk ditonton'",
+                "words": ["This", "movie", "is", "too", "boring", "to", "watch"],
+                "answer": ["This", "movie", "is", "too", "boring", "to", "watch"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sebaik ibunya'",
+                "words": ["She", "is", "as", "kind", "as", "her", "mother"],
+                "answer": ["She", "is", "as", "kind", "as", "her", "mother"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'This book is ___ interesting ___ that one'",
+                "options": ["as ... as", "more ... than", "too ... to", "enough ... to"],
+                "answer": "as ... as"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'The coffee is ___ hot to drink' (terlalu panas)",
+                "options": ["too", "enough", "as", "more"],
+                "answer": "too"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She is smart ___ to solve the problem' (cukup pintar)",
+                "options": ["enough", "too", "as", "more"],
+                "answer": "enough"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'The room is ___ dark' (terlalu gelap)",
+                "options": ["too", "enough", "as", "more"],
+                "answer": "too"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He is ___ strong ___ his father'",
+                "options": ["as ... as", "more ... than", "too ... to", "enough ... to"],
+                "answer": "as ... as"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Buku ini sama menariknya dengan buku itu'",
+                "words": ["This", "book", "is", "as", "interesting", "as", "that", "one"],
+                "answer": ["This", "book", "is", "as", "interesting", "as", "that", "one"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kopinya terlalu panas untuk diminum'",
+                "words": ["The", "coffee", "is", "too", "hot", "to", "drink"],
+                "answer": ["The", "coffee", "is", "too", "hot", "to", "drink"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia cukup pintar untuk memecahkan masalah itu'",
+                "words": ["She", "is", "smart", "enough", "to", "solve", "the", "problem"],
+                "answer": ["She", "is", "smart", "enough", "to", "solve", "the", "problem"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ruangan itu terlalu gelap untuk membaca'",
+                "words": ["The", "room", "is", "too", "dark", "to", "read"],
+                "answer": ["The", "room", "is", "too", "dark", "to", "read"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sekuat ayahnya'",
+                "words": ["He", "is", "as", "strong", "as", "his", "father"],
+                "answer": ["He", "is", "as", "strong", "as", "his", "father"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My house is ___ big ___ yours'",
+                "options": ["as ... as", "more ... than", "too ... to", "enough ... to"],
+                "answer": "as ... as"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'The shoes are ___ small for me' (terlalu kecil)",
+                "options": ["too", "enough", "as", "more"],
+                "answer": "too"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He is tall ___ to reach the shelf' (cukup tinggi)",
+                "options": ["enough", "too", "as", "more"],
+                "answer": "enough"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'This exercise is ___ difficult' (terlalu sulit)",
+                "options": ["too", "enough", "as", "more"],
+                "answer": "too"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She is ___ beautiful ___ her sister'",
+                "options": ["as ... as", "more ... than", "too ... to", "enough ... to"],
+                "answer": "as ... as"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rumahku sebesar rumahmu'",
+                "words": ["My", "house", "is", "as", "big", "as", "yours"],
+                "answer": ["My", "house", "is", "as", "big", "as", "yours"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sepatu itu terlalu kecil untukku'",
+                "words": ["The", "shoes", "are", "too", "small", "for", "me"],
+                "answer": ["The", "shoes", "are", "too", "small", "for", "me"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia cukup tinggi untuk meraih rak itu'",
+                "words": ["He", "is", "tall", "enough", "to", "reach", "the", "shelf"],
+                "answer": ["He", "is", "tall", "enough", "to", "reach", "the", "shelf"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Latihan ini terlalu sulit untuk dikerjakan'",
+                "words": ["This", "exercise", "is", "too", "difficult", "to", "do"],
+                "answer": ["This", "exercise", "is", "too", "difficult", "to", "do"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia secantik saudara perempuannya'",
+                "words": ["She", "is", "as", "beautiful", "as", "her", "sister"],
+                "answer": ["She", "is", "as", "beautiful", "as", "her", "sister"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: membandingkan dua benda",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The red car is bigger than the blue car.' Pertanyaan: Mobil mana yang lebih besar?",
+                "options": ["Mobil merah", "Mobil biru", "Sama besar", "Tidak disebutkan"],
+                "answer": "Mobil merah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'This phone is more expensive than that phone.' Pertanyaan: Ponsel mana yang lebih mahal?",
+                "options": ["Ponsel ini", "Ponsel itu", "Sama mahal", "Tidak disebutkan"],
+                "answer": "Ponsel ini"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My bag is heavier than yours.' Pertanyaan: Tas siapa yang lebih berat?",
+                "options": ["Tas pembicara", "Tas pendengar", "Sama berat", "Tidak disebutkan"],
+                "answer": "Tas pembicara"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She is the tallest student in the class.' Pertanyaan: Siapa siswa tertinggi di kelas?",
+                "options": ["Dia (perempuan)", "Dia (laki-laki)", "Semua sama tinggi", "Tidak disebutkan"],
+                "answer": "Dia (perempuan)"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'This book is as interesting as that movie.' Pertanyaan: Bagaimana buku ini dibandingkan film itu?",
+                "options": ["Sama menariknya", "Lebih menarik", "Kurang menarik", "Tidak disebutkan"],
+                "answer": "Sama menariknya"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Mobil merah lebih besar dari mobil biru'",
+                "words": ["The", "red", "car", "is", "bigger", "than", "the", "blue", "car"],
+                "answer": ["The", "red", "car", "is", "bigger", "than", "the", "blue", "car"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Ponsel ini lebih mahal dari ponsel itu'",
+                "words": ["This", "phone", "is", "more", "expensive", "than", "that", "phone"],
+                "answer": ["This", "phone", "is", "more", "expensive", "than", "that", "phone"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Tas saya lebih berat dari tasmu'",
+                "words": ["My", "bag", "is", "heavier", "than", "yours"],
+                "answer": ["My", "bag", "is", "heavier", "than", "yours"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia adalah siswa tertinggi di kelas'",
+                "words": ["She", "is", "the", "tallest", "student", "in", "the", "class"],
+                "answer": ["She", "is", "the", "tallest", "student", "in", "the", "class"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Buku ini sama menariknya dengan film itu'",
+                "words": ["This", "book", "is", "as", "interesting", "as", "that", "movie"],
+                "answer": ["This", "book", "is", "as", "interesting", "as", "that", "movie"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The blue house is smaller than the white house.' Pertanyaan: Rumah mana yang lebih kecil?",
+                "options": ["Rumah biru", "Rumah putih", "Sama kecil", "Tidak disebutkan"],
+                "answer": "Rumah biru"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'This laptop is faster than that laptop.' Pertanyaan: Laptop mana yang lebih cepat?",
+                "options": ["Laptop ini", "Laptop itu", "Sama cepat", "Tidak disebutkan"],
+                "answer": "Laptop ini"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My shoes are newer than yours.' Pertanyaan: Sepatu siapa yang lebih baru?",
+                "options": ["Sepatu pembicara", "Sepatu pendengar", "Sama baru", "Tidak disebutkan"],
+                "answer": "Sepatu pembicara"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He is the fastest runner in the school.' Pertanyaan: Siapa pelari tercepat di sekolah?",
+                "options": ["Dia (laki-laki)", "Dia (perempuan)", "Semua sama cepat", "Tidak disebutkan"],
+                "answer": "Dia (laki-laki)"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'This movie is as boring as that book.' Pertanyaan: Bagaimana film ini dibandingkan buku itu?",
+                "options": ["Sama membosankan", "Lebih membosankan", "Kurang membosankan", "Tidak disebutkan"],
+                "answer": "Sama membosankan"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Rumah biru lebih kecil dari rumah putih'",
+                "words": ["The", "blue", "house", "is", "smaller", "than", "the", "white", "house"],
+                "answer": ["The", "blue", "house", "is", "smaller", "than", "the", "white", "house"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Laptop ini lebih cepat dari laptop itu'",
+                "words": ["This", "laptop", "is", "faster", "than", "that", "laptop"],
+                "answer": ["This", "laptop", "is", "faster", "than", "that", "laptop"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Sepatu saya lebih baru dari sepatumu'",
+                "words": ["My", "shoes", "are", "newer", "than", "yours"],
+                "answer": ["My", "shoes", "are", "newer", "than", "yours"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia adalah pelari tercepat di sekolah'",
+                "words": ["He", "is", "the", "fastest", "runner", "in", "the", "school"],
+                "answer": ["He", "is", "the", "fastest", "runner", "in", "the", "school"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Film ini sama membosankannya dengan buku itu'",
+                "words": ["This", "movie", "is", "as", "boring", "as", "that", "book"],
+                "answer": ["This", "movie", "is", "as", "boring", "as", "that", "book"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The red dress is more expensive than the blue dress.' Pertanyaan: Gaun mana yang lebih mahal?",
+                "options": ["Gaun merah", "Gaun biru", "Sama mahal", "Tidak disebutkan"],
+                "answer": "Gaun merah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'This mountain is higher than that mountain.' Pertanyaan: Gunung mana yang lebih tinggi?",
+                "options": ["Gunung ini", "Gunung itu", "Sama tinggi", "Tidak disebutkan"],
+                "answer": "Gunung ini"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My garden is bigger than your garden.' Pertanyaan: Taman siapa yang lebih besar?",
+                "options": ["Taman pembicara", "Taman pendengar", "Sama besar", "Tidak disebutkan"],
+                "answer": "Taman pembicara"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She is the most beautiful girl in the room.' Pertanyaan: Siapa gadis tercantik di ruangan?",
+                "options": ["Dia (perempuan)", "Dia (laki-laki)", "Semua sama cantik", "Tidak disebutkan"],
+                "answer": "Dia (perempuan)"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'This test is as difficult as that test.' Pertanyaan: Bagaimana tes ini dibandingkan tes itu?",
+                "options": ["Sama sulitnya", "Lebih sulit", "Kurang sulit", "Tidak disebutkan"],
+                "answer": "Sama sulitnya"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Gaun merah lebih mahal dari gaun biru'",
+                "words": ["The", "red", "dress", "is", "more", "expensive", "than", "the", "blue", "dress"],
+                "answer": ["The", "red", "dress", "is", "more", "expensive", "than", "the", "blue", "dress"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Gunung ini lebih tinggi dari gunung itu'",
+                "words": ["This", "mountain", "is", "higher", "than", "that", "mountain"],
+                "answer": ["This", "mountain", "is", "higher", "than", "that", "mountain"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Taman saya lebih besar dari tamanmu'",
+                "words": ["My", "garden", "is", "bigger", "than", "yours"],
+                "answer": ["My", "garden", "is", "bigger", "than", "yours"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia adalah gadis tercantik di ruangan'",
+                "words": ["She", "is", "the", "most", "beautiful", "girl", "in", "the", "room"],
+                "answer": ["She", "is", "the", "most", "beautiful", "girl", "in", "the", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Tes ini sama sulitnya dengan tes itu'",
+                "words": ["This", "test", "is", "as", "difficult", "as", "that", "test"],
+                "answer": ["This", "test", "is", "as", "difficult", "as", "that", "test"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: membandingkan kota/orang",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Jakarta lebih besar dari Bandung'?",
+                "options": ["Jakarta is bigger than Bandung", "Jakarta is big than Bandung", "Jakarta bigger than Bandung", "Jakarta is more big than Bandung"],
+                "answer": "Jakarta is bigger than Bandung"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Dia lebih tinggi dari saya'?",
+                "options": ["He is taller than me", "He is tall than me", "He taller than me", "He is more tall than me"],
+                "answer": "He is taller than me"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Kota ini lebih modern dari kota itu'?",
+                "options": ["This city is more modern than that city", "This city is moderner than that city", "This city more modern than that city", "This city is modern than that city"],
+                "answer": "This city is more modern than that city"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Dia lebih pintar dari saudara perempuannya'?",
+                "options": ["She is smarter than her sister", "She is smart than her sister", "She smarter than her sister", "She is more smart than her sister"],
+                "answer": "She is smarter than her sister"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Surabaya sebesar Jakarta'?",
+                "options": ["Surabaya is as big as Jakarta", "Surabaya is big as Jakarta", "Surabaya as big as Jakarta", "Surabaya is as bigger as Jakarta"],
+                "answer": "Surabaya is as big as Jakarta"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Jakarta lebih besar dan lebih ramai dari Bandung'",
+                "words": ["Jakarta", "is", "bigger", "and", "busier", "than", "Bandung"],
+                "answer": ["Jakarta", "is", "bigger", "and", "busier", "than", "Bandung"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia lebih tinggi dari saya'",
+                "words": ["He", "is", "taller", "than", "me"],
+                "answer": ["He", "is", "taller", "than", "me"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Kota ini lebih modern dari kota itu'",
+                "words": ["This", "city", "is", "more", "modern", "than", "that", "city"],
+                "answer": ["This", "city", "is", "more", "modern", "than", "that", "city"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia lebih pintar dari saudara perempuannya'",
+                "words": ["She", "is", "smarter", "than", "her", "sister"],
+                "answer": ["She", "is", "smarter", "than", "her", "sister"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Surabaya sebesar Jakarta'",
+                "words": ["Surabaya", "is", "as", "big", "as", "Jakarta"],
+                "answer": ["Surabaya", "is", "as", "big", "as", "Jakarta"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Bali lebih indah dari Jakarta'?",
+                "options": ["Bali is more beautiful than Jakarta", "Bali is beautifuler than Jakarta", "Bali more beautiful than Jakarta", "Bali is beautiful than Jakarta"],
+                "answer": "Bali is more beautiful than Jakarta"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Dia lebih muda dari saya'?",
+                "options": ["She is younger than me", "She is young than me", "She younger than me", "She is more young than me"],
+                "answer": "She is younger than me"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Cuaca di sini lebih dingin dari di sana'?",
+                "options": ["The weather here is colder than there", "The weather here is cold than there", "The weather here colder than there", "The weather here is more cold than there"],
+                "answer": "The weather here is colder than there"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Dia lebih ramah dari saudara laki-lakinya'?",
+                "options": ["He is friendlier than his brother", "He is friendly than his brother", "He friendlier than his brother", "He is more friendly than his brother"],
+                "answer": "He is friendlier than his brother"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Yogyakarta seindah Bali'?",
+                "options": ["Yogyakarta is as beautiful as Bali", "Yogyakarta is beautiful as Bali", "Yogyakarta as beautiful as Bali", "Yogyakarta is as more beautiful as Bali"],
+                "answer": "Yogyakarta is as beautiful as Bali"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Bali lebih indah dan lebih tenang dari Jakarta'",
+                "words": ["Bali", "is", "more", "beautiful", "and", "quieter", "than", "Jakarta"],
+                "answer": ["Bali", "is", "more", "beautiful", "and", "quieter", "than", "Jakarta"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia lebih muda dari saya'",
+                "words": ["She", "is", "younger", "than", "me"],
+                "answer": ["She", "is", "younger", "than", "me"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Cuaca di sini lebih dingin dari di sana'",
+                "words": ["The", "weather", "here", "is", "colder", "than", "there"],
+                "answer": ["The", "weather", "here", "is", "colder", "than", "there"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia lebih ramah dari saudara laki-lakinya'",
+                "words": ["He", "is", "friendlier", "than", "his", "brother"],
+                "answer": ["He", "is", "friendlier", "than", "his", "brother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Yogyakarta seindah Bali'",
+                "words": ["Yogyakarta", "is", "as", "beautiful", "as", "Bali"],
+                "answer": ["Yogyakarta", "is", "as", "beautiful", "as", "Bali"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Tokyo lebih sibuk dari Seoul'?",
+                "options": ["Tokyo is busier than Seoul", "Tokyo is busy than Seoul", "Tokyo busier than Seoul", "Tokyo is more busy than Seoul"],
+                "answer": "Tokyo is busier than Seoul"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Dia lebih tua dari saya'?",
+                "options": ["He is older than me", "He is old than me", "He older than me", "He is more old than me"],
+                "answer": "He is older than me"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Makanan di sini lebih enak dari di sana'?",
+                "options": ["The food here is better than there", "The food here is good than there", "The food here better than there", "The food here is more good than there"],
+                "answer": "The food here is better than there"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Dia lebih berani dari temannya'?",
+                "options": ["He is braver than his friend", "He is brave than his friend", "He braver than his friend", "He is more brave than his friend"],
+                "answer": "He is braver than his friend"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara membandingkan 'Bandung sejuk seperti Malang'?",
+                "options": ["Bandung is as cool as Malang", "Bandung is cool as Malang", "Bandung as cool as Malang", "Bandung is as cooler as Malang"],
+                "answer": "Bandung is as cool as Malang"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Tokyo lebih sibuk dan lebih mahal dari Seoul'",
+                "words": ["Tokyo", "is", "busier", "and", "more", "expensive", "than", "Seoul"],
+                "answer": ["Tokyo", "is", "busier", "and", "more", "expensive", "than", "Seoul"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia lebih tua dari saya'",
+                "words": ["He", "is", "older", "than", "me"],
+                "answer": ["He", "is", "older", "than", "me"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Makanan di sini lebih enak dari di sana'",
+                "words": ["The", "food", "here", "is", "better", "than", "there"],
+                "answer": ["The", "food", "here", "is", "better", "than", "there"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Dia lebih berani dari temannya'",
+                "words": ["He", "is", "braver", "than", "his", "friend"],
+                "answer": ["He", "is", "braver", "than", "his", "friend"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun perbandingan: 'Bandung sejuk seperti Malang'",
+                "words": ["Bandung", "is", "as", "cool", "as", "Malang"],
+                "answer": ["Bandung", "is", "as", "cool", "as", "Malang"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

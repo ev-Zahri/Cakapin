@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Keluarga & Teman",
+    "color": "ruby",
+    "levels": [
+      {
+        "level": "Anggota keluarga",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ibu'?",
+                "options": ["mother", "father", "sister", "brother"],
+                "answer": "mother"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'ayah'?",
+                "options": ["father", "mother", "uncle", "aunt"],
+                "answer": "father"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'saudara perempuan'?",
+                "options": ["sister", "brother", "cousin", "aunt"],
+                "answer": "sister"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'saudara laki-laki'?",
+                "options": ["brother", "sister", "uncle", "nephew"],
+                "answer": "brother"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'nenek'?",
+                "options": ["grandmother", "grandfather", "mother", "aunt"],
+                "answer": "grandmother"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku sangat baik'",
+                "words": ["mother", "My", "is", "kind", "very"],
+                "answer": ["My", "mother", "is", "very", "kind"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ayahku seorang guru'",
+                "words": ["father", "My", "a", "is", "teacher"],
+                "answer": ["My", "father", "is", "a", "teacher"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya satu saudara perempuan'",
+                "words": ["one", "I", "sister", "have"],
+                "answer": ["I", "have", "one", "sister"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kakek dan nenekku tinggal di desa'",
+                "words": ["grandfather", "My", "and", "grandmother", "live", "in", "the", "village"],
+                "answer": ["My", "grandfather", "and", "grandmother", "live", "in", "the", "village"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara laki-lakiku masih kecil'",
+                "words": ["brother", "My", "is", "young"],
+                "answer": ["My", "brother", "is", "young"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'paman'?",
+                "options": ["uncle", "aunt", "cousin", "nephew"],
+                "answer": "uncle"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'bibi'?",
+                "options": ["aunt", "uncle", "mother", "sister"],
+                "answer": "aunt"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sepupu'?",
+                "options": ["cousin", "uncle", "brother", "nephew"],
+                "answer": "cousin"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kakek'?",
+                "options": ["grandfather", "grandmother", "father", "uncle"],
+                "answer": "grandfather"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'keponakan laki-laki'?",
+                "options": ["nephew", "niece", "cousin", "son"],
+                "answer": "nephew"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pamanku tinggal di Jakarta'",
+                "words": ["uncle", "My", "lives", "in", "Jakarta"],
+                "answer": ["My", "uncle", "lives", "in", "Jakarta"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bibiku sangat ramah'",
+                "words": ["aunt", "My", "is", "friendly", "very"],
+                "answer": ["My", "aunt", "is", "very", "friendly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya tiga sepupu'",
+                "words": ["three", "I", "cousins", "have"],
+                "answer": ["I", "have", "three", "cousins"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kakekku berumur tujuh puluh tahun'",
+                "words": ["grandfather", "My", "is", "seventy", "years", "old"],
+                "answer": ["My", "grandfather", "is", "seventy", "years", "old"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Keponakanku sangat lucu'",
+                "words": ["nephew", "My", "is", "cute", "very"],
+                "answer": ["My", "nephew", "is", "very", "cute"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'putra'?",
+                "options": ["son", "daughter", "nephew", "brother"],
+                "answer": "son"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'putri'?",
+                "options": ["daughter", "son", "niece", "sister"],
+                "answer": "daughter"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'keponakan perempuan'?",
+                "options": ["niece", "nephew", "cousin", "daughter"],
+                "answer": "niece"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'orang tua'?",
+                "options": ["parents", "children", "cousins", "grandparents"],
+                "answer": "parents"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'anak-anak'?",
+                "options": ["children", "parents", "siblings", "cousins"],
+                "answer": "children"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Putraku berumur lima tahun'",
+                "words": ["son", "My", "is", "five", "years", "old"],
+                "answer": ["My", "son", "is", "five", "years", "old"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Putriku sangat pintar'",
+                "words": ["daughter", "My", "is", "smart", "very"],
+                "answer": ["My", "daughter", "is", "very", "smart"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Keponakan perempuanku tinggal di Bandung'",
+                "words": ["niece", "My", "lives", "in", "Bandung"],
+                "answer": ["My", "niece", "lives", "in", "Bandung"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Orang tuaku tinggal di Surabaya'",
+                "words": ["parents", "My", "live", "in", "Surabaya"],
+                "answer": ["My", "parents", "live", "in", "Surabaya"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka punya dua anak'",
+                "words": ["two", "They", "children", "have"],
+                "answer": ["They", "have", "two", "children"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Possessive adjectives",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata ganti kepemilikan untuk 'I' adalah...",
+                "options": ["my", "your", "his", "her"],
+                "answer": "my"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti kepemilikan untuk 'you' adalah...",
+                "options": ["your", "my", "their", "our"],
+                "answer": "your"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti kepemilikan untuk 'he' adalah...",
+                "options": ["his", "her", "its", "their"],
+                "answer": "his"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti kepemilikan untuk 'she' adalah...",
+                "options": ["her", "his", "my", "our"],
+                "answer": "her"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti kepemilikan untuk 'they' adalah...",
+                "options": ["their", "our", "your", "its"],
+                "answer": "their"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah ibuku'",
+                "words": ["This", "my", "is", "mother"],
+                "answer": ["This", "is", "my", "mother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apa nama ayahmu?'",
+                "words": ["What", "your", "is", "father's", "name"],
+                "answer": ["What", "is", "your", "father's", "name"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara perempuannya sangat baik'",
+                "words": ["His", "sister", "is", "very", "kind"],
+                "answer": ["His", "sister", "is", "very", "kind"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rumah mereka besar'",
+                "words": ["Their", "house", "is", "big"],
+                "answer": ["Their", "house", "is", "big"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kucingku sangat lucu'",
+                "words": ["My", "cat", "is", "very", "cute"],
+                "answer": ["My", "cat", "is", "very", "cute"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata ganti kepemilikan untuk 'we' adalah...",
+                "options": ["our", "their", "your", "my"],
+                "answer": "our"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata ganti kepemilikan untuk 'it' adalah...",
+                "options": ["its", "his", "her", "their"],
+                "answer": "its"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ name is Budi' (dia laki-laki)",
+                "options": ["His", "Her", "My", "Their"],
+                "answer": "His"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ name is Siti' (dia perempuan)",
+                "options": ["Her", "His", "Your", "Our"],
+                "answer": "Her"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ parents are kind' (kami)",
+                "options": ["Our", "Their", "Your", "His"],
+                "answer": "Our"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah ayahku'",
+                "words": ["This", "my", "is", "father"],
+                "answer": ["This", "is", "my", "father"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apa nama ibumu?'",
+                "words": ["What", "your", "is", "mother's", "name"],
+                "answer": ["What", "is", "your", "mother's", "name"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara laki-lakinya sangat tinggi'",
+                "words": ["Her", "brother", "is", "very", "tall"],
+                "answer": ["Her", "brother", "is", "very", "tall"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mobil kami baru'",
+                "words": ["Our", "car", "is", "new"],
+                "answer": ["Our", "car", "is", "new"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Anjing mereka sangat besar'",
+                "words": ["Their", "dog", "is", "very", "big"],
+                "answer": ["Their", "dog", "is", "very", "big"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I love ___ family' (aku)",
+                "options": ["my", "your", "his", "their"],
+                "answer": "my"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She loves ___ parents' (dia perempuan)",
+                "options": ["her", "his", "my", "our"],
+                "answer": "her"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He loves ___ parents' (dia laki-laki)",
+                "options": ["his", "her", "their", "your"],
+                "answer": "his"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They love ___ children' (mereka)",
+                "options": ["their", "our", "your", "its"],
+                "answer": "their"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We love ___ grandparents' (kami)",
+                "options": ["our", "their", "my", "her"],
+                "answer": "our"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah saudara perempuanku'",
+                "words": ["This", "my", "is", "sister"],
+                "answer": ["This", "is", "my", "sister"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apa nama saudara laki-lakimu?'",
+                "words": ["What", "your", "is", "brother's", "name"],
+                "answer": ["What", "is", "your", "brother's", "name"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Neneknya sangat ramah'",
+                "words": ["His", "grandmother", "is", "very", "friendly"],
+                "answer": ["His", "grandmother", "is", "very", "friendly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Rumah kami sangat besar'",
+                "words": ["Our", "house", "is", "very", "big"],
+                "answer": ["Our", "house", "is", "very", "big"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kucing mereka sangat lucu'",
+                "words": ["Their", "cat", "is", "very", "cute"],
+                "answer": ["Their", "cat", "is", "very", "cute"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Possessive 's",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'buku milik Budi'?",
+                "options": ["Budi's book", "Budi book", "book Budi's", "book of Budi's"],
+                "answer": "Budi's book"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'ibu milik Siti'?",
+                "options": ["Siti's mother", "Siti mother", "mother Siti's", "mother of Siti's"],
+                "answer": "Siti's mother"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'This is ___ car' (mobil milik ayahku)",
+                "options": ["my father's", "my father", "father my", "my fathers"],
+                "answer": "my father's"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'That is ___ house' (rumah milik temanku)",
+                "options": ["my friend's", "my friend", "friend my", "my friends"],
+                "answer": "my friend's"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ name is Anna' (nama milik saudara perempuanku)",
+                "options": ["My sister's", "My sister", "Sister my", "My sisters"],
+                "answer": "My sister's"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah tas milik ibuku'",
+                "words": ["This", "my", "is", "mother's", "bag"],
+                "answer": ["This", "is", "my", "mother's", "bag"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah sepeda milik adikku'",
+                "words": ["That", "my", "is", "brother's", "bike"],
+                "answer": ["That", "is", "my", "brother's", "bike"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Nama milik ayahku adalah Budi'",
+                "words": ["My", "father's", "is", "name", "Budi"],
+                "answer": ["My", "father's", "name", "is", "Budi"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamar milik saudara perempuanku sangat rapi'",
+                "words": ["My", "sister's", "is", "room", "very", "tidy"],
+                "answer": ["My", "sister's", "room", "is", "very", "tidy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka masakan milik nenekku'",
+                "words": ["I", "my", "like", "grandmother's", "cooking"],
+                "answer": ["I", "like", "my", "grandmother's", "cooking"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'mobil milik Andi'?",
+                "options": ["Andi's car", "Andi car", "car Andi's", "car of Andi's"],
+                "answer": "Andi's car"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'ayah milik Rina'?",
+                "options": ["Rina's father", "Rina father", "father Rina's", "father of Rina's"],
+                "answer": "Rina's father"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'This is ___ bag' (tas milik ibuku)",
+                "options": ["my mother's", "my mother", "mother my", "my mothers"],
+                "answer": "my mother's"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'That is ___ bike' (sepeda milik saudara laki-lakiku)",
+                "options": ["my brother's", "my brother", "brother my", "my brothers"],
+                "answer": "my brother's"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ room is clean' (kamar milik saudara perempuanku)",
+                "options": ["My sister's", "My sister", "Sister my", "My sisters"],
+                "answer": "My sister's"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah buku milik ayahku'",
+                "words": ["This", "my", "is", "father's", "book"],
+                "answer": ["This", "is", "my", "father's", "book"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah rumah milik pamanku'",
+                "words": ["That", "my", "is", "uncle's", "house"],
+                "answer": ["That", "is", "my", "uncle's", "house"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Nama milik ibuku adalah Siti'",
+                "words": ["My", "mother's", "is", "name", "Siti"],
+                "answer": ["My", "mother's", "name", "is", "Siti"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mobil milik kakekku sangat tua'",
+                "words": ["My", "grandfather's", "is", "car", "very", "old"],
+                "answer": ["My", "grandfather's", "car", "is", "very", "old"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka taman milik bibiku'",
+                "words": ["I", "my", "like", "aunt's", "garden"],
+                "answer": ["I", "like", "my", "aunt's", "garden"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'sepatu milik Dewi'?",
+                "options": ["Dewi's shoes", "Dewi shoes", "shoes Dewi's", "shoes of Dewi's"],
+                "answer": "Dewi's shoes"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'anak milik Bu Ani'?",
+                "options": ["Bu Ani's child", "Bu Ani child", "child Bu Ani's", "child of Bu Ani's"],
+                "answer": "Bu Ani's child"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'This is ___ pencil' (pensil milik temanku)",
+                "options": ["my friend's", "my friend", "friend my", "my friends"],
+                "answer": "my friend's"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'That is ___ car' (mobil milik pamanku)",
+                "options": ["my uncle's", "my uncle", "uncle my", "my uncles"],
+                "answer": "my uncle's"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ name is Budi' (nama milik saudara laki-lakiku)",
+                "options": ["My brother's", "My brother", "Brother my", "My brothers"],
+                "answer": "My brother's"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ini adalah sepatu milik saudara perempuanku'",
+                "words": ["These", "my", "are", "sister's", "shoes"],
+                "answer": ["These", "are", "my", "sister's", "shoes"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Itu adalah taman milik kakekku'",
+                "words": ["That", "my", "is", "grandfather's", "garden"],
+                "answer": ["That", "is", "my", "grandfather's", "garden"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Nama milik bibiku adalah Rina'",
+                "words": ["My", "aunt's", "is", "name", "Rina"],
+                "answer": ["My", "aunt's", "name", "is", "Rina"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kucing milik sepupuku sangat lucu'",
+                "words": ["My", "cousin's", "is", "cat", "very", "cute"],
+                "answer": ["My", "cousin's", "cat", "is", "very", "cute"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku suka mainan milik keponakanku'",
+                "words": ["I", "my", "like", "nephew's", "toys"],
+                "answer": ["I", "like", "my", "nephew's", "toys"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Have/has",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ one brother'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ two sisters'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ a big family'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ a younger brother'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ many cousins'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya dua saudara perempuan'",
+                "words": ["I", "two", "have", "sisters"],
+                "answer": ["I", "have", "two", "sisters"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia punya satu saudara laki-laki'",
+                "words": ["She", "one", "has", "brother"],
+                "answer": ["She", "has", "one", "brother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka punya keluarga besar'",
+                "words": ["They", "a", "have", "big", "family"],
+                "answer": ["They", "have", "a", "big", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia punya banyak teman'",
+                "words": ["He", "many", "has", "friends"],
+                "answer": ["He", "has", "many", "friends"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami punya tiga sepupu'",
+                "words": ["We", "three", "have", "cousins"],
+                "answer": ["We", "have", "three", "cousins"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My mother ___ a beautiful garden'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My parents ___ a new car'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My brother ___ a dog'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'You ___ a nice family'",
+                "options": ["have", "has", "having", "had"],
+                "answer": "have"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My sister ___ long hair'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ibuku punya kebun yang indah'",
+                "words": ["My", "a", "mother", "has", "beautiful", "garden"],
+                "answer": ["My", "mother", "has", "a", "beautiful", "garden"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Orang tuaku punya mobil baru'",
+                "words": ["My", "a", "parents", "have", "new", "car"],
+                "answer": ["My", "parents", "have", "a", "new", "car"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara laki-lakiku punya anjing'",
+                "words": ["My", "a", "brother", "has", "dog"],
+                "answer": ["My", "brother", "has", "a", "dog"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kamu punya keluarga yang baik'",
+                "words": ["You", "a", "have", "nice", "family"],
+                "answer": ["You", "have", "a", "nice", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Saudara perempuanku punya rambut panjang'",
+                "words": ["My", "long", "sister", "has", "hair"],
+                "answer": ["My", "sister", "has", "long", "hair"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ you have any brothers?'",
+                "options": ["Do", "Does", "Has", "Have"],
+                "answer": "Do"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ she have any sisters?'",
+                "options": ["Does", "Do", "Has", "Have"],
+                "answer": "Does"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ have any cousins' (negatif)",
+                "options": ["doesn't", "don't", "hasn't", "haven't"],
+                "answer": "doesn't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ have any children' (negatif)",
+                "options": ["don't", "doesn't", "hasn't", "haven't"],
+                "answer": "don't"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'My grandmother ___ white hair'",
+                "options": ["has", "have", "having", "had"],
+                "answer": "has"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu punya saudara laki-laki?'",
+                "words": ["Do", "have", "you", "any", "brothers"],
+                "answer": ["Do", "you", "have", "any", "brothers"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia punya saudara perempuan?'",
+                "words": ["Does", "have", "she", "any", "sisters"],
+                "answer": ["Does", "she", "have", "any", "sisters"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidak punya sepupu'",
+                "words": ["He", "any", "doesn't", "have", "cousins"],
+                "answer": ["He", "doesn't", "have", "any", "cousins"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka tidak punya anak'",
+                "words": ["They", "any", "don't", "have", "children"],
+                "answer": ["They", "don't", "have", "any", "children"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Nenekku punya rambut putih'",
+                "words": ["My", "white", "grandmother", "has", "hair"],
+                "answer": ["My", "grandmother", "has", "white", "hair"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: silsilah keluarga",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'This is my family. I have one brother and two sisters.' Pertanyaan: Berapa saudara yang dimiliki pembicara?",
+                "options": ["Satu saudara laki-laki dan dua saudara perempuan", "Dua saudara laki-laki dan satu saudara perempuan", "Tiga saudara perempuan", "Satu saudara laki-laki dan satu saudara perempuan"],
+                "answer": "Satu saudara laki-laki dan dua saudara perempuan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My father's name is Budi and my mother's name is Siti.' Pertanyaan: Siapa nama ayah pembicara?",
+                "options": ["Budi", "Siti", "Andi", "Rina"],
+                "answer": "Budi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My grandfather is seventy years old and my grandmother is sixty-eight.' Pertanyaan: Berapa umur kakek pembicara?",
+                "options": ["Tujuh puluh", "Enam puluh delapan", "Enam puluh lima", "Tujuh puluh lima"],
+                "answer": "Tujuh puluh"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My uncle lives in Bandung and my aunt lives in Jakarta.' Pertanyaan: Di mana paman pembicara tinggal?",
+                "options": ["Bandung", "Jakarta", "Surabaya", "Medan"],
+                "answer": "Bandung"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I have three cousins. Two are boys and one is a girl.' Pertanyaan: Berapa sepupu perempuan yang dimiliki pembicara?",
+                "options": ["Satu", "Dua", "Tiga", "Empat"],
+                "answer": "Satu"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Ayahku punya satu saudara laki-laki dan satu saudara perempuan'",
+                "words": ["My", "father", "has", "one", "brother", "and", "one", "sister"],
+                "answer": ["My", "father", "has", "one", "brother", "and", "one", "sister"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Ibuku punya dua saudara perempuan'",
+                "words": ["My", "mother", "has", "two", "sisters"],
+                "answer": ["My", "mother", "has", "two", "sisters"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Kakek dan nenekku punya lima cucu'",
+                "words": ["My", "grandparents", "have", "five", "grandchildren"],
+                "answer": ["My", "grandparents", "have", "five", "grandchildren"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Pamanku punya tiga anak'",
+                "words": ["My", "uncle", "has", "three", "children"],
+                "answer": ["My", "uncle", "has", "three", "children"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Aku punya satu keponakan perempuan'",
+                "words": ["I", "one", "have", "niece"],
+                "answer": ["I", "have", "one", "niece"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I have two brothers and no sisters.' Pertanyaan: Berapa saudara yang dimiliki pembicara?",
+                "options": ["Dua saudara laki-laki", "Dua saudara perempuan", "Satu saudara laki-laki", "Tiga saudara laki-laki"],
+                "answer": "Dua saudara laki-laki"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My mother's name is Rina and my father's name is Andi.' Pertanyaan: Siapa nama ibu pembicara?",
+                "options": ["Rina", "Andi", "Siti", "Budi"],
+                "answer": "Rina"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My grandmother is sixty-five years old and my grandfather is seventy.' Pertanyaan: Berapa umur nenek pembicara?",
+                "options": ["Enam puluh lima", "Tujuh puluh", "Enam puluh", "Tujuh puluh lima"],
+                "answer": "Enam puluh lima"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My aunt lives in Surabaya and my uncle lives in Medan.' Pertanyaan: Di mana bibi pembicara tinggal?",
+                "options": ["Surabaya", "Medan", "Jakarta", "Bandung"],
+                "answer": "Surabaya"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I have four cousins. Three are girls and one is a boy.' Pertanyaan: Berapa sepupu laki-laki yang dimiliki pembicara?",
+                "options": ["Satu", "Dua", "Tiga", "Empat"],
+                "answer": "Satu"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Ibuku punya satu saudara laki-laki'",
+                "words": ["My", "mother", "has", "one", "brother"],
+                "answer": ["My", "mother", "has", "one", "brother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Ayahku punya tiga saudara perempuan'",
+                "words": ["My", "father", "has", "three", "sisters"],
+                "answer": ["My", "father", "has", "three", "sisters"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Kakek dan nenekku punya empat anak'",
+                "words": ["My", "grandparents", "have", "four", "children"],
+                "answer": ["My", "grandparents", "have", "four", "children"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Bibiku punya dua anak'",
+                "words": ["My", "aunt", "has", "two", "children"],
+                "answer": ["My", "aunt", "has", "two", "children"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Aku punya satu keponakan laki-laki'",
+                "words": ["I", "one", "have", "nephew"],
+                "answer": ["I", "have", "one", "nephew"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I have one older sister and one younger brother.' Pertanyaan: Berapa saudara yang dimiliki pembicara?",
+                "options": ["Satu saudara perempuan dan satu saudara laki-laki", "Dua saudara perempuan", "Dua saudara laki-laki", "Tiga saudara"],
+                "answer": "Satu saudara perempuan dan satu saudara laki-laki"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My parents' names are Budi and Siti.' Pertanyaan: Siapa nama orang tua pembicara?",
+                "options": ["Budi dan Siti", "Andi dan Rina", "Budi dan Rina", "Andi dan Siti"],
+                "answer": "Budi dan Siti"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My grandfather is eighty years old and my grandmother is seventy-five.' Pertanyaan: Berapa umur kakek pembicara?",
+                "options": ["Delapan puluh", "Tujuh puluh lima", "Tujuh puluh", "Delapan puluh lima"],
+                "answer": "Delapan puluh"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My uncle and aunt live in Yogyakarta.' Pertanyaan: Di mana paman dan bibi pembicara tinggal?",
+                "options": ["Yogyakarta", "Jakarta", "Bandung", "Surabaya"],
+                "answer": "Yogyakarta"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I have five cousins. Three are boys and two are girls.' Pertanyaan: Berapa sepupu laki-laki yang dimiliki pembicara?",
+                "options": ["Tiga", "Dua", "Lima", "Empat"],
+                "answer": "Tiga"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Aku punya satu kakak perempuan dan satu adik laki-laki'",
+                "words": ["I", "one", "have", "older", "sister", "and", "one", "younger", "brother"],
+                "answer": ["I", "have", "one", "older", "sister", "and", "one", "younger", "brother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Orang tuaku bernama Budi dan Siti'",
+                "words": ["My", "are", "parents", "named", "Budi", "and", "Siti"],
+                "answer": ["My", "parents", "are", "named", "Budi", "and", "Siti"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Kakekku berumur delapan puluh tahun'",
+                "words": ["My", "is", "grandfather", "eighty", "years", "old"],
+                "answer": ["My", "grandfather", "is", "eighty", "years", "old"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Paman dan bibiku tinggal di Yogyakarta'",
+                "words": ["My", "and", "uncle", "aunt", "live", "in", "Yogyakarta"],
+                "answer": ["My", "uncle", "and", "aunt", "live", "in", "Yogyakarta"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun silsilah: 'Aku punya lima sepupu'",
+                "words": ["I", "five", "have", "cousins"],
+                "answer": ["I", "have", "five", "cousins"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: mendeskripsikan keluarga",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku punya keluarga besar'?",
+                "options": ["I have a big family", "I have big family", "I has a big family", "I having a big family"],
+                "answer": "I have a big family"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Ibuku sangat baik'?",
+                "options": ["My mother is very kind", "My mother very kind", "My mother are very kind", "My mother is kind very"],
+                "answer": "My mother is very kind"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Ayahku seorang dokter'?",
+                "options": ["My father is a doctor", "My father a doctor", "My father are a doctor", "My father is doctor a"],
+                "answer": "My father is a doctor"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku punya dua saudara perempuan'?",
+                "options": ["I have two sisters", "I has two sisters", "I having two sisters", "I have sisters two"],
+                "answer": "I have two sisters"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Saudara laki-lakiku masih kecil'?",
+                "options": ["My brother is young", "My brother young", "My brother are young", "My brother is small"],
+                "answer": "My brother is young"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku punya keluarga yang bahagia'",
+                "words": ["I", "a", "have", "happy", "family"],
+                "answer": ["I", "have", "a", "happy", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ibuku seorang guru'",
+                "words": ["My", "a", "mother", "is", "teacher"],
+                "answer": ["My", "mother", "is", "a", "teacher"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ayahku sangat kuat'",
+                "words": ["My", "is", "father", "very", "strong"],
+                "answer": ["My", "father", "is", "very", "strong"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku punya satu saudara laki-laki dan satu saudara perempuan'",
+                "words": ["I", "one", "have", "brother", "and", "one", "sister"],
+                "answer": ["I", "have", "one", "brother", "and", "one", "sister"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Saudara perempuanku sangat pintar'",
+                "words": ["My", "is", "sister", "very", "smart"],
+                "answer": ["My", "sister", "is", "very", "smart"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku punya keluarga kecil'?",
+                "options": ["I have a small family", "I have small family", "I has a small family", "I having a small family"],
+                "answer": "I have a small family"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Ayahku sangat ramah'?",
+                "options": ["My father is very friendly", "My father very friendly", "My father are very friendly", "My father is friendly very"],
+                "answer": "My father is very friendly"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Ibuku seorang perawat'?",
+                "options": ["My mother is a nurse", "My mother a nurse", "My mother are a nurse", "My mother is nurse a"],
+                "answer": "My mother is a nurse"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku punya tiga saudara laki-laki'?",
+                "options": ["I have three brothers", "I has three brothers", "I having three brothers", "I have brothers three"],
+                "answer": "I have three brothers"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Saudara perempuanku masih kecil'?",
+                "options": ["My sister is young", "My sister young", "My sister are young", "My sister is small"],
+                "answer": "My sister is young"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku punya keluarga yang bahagia'",
+                "words": ["I", "a", "have", "happy", "family"],
+                "answer": ["I", "have", "a", "happy", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ayahku seorang polisi'",
+                "words": ["My", "a", "father", "is", "police", "officer"],
+                "answer": ["My", "father", "is", "a", "police", "officer"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Ibuku sangat cantik'",
+                "words": ["My", "is", "mother", "very", "beautiful"],
+                "answer": ["My", "mother", "is", "very", "beautiful"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku punya dua saudara laki-laki dan satu saudara perempuan'",
+                "words": ["I", "two", "have", "brothers", "and", "one", "sister"],
+                "answer": ["I", "have", "two", "brothers", "and", "one", "sister"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Saudara laki-lakiku sangat tinggi'",
+                "words": ["My", "is", "brother", "very", "tall"],
+                "answer": ["My", "brother", "is", "very", "tall"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Keluargaku sangat penting bagiku'?",
+                "options": ["My family is very important to me", "My family very important to me", "My family are very important to me", "My family is important very to me"],
+                "answer": "My family is very important to me"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Kakekku sangat bijaksana'?",
+                "options": ["My grandfather is very wise", "My grandfather very wise", "My grandfather are very wise", "My grandfather is wise very"],
+                "answer": "My grandfather is very wise"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Nenekku seorang pensiunan guru'?",
+                "options": ["My grandmother is a retired teacher", "My grandmother a retired teacher", "My grandmother are a retired teacher", "My grandmother is retired teacher a"],
+                "answer": "My grandmother is a retired teacher"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Aku punya empat sepupu'?",
+                "options": ["I have four cousins", "I has four cousins", "I having four cousins", "I have cousins four"],
+                "answer": "I have four cousins"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mendeskripsikan 'Pamanku sangat lucu'?",
+                "options": ["My uncle is very funny", "My uncle very funny", "My uncle are very funny", "My uncle is funny very"],
+                "answer": "My uncle is very funny"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Keluargaku sangat penting bagiku'",
+                "words": ["My", "is", "family", "very", "important", "to", "me"],
+                "answer": ["My", "family", "is", "very", "important", "to", "me"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Kakekku seorang pensiunan dokter'",
+                "words": ["My", "a", "grandfather", "is", "retired", "doctor"],
+                "answer": ["My", "grandfather", "is", "a", "retired", "doctor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Nenekku sangat baik hati'",
+                "words": ["My", "is", "grandmother", "very", "kind"],
+                "answer": ["My", "grandmother", "is", "very", "kind"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Aku punya satu paman dan dua bibi'",
+                "words": ["I", "one", "have", "uncle", "and", "two", "aunts"],
+                "answer": ["I", "have", "one", "uncle", "and", "two", "aunts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun deskripsi: 'Sepupuku sangat pintar'",
+                "words": ["My", "is", "cousin", "very", "smart"],
+                "answer": ["My", "cousin", "is", "very", "smart"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

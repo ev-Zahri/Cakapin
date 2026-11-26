@@ -1,0 +1,1212 @@
+{
+  "title": "Pengalaman Pertama",
+  "color": "streak",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Kosakata pengalaman (tried, met, visited)",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Apa bentuk Past Participle (Verb 3) dari kata 'visit'?",
+              "options": ["Visited", "Visiting", "Visits", "Visiten"],
+              "answer": "Visited"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya pernah mencoba makanan Jepang'",
+              "words": ["food", "I", "tried", "have", "Japanese"],
+              "answer": ["I", "have", "tried", "Japanese", "food"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bentuk Verb 3 dari kata kerja tidak beraturan 'meet' (bertemu) adalah...",
+              "options": ["Met", "Meeted", "Meeting", "Moot"],
+              "answer": "Met"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami telah mengunjungi Bali tiga kali'",
+              "words": ["times", "We", "visited", "have", "Bali", "three"],
+              "answer": ["We", "have", "visited", "Bali", "three", "times"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata kerja yang tepat untuk melengkapi: 'She has ___ a famous actor in person.'",
+              "options": ["met", "visited", "cooked", "climbed"],
+              "answer": "met"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia pernah mencoba terjun payung'",
+              "words": ["skydiving", "He", "tried", "has"],
+              "answer": ["He", "has", "tried", "skydiving"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bentuk Verb 3 dari kata 'see' (melihat) adalah...",
+              "options": ["Seen", "Saw", "Seed", "Seeing"],
+              "answer": "Seen"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka telah melihat cahaya utara'",
+              "words": ["lights", "They", "seen", "have", "the", "northern"],
+              "answer": ["They", "have", "seen", "the", "northern", "lights"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti kata 'unforgettable' saat mendeskripsikan pengalaman?",
+              "options": ["Tak terlupakan", "Sangat membosankan", "Menakutkan sekali", "Cukup melelahkan"],
+              "answer": "Tak terlupakan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Itu adalah pengalaman yang luar biasa'",
+              "words": ["experience", "It", "an", "was", "amazing"],
+              "answer": ["It", "was", "an", "amazing", "experience"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Bentuk Verb 3 dari kata 'ride' (mengendarai/menunggangi) adalah...",
+              "options": ["Ridden", "Rode", "Rided", "Riding"],
+              "answer": "Ridden"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya pernah menunggang kuda di pantai'",
+              "words": ["beach", "I", "ridden", "have", "a", "horse", "on", "the"],
+              "answer": ["I", "have", "ridden", "a", "horse", "on", "the", "beach"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata kerja yang paling cocok untuk: 'They have ___ Mount Bromo twice.'",
+              "options": ["climbed", "met", "eaten", "spoken"],
+              "answer": "climbed"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia pernah bepergian ke luar negeri sendirian'",
+              "words": ["alone", "She", "traveled", "has", "abroad"],
+              "answer": ["She", "has", "traveled", "abroad", "alone"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bentuk Verb 3 dari kata 'eat' (makan) adalah...",
+              "options": ["Eaten", "Ate", "Eated", "Eating"],
+              "answer": "Eaten"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami belum pernah mencoba durian sebelumnya'",
+              "words": ["before", "We", "tried", "haven't", "durian"],
+              "answer": ["We", "haven't", "tried", "durian", "before"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti kata 'memorable' dalam konteks cerita perjalanan?",
+              "options": ["Patut dikenang", "Mudah dilupakan", "Sangat mahal", "Penuh masalah"],
+              "answer": "Patut dikenang"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia telah mengunjungi banyak museum di Eropa'",
+              "words": ["Europe", "He", "visited", "has", "many", "museums", "in"],
+              "answer": ["He", "has", "visited", "many", "museums", "in", "Europe"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bentuk Verb 3 dari kata 'fly' (terbang) adalah...",
+              "options": ["Flown", "Flew", "Flied", "Flying"],
+              "answer": "Flown"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya pernah terbang dengan balon udara'",
+              "words": ["balloon", "I", "flown", "have", "in", "a", "hot-air"],
+              "answer": ["I", "flown", "have", "in", "a", "hot-air", "balloon"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Bentuk Verb 3 dari kata 'swim' (berenang) adalah...",
+              "options": ["Swum", "Swam", "Swimmed", "Swimming"],
+              "answer": "Swum"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia pernah berenang bersama lumba-lumba'",
+              "words": ["dolphins", "She", "swum", "has", "with"],
+              "answer": ["She", "has", "swum", "with", "dolphins"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kata yang tepat untuk melengkapi: 'We have ___ many interesting people during our trip.'",
+              "options": ["met", "visited", "watched", "played"],
+              "answer": "met"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya pernah mencoba selancar angin musim panas lalu'",
+              "words": ["summer", "I", "windsurfing", "tried", "last"],
+              "answer": ["I", "tried", "windsurfing", "last", "summer"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bentuk Verb 3 dari kata 'write' (menulis) adalah...",
+              "options": ["Written", "Wrote", "Writed", "Writing"],
+              "answer": "Written"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia telah menulis sebuah buku tentang perjalanannya'",
+              "words": ["journey", "He", "written", "has", "a", "book", "about", "his"],
+              "answer": ["He", "has", "written", "a", "book", "about", "his", "journey"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti frasa 'once in a lifetime'?",
+              "options": ["Sekali seumur hidup", "Setiap akhir pekan", "Dua kali setahun", "Hampir setiap hari"],
+              "answer": "Sekali seumur hidup"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka pernah mengunjungi Candi Borobudur'",
+              "words": ["Temple", "They", "visited", "have", "Borobudur"],
+              "answer": ["They", "have", "visited", "Borobudur", "Temple"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bentuk Verb 3 dari kata 'take' (mengambil) adalah...",
+              "options": ["Taken", "Took", "Taked", "Taking"],
+              "answer": "Taken"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami telah mengambil ratusan foto'",
+              "words": ["photos", "We", "taken", "have", "hundreds", "of"],
+              "answer": ["We", "have", "taken", "hundreds", "of", "photos"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Present Perfect: pengenalan",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Rumus dasar kalimat positif Present Perfect Tense adalah...",
+              "options": ["Subject + have/has + Verb 3", "Subject + am/is/are + Verb-ing", "Subject + Verb 2", "Subject + will + Verb 1"],
+              "answer": "Subject + have/has + Verb 3"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya telah menyelesaikan pekerjaan rumah saya'",
+              "words": ["homework", "I", "finished", "have", "my"],
+              "answer": ["I", "have", "finished", "my", "homework"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata bantu (auxiliary) manakah yang digunakan untuk subjek 'She', 'He', dan 'It'?",
+              "options": ["Has", "Have", "Had", "Having"],
+              "answer": "Has"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia telah tinggal di London sejak 2020'",
+              "words": ["2020", "She", "lived", "has", "in", "London", "since"],
+              "answer": ["She", "has", "lived", "in", "London", "since", "2020"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat Present Perfect yang benar:",
+              "options": ["They have bought a new car.", "They has bought a new car.", "They have buy a new car.", "They buying a new car."],
+              "answer": "They have bought a new car."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami belum makan siang'",
+              "words": ["lunch", "We", "eaten", "haven't"],
+              "answer": ["We", "haven't", "eaten", "lunch"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kapan kita menggunakan Present Perfect Tense?",
+              "options": ["Untuk pengalaman hidup atau kejadian masa lalu tanpa waktu spesifik", "Untuk kejadian yang terjadi pada waktu pasti di masa lalu seperti 'yesterday'", "Untuk jadwal kereta api besok", "Untuk kebiasaan sehari-hari"],
+              "answer": "Untuk pengalaman hidup atau kejadian masa lalu tanpa waktu spesifik"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu sudah membaca buku itu?'",
+              "words": ["book", "Have", "read", "you", "that"],
+              "answer": ["Have", "you", "read", "that", "book"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'My brother ___ lost his keys again.'",
+              "options": ["has", "have", "is", "was"],
+              "answer": "has"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Hujan baru saja berhenti'",
+              "words": ["stopped", "The", "just", "rain", "has"],
+              "answer": ["The", "rain", "has", "just", "stopped"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'We ___ known each other for ten years.'",
+              "options": ["have", "has", "are", "were"],
+              "answer": "have"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia telah belajar bahasa Prancis selama dua tahun'",
+              "words": ["years", "He", "studied", "has", "French", "for", "two"],
+              "answer": ["He", "has", "studied", "French", "for", "two", "years"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih bentuk negatif yang tepat untuk subjek 'It':",
+              "options": ["It hasn't snowed here this winter.", "It haven't snowed here this winter.", "It hasn't snow here this winter.", "It didn't snowed here this winter."],
+              "answer": "It hasn't snowed here this winter."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah dia sudah tiba di bandara?'",
+              "words": ["airport", "Has", "arrived", "she", "at", "the"],
+              "answer": ["Has", "she", "arrived", "at", "the", "airport"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Singkatan dari 'She has' dalam kalimat 'She has been to Paris' adalah...",
+              "options": ["She's", "She'd", "She'll", "She're"],
+              "answer": "She's"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya sudah menonton film ini tiga kali'",
+              "words": ["times", "I've", "this", "watched", "movie", "three"],
+              "answer": ["I've", "watched", "this", "movie", "three", "times"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'The students ___ already submitted their essays.'",
+              "options": ["have", "has", "was", "did"],
+              "answer": "have"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka belum memutuskan ke mana akan pergi'",
+              "words": ["go", "They", "decided", "haven't", "where", "to"],
+              "answer": ["They", "haven't", "decided", "where", "to", "go"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa perbedaan antara 'been to' dan 'gone to' dalam Present Perfect?",
+              "options": ["'Been to' berarti sudah pergi dan kembali; 'gone to' berarti masih berada di sana", "Keduanya memiliki arti yang sama persis", "'Gone to' hanya untuk subjek jamak", "'Been to' hanya digunakan di kalimat negatif"],
+              "answer": "'Been to' berarti sudah pergi dan kembali; 'gone to' berarti masih berada di sana"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Di mana saja kamu selama ini?'",
+              "words": ["been", "Where", "you", "have"],
+              "answer": ["Where", "have", "you", "been"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'I ___ never seen such a beautiful sunset.'",
+              "options": ["have", "has", "am", "was"],
+              "answer": "have"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia telah bekerja di perusahaan ini sejak lulus kuliah'",
+              "words": ["graduation", "She", "worked", "has", "at", "this", "company", "since"],
+              "answer": ["She", "has", "worked", "at", "this", "company", "since", "graduation"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat tanya Present Perfect yang tata bahasanya benar:",
+              "options": ["Have they finished painting the house?", "Has they finished painting the house?", "Have they finish painting the house?", "Did they finished painting the house?"],
+              "answer": "Have they finished painting the house?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya baru saja menerima surel darinya'",
+              "words": ["him", "I", "received", "have", "just", "an", "email", "from"],
+              "answer": ["I", "have", "just", "received", "an", "email", "from", "him"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'Someone ___ left their umbrella on the chair.'",
+              "options": ["has", "have", "are", "were"],
+              "answer": "has"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami belum mendengar kabar apa pun darinya'",
+              "words": ["her", "We", "heard", "haven't", "anything", "from"],
+              "answer": ["We", "haven't", "heard", "anything", "from", "her"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih jawaban singkat yang tepat untuk pertanyaan 'Have you done the dishes?'",
+              "options": ["Yes, I have.", "Yes, I did.", "Yes, I do.", "Yes, I am."],
+              "answer": "Yes, I have."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Teknologi telah mengubah cara kita berkomunikasi'",
+              "words": ["communicate", "Technology", "changed", "has", "the", "way", "we"],
+              "answer": ["Technology", "has", "changed", "the", "way", "we", "communicate"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'My parents ___ traveled to over twenty countries.'",
+              "options": ["have", "has", "is", "was"],
+              "answer": "have"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu sudah menyiapkan paspormu?'",
+              "words": ["passport", "Have", "prepared", "you", "your"],
+              "answer": ["Have", "you", "prepared", "your", "passport"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Ever & never",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Kata manakah yang digunakan dalam kalimat tanya untuk menanyakan pengalaman seumur hidup?",
+              "options": ["Ever", "Never", "Yet", "Already"],
+              "answer": "Ever"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu pernah makan sushi?'",
+              "words": ["sushi", "Have", "eaten", "you", "ever"],
+              "answer": ["Have", "you", "ever", "eaten", "sushi"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi kalimat untuk menyatakan tidak pernah melakukan sesuatu: 'I have ___ been to Australia.'",
+              "options": ["never", "ever", "not never", "always"],
+              "answer": "never"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia belum pernah melihat salju'",
+              "words": ["snow", "She", "seen", "has", "never"],
+              "answer": ["She", "has", "never", "seen", "snow"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Mengapa kalimat 'I haven't never tried bungee jumping' salah?",
+              "options": ["Karena 'never' sudah bermakna negatif sehingga tidak boleh digabung dengan 'haven't'", "Karena 'never' harus diletakkan di akhir kalimat", "Karena 'tried' harus berbentuk Verb 1", "Karena subjek 'I' harus memakai 'has'"],
+              "answer": "Karena 'never' sudah bermakna negatif sehingga tidak boleh digabung dengan 'haven't'"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah dia pernah terlambat masuk kerja?'",
+              "words": ["work", "Has", "been", "he", "ever", "late", "for"],
+              "answer": ["Has", "he", "ever", "been", "late", "for", "work"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Di mana posisi kata 'ever' dan 'never' yang tepat dalam kalimat Present Perfect?",
+              "options": ["Di antara 'have/has' dan Verb 3", "Di awal kalimat sebelum subjek", "Di paling akhir kalimat", "Setelah Verb 3"],
+              "answer": "Di antara 'have/has' dan Verb 3"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami belum pernah mengendarai mobil sport'",
+              "words": ["car", "We", "driven", "have", "never", "a", "sports"],
+              "answer": ["We", "have", "never", "driven", "a", "sports", "car"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'This is the best coffee I have ___ tasted!'",
+              "options": ["ever", "never", "yet", "since"],
+              "answer": "ever"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah mereka pernah berkemah di hutan?'",
+              "words": ["forest", "Have", "camped", "they", "ever", "in", "the"],
+              "answer": ["Have", "they", "ever", "camped", "in", "the", "forest"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'Have you ___ met a celebrity in real life?'",
+              "options": ["ever", "never", "just", "for"],
+              "answer": "ever"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya belum pernah melupakan hari pertama saya di sekolah'",
+              "words": ["school", "I", "forgotten", "have", "never", "my", "first", "day", "at"],
+              "answer": ["I", "have", "never", "forgotten", "my", "first", "day", "at", "school"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang benar:",
+              "options": ["He has never flown in an airplane.", "He hasn't never flown in an airplane.", "He has ever flown in an airplane.", "He never has flown in an airplane."],
+              "answer": "He has never flown in an airplane."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu pernah kehilangan paspormu?'",
+              "words": ["passport", "Have", "lost", "you", "ever", "your"],
+              "answer": ["Have", "you", "ever", "lost", "your", "passport"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'She says she has ___ cooked Italian food before.'",
+              "options": ["never", "ever", "already", "since"],
+              "answer": "never"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Itu adalah film paling lucu yang pernah saya tonton'",
+              "words": ["watched", "That's", "funniest", "the", "movie", "I've", "ever"],
+              "answer": ["That's", "the", "funniest", "movie", "I've", "ever", "watched"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara menjawab negatif singkat untuk pertanyaan 'Have you ever been to London?'",
+              "options": ["No, never.", "No, ever.", "Yes, never.", "No, I haven't never."],
+              "answer": "No, never."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka belum pernah mencoba panjat tebing'",
+              "words": ["climbing", "They've", "tried", "never", "rock"],
+              "answer": ["They've", "never", "tried", "rock", "climbing"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'Has your sister ___ won a singing competition?'",
+              "options": ["ever", "never", "ago", "yesterday"],
+              "answer": "ever"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya belum pernah merasa sebahagia ini sebelumnya'",
+              "words": ["before", "I", "felt", "have", "never", "this", "happy"],
+              "answer": ["I", "have", "never", "felt", "this", "happy", "before"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'Have you ___ stayed in a five-star hotel?'",
+              "options": ["ever", "never", "yet", "still"],
+              "answer": "ever"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami belum pernah melihat ikan paus secara langsung'",
+              "words": ["person", "We", "seen", "have", "never", "a", "whale", "in"],
+              "answer": ["We", "have", "never", "seen", "a", "whale", "in", "person"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang tepat untuk menyatakan pengalaman terburuk:",
+              "options": ["It was the worst storm I have ever experienced.", "It was the worst storm I have never experienced.", "It was the worst storm I ever have experienced.", "It was the worst storm I haven't ever experienced."],
+              "answer": "It was the worst storm I have ever experienced."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia belum pernah bermain alat musik apa pun'",
+              "words": ["instrument", "He", "played", "has", "never", "any", "musical"],
+              "answer": ["He", "has", "never", "played", "any", "musical", "instrument"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'Has anyone ___ told you that you look like a movie star?'",
+              "options": ["ever", "never", "for", "since"],
+              "answer": "ever"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu pernah berenang di laut pada malam hari?'",
+              "words": ["night", "Have", "swum", "you", "ever", "in", "the", "ocean", "at"],
+              "answer": ["Have", "you", "ever", "swum", "in", "the", "ocean", "at", "night"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'My grandfather has ___ used a smartphone.'",
+              "options": ["never", "ever", "yet", "lately"],
+              "answer": "never"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Ini adalah pertama kalinya saya pergi ke luar negeri'",
+              "words": ["abroad", "This", "first", "is", "the", "time", "I've", "ever", "been"],
+              "answer": ["This", "is", "the", "first", "time", "I've", "ever", "been", "abroad"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang struktur tata bahasanya salah:",
+              "options": ["She hasn't never visited Japan.", "She has never visited Japan.", "Has she ever visited Japan?", "She hasn't visited Japan yet."],
+              "answer": "She hasn't never visited Japan."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya belum pernah berlari maraton sebelumnya'",
+              "words": ["before", "I've", "run", "never", "a", "marathon"],
+              "answer": ["I've", "never", "run", "a", "marathon", "before"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Present Perfect vs Simple Past",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Pilih tense yang tepat karena ada keterangan waktu spesifik 'last year': 'I ___ to Lombok last year.'",
+              "options": ["went", "have gone", "have been", "go"],
+              "answer": "went"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya pernah pergi ke Lombok sebelumnya'",
+              "words": ["before", "I", "been", "have", "to", "Lombok"],
+              "answer": ["I", "have", "been", "to", "Lombok", "before"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kapan kita menggunakan Simple Past daripada Present Perfect?",
+              "options": ["Saat waktu kejadian di masa lalu disebutkan secara spesifik (misal: yesterday, in 2019)", "Saat waktu kejadian tidak penting atau tidak diketahui", "Saat kejadian baru saja selesai dan berdampak sekarang", "Saat menggunakan kata 'ever' dan 'never'"],
+              "answer": "Saat waktu kejadian di masa lalu disebutkan secara spesifik (misal: yesterday, in 2019)"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami bertemu dengannya dua hari yang lalu'",
+              "words": ["ago", "We", "him", "met", "two", "days"],
+              "answer": ["We", "met", "him", "two", "days", "ago"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi kalimat berikut: 'She ___ her phone yesterday, so she bought a new one today.'",
+              "options": ["lost", "has lost", "have lost", "loses"],
+              "answer": "lost"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia telah kehilangan kuncinya dan tidak bisa masuk'",
+              "words": ["keys", "He", "lost", "has", "his"],
+              "answer": ["He", "has", "lost", "his", "keys"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang benar secara tata bahasa:",
+              "options": ["Have you ever tried scuba diving? Yes, I tried it in Bali last summer.", "Did you ever tried scuba diving? Yes, I have tried it last summer.", "Have you ever tried scuba diving? Yes, I have tried it last summer.", "Did you ever try scuba diving? Yes, I try it last summer."],
+              "answer": "Have you ever tried scuba diving? Yes, I tried it in Bali last summer."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kapan kamu lulus dari universitas?'",
+              "words": ["university", "When", "graduate", "did", "you", "from"],
+              "answer": ["When", "did", "you", "graduate", "from", "university"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Mengapa pertanyaan dengan kata tanya 'When...' hampir selalu menggunakan Simple Past?",
+              "options": ["Karena 'When' menanyakan waktu spesifik yang sudah berlalu", "Karena 'When' tidak bisa dipakai dengan kata kerja", "Karena 'When' hanya untuk masa depan", "Karena 'When' tidak memiliki bentuk Verb 3"],
+              "answer": "Karena 'When' menanyakan waktu spesifik yang sudah berlalu"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka telah tinggal di sini selama lima tahun'",
+              "words": ["years", "They", "lived", "have", "here", "for", "five"],
+              "answer": ["They", "have", "lived", "here", "for", "five", "years"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'I ___ that movie last night. It was really good!'",
+              "options": ["watched", "have watched", "has watched", "watch"],
+              "answer": "watched"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu sudah menonton film baru itu?'",
+              "words": ["movie", "Have", "seen", "you", "the", "new"],
+              "answer": ["Have", "you", "seen", "the", "new", "movie"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'My sister ___ to Singapore three times so far.'",
+              "options": ["has been", "went", "was going", "goes"],
+              "answer": "has been"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami membeli rumah ini pada tahun 2021'",
+              "words": ["2021", "We", "this", "bought", "house", "in"],
+              "answer": ["We", "bought", "this", "house", "in", "2021"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang tepat untuk kejadian yang baru saja terjadi tanpa waktu spesifik:",
+              "options": ["Look! Someone has broken the window.", "Look! Someone broke the window yesterday.", "Look! Someone has broke the window.", "Look! Someone break the window."],
+              "answer": "Look! Someone has broken the window."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia tidak datang ke pesta tadi malam'",
+              "words": ["night", "She", "come", "didn't", "to", "the", "party", "last"],
+              "answer": ["She", "didn't", "come", "to", "the", "party", "last", "night"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi dialog: A: 'Have you ever eaten frog legs?' B: 'Yes, I ___ them when I visited France.'",
+              "options": ["ate", "have eaten", "eat", "eaten"],
+              "answer": "ate"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya sudah mengenal Budi sejak kami masih kecil'",
+              "words": ["kids", "I've", "Budi", "known", "since", "we", "were"],
+              "answer": ["I've", "known", "Budi", "since", "we", "were", "kids"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Manakah keterangan waktu yang TIDAK boleh digunakan bersama Present Perfect?",
+              "options": ["Yesterday morning", "Since Monday", "For three weeks", "Recently"],
+              "answer": "Yesterday morning"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Jam berapa kamu bangun pagi ini?'",
+              "words": ["morning", "What", "did", "time", "you", "wake", "up", "this"],
+              "answer": ["What", "time", "did", "you", "wake", "up", "this", "morning"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'Shakespeare ___ many famous plays in the 16th century.'",
+              "options": ["wrote", "has written", "have written", "writes"],
+              "answer": "wrote"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Penulis itu telah menulis sepuluh novel sejauh ini'",
+              "words": ["far", "The", "written", "author", "has", "ten", "novels", "so"],
+              "answer": ["The", "author", "has", "written", "ten", "novels", "so", "far"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang salah secara tata bahasa:",
+              "options": ["I have visited my grandmother last Sunday.", "I visited my grandmother last Sunday.", "I have visited my grandmother several times.", "I haven't visited my grandmother lately."],
+              "answer": "I have visited my grandmother last Sunday."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu menikmati liburanmu minggu lalu?'",
+              "words": ["week", "Did", "enjoy", "you", "your", "vacation", "last"],
+              "answer": ["Did", "you", "enjoy", "your", "vacation", "last", "week"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'We ___ each other since we graduated from high school.'",
+              "options": ["haven't seen", "didn't see", "don't see", "not saw"],
+              "answer": "haven't seen"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya mematahkan kaki saya saat bermain ski tahun lalu'",
+              "words": ["year", "I", "my", "broke", "leg", "while", "skiing", "last"],
+              "answer": ["I", "broke", "my", "leg", "while", "skiing", "last", "year"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: '___ you ever ___ a wild elephant?'",
+              "options": ["Have / seen", "Did / saw", "Have / saw", "Did / seen"],
+              "answer": "Have / seen"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka baru saja tiba di hotel'",
+              "words": ["hotel", "They", "arrived", "have", "just", "at", "the"],
+              "answer": ["They", "have", "just", "arrived", "at", "the", "hotel"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa perbedaan makna antara 'I lived in Jakarta for 3 years' dan 'I have lived in Jakarta for 3 years'?",
+              "options": ["Kalimat pertama berarti sekarang sudah tidak tinggal di sana; kalimat kedua berarti masih tinggal di sana", "Keduanya berarti masih tinggal di Jakarta", "Kalimat pertama untuk masa depan", "Tidak ada perbedaan sama sekali"],
+              "answer": "Kalimat pertama berarti sekarang sudah tidak tinggal di sana; kalimat kedua berarti masih tinggal di sana"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Di mana kamu menemukan dompet ini?'",
+              "words": ["wallet", "Where", "find", "did", "you", "this"],
+              "answer": ["Where", "did", "you", "find", "this", "wallet"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Listening: percakapan pengalaman",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Have you ever been to Raja Ampat? Yes, I went there two years ago.' Kapan pembicara pergi ke Raja Ampat?",
+              "options": ["Dua tahun yang lalu", "Bulan lalu", "Minggu depan", "Belum pernah sama sekali"],
+              "answer": "Dua tahun yang lalu"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya belum pernah mencoba menyelam sebelumnya'",
+              "words": ["before", "I've", "tried", "never", "scuba", "diving"],
+              "answer": ["I've", "never", "tried", "scuba", "diving", "before"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I met my favorite singer at the airport last week! She was so kind.' Di mana pembicara bertemu penyanyi favoritnya?",
+              "options": ["Di bandara", "Di gedung konser", "Di pusat perbelanjaan", "Di stasiun kereta"],
+              "answer": "Di bandara"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Apakah kamu pernah berkemah di gunung?'",
+              "words": ["mountains", "Have", "camped", "you", "ever", "in", "the"],
+              "answer": ["Have", "you", "ever", "camped", "in", "the", "mountains"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I tried eating spicy ramen yesterday, and my mouth was on fire!' Bagaimana reaksi pembicara setelah makan ramen pedas?",
+              "options": ["Kepedasan hingga mulutnya terasa terbakar", "Merasa ramennya kurang bumbu", "Langsung memesan dua mangkuk lagi", "Tidak suka dengan tekstur mienya"],
+              "answer": "Kepedasan hingga mulutnya terasa terbakar"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Itu adalah perjalanan terbaik dalam hidup saya'",
+              "words": ["life", "It", "the", "was", "best", "trip", "of", "my"],
+              "answer": ["It", "was", "the", "best", "trip", "of", "my", "life"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'We've visited five different countries this year, and Italy was our favorite.' Negara mana yang menjadi favorit mereka?",
+              "options": ["Italia", "Prancis", "Spanyol", "Jerman"],
+              "answer": "Italia"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Dia telah belajar bermain gitar selama enam bulan'",
+              "words": ["months", "She's", "to", "learned", "play", "the", "guitar", "for", "six"],
+              "answer": ["She's", "learned", "to", "play", "the", "guitar", "for", "six", "months"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I've never ridden a roller coaster because I'm afraid of heights.' Mengapa pembicara belum pernah naik roller coaster?",
+              "options": ["Karena takut ketinggian", "Karena tiketnya terlalu mahal", "Karena selalu antre panjang", "Karena mudah merasa pusing"],
+              "answer": "Karena takut ketinggian"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya sangat senang kita melakukannya'",
+              "words": ["it", "I'm", "glad", "so", "we", "did"],
+              "answer": ["I'm", "so", "glad", "we", "did", "it"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Have you ever lost your luggage at the airport? Thankfully, no, never.' Apakah pembicara pernah kehilangan bagasi di bandara?",
+              "options": ["Tidak pernah sama sekali", "Ya, tahun lalu", "Ya, dua kali", "Hampir saja minggu lalu"],
+              "answer": "Tidak pernah sama sekali"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kami pernah melihat lumba-lumba liar di laut'",
+              "words": ["ocean", "We've", "wild", "seen", "dolphins", "in", "the"],
+              "answer": ["We've", "seen", "wild", "dolphins", "in", "the", "ocean"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'My first time speaking in front of a large audience was terrifying, but it went well.' Bagaimana perasaan pembicara saat pertama kali berbicara di depan banyak orang?",
+              "options": ["Sangat menakutkan tetapi berjalan lancar", "Sangat membosankan dari awal", "Sangat marah karena gangguan teknis", "Sangat santai tanpa rasa gugup"],
+              "answer": "Sangat menakutkan tetapi berjalan lancar"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Apakah dia pernah mengunjungi Candi Prambanan?'",
+              "words": ["Temple", "Has", "visited", "he", "ever", "Prambanan"],
+              "answer": ["Has", "he", "ever", "visited", "Prambanan", "Temple"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I've baked bread from scratch once, and it turned out surprisingly delicious!' Berapa kali pembicara membuat roti dari awal?",
+              "options": ["Satu kali", "Tiga kali", "Belum pernah", "Setiap minggu"],
+              "answer": "Satu kali"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya tidak akan pernah melupakan pemandangan itu'",
+              "words": ["view", "I", "never", "will", "forget", "that"],
+              "answer": ["I", "will", "never", "forget", "that", "view"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Have you ever fallen asleep during a movie at the cinema? Yes, I was exhausted!' Mengapa pembicara tertidur di bioskop?",
+              "options": ["Karena sangat kelelahan", "Karena filmnya terlalu lambat", "Karena kursinya terlalu nyaman", "Karena ruangan terlalu dingin"],
+              "answer": "Karena sangat kelelahan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Mereka telah mendaki tiga gunung tahun ini'",
+              "words": ["year", "They've", "three", "climbed", "mountains", "this"],
+              "answer": ["They've", "climbed", "three", "mountains", "this", "year"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'She's lived in three different cities since she started her new job.' Sudah berapa kota yang ia tinggali sejak memulai pekerjaan barunya?",
+              "options": ["Tiga kota berbeda", "Dua kota berbeda", "Empat kota berbeda", "Hanya satu kota"],
+              "answer": "Tiga kota berbeda"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Pengalaman itu mengajarkan saya banyak hal'",
+              "words": ["lot", "That", "taught", "experience", "me", "a"],
+              "answer": ["That", "experience", "taught", "me", "a", "lot"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I've always wanted to see the pyramids in Egypt, and I'm finally going next month.' Apakah pembicara sudah pernah melihat piramida di Mesir?",
+              "options": ["Belum, dia baru akan pergi bulan depan", "Ya, dia pergi bulan lalu", "Ya, dia sudah ke sana dua kali", "Tidak, dia tidak tertarik pergi ke Mesir"],
+              "answer": "Belum, dia baru akan pergi bulan depan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Apakah kamu pernah tersesat di kota asing?'",
+              "words": ["city", "Have", "gotten", "you", "ever", "lost", "in", "a", "foreign"],
+              "answer": ["Have", "you", "ever", "gotten", "lost", "in", "a", "foreign", "city"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'When I went to Korea, I tried kimchi for the first time and loved it.' Kapan pembicara pertama kali mencoba kimchi?",
+              "options": ["Saat dia pergi ke Korea", "Saat makan di restoran dekat rumah", "Saat teman sekantornya membawanya", "Minggu lalu saat festival makanan"],
+              "answer": "Saat dia pergi ke Korea"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya belum pernah memenangkan undian apa pun'",
+              "words": ["lottery", "I", "won", "have", "never", "any"],
+              "answer": ["I", "have", "never", "won", "any", "lottery"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Have you ever broken a bone? Yes, I broke my arm when I fell off my bike as a kid.' Bagian tubuh mana yang pernah patah?",
+              "options": ["Lengannya", "Kakinya", "Jarinya", "Tulang rusuknya"],
+              "answer": "Lengannya"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kami pernah berkendara melintasi pulau ini'",
+              "words": ["island", "We've", "across", "driven", "this"],
+              "answer": ["We've", "driven", "across", "this", "island"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'That concert was the loudest event I've ever attended!' Bagaimana pembicara menggambarkan konser tersebut?",
+              "options": ["Acara paling bising yang pernah ia hadiri", "Konser paling membosankan tahun ini", "Pertunjukan musik terbaik di kotanya", "Acara dengan tiket termahal"],
+              "answer": "Acara paling bising yang pernah ia hadiri"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Dia telah bertemu banyak orang hebat di sana'",
+              "words": ["there", "She's", "great", "met", "many", "people"],
+              "answer": ["She's", "met", "many", "great", "people", "there"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I've never been ice skating, so I fell down five times in the first ten minutes.' Berapa kali pembicara terjatuh dalam sepuluh menit pertama?",
+              "options": ["Lima kali", "Sepuluh kali", "Dua kali", "Tiga kali"],
+              "answer": "Lima kali"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kamu harus mencobanya setidaknya sekali'",
+              "words": ["once", "You", "try", "should", "it", "at", "least"],
+              "answer": ["You", "should", "try", "it", "at", "least", "once"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Speaking: menceritakan pengalaman",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Temanmu bertanya: 'Have you ever traveled solo?' Pilih jawaban lisan yang paling natural dan lengkap:",
+              "options": ["Yes, I have! I went to Singapore alone last year and it was amazing.", "Yes, I did traveled solo.", "Yes, I have go Singapore last year.", "Solo travel yes, last year."],
+              "answer": "Yes, I have! I went to Singapore alone last year and it was amazing."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Pertama kali saya mencoba berselancar, saya terus terjatuh'",
+              "words": ["falling", "The", "time", "first", "I", "tried", "surfing,", "I", "kept"],
+              "answer": ["The", "first", "time", "I", "tried", "surfing,", "I", "kept", "falling"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara memulai cerita tentang pengalaman yang paling berkesan secara lisan?",
+              "options": ["One of the most unforgettable experiences I've ever had was...", "One unforgettable experience I have is...", "My experience very good was...", "I tell you experience now..."],
+              "answer": "One of the most unforgettable experiences I've ever had was..."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Sejujurnya, saya agak gugup pada awalnya'",
+              "words": ["beginning", "To", "honest,", "be", "I", "was", "a", "bit", "nervous", "at", "the"],
+              "answer": ["To", "be", "honest,", "I", "was", "a", "bit", "nervous", "at", "the", "beginning"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara alami untuk merespons cerita pengalaman luar biasa dari temanmu:",
+              "options": ["Wow, that sounds incredible! How did you feel?", "Oh, okay. Good for you.", "That is normal experience.", "I don't care, tell more."],
+              "answer": "Wow, that sounds incredible! How did you feel?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya belum pernah melihat pemandangan seindah itu sebelumnya'",
+              "words": ["before", "I'd", "seen", "never", "such", "a", "beautiful", "view"],
+              "answer": ["I'd", "never", "seen", "such", "a", "beautiful", "view", "before"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika kamu ditanya pengalaman yang belum pernah kamu lakukan tetapi ingin dicoba, ucapkan...",
+              "options": ["I've never tried paragliding, but it's definitely on my bucket list.", "I never try paragliding, I want.", "Paragliding never, bucket list yes.", "I didn't tried paragliding yet."],
+              "answer": "I've never tried paragliding, but it's definitely on my bucket list."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Pada akhirnya, semuanya berjalan jauh lebih baik dari dugaan'",
+              "words": ["expected", "In", "end,", "the", "everything", "went", "much", "better", "than"],
+              "answer": ["In", "the", "end,", "everything", "went", "much", "better", "than", "expected"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat penutup yang tepat saat selesai menceritakan sebuah pengalaman:",
+              "options": ["Overall, it was a great learning experience that I'll always cherish.", "Finished my story now.", "So that is all, bye.", "Experience is done."],
+              "answer": "Overall, it was a great learning experience that I'll always cherish."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Apakah kamu pernah mengalami hal serupa?'",
+              "words": ["similar", "Have", "experienced", "you", "ever", "something"],
+              "answer": ["Have", "you", "ever", "experienced", "something", "similar"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Seseorang bertanya: 'What's the strangest food you've ever eaten?' Pilih jawaban lisan yang tepat:",
+              "options": ["I once tried fried insects in Thailand, and they were actually quite crunchy!", "I try fried insects Thailand, crunchy.", "Strangest food is insects I eat.", "I have eat fried insects yesterday."],
+              "answer": "I once tried fried insects in Thailand, and they were actually quite crunchy!"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya tidak menyangka akan sangat menyukainya'",
+              "words": ["much", "I", "expect", "didn't", "to", "enjoy", "it", "so"],
+              "answer": ["I", "didn't", "expect", "to", "enjoy", "it", "so", "much"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara bertanya tentang pengalaman perjalanan seseorang secara ramah?",
+              "options": ["What's the most interesting place you've ever visited?", "Where you go interesting?", "Tell me interesting place you visit.", "Have you visit interesting place?"],
+              "answer": "What's the most interesting place you've ever visited?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Kami tersesat selama dua jam tetapi bertemu penduduk lokal yang ramah'",
+              "words": ["locals", "We", "lost", "got", "for", "two", "hours", "but", "met", "friendly"],
+              "answer": ["We", "got", "lost", "for", "two", "hours", "but", "met", "friendly", "locals"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih ungkapan lisan untuk menunjukkan rasa kagum saat mendengar pengalaman teman:",
+              "options": ["No way! You actually met him in person?", "Impossible, you lie.", "Yes, I know him.", "Why you meet him?"],
+              "answer": "No way! You actually met him in person?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Itu benar-benar membuat saya keluar dari zona nyaman'",
+              "words": ["zone", "It", "pushed", "really", "me", "out", "of", "my", "comfort"],
+              "answer": ["It", "really", "pushed", "me", "out", "of", "my", "comfort", "zone"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika kamu ingin merekomendasikan sebuah pengalaman kepada temanmu, katakan...",
+              "options": ["If you ever get the chance, you should definitely visit Raja Ampat.", "You must go Raja Ampat now.", "Visit Raja Ampat, it is order.", "I went Raja Ampat, you go too."],
+              "answer": "If you ever get the chance, you should definitely visit Raja Ampat."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya masih ingat betapa bersemangatnya saya hari itu'",
+              "words": ["day", "I", "remember", "still", "how", "excited", "I", "was", "that"],
+              "answer": ["I", "still", "remember", "how", "excited", "I", "was", "that", "day"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara alami untuk mengakui bahwa kamu belum pernah mencoba sesuatu:",
+              "options": ["Believe it or not, I've never been on a train!", "Believe me, I never train!", "I not ever ride train.", "Train is never for me."],
+              "answer": "Believe it or not, I've never been on a train!"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya pasti akan melakukannya lagi jika ada kesempatan'",
+              "words": ["chance", "I'd", "do", "definitely", "it", "again", "given", "the"],
+              "answer": ["I'd", "definitely", "do", "it", "again", "given", "the", "chance"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Temanmu bertanya: 'How was your first day at the new job?' Pilih jawaban lisan yang paling natural:",
+              "options": ["It was a bit overwhelming at first, but everyone was super welcoming.", "First day job was good, people nice.", "I go new job yesterday, very happy.", "Job is new, I like it much."],
+              "answer": "It was a bit overwhelming at first, but everyone was super welcoming."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya belajar banyak tentang budaya baru selama perjalanan itu'",
+              "words": ["trip", "I", "a", "learned", "lot", "about", "new", "cultures", "during", "that"],
+              "answer": ["I", "learned", "a", "lot", "about", "new", "cultures", "during", "that", "trip"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara bertanya apakah temanmu pernah mengalami kejadian lucu saat liburan?",
+              "options": ["Has anything funny ever happened to you while traveling?", "Did funny happen to you travel?", "You ever have funny travel?", "Funny things happen when you go?"],
+              "answer": "Has anything funny ever happened to you while traveling?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Untungnya, semuanya berakhir dengan baik'",
+              "words": ["well", "Fortunately,", "ended", "everything", "up"],
+              "answer": ["Fortunately,", "everything", "ended", "up", "well"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat untuk menggambarkan perasaan bangga setelah menyelesaikan tantangan:",
+              "options": ["I felt so proud of myself after finishing my first 10K run.", "I am proud finish 10K run.", "10K run finished, I proud.", "I have feel proud after run."],
+              "answer": "I felt so proud of myself after finishing my first 10K run."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Itu adalah momen yang mengubah cara pandang saya'",
+              "words": ["perspective", "It", "a", "was", "moment", "that", "changed", "my"],
+              "answer": ["It", "was", "a", "moment", "that", "changed", "my", "perspective"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika temanmu menceritakan pengalaman yang menakutkan, respons empatik yang tepat adalah...",
+              "options": ["Oh no, that must have been terrifying! Are you okay now?", "Haha, that is so funny!", "Why did you do that? Silly.", "Okay, next story."],
+              "answer": "Oh no, that must have been terrifying! Are you okay now?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya bersyukur memiliki kenangan indah ini'",
+              "words": ["memories", "I'm", "to", "grateful", "have", "these", "wonderful"],
+              "answer": ["I'm", "grateful", "to", "have", "these", "wonderful", "memories"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara alami untuk beralih menanyakan pengalaman lawan bicara:",
+              "options": ["Enough about me—what's the coolest thing you've done recently?", "I finish talking. Now you talk.", "Tell me your cool thing now.", "My story over, your turn."],
+              "answer": "Enough about me—what's the coolest thing you've done recently?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Hidup adalah tentang mencoba hal-hal baru'",
+              "words": ["things", "Life", "about", "is", "trying", "new"],
+              "answer": ["Life", "is", "about", "trying", "new", "things"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

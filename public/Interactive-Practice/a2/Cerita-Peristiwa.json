@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Cerita & Peristiwa",
+    "color": "ruby",
+    "levels": [
+      {
+        "level": "Kosakata kejadian & peristiwa",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kejadian'?",
+                "options": ["event", "accident", "incident", "ceremony"],
+                "answer": "event"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kecelakaan'?",
+                "options": ["accident", "event", "incident", "disaster"],
+                "answer": "accident"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'berita'?",
+                "options": ["news", "story", "event", "report"],
+                "answer": "news"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pesta'?",
+                "options": ["party", "event", "ceremony", "festival"],
+                "answer": "party"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'upacara'?",
+                "options": ["ceremony", "party", "festival", "event"],
+                "answer": "ceremony"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sebuah kecelakaan di jalan kemarin'",
+                "words": ["There", "an", "was", "accident", "on", "the", "street", "yesterday"],
+                "answer": ["There", "was", "an", "accident", "on", "the", "street", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku mendengar berita itu tadi pagi'",
+                "words": ["I", "the", "heard", "news", "this", "morning"],
+                "answer": ["I", "heard", "the", "news", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami menghadiri pesta ulang tahun kemarin'",
+                "words": ["We", "a", "attended", "birthday", "party", "yesterday"],
+                "answer": ["We", "attended", "a", "birthday", "party", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Upacara itu berlangsung dengan khidmat'",
+                "words": ["The", "was", "ceremony", "held", "solemnly"],
+                "answer": ["The", "ceremony", "was", "held", "solemnly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Acara itu sangat meriah'",
+                "words": ["The", "was", "event", "very", "lively"],
+                "answer": ["The", "event", "was", "very", "lively"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'bencana'?",
+                "options": ["disaster", "accident", "event", "incident"],
+                "answer": "disaster"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kebakaran'?",
+                "options": ["fire", "flood", "earthquake", "storm"],
+                "answer": "fire"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'banjir'?",
+                "options": ["flood", "fire", "earthquake", "storm"],
+                "answer": "flood"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'gempa bumi'?",
+                "options": ["earthquake", "flood", "fire", "storm"],
+                "answer": "earthquake"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'badai'?",
+                "options": ["storm", "flood", "fire", "earthquake"],
+                "answer": "storm"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada banjir besar di kota kemarin'",
+                "words": ["There", "a", "was", "big", "flood", "in", "the", "city", "yesterday"],
+                "answer": ["There", "was", "a", "big", "flood", "in", "the", "city", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Gempa bumi itu terjadi tadi malam'",
+                "words": ["The", "happened", "earthquake", "last", "night"],
+                "answer": ["The", "earthquake", "happened", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kebakaran itu menghancurkan sebuah gedung'",
+                "words": ["The", "destroyed", "fire", "a", "building"],
+                "answer": ["The", "fire", "destroyed", "a", "building"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Badai itu sangat kuat'",
+                "words": ["The", "was", "storm", "very", "strong"],
+                "answer": ["The", "storm", "was", "very", "strong"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bencana itu meninggalkan banyak kerusakan'",
+                "words": ["The", "left", "disaster", "a", "lot", "of", "damage"],
+                "answer": ["The", "disaster", "left", "a", "lot", "of", "damage"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pertunjukan'?",
+                "options": ["performance", "show", "concert", "exhibition"],
+                "answer": "performance"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'festival'?",
+                "options": ["festival", "party", "ceremony", "event"],
+                "answer": "festival"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kompetisi'?",
+                "options": ["competition", "contest", "match", "game"],
+                "answer": "competition"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pemenang'?",
+                "options": ["winner", "loser", "champion", "judge"],
+                "answer": "winner"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'hadiah'?",
+                "options": ["prize", "gift", "award", "reward"],
+                "answer": "prize"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku menonton pertunjukan musik tadi malam'",
+                "words": ["I", "a", "watched", "music", "performance", "last", "night"],
+                "answer": ["I", "watched", "a", "music", "performance", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami menghadiri festival budaya kemarin'",
+                "words": ["We", "a", "attended", "cultural", "festival", "yesterday"],
+                "answer": ["We", "attended", "a", "cultural", "festival", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memenangkan kompetisi itu'",
+                "words": ["He", "the", "won", "competition"],
+                "answer": ["He", "won", "the", "competition"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pemenangnya mendapat hadiah yang indah'",
+                "words": ["The", "got", "winner", "a", "beautiful", "prize"],
+                "answer": ["The", "winner", "got", "a", "beautiful", "prize"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Acara itu sangat sukses'",
+                "words": ["The", "was", "event", "very", "successful"],
+                "answer": ["The", "event", "was", "very", "successful"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Past Continuous",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ TV when you called'",
+                "options": ["was watching", "were watching", "watched", "watch"],
+                "answer": "was watching"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ soccer at 5 PM yesterday'",
+                "options": ["were playing", "was playing", "played", "play"],
+                "answer": "were playing"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ dinner when I arrived'",
+                "options": ["was cooking", "were cooking", "cooked", "cook"],
+                "answer": "was cooking"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ when it started to rain'",
+                "options": ["were walking", "was walking", "walked", "walk"],
+                "answer": "were walking"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ his homework at 8 PM'",
+                "options": ["was doing", "were doing", "did", "do"],
+                "answer": "was doing"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sedang menonton TV ketika kamu menelepon'",
+                "words": ["I", "was", "watching", "TV", "when", "you", "called"],
+                "answer": ["I", "was", "watching", "TV", "when", "you", "called"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka sedang bermain sepak bola jam lima kemarin'",
+                "words": ["They", "were", "playing", "soccer", "at", "five", "yesterday"],
+                "answer": ["They", "were", "playing", "soccer", "at", "five", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang memasak makan malam ketika aku tiba'",
+                "words": ["She", "was", "cooking", "dinner", "when", "I", "arrived"],
+                "answer": ["She", "was", "cooking", "dinner", "when", "I", "arrived"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami sedang berjalan ketika hujan mulai turun'",
+                "words": ["We", "were", "walking", "when", "it", "started", "to", "rain"],
+                "answer": ["We", "were", "walking", "when", "it", "started", "to", "rain"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang mengerjakan PR jam delapan malam'",
+                "words": ["He", "was", "doing", "his", "homework", "at", "eight", "PM"],
+                "answer": ["He", "was", "doing", "his", "homework", "at", "eight", "PM"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ a book when the phone rang'",
+                "options": ["was reading", "were reading", "read", "reads"],
+                "answer": "was reading"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ lunch at 12 PM yesterday'",
+                "options": ["were having", "was having", "had", "have"],
+                "answer": "were having"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ his car when I saw him'",
+                "options": ["was washing", "were washing", "washed", "wash"],
+                "answer": "was washing"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ in the park when it got dark'",
+                "options": ["were playing", "was playing", "played", "play"],
+                "answer": "were playing"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ to music at 9 PM last night'",
+                "options": ["was listening", "were listening", "listened", "listen"],
+                "answer": "was listening"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang membaca buku ketika telepon berdering'",
+                "words": ["She", "was", "reading", "a", "book", "when", "the", "phone", "rang"],
+                "answer": ["She", "was", "reading", "a", "book", "when", "the", "phone", "rang"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami sedang makan siang jam dua belas kemarin'",
+                "words": ["We", "were", "having", "lunch", "at", "twelve", "yesterday"],
+                "answer": ["We", "were", "having", "lunch", "at", "twelve", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang mencuci mobilnya ketika aku melihatnya'",
+                "words": ["He", "was", "washing", "his", "car", "when", "I", "saw", "him"],
+                "answer": ["He", "was", "washing", "his", "car", "when", "I", "saw", "him"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka sedang bermain di taman ketika hari mulai gelap'",
+                "words": ["They", "were", "playing", "in", "the", "park", "when", "it", "got", "dark"],
+                "answer": ["They", "were", "playing", "in", "the", "park", "when", "it", "got", "dark"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sedang mendengarkan musik jam sembilan tadi malam'",
+                "words": ["I", "was", "listening", "to", "music", "at", "nine", "PM", "last", "night"],
+                "answer": ["I", "was", "listening", "to", "music", "at", "nine", "PM", "last", "night"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ you sleeping when I called?' (tanya)",
+                "options": ["Were", "Was", "Did", "Do"],
+                "answer": "Were"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: '___ she working at 7 PM?' (tanya)",
+                "options": ["Was", "Were", "Did", "Do"],
+                "answer": "Was"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ not watching TV when you came' (negatif)",
+                "options": ["was", "were", "did", "do"],
+                "answer": "was"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ not playing when the teacher arrived' (negatif)",
+                "options": ["were", "was", "did", "do"],
+                "answer": "were"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ studying at 10 PM last night'",
+                "options": ["was", "were", "did", "does"],
+                "answer": "was"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah kamu sedang tidur ketika aku menelepon?'",
+                "words": ["Were", "you", "sleeping", "when", "I", "called"],
+                "answer": ["Were", "you", "sleeping", "when", "I", "called"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Apakah dia sedang bekerja jam tujuh malam?'",
+                "words": ["Was", "she", "working", "at", "seven", "PM"],
+                "answer": ["Was", "she", "working", "at", "seven", "PM"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku tidak sedang menonton TV ketika kamu datang'",
+                "words": ["I", "was", "not", "watching", "TV", "when", "you", "came"],
+                "answer": ["I", "was", "not", "watching", "TV", "when", "you", "came"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka tidak sedang bermain ketika guru tiba'",
+                "words": ["They", "were", "not", "playing", "when", "the", "teacher", "arrived"],
+                "answer": ["They", "were", "not", "playing", "when", "the", "teacher", "arrived"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang belajar jam sepuluh tadi malam'",
+                "words": ["He", "was", "studying", "at", "ten", "PM", "last", "night"],
+                "answer": ["He", "was", "studying", "at", "ten", "PM", "last", "night"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "When & while",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'I was reading ___ she was cooking'?",
+                "options": ["while", "when", "because", "so"],
+                "answer": "while"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'I was walking ___ it started to rain'?",
+                "options": ["when", "while", "because", "so"],
+                "answer": "when"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: '___ I was sleeping, the phone rang'?",
+                "options": ["While", "When", "Because", "So"],
+                "answer": "While"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'He was cooking ___ I arrived'?",
+                "options": ["when", "while", "because", "so"],
+                "answer": "when"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: '___ they were playing, it started to snow'?",
+                "options": ["While", "When", "Because", "So"],
+                "answer": "While"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sedang membaca ketika dia sedang memasak'",
+                "words": ["I", "was", "reading", "while", "she", "was", "cooking"],
+                "answer": ["I", "was", "reading", "while", "she", "was", "cooking"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sedang berjalan ketika hujan mulai turun'",
+                "words": ["I", "was", "walking", "when", "it", "started", "to", "rain"],
+                "answer": ["I", "was", "walking", "when", "it", "started", "to", "rain"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ketika aku sedang tidur, telepon berdering'",
+                "words": ["While", "I", "was", "sleeping", "the", "phone", "rang"],
+                "answer": ["While", "I", "was", "sleeping", "the", "phone", "rang"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang memasak ketika aku tiba'",
+                "words": ["He", "was", "cooking", "when", "I", "arrived"],
+                "answer": ["He", "was", "cooking", "when", "I", "arrived"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ketika mereka sedang bermain, salju mulai turun'",
+                "words": ["While", "they", "were", "playing", "it", "started", "to", "snow"],
+                "answer": ["While", "they", "were", "playing", "it", "started", "to", "snow"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'She was studying ___ I was watching TV'?",
+                "options": ["while", "when", "because", "so"],
+                "answer": "while"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'We were having dinner ___ the lights went out'?",
+                "options": ["when", "while", "because", "so"],
+                "answer": "when"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: '___ he was driving, he saw an accident'?",
+                "options": ["While", "When", "Because", "So"],
+                "answer": "While"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'They were dancing ___ the music stopped'?",
+                "options": ["when", "while", "because", "so"],
+                "answer": "when"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: '___ we were waiting, we saw a famous person'?",
+                "options": ["While", "When", "Because", "So"],
+                "answer": "While"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang belajar ketika aku sedang menonton TV'",
+                "words": ["She", "was", "studying", "while", "I", "was", "watching", "TV"],
+                "answer": ["She", "was", "studying", "while", "I", "was", "watching", "TV"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami sedang makan malam ketika lampu mati'",
+                "words": ["We", "were", "having", "dinner", "when", "the", "lights", "went", "out"],
+                "answer": ["We", "were", "having", "dinner", "when", "the", "lights", "went", "out"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ketika dia sedang mengemudi, dia melihat kecelakaan'",
+                "words": ["While", "he", "was", "driving", "he", "saw", "an", "accident"],
+                "answer": ["While", "he", "was", "driving", "he", "saw", "an", "accident"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka sedang menari ketika musik berhenti'",
+                "words": ["They", "were", "dancing", "when", "the", "music", "stopped"],
+                "answer": ["They", "were", "dancing", "when", "the", "music", "stopped"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ketika kami sedang menunggu, kami melihat orang terkenal'",
+                "words": ["While", "we", "were", "waiting", "we", "saw", "a", "famous", "person"],
+                "answer": ["While", "we", "were", "waiting", "we", "saw", "a", "famous", "person"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'I was cooking ___ my brother was cleaning'?",
+                "options": ["while", "when", "because", "so"],
+                "answer": "while"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'She was crying ___ she heard the news'?",
+                "options": ["when", "while", "because", "so"],
+                "answer": "when"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: '___ they were travelling, they met many people'?",
+                "options": ["While", "When", "Because", "So"],
+                "answer": "While"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: 'He was sleeping ___ the alarm rang'?",
+                "options": ["when", "while", "because", "so"],
+                "answer": "when"
+              },
+              {
+                "type": "choice",
+                "prompt": "Kata penghubung apa yang tepat: '___ I was reading, my sister was drawing'?",
+                "options": ["While", "When", "Because", "So"],
+                "answer": "While"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sedang memasak ketika adikku sedang membersihkan'",
+                "words": ["I", "was", "cooking", "while", "my", "brother", "was", "cleaning"],
+                "answer": ["I", "was", "cooking", "while", "my", "brother", "was", "cleaning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang menangis ketika mendengar berita itu'",
+                "words": ["She", "was", "crying", "when", "she", "heard", "the", "news"],
+                "answer": ["She", "was", "crying", "when", "she", "heard", "the", "news"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ketika mereka sedang bepergian, mereka bertemu banyak orang'",
+                "words": ["While", "they", "were", "travelling", "they", "met", "many", "people"],
+                "answer": ["While", "they", "were", "travelling", "they", "met", "many", "people"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang tidur ketika alarm berbunyi'",
+                "words": ["He", "was", "sleeping", "when", "the", "alarm", "rang"],
+                "answer": ["He", "was", "sleeping", "when", "the", "alarm", "rang"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ketika aku sedang membaca, adikku sedang menggambar'",
+                "words": ["While", "I", "was", "reading", "my", "sister", "was", "drawing"],
+                "answer": ["While", "I", "was", "reading", "my", "sister", "was", "drawing"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Past Simple vs Past Continuous",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ TV when the phone ___'",
+                "options": ["was watching / rang", "watched / was ringing", "watch / ring", "was watching / was ringing"],
+                "answer": "was watching / rang"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ dinner when I ___ home'",
+                "options": ["was cooking / came", "cooked / was coming", "cook / come", "was cooking / was coming"],
+                "answer": "was cooking / came"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ soccer when it ___ to rain'",
+                "options": ["were playing / started", "played / was starting", "play / start", "were playing / was starting"],
+                "answer": "were playing / started"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ his leg while he ___ soccer'",
+                "options": ["broke / was playing", "was breaking / played", "break / play", "was breaking / was playing"],
+                "answer": "broke / was playing"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ dinner when the lights ___ out'",
+                "options": ["were having / went", "had / were going", "have / go", "were having / were going"],
+                "answer": "were having / went"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sedang menonton TV ketika telepon berdering'",
+                "words": ["I", "was", "watching", "TV", "when", "the", "phone", "rang"],
+                "answer": ["I", "was", "watching", "TV", "when", "the", "phone", "rang"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang memasak makan malam ketika aku pulang'",
+                "words": ["She", "was", "cooking", "dinner", "when", "I", "came", "home"],
+                "answer": ["She", "was", "cooking", "dinner", "when", "I", "came", "home"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka sedang bermain sepak bola ketika hujan mulai turun'",
+                "words": ["They", "were", "playing", "soccer", "when", "it", "started", "to", "rain"],
+                "answer": ["They", "were", "playing", "soccer", "when", "it", "started", "to", "rain"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mematahkan kakinya ketika sedang bermain sepak bola'",
+                "words": ["He", "broke", "his", "leg", "while", "he", "was", "playing", "soccer"],
+                "answer": ["He", "broke", "his", "leg", "while", "he", "was", "playing", "soccer"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami sedang makan malam ketika lampu mati'",
+                "words": ["We", "were", "having", "dinner", "when", "the", "lights", "went", "out"],
+                "answer": ["We", "were", "having", "dinner", "when", "the", "lights", "went", "out"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ a book when the phone ___'",
+                "options": ["was reading / rang", "read / was ringing", "reads / rings", "was reading / was ringing"],
+                "answer": "was reading / rang"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ in the park when it ___ to rain'",
+                "options": ["were walking / started", "walked / was starting", "walk / start", "were walking / was starting"],
+                "answer": "were walking / started"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ his car when I ___ him'",
+                "options": ["was washing / saw", "washed / was seeing", "wash / see", "was washing / was seeing"],
+                "answer": "was washing / saw"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ my arm while I ___ cooking'",
+                "options": ["burned / was", "was burning / was", "burn / am", "was burning / was being"],
+                "answer": "burned / was"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ when the teacher ___'",
+                "options": ["were talking / arrived", "talked / was arriving", "talk / arrive", "were talking / was arriving"],
+                "answer": "were talking / arrived"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang membaca buku ketika telepon berdering'",
+                "words": ["She", "was", "reading", "a", "book", "when", "the", "phone", "rang"],
+                "answer": ["She", "was", "reading", "a", "book", "when", "the", "phone", "rang"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami sedang berjalan di taman ketika hujan mulai turun'",
+                "words": ["We", "were", "walking", "in", "the", "park", "when", "it", "started", "to", "rain"],
+                "answer": ["We", "were", "walking", "in", "the", "park", "when", "it", "started", "to", "rain"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang mencuci mobilnya ketika aku melihatnya'",
+                "words": ["He", "was", "washing", "his", "car", "when", "I", "saw", "him"],
+                "answer": ["He", "was", "washing", "his", "car", "when", "I", "saw", "him"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membakar lenganku ketika sedang memasak'",
+                "words": ["I", "burned", "my", "arm", "while", "I", "was", "cooking"],
+                "answer": ["I", "burned", "my", "arm", "while", "I", "was", "cooking"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka sedang berbicara ketika guru tiba'",
+                "words": ["They", "were", "talking", "when", "the", "teacher", "arrived"],
+                "answer": ["They", "were", "talking", "when", "the", "teacher", "arrived"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'I ___ my keys while I ___ to work'",
+                "options": ["lost / was walking", "was losing / walked", "lose / walk", "was losing / was walking"],
+                "answer": "lost / was walking"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'She ___ her ankle when she ___ down the stairs'",
+                "options": ["sprained / was falling", "was spraining / fell", "sprain / fall", "was spraining / was falling"],
+                "answer": "sprained / was falling"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'We ___ the news while we ___ breakfast'",
+                "options": ["heard / were having", "were hearing / had", "hear / have", "were hearing / were having"],
+                "answer": "heard / were having"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'He ___ an email when his computer ___'",
+                "options": ["was writing / crashed", "wrote / was crashing", "write / crash", "was writing / was crashing"],
+                "answer": "was writing / crashed"
+              },
+              {
+                "type": "choice",
+                "prompt": "Lengkapi: 'They ___ photos while they ___ on vacation'",
+                "options": ["took / were", "were taking / were", "take / are", "were taking / was"],
+                "answer": "took / were"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku kehilangan kunciku ketika sedang berjalan ke tempat kerja'",
+                "words": ["I", "lost", "my", "keys", "while", "I", "was", "walking", "to", "work"],
+                "answer": ["I", "lost", "my", "keys", "while", "I", "was", "walking", "to", "work"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia terkilir pergelangan kakinya ketika sedang menuruni tangga'",
+                "words": ["She", "sprained", "her", "ankle", "when", "she", "was", "falling", "down", "the", "stairs"],
+                "answer": ["She", "sprained", "her", "ankle", "when", "she", "was", "falling", "down", "the", "stairs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami mendengar berita itu ketika sedang sarapan'",
+                "words": ["We", "heard", "the", "news", "while", "we", "were", "having", "breakfast"],
+                "answer": ["We", "heard", "the", "news", "while", "we", "were", "having", "breakfast"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia sedang menulis email ketika komputernya rusak'",
+                "words": ["He", "was", "writing", "an", "email", "when", "his", "computer", "crashed"],
+                "answer": ["He", "was", "writing", "an", "email", "when", "his", "computer", "crashed"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Mereka mengambil foto ketika sedang berlibur'",
+                "words": ["They", "took", "photos", "while", "they", "were", "on", "vacation"],
+                "answer": ["They", "took", "photos", "while", "they", "were", "on", "vacation"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: berita singkat",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'There was a fire on Main Street last night. Firefighters arrived quickly.' Pertanyaan: Di mana kebakaran terjadi?",
+                "options": ["Di Main Street", "Di Oak Street", "Di pusat kota", "Di sekolah"],
+                "answer": "Di Main Street"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A car accident happened on the highway this morning. Two people were injured.' Pertanyaan: Berapa orang yang terluka?",
+                "options": ["Dua orang", "Satu orang", "Tiga orang", "Empat orang"],
+                "answer": "Dua orang"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The local team won the football competition yesterday. They scored three goals.' Pertanyaan: Berapa gol yang dicetak tim lokal?",
+                "options": ["Tiga gol", "Dua gol", "Satu gol", "Empat gol"],
+                "answer": "Tiga gol"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A big storm hit the city last night. Many trees fell down.' Pertanyaan: Apa yang terjadi pada banyak pohon?",
+                "options": ["Tumbang", "Terbakar", "Hilang", "Tumbuh"],
+                "answer": "Tumbang"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A cultural festival was held in the park last weekend. Thousands of people attended.' Pertanyaan: Berapa banyak orang yang menghadiri festival?",
+                "options": ["Ribuan orang", "Ratusan orang", "Puluhan orang", "Jutaan orang"],
+                "answer": "Ribuan orang"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Ada kebakaran di Main Street tadi malam. Petugas pemadam kebakaran tiba dengan cepat'",
+                "words": ["There", "was", "a", "fire", "on", "Main", "Street", "last", "night", "firefighters", "arrived", "quickly"],
+                "answer": ["There", "was", "a", "fire", "on", "Main", "Street", "last", "night", "firefighters", "arrived", "quickly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Kecelakaan mobil terjadi di jalan raya pagi ini. Dua orang terluka'",
+                "words": ["A", "car", "accident", "happened", "on", "the", "highway", "this", "morning", "two", "people", "were", "injured"],
+                "answer": ["A", "car", "accident", "happened", "on", "the", "highway", "this", "morning", "two", "people", "were", "injured"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Tim lokal memenangkan kompetisi sepak bola kemarin. Mereka mencetak tiga gol'",
+                "words": ["The", "local", "team", "won", "the", "football", "competition", "yesterday", "they", "scored", "three", "goals"],
+                "answer": ["The", "local", "team", "won", "the", "football", "competition", "yesterday", "they", "scored", "three", "goals"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Badai besar melanda kota tadi malam. Banyak pohon tumbang'",
+                "words": ["A", "big", "storm", "hit", "the", "city", "last", "night", "many", "trees", "fell", "down"],
+                "answer": ["A", "big", "storm", "hit", "the", "city", "last", "night", "many", "trees", "fell", "down"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Festival budaya diadakan di taman akhir pekan lalu. Ribuan orang menghadiri'",
+                "words": ["A", "cultural", "festival", "was", "held", "in", "the", "park", "last", "weekend", "thousands", "of", "people", "attended"],
+                "answer": ["A", "cultural", "festival", "was", "held", "in", "the", "park", "last", "weekend", "thousands", "of", "people", "attended"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A flood hit the village yesterday. Many houses were damaged.' Pertanyaan: Apa yang rusak akibat banjir?",
+                "options": ["Banyak rumah", "Banyak mobil", "Banyak pohon", "Banyak sekolah"],
+                "answer": "Banyak rumah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'An earthquake happened in the city last night. No one was hurt.' Pertanyaan: Apakah ada yang terluka?",
+                "options": ["Tidak ada", "Satu orang", "Dua orang", "Banyak orang"],
+                "answer": "Tidak ada"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The school won the singing competition last week. The students were very happy.' Pertanyaan: Kompetisi apa yang dimenangkan sekolah?",
+                "options": ["Kompetisi menyanyi", "Kompetisi menari", "Kompetisi olahraga", "Kompetisi debat"],
+                "answer": "Kompetisi menyanyi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A famous singer visited the city yesterday. Many fans came to see her.' Pertanyaan: Siapa yang mengunjungi kota kemarin?",
+                "options": ["Penyanyi terkenal", "Aktor terkenal", "Atlet terkenal", "Politisi terkenal"],
+                "answer": "Penyanyi terkenal"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A charity event was held at the school last Sunday. They raised money for the poor.' Pertanyaan: Untuk siapa uang dikumpulkan?",
+                "options": ["Untuk orang miskin", "Untuk sekolah", "Untuk rumah sakit", "Untuk hewan"],
+                "answer": "Untuk orang miskin"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Banjir melanda desa kemarin. Banyak rumah rusak'",
+                "words": ["A", "flood", "hit", "the", "village", "yesterday", "many", "houses", "were", "damaged"],
+                "answer": ["A", "flood", "hit", "the", "village", "yesterday", "many", "houses", "were", "damaged"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Gempa bumi terjadi di kota tadi malam. Tidak ada yang terluka'",
+                "words": ["An", "earthquake", "happened", "in", "the", "city", "last", "night", "no", "one", "was", "hurt"],
+                "answer": ["An", "earthquake", "happened", "in", "the", "city", "last", "night", "no", "one", "was", "hurt"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Sekolah memenangkan kompetisi menyanyi minggu lalu. Para siswa sangat senang'",
+                "words": ["The", "school", "won", "the", "singing", "competition", "last", "week", "the", "students", "were", "very", "happy"],
+                "answer": ["The", "school", "won", "the", "singing", "competition", "last", "week", "the", "students", "were", "very", "happy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Penyanyi terkenal mengunjungi kota kemarin. Banyak penggemar datang untuk melihatnya'",
+                "words": ["A", "famous", "singer", "visited", "the", "city", "yesterday", "many", "fans", "came", "to", "see", "her"],
+                "answer": ["A", "famous", "singer", "visited", "the", "city", "yesterday", "many", "fans", "came", "to", "see", "her"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Acara amal diadakan di sekolah minggu lalu. Mereka mengumpulkan uang untuk orang miskin'",
+                "words": ["A", "charity", "event", "was", "held", "at", "the", "school", "last", "Sunday", "they", "raised", "money", "for", "the", "poor"],
+                "answer": ["A", "charity", "event", "was", "held", "at", "the", "school", "last", "Sunday", "they", "raised", "money", "for", "the", "poor"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A robbery happened at the bank yesterday. The police are investigating.' Pertanyaan: Di mana perampokan terjadi?",
+                "options": ["Di bank", "Di toko", "Di sekolah", "Di rumah"],
+                "answer": "Di bank"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The president visited the city yesterday. He opened a new hospital.' Pertanyaan: Apa yang dibuka presiden?",
+                "options": ["Rumah sakit baru", "Sekolah baru", "Jembatan baru", "Bandara baru"],
+                "answer": "Rumah sakit baru"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A charity concert was held last night. It raised one million dollars.' Pertanyaan: Berapa uang yang terkumpul?",
+                "options": ["Satu juta dolar", "Satu ribu dolar", "Seratus dolar", "Sepuluh juta dolar"],
+                "answer": "Satu juta dolar"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A new bridge was opened yesterday. It connects two cities.' Pertanyaan: Apa yang dihubungkan jembatan baru?",
+                "options": ["Dua kota", "Dua desa", "Dua pulau", "Dua negara"],
+                "answer": "Dua kota"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'A science competition was held at the university last week. Students from ten schools participated.' Pertanyaan: Berapa sekolah yang berpartisipasi?",
+                "options": ["Sepuluh sekolah", "Lima sekolah", "Dua puluh sekolah", "Lima belas sekolah"],
+                "answer": "Sepuluh sekolah"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Perampokan terjadi di bank kemarin. Polisi sedang menyelidiki'",
+                "words": ["A", "robbery", "happened", "at", "the", "bank", "yesterday", "the", "police", "are", "investigating"],
+                "answer": ["A", "robbery", "happened", "at", "the", "bank", "yesterday", "the", "police", "are", "investigating"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Presiden mengunjungi kota kemarin. Dia membuka rumah sakit baru'",
+                "words": ["The", "president", "visited", "the", "city", "yesterday", "he", "opened", "a", "new", "hospital"],
+                "answer": ["The", "president", "visited", "the", "city", "yesterday", "he", "opened", "a", "new", "hospital"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Konser amal diadakan tadi malam. Acara itu mengumpulkan satu juta dolar'",
+                "words": ["A", "charity", "concert", "was", "held", "last", "night", "it", "raised", "one", "million", "dollars"],
+                "answer": ["A", "charity", "concert", "was", "held", "last", "night", "it", "raised", "one", "million", "dollars"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Jembatan baru dibuka kemarin. Jembatan itu menghubungkan dua kota'",
+                "words": ["A", "new", "bridge", "was", "opened", "yesterday", "it", "connects", "two", "cities"],
+                "answer": ["A", "new", "bridge", "was", "opened", "yesterday", "it", "connects", "two", "cities"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun berita: 'Kompetisi sains diadakan di universitas minggu lalu. Siswa dari sepuluh sekolah berpartisipasi'",
+                "words": ["A", "science", "competition", "was", "held", "at", "the", "university", "last", "week", "students", "from", "ten", "schools", "participated"],
+                "answer": ["A", "science", "competition", "was", "held", "at", "the", "university", "last", "week", "students", "from", "ten", "schools", "participated"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: menceritakan kejadian",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku sedang berjalan ketika aku melihat kecelakaan'?",
+                "options": ["I was walking when I saw an accident", "I walked when I was seeing an accident", "I was walking when I was seeing an accident", "I walk when I see an accident"],
+                "answer": "I was walking when I saw an accident"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia sedang memasak ketika telepon berdering'?",
+                "options": ["She was cooking when the phone rang", "She cooked when the phone was ringing", "She was cooking when the phone was ringing", "She cooks when the phone rings"],
+                "answer": "She was cooking when the phone rang"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami sedang makan malam ketika lampu mati'?",
+                "options": ["We were having dinner when the lights went out", "We had dinner when the lights were going out", "We were having dinner when the lights were going out", "We have dinner when the lights go out"],
+                "answer": "We were having dinner when the lights went out"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Mereka sedang bermain sepak bola ketika hujan mulai turun'?",
+                "options": ["They were playing soccer when it started to rain", "They played soccer when it was starting to rain", "They were playing soccer when it was starting to rain", "They play soccer when it starts to rain"],
+                "answer": "They were playing soccer when it started to rain"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia mematahkan kakinya ketika sedang bermain sepak bola'?",
+                "options": ["He broke his leg while he was playing soccer", "He was breaking his leg while he played soccer", "He broke his leg while he played soccer", "He breaks his leg while he is playing soccer"],
+                "answer": "He broke his leg while he was playing soccer"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku sedang berjalan di jalan ketika aku melihat kecelakaan'",
+                "words": ["I", "was", "walking", "on", "the", "street", "when", "I", "saw", "an", "accident"],
+                "answer": ["I", "was", "walking", "on", "the", "street", "when", "I", "saw", "an", "accident"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia sedang memasak ketika telepon berdering'",
+                "words": ["She", "was", "cooking", "when", "the", "phone", "rang"],
+                "answer": ["She", "was", "cooking", "when", "the", "phone", "rang"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami sedang makan malam ketika lampu mati'",
+                "words": ["We", "were", "having", "dinner", "when", "the", "lights", "went", "out"],
+                "answer": ["We", "were", "having", "dinner", "when", "the", "lights", "went", "out"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Mereka sedang bermain sepak bola ketika hujan mulai turun'",
+                "words": ["They", "were", "playing", "soccer", "when", "it", "started", "to", "rain"],
+                "answer": ["They", "were", "playing", "soccer", "when", "it", "started", "to", "rain"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia mematahkan kakinya ketika sedang bermain sepak bola'",
+                "words": ["He", "broke", "his", "leg", "while", "he", "was", "playing", "soccer"],
+                "answer": ["He", "broke", "his", "leg", "while", "he", "was", "playing", "soccer"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku sedang membaca ketika aku mendengar suara aneh'?",
+                "options": ["I was reading when I heard a strange sound", "I read when I was hearing a strange sound", "I was reading when I was hearing a strange sound", "I read when I hear a strange sound"],
+                "answer": "I was reading when I heard a strange sound"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia sedang menulis email ketika komputernya rusak'?",
+                "options": ["He was writing an email when his computer crashed", "He wrote an email when his computer was crashing", "He was writing an email when his computer was crashing", "He writes an email when his computer crashes"],
+                "answer": "He was writing an email when his computer crashed"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami sedang berjalan di taman ketika hujan mulai turun'?",
+                "options": ["We were walking in the park when it started to rain", "We walked in the park when it was starting to rain", "We were walking in the park when it was starting to rain", "We walk in the park when it starts to rain"],
+                "answer": "We were walking in the park when it started to rain"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Mereka sedang berbicara ketika guru tiba'?",
+                "options": ["They were talking when the teacher arrived", "They talked when the teacher was arriving", "They were talking when the teacher was arriving", "They talk when the teacher arrives"],
+                "answer": "They were talking when the teacher arrived"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku kehilangan kunciku ketika sedang berjalan ke tempat kerja'?",
+                "options": ["I lost my keys while I was walking to work", "I was losing my keys while I walked to work", "I lost my keys while I walked to work", "I lose my keys while I am walking to work"],
+                "answer": "I lost my keys while I was walking to work"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku sedang membaca ketika aku mendengar suara aneh'",
+                "words": ["I", "was", "reading", "when", "I", "heard", "a", "strange", "sound"],
+                "answer": ["I", "was", "reading", "when", "I", "heard", "a", "strange", "sound"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia sedang menulis email ketika komputernya rusak'",
+                "words": ["He", "was", "writing", "an", "email", "when", "his", "computer", "crashed"],
+                "answer": ["He", "was", "writing", "an", "email", "when", "his", "computer", "crashed"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami sedang berjalan di taman ketika hujan mulai turun'",
+                "words": ["We", "were", "walking", "in", "the", "park", "when", "it", "started", "to", "rain"],
+                "answer": ["We", "were", "walking", "in", "the", "park", "when", "it", "started", "to", "rain"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Mereka sedang berbicara ketika guru tiba'",
+                "words": ["They", "were", "talking", "when", "the", "teacher", "arrived"],
+                "answer": ["They", "were", "talking", "when", "the", "teacher", "arrived"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku kehilangan kunciku ketika sedang berjalan ke tempat kerja'",
+                "words": ["I", "lost", "my", "keys", "while", "I", "was", "walking", "to", "work"],
+                "answer": ["I", "lost", "my", "keys", "while", "I", "was", "walking", "to", "work"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku sedang menonton TV ketika lampu mati'?",
+                "options": ["I was watching TV when the lights went out", "I watched TV when the lights were going out", "I was watching TV when the lights were going out", "I watch TV when the lights go out"],
+                "answer": "I was watching TV when the lights went out"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia sedang berlari ketika dia terjatuh'?",
+                "options": ["She was running when she fell", "She ran when she was falling", "She was running when she was falling", "She runs when she falls"],
+                "answer": "She was running when she fell"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami sedang menunggu bus ketika kami melihat kecelakaan'?",
+                "options": ["We were waiting for the bus when we saw an accident", "We waited for the bus when we were seeing an accident", "We were waiting for the bus when we were seeing an accident", "We wait for the bus when we see an accident"],
+                "answer": "We were waiting for the bus when we saw an accident"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Mereka sedang berfoto ketika badai datang'?",
+                "options": ["They were taking photos when the storm came", "They took photos when the storm was coming", "They were taking photos when the storm was coming", "They take photos when the storm comes"],
+                "answer": "They were taking photos when the storm came"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia terbakar ketika sedang memasak'?",
+                "options": ["He burned himself while he was cooking", "He was burning himself while he cooked", "He burned himself while he cooked", "He burns himself while he is cooking"],
+                "answer": "He burned himself while he was cooking"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku sedang menonton TV ketika lampu mati'",
+                "words": ["I", "was", "watching", "TV", "when", "the", "lights", "went", "out"],
+                "answer": ["I", "was", "watching", "TV", "when", "the", "lights", "went", "out"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia sedang berlari ketika dia terjatuh'",
+                "words": ["She", "was", "running", "when", "she", "fell"],
+                "answer": ["She", "was", "running", "when", "she", "fell"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami sedang menunggu bus ketika kami melihat kecelakaan'",
+                "words": ["We", "were", "waiting", "for", "the", "bus", "when", "we", "saw", "an", "accident"],
+                "answer": ["We", "were", "waiting", "for", "the", "bus", "when", "we", "saw", "an", "accident"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Mereka sedang berfoto ketika badai datang'",
+                "words": ["They", "were", "taking", "photos", "when", "the", "storm", "came"],
+                "answer": ["They", "were", "taking", "photos", "when", "the", "storm", "came"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia terbakar ketika sedang memasak'",
+                "words": ["He", "burned", "himself", "while", "he", "was", "cooking"],
+                "answer": ["He", "burned", "himself", "while", "he", "was", "cooking"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1212 @@
+{
+  "title": "Rencana & Masa Depan",
+  "color": "streak",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Kosakata rencana & jadwal",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Apa arti kata 'itinerary' dalam konteks perjalanan?",
+              "options": ["Rencana perjalanan", "Tiket pesawat", "Bagasi kabin", "Paspor cadangan"],
+              "answer": "Rencana perjalanan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya punya janji temu besok'",
+              "words": ["tomorrow", "I", "an", "have", "appointment"],
+              "answer": ["I", "have", "an", "appointment", "tomorrow"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata bahasa Inggris untuk 'menunda' jadwal rapat adalah...",
+              "options": ["Postpone", "Cancel", "Confirm", "Attend"],
+              "answer": "Postpone"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Jadwal kita sangat padat minggu ini'",
+              "words": ["week", "Our", "is", "schedule", "very", "busy", "this"],
+              "answer": ["Our", "schedule", "is", "very", "busy", "this", "week"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih terjemahan yang tepat untuk 'tenggat waktu':",
+              "options": ["Deadline", "Timeline", "Overtime", "Breaktime"],
+              "answer": "Deadline"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia membatalkan rapat hari ini'",
+              "words": ["meeting", "She", "the", "canceled", "today"],
+              "answer": ["She", "canceled", "the", "meeting", "today"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika kamu mengonfirmasi kehadiranmu di sebuah acara, kata kerjanya adalah...",
+              "options": ["Confirm", "Delay", "Skip", "Forget"],
+              "answer": "Confirm"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mari kita atur ulang jadwal makan malam'",
+              "words": ["dinner", "Let's", "the", "reschedule"],
+              "answer": ["Let's", "reschedule", "the", "dinner"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti 'agenda' dalam sebuah rapat?",
+              "options": ["Daftar topik pembahasan", "Ruang rapat", "Catatan keuangan", "Daftar hadir"],
+              "answer": "Daftar topik pembahasan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu senggang pada hari Jumat?'",
+              "words": ["Friday", "Are", "free", "you", "on"],
+              "answer": ["Are", "you", "free", "on", "Friday"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Sinonim yang tepat untuk 'schedule' adalah...",
+              "options": ["Timetable", "Luggage", "Receipt", "Brochure"],
+              "answer": "Timetable"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya harus memeriksa kalender saya dulu'",
+              "words": ["calendar", "I", "check", "must", "first", "my"],
+              "answer": ["I", "must", "check", "my", "calendar", "first"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti frasa 'ahead of schedule'?",
+              "options": ["Lebih cepat dari jadwal", "Terlambat dari jadwal", "Sesuai jadwal", "Tanpa jadwal"],
+              "answer": "Lebih cepat dari jadwal"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kereta berangkat tepat waktu'",
+              "words": ["time", "The", "leaves", "train", "on"],
+              "answer": ["The", "train", "leaves", "on", "time"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata bahasa Inggris untuk 'pengingat' di ponsel adalah...",
+              "options": ["Reminder", "Alarm", "Caller", "Wallpaper"],
+              "answer": "Reminder"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami butuh rencana cadangan'",
+              "words": ["plan", "We", "a", "need", "backup"],
+              "answer": ["We", "need", "a", "backup", "plan"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika sebuah acara terjadi 'annually', artinya acara itu diadakan...",
+              "options": ["Setiap tahun", "Setiap bulan", "Setiap minggu", "Setiap hari"],
+              "answer": "Setiap tahun"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Tolong beri tahu saya jika ada perubahan'",
+              "words": ["changes", "Please", "me", "let", "know", "of", "any"],
+              "answer": ["Please", "let", "me", "know", "of", "any", "changes"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa lawan kata dari 'available' (tersedia/senggang)?",
+              "options": ["Occupied", "Ready", "Flexible", "Open"],
+              "answer": "Occupied"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Proyek ini selesai lebih cepat dari jadwal'",
+              "words": ["schedule", "The", "is", "project", "ahead", "of"],
+              "answer": ["The", "project", "is", "ahead", "of", "schedule"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Apa arti istilah 'tentative plan'?",
+              "options": ["Rencana sementara yang bisa berubah", "Rencana yang sudah pasti", "Rencana yang gagal total", "Rencana rahasia"],
+              "answer": "Rencana sementara yang bisa berubah"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia selalu menepati janjinya'",
+              "words": ["promises", "He", "keeps", "always", "his"],
+              "answer": ["He", "always", "keeps", "his", "promises"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kata untuk menyebut 'tujuan' dalam jangka panjang adalah...",
+              "options": ["Goal", "Task", "Chore", "Errand"],
+              "answer": "Goal"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Penerbangan ditunda selama dua jam'",
+              "words": ["hours", "The", "delayed", "flight", "is", "for", "two"],
+              "answer": ["The", "flight", "is", "delayed", "for", "two", "hours"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Frasa 'pencil in' dalam pengaturan jadwal berarti...",
+              "options": ["Mencatat jadwal secara sementara", "Menghapus jadwal secara permanen", "Menulis laporan rapat", "Menggambar sketsa"],
+              "answer": "Mencatat jadwal secara sementara"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya ada urusan mendadak sore ini'",
+              "words": ["afternoon", "I", "an", "have", "urgent", "errand", "this"],
+              "answer": ["I", "have", "an", "urgent", "errand", "this", "afternoon"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Apa arti 'behind schedule'?",
+              "options": ["Terlambat dari jadwal", "Lebih awal dari jadwal", "Membatalkan jadwal", "Membuat jadwal baru"],
+              "answer": "Terlambat dari jadwal"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mari kita bahas rinciannya nanti'",
+              "words": ["later", "Let's", "the", "discuss", "details"],
+              "answer": ["Let's", "discuss", "the", "details", "later"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika jadwalmu 'flexible', artinya jadwalmu...",
+              "options": ["Mudah disesuaikan", "Sangat kaku", "Sudah penuh", "Tidak jelas"],
+              "answer": "Mudah disesuaikan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kapan batas waktu pengumpulan tugas ini?'",
+              "words": ["assignment", "When", "the", "is", "deadline", "for", "this"],
+              "answer": ["When", "is", "the", "deadline", "for", "this", "assignment"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Be going to",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi kalimat rencana: 'I ___ visit my grandparents next month.'",
+              "options": ["am going to", "is going to", "are going to", "going to"],
+              "answer": "am going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka akan membeli rumah baru'",
+              "words": ["house", "They", "going", "are", "to", "buy", "a", "new"],
+              "answer": ["They", "are", "going", "to", "buy", "a", "new", "house"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih bentuk yang benar untuk prediksi berdasarkan bukti: 'Look at those dark clouds! It ___ rain.'",
+              "options": ["is going to", "am going to", "are going to", "will be"],
+              "answer": "is going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia tidak akan datang ke pesta'",
+              "words": ["party", "She", "not", "is", "going", "to", "come", "to", "the"],
+              "answer": ["She", "is", "not", "going", "to", "come", "to", "the", "party"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Kalimat tanya yang benar adalah...",
+              "options": ["Are you going to study tonight?", "Do you going to study tonight?", "Is you going to study tonight?", "You are going to study tonight?"],
+              "answer": "Are you going to study tonight?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apa yang akan kamu masak untuk makan malam?'",
+              "words": ["dinner", "What", "you", "are", "going", "to", "cook", "for"],
+              "answer": ["What", "are", "you", "going", "to", "cook", "for", "dinner"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'We ___ start a new business together.'",
+              "options": ["are going to", "is going to", "am going to", "be going to"],
+              "answer": "are going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya akan belajar bahasa Spanyol tahun depan'",
+              "words": ["year", "I", "going", "am", "to", "learn", "Spanish", "next"],
+              "answer": ["I", "am", "going", "to", "learn", "Spanish", "next", "year"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat negatif yang tepat:",
+              "options": ["He isn't going to resign.", "He not going to resign.", "He aren't going to resign.", "He doesn't going to resign."],
+              "answer": "He isn't going to resign."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Hati-hati! Kamu akan menjatuhkan gelas itu'",
+              "words": ["glass", "You", "going", "are", "to", "drop", "that"],
+              "answer": ["You", "are", "going", "to", "drop", "that", "glass"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'My sister ___ graduate from university this summer.'",
+              "options": ["is going to", "are going to", "am going to", "going to"],
+              "answer": "is going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami akan menonton film malam ini'",
+              "words": ["tonight", "We", "going", "are", "to", "watch", "a", "movie"],
+              "answer": ["We", "are", "going", "to", "watch", "a", "movie", "tonight"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Situasi: Bola melaju kencang ke arah jendela. Kalimat yang tepat adalah...",
+              "options": ["It is going to break the window!", "It are going to break the window!", "It am going to break the window!", "It going to break the window!"],
+              "answer": "It is going to break the window!"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kapan mereka akan pindah ke Jakarta?'",
+              "words": ["Jakarta", "When", "they", "are", "going", "to", "move", "to"],
+              "answer": ["When", "are", "they", "going", "to", "move", "to", "Jakarta"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'I ___ spend my holiday in Bali.'",
+              "options": ["am going to", "is going to", "are going to", "will going to"],
+              "answer": "am going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya tidak akan menyerah dengan mudah'",
+              "words": ["easily", "I", "not", "am", "going", "to", "give", "up"],
+              "answer": ["I", "am", "not", "going", "to", "give", "up", "easily"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih pertanyaan yang benar untuk menanyakan niat seseorang:",
+              "options": ["Is he going to accept the job offer?", "Does he going to accept the job offer?", "Are he going to accept the job offer?", "Will he going to accept the job offer?"],
+              "answer": "Is he going to accept the job offer?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia akan mengecat kamarnya berwarna biru'",
+              "words": ["blue", "He", "going", "is", "to", "paint", "his", "room"],
+              "answer": ["He", "is", "going", "to", "paint", "his", "room", "blue"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'The traffic is terrible. We ___ be late.'",
+              "options": ["are going to", "is going to", "am going to", "going to"],
+              "answer": "are going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu akan mengundang Budi?'",
+              "words": ["Budi", "Are", "going", "you", "to", "invite"],
+              "answer": ["Are", "you", "going", "to", "invite", "Budi"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'They ___ build a new bridge across the river.'",
+              "options": ["are going to", "is going to", "am going to", "be going to"],
+              "answer": "are going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Siapa yang akan memimpin rapat ini?'",
+              "words": ["meeting", "Who", "going", "is", "to", "lead", "this"],
+              "answer": ["Who", "is", "going", "to", "lead", "this", "meeting"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Situasi: Kamu sudah menabung uang untuk membeli laptop. Kamu berkata...",
+              "options": ["I'm going to buy a new laptop.", "I buying a new laptop.", "I going to buy a new laptop.", "I am go to buy a new laptop."],
+              "answer": "I'm going to buy a new laptop."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami tidak akan menyia-nyiakan kesempatan ini'",
+              "words": ["opportunity", "We", "aren't", "going", "to", "waste", "this"],
+              "answer": ["We", "aren't", "going", "to", "waste", "this", "opportunity"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'She feels dizzy. I think she ___ faint.'",
+              "options": ["is going to", "are going to", "am going to", "going to"],
+              "answer": "is going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Di mana kamu akan menginap selama liburan?'",
+              "words": ["vacation", "Where", "you", "are", "going", "to", "stay", "during"],
+              "answer": ["Where", "are", "you", "going", "to", "stay", "during", "vacation"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang struktur tata bahasanya benar:",
+              "options": ["We are going to have a picnic.", "We is going to have a picnic.", "We are go to have a picnic.", "We going to having a picnic."],
+              "answer": "We are going to have a picnic."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Tim kami akan memenangkan pertandingan ini'",
+              "words": ["match", "Our", "is", "team", "going", "to", "win", "this"],
+              "answer": ["Our", "team", "is", "going", "to", "win", "this", "match"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'I've bought the ingredients. I ___ bake a cake.'",
+              "options": ["am going to", "is going to", "are going to", "will to"],
+              "answer": "am going to"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mengapa dia akan menjual mobilnya?'",
+              "words": ["car", "Why", "he", "is", "going", "to", "sell", "his"],
+              "answer": ["Why", "is", "he", "going", "to", "sell", "his", "car"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Will untuk keputusan spontan",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Situasi: Telepon berdering saat kalian sedang makan. Kamu berkata secara spontan...",
+              "options": ["I'll answer it!", "I am answering it!", "I going to answer it!", "I answered it!"],
+              "answer": "I'll answer it!"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya akan membantumu membawa tas itu'",
+              "words": ["bag", "I", "help", "will", "you", "carry", "that"],
+              "answer": ["I", "will", "help", "you", "carry", "that", "bag"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Situasi: Di restoran, pelayan bertanya pesananmu. Kamu baru memutuskan saat itu juga:",
+              "options": ["I'll have the grilled salmon, please.", "I am having the grilled salmon yesterday.", "I going to have the grilled salmon.", "I have had the grilled salmon."],
+              "answer": "I'll have the grilled salmon, please."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Ruangan ini panas. Saya akan membuka jendela'",
+              "words": ["window", "I", "open", "will", "the"],
+              "answer": ["I", "will", "open", "the", "window"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bentuk negatif dari 'will' untuk menyatakan penolakan atau janji tidak melakukan sesuatu adalah...",
+              "options": ["won't", "willn't", "don't will", "not will"],
+              "answer": "won't"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya berjanji tidak akan memberi tahu siapa pun'",
+              "words": ["anyone", "I", "I", "promise", "won't", "tell"],
+              "answer": ["I", "promise", "I", "won't", "tell", "anyone"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Situasi: Temanmu lupa membawa payung saat hujan. Kamu menawarkan diri secara spontan:",
+              "options": ["Don't worry, I'll share mine with you.", "Don't worry, I shared mine with you.", "Don't worry, I am share mine.", "Don't worry, I going to share mine."],
+              "answer": "Don't worry, I'll share mine with you."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya akan meneleponmu kembali nanti'",
+              "words": ["later", "I", "call", "will", "you", "back"],
+              "answer": ["I", "will", "call", "you", "back", "later"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi kalimat keputusan spontan: 'Oh, we're out of milk. I ___ go to the store right now.'",
+              "options": ["'ll", "'m", "was", "have"],
+              "answer": "'ll"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Maukah kamu menikah denganku?'",
+              "words": ["me", "Will", "marry", "you"],
+              "answer": ["Will", "you", "marry", "me"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Situasi: Seseorang mengetuk pintu rumahmu. Respons spontan yang tepat adalah...",
+              "options": ["I'll get the door.", "I'm going to got the door.", "I getting the door.", "I get the door yesterday."],
+              "answer": "I'll get the door."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya akan membayarnya dengan kartu kredit'",
+              "words": ["card", "I", "pay", "will", "by", "credit"],
+              "answer": ["I", "will", "pay", "by", "credit", "card"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Situasi: Kamu melihat temanmu kedinginan. Kamu berkata...",
+              "options": ["I'll turn off the air conditioner.", "I turned off the air conditioner.", "I going to turn off the air conditioner.", "I turning off the air conditioner."],
+              "answer": "I'll turn off the air conditioner."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami tidak akan melupakan kebaikanmu'",
+              "words": ["kindness", "We", "forget", "won't", "your"],
+              "answer": ["We", "won't", "forget", "your", "kindness"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang menunjukkan tawaran spontan:",
+              "options": ["That looks heavy. I'll carry it for you.", "That looks heavy. I carried it for you.", "That looks heavy. I am carry it.", "That looks heavy. I going to carry it."],
+              "answer": "That looks heavy. I'll carry it for you."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya rasa saya akan memesan secangkir kopi'",
+              "words": ["coffee", "I", "I'll", "think", "order", "a", "cup", "of"],
+              "answer": ["I", "think", "I'll", "order", "a", "cup", "of", "coffee"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi kalimat janji: 'I ___ always be there for you.'",
+              "options": ["will", "am", "was", "have"],
+              "answer": "will"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Tolong tunggu sebentar, saya akan mengambilkan pulpen'",
+              "words": ["pen", "I", "get", "will", "you", "a"],
+              "answer": ["I", "will", "get", "you", "a", "pen"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Situasi: Kamu baru sadar dompetmu tertinggal di kantor. Kamu berkata...",
+              "options": ["I'll go back and get it.", "I went back and get it.", "I going back to get it.", "I am go back and get it."],
+              "answer": "I'll go back and get it."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu akan mengirimkan berkasnya malam ini?'",
+              "words": ["tonight", "Will", "send", "you", "the", "file"],
+              "answer": ["Will", "you", "send", "the", "file", "tonight"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Situasi: Ada tumpahan air di lantai. Kamu berkata secara spontan...",
+              "options": ["I'll clean it up right away.", "I am clean it up right away.", "I cleaned it up tomorrow.", "I going to clean it up."],
+              "answer": "I'll clean it up right away."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya akan mengirimkan lokasinya lewat pesan'",
+              "words": ["text", "I", "send", "will", "you", "the", "location", "by"],
+              "answer": ["I", "will", "send", "you", "the", "location", "by", "text"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Situasi: Kamu tidak mengerti penjelasan temanmu. Kamu meminta bantuan secara spontan:",
+              "options": ["Wait, I'll ask the teacher.", "Wait, I asking the teacher.", "Wait, I going to ask the teacher.", "Wait, I asked the teacher."],
+              "answer": "Wait, I'll ask the teacher."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Jangan khawatir, semuanya akan baik-baik saja'",
+              "words": ["fine", "Everything", "be", "will"],
+              "answer": ["Everything", "will", "be", "fine"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih respons spontan saat temanmu berkata 'I have a terrible headache':",
+              "options": ["I'll get you some medicine.", "I got you some medicine yesterday.", "I am get you some medicine.", "I going to get you some medicine."],
+              "answer": "I'll get you some medicine."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya akan mengambil taksi karena sudah larut'",
+              "words": ["late", "I'll", "a", "take", "taxi", "because", "it's"],
+              "answer": ["I'll", "take", "a", "taxi", "because", "it's", "late"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'If you need help, just call me and I ___ come.'",
+              "options": ["will", "am", "did", "was"],
+              "answer": "will"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia tidak akan terlambat lagi'",
+              "words": ["again", "He", "be", "won't", "late"],
+              "answer": ["He", "won't", "be", "late", "again"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Situasi: Kamu melihat baju bagus di etalase toko dan langsung memutuskan membelinya:",
+              "options": ["I love this shirt! I'll take it.", "I love this shirt! I taking it.", "I love this shirt! I took it tomorrow.", "I love this shirt! I going to take it."],
+              "answer": "I love this shirt! I'll take it."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Maukah kamu membukakan pintu untukku?'",
+              "words": ["me", "Will", "open", "you", "the", "door", "for"],
+              "answer": ["Will", "you", "open", "the", "door", "for", "me"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Present Continuous untuk rencana",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang menyatakan rencana pasti dengan waktu spesifik di masa depan:",
+              "options": ["I am meeting Sarah at 5 PM tomorrow.", "I meet Sarah at 5 PM tomorrow.", "I am meet Sarah at 5 PM tomorrow.", "I was meeting Sarah at 5 PM tomorrow."],
+              "answer": "I am meeting Sarah at 5 PM tomorrow."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami terbang ke Tokyo besok pagi'",
+              "words": ["morning", "We", "flying", "are", "to", "Tokyo", "tomorrow"],
+              "answer": ["We", "are", "flying", "to", "Tokyo", "tomorrow", "morning"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi rencana yang sudah dijadwalkan: 'She ___ the dentist on Monday.'",
+              "options": ["is seeing", "sees", "saw", "is see"],
+              "answer": "is seeing"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apa yang kamu lakukan akhir pekan ini?'",
+              "words": ["weekend", "What", "you", "are", "doing", "this"],
+              "answer": ["What", "are", "you", "doing", "this", "weekend"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih bentuk negatif yang tepat untuk rencana yang dibatalkan:",
+              "options": ["They aren't coming to the concert tonight.", "They not coming to the concert tonight.", "They isn't coming to the concert tonight.", "They don't coming to the concert tonight."],
+              "answer": "They aren't coming to the concert tonight."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya makan malam dengan klien malam ini'",
+              "words": ["tonight", "I", "having", "am", "dinner", "with", "a", "client"],
+              "answer": ["I", "am", "having", "dinner", "with", "a", "client", "tonight"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'My parents ___ here next week. They already bought the tickets.'",
+              "options": ["are arriving", "arrives", "arrived", "is arriving"],
+              "answer": "are arriving"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia mengadakan pesta ulang tahun hari Sabtu'",
+              "words": ["Saturday", "He", "throwing", "is", "a", "birthday", "party", "on"],
+              "answer": ["He", "is", "throwing", "a", "birthday", "party", "on", "Saturday"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Mengapa kita menggunakan Present Continuous dalam 'We're playing tennis at 4 PM'?",
+              "options": ["Karena sudah ada pengaturan waktu dan tempat yang pasti", "Karena sedang terjadi saat ini juga", "Karena merupakan kebiasaan rutin", "Karena hanya sekadar harapan"],
+              "answer": "Karena sudah ada pengaturan waktu dan tempat yang pasti"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah kamu bekerja lembur besok?'",
+              "words": ["tomorrow", "Are", "working", "you", "overtime"],
+              "answer": ["Are", "you", "working", "overtime", "tomorrow"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'I ___ my boss at 10 AM to discuss the project.'",
+              "options": ["am meeting", "met", "am meet", "meets"],
+              "answer": "am meeting"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Mereka pindah ke apartemen baru bulan depan'",
+              "words": ["month", "They", "moving", "are", "to", "a", "new", "apartment", "next"],
+              "answer": ["They", "are", "moving", "to", "a", "new", "apartment", "next", "month"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang benar untuk rencana perjalanan yang tiketnya sudah dipesan:",
+              "options": ["He is taking the 8 o'clock train tomorrow.", "He take the 8 o'clock train tomorrow.", "He is take the 8 o'clock train tomorrow.", "He took the 8 o'clock train tomorrow."],
+              "answer": "He is taking the 8 o'clock train tomorrow."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya tidak pergi ke mana-mana malam ini'",
+              "words": ["tonight", "I", "not", "am", "going", "anywhere"],
+              "answer": ["I", "am", "not", "going", "anywhere", "tonight"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi pertanyaan: 'Who ___ you ___ to the wedding next week?'",
+              "options": ["are / bringing", "is / bringing", "do / bringing", "are / bring"],
+              "answer": "are / bringing"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami memulai kursus bahasa Inggris hari Senin depan'",
+              "words": ["Monday", "We", "starting", "are", "our", "English", "course", "next"],
+              "answer": ["We", "are", "starting", "our", "English", "course", "next", "Monday"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang tepat:",
+              "options": ["She's staying at a hotel downtown tonight.", "She staying at a hotel downtown tonight.", "She's stay at a hotel downtown tonight.", "She're staying at a hotel downtown tonight."],
+              "answer": "She's staying at a hotel downtown tonight."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kapan dia datang menjemput kita?'",
+              "words": ["us", "When", "he", "is", "coming", "to", "pick", "up"],
+              "answer": ["When", "is", "he", "coming", "to", "pick", "us", "up"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'We ___ a barbecue in the backyard this Sunday.'",
+              "options": ["are having", "is having", "am having", "having"],
+              "answer": "are having"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya menemui dokter gigi jam dua siang'",
+              "words": ["PM", "I'm", "the", "seeing", "dentist", "at", "two"],
+              "answer": ["I'm", "seeing", "the", "dentist", "at", "two", "PM"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'John and Lisa ___ married in June. The invitations are sent!'",
+              "options": ["are getting", "is getting", "gets", "are get"],
+              "answer": "are getting"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Apakah dia bergabung dengan kita untuk makan siang?'",
+              "words": ["lunch", "Is", "joining", "she", "us", "for"],
+              "answer": ["Is", "she", "joining", "us", "for", "lunch"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang menyatakan jadwal kegiatan besok sore:",
+              "options": ["I'm playing badminton with Rina tomorrow afternoon.", "I play badminton with Rina tomorrow afternoon.", "I'm play badminton with Rina tomorrow afternoon.", "I played badminton with Rina tomorrow afternoon."],
+              "answer": "I'm playing badminton with Rina tomorrow afternoon."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Kami berangkat ke bandara dalam satu jam'",
+              "words": ["hour", "We", "leaving", "are", "for", "the", "airport", "in", "an"],
+              "answer": ["We", "are", "leaving", "for", "the", "airport", "in", "an", "hour"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'The band ___ in Jakarta next month.'",
+              "options": ["is performing", "are performing", "perform", "is perform"],
+              "answer": "is performing"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Dia tidak menghadiri konferensi minggu depan'",
+              "words": ["week", "He", "isn't", "attending", "the", "conference", "next"],
+              "answer": ["He", "isn't", "attending", "the", "conference", "next", "week"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih pertanyaan yang menanyakan rencana akhir pekan seseorang:",
+              "options": ["Are you visiting your parents this weekend?", "Do you visiting your parents this weekend?", "Is you visiting your parents this weekend?", "Are you visit your parents this weekend?"],
+              "answer": "Are you visiting your parents this weekend?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Saya mengambil cuti hari Jumat ini'",
+              "words": ["Friday", "I'm", "the", "taking", "day", "off", "this"],
+              "answer": ["I'm", "taking", "the", "day", "off", "this", "Friday"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Lengkapi: 'Our team ___ the new product next Tuesday.'",
+              "options": ["is launching", "are launching", "launch", "is launch"],
+              "answer": "is launching"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Susun kalimat: 'Jam berapa mereka tiba malam ini?'",
+              "words": ["tonight", "What", "are", "time", "they", "arriving"],
+              "answer": ["What", "time", "are", "they", "arriving", "tonight"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Listening: rencana akhir pekan",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I'm going hiking with my brother on Saturday morning.' Apa rencana pembicara pada Sabtu pagi?",
+              "options": ["Mendaki gunung bersama kakaknya", "Berenang di pantai", "Menonton film di bioskop", "Belanja di mal"],
+              "answer": "Mendaki gunung bersama kakaknya"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kami akan berkemah di dekat danau'",
+              "words": ["lake", "We", "going", "are", "camping", "near", "the"],
+              "answer": ["We", "are", "going", "camping", "near", "the", "lake"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'If it rains on Sunday, I'll just stay home and read a book.' Apa yang akan dilakukan jika hari Minggu hujan?",
+              "options": ["Tetap di rumah dan membaca buku", "Tetap pergi piknik", "Pergi ke pusat kebugaran", "Mengunjungi museum"],
+              "answer": "Tetap di rumah dan membaca buku"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Dia akan memanggang kue cokelat besok'",
+              "words": ["tomorrow", "She", "going", "is", "to", "bake", "a", "chocolate", "cake"],
+              "answer": ["She", "is", "going", "to", "bake", "a", "chocolate", "cake", "tomorrow"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'We're meeting at the coffee shop at 10 AM, then going to the art gallery.' Di mana mereka akan bertemu pertama kali?",
+              "options": ["Di kedai kopi", "Di galeri seni", "Di stasiun kereta", "Di taman kota"],
+              "answer": "Di kedai kopi"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya tidak punya rencana apa pun untuk hari Minggu'",
+              "words": ["Sunday", "I", "have", "don't", "any", "plans", "for"],
+              "answer": ["I", "don't", "have", "any", "plans", "for", "Sunday"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'My cousin is visiting from Bandung this weekend, so I'm showing him around the city.' Mengapa pembicara berkeliling kota?",
+              "options": ["Mengajak sepupunya jalan-jalan", "Mencari apartemen baru", "Mengantar paket pekerjaan", "Mengikuti tur wisata"],
+              "answer": "Mengajak sepupunya jalan-jalan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kami akan makan malam bersama keluarga besar'",
+              "words": ["family", "We're", "dinner", "having", "with", "our", "extended"],
+              "answer": ["We're", "having", "dinner", "with", "our", "extended", "family"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I wanted to go to the beach, but the weather forecast says there's going to be a storm.' Mengapa rencana ke pantai dibatalkan?",
+              "options": ["Akan ada badai menurut prakiraan cuaca", "Mobilnya sedang rusak", "Pantainya tutup", "Dia harus bekerja lembur"],
+              "answer": "Akan ada badai menurut prakiraan cuaca"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Semoga akhir pekanmu menyenangkan!'",
+              "words": ["weekend", "Have", "great", "a"],
+              "answer": ["Have", "a", "great", "weekend"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I'm taking a pottery class on Saturday afternoon.' Kursus apa yang akan diikuti pembicara?",
+              "options": ["Kelas membuat tembikar", "Kelas memasak", "Kelas melukis", "Kelas fotografi"],
+              "answer": "Kelas membuat tembikar"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Mereka akan bersepeda di sekitar taman'",
+              "words": ["park", "They", "going", "are", "to", "cycle", "around", "the"],
+              "answer": ["They", "are", "going", "to", "cycle", "around", "the", "park"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Sorry, I can't join you on Friday night. I'm babysitting my niece.' Apa alasan pembicara tidak bisa ikut pada Jumat malam?",
+              "options": ["Menjaga keponakannya", "Harus pergi ke dokter", "Sedang sakit flu", "Ada rapat mendadak"],
+              "answer": "Menjaga keponakannya"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya akan membersihkan garasi akhir pekan ini'",
+              "words": ["weekend", "I'm", "to", "going", "clean", "the", "garage", "this"],
+              "answer": ["I'm", "going", "to", "clean", "the", "garage", "this", "weekend"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'We're going to try that new Italian restaurant downtown.' Restoran jenis apa yang akan mereka coba?",
+              "options": ["Restoran Italia baru", "Restoran Jepang tradisional", "Kafe makanan penutup", "Restoran cepat saji"],
+              "answer": "Restoran Italia baru"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Apakah kamu akan pergi ke konser malam ini?'",
+              "words": ["tonight", "Are", "going", "you", "to", "the", "concert"],
+              "answer": ["Are", "you", "going", "to", "the", "concert", "tonight"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I'm going to sleep in until noon on Sunday because I've had a long week.' Apa rencana pembicara pada Minggu pagi?",
+              "options": ["Bangun siang sampai tengah hari", "Bangun pagi untuk lari", "Mencuci semua pakaian", "Memasak sarapan besar"],
+              "answer": "Bangun siang sampai tengah hari"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kami akan bermain permainan papan bersama'",
+              "words": ["together", "We", "play", "will", "board", "games"],
+              "answer": ["We", "will", "play", "board", "games", "together"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Tom is picking me up at 7, and we're heading to the stadium.' Ke mana Tom dan pembicara akan pergi?",
+              "options": ["Ke stadion", "Ke bandara", "Ke perpustakaan", "Ke kebun binatang"],
+              "answer": "Ke stadion"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Dia berencana untuk beristirahat di rumah'",
+              "words": ["home", "He", "planning", "is", "to", "relax", "at"],
+              "answer": ["He", "is", "planning", "to", "relax", "at", "home"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I'm volunteering at the animal shelter this Saturday.' Di mana pembicara akan menjadi sukarelawan?",
+              "options": ["Di tempat penampungan hewan", "Di panti asuhan", "Di dapur umum", "Di perpustakaan kota"],
+              "answer": "Di tempat penampungan hewan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya akan berbelanja bahan makanan besok'",
+              "words": ["tomorrow", "I'm", "grocery", "going", "shopping"],
+              "answer": ["I'm", "going", "grocery", "shopping", "tomorrow"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'We booked a cabin in the mountains for the whole weekend.' Di mana mereka akan menginap?",
+              "options": ["Di kabin di pegunungan", "Di hotel tepi pantai", "Di rumah teman", "Di vila dekat danau"],
+              "answer": "Di kabin di pegunungan"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kami akan menonton pertandingan sepak bola secara langsung'",
+              "words": ["live", "We", "watching", "are", "the", "football", "match"],
+              "answer": ["We", "are", "watching", "the", "football", "match", "live"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'I'm not going out tonight; I need to finish my presentation for Monday.' Mengapa pembicara tidak keluar malam ini?",
+              "options": ["Harus menyelesaikan presentasi untuk hari Senin", "Sedang menunggu paket datang", "Tidak punya uang tunai", "Sedang merawat kucingnya"],
+              "answer": "Harus menyelesaikan presentasi untuk hari Senin"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Dia akan mengunjungi pameran buku hari Minggu'",
+              "words": ["Sunday", "She", "visiting", "is", "the", "book", "fair", "on"],
+              "answer": ["She", "is", "visiting", "the", "book", "fair", "on", "Sunday"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'Let's go to the farmers' market early before all the fresh fruit sells out.' Kapan mereka akan pergi ke pasar tani?",
+              "options": ["Pagi-pagi sekali", "Sore hari", "Tengah malam", "Setelah makan siang"],
+              "answer": "Pagi-pagi sekali"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Saya akan meneleponmu jika saya sudah sampai'",
+              "words": ["there", "I'll", "you", "call", "when", "I", "get"],
+              "answer": ["I'll", "call", "you", "when", "I", "get", "there"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Dengarkan audio: 'My friends and I are going bowling on Saturday night.' Kegiatan apa yang akan dilakukan bersama teman-temannya?",
+              "options": ["Bermain boling", "Bermain biliar", "Karaoke bersama", "Bermain sepatu roda"],
+              "answer": "Bermain boling"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Ketik ulang kalimat yang kamu dengar: 'Kita pasti akan bersenang-senang di sana'",
+              "words": ["there", "We", "going", "are", "to", "have", "fun"],
+              "answer": ["We", "are", "going", "to", "have", "fun", "there"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Speaking: menceritakan rencanamu",
+      "versions": [
+        {
+          "version": 1,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Temanmu bertanya: 'What are your plans for the holidays?' Pilih respons lisan yang paling alami:",
+              "options": ["I'm going to visit my family in Yogyakarta for a week.", "I visit my family in Yogyakarta tomorrow yesterday.", "I going visit family Yogyakarta.", "Yes, I have holiday plans."],
+              "answer": "I'm going to visit my family in Yogyakarta for a week."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Tahun depan saya berencana memulai bisnis sendiri'",
+              "words": ["business", "Next", "I", "year", "plan", "to", "start", "my", "own"],
+              "answer": ["Next", "year", "I", "plan", "to", "start", "my", "own", "business"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara mengucapkan dengan sopan bahwa kamu sudah punya rencana lain saat diajak pergi?",
+              "options": ["I'd love to, but I'm already meeting a friend tonight.", "No, I don't want to go with you.", "I meeting friend tonight, bye.", "I am busy, go alone."],
+              "answer": "I'd love to, but I'm already meeting a friend tonight."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya berharap bisa fasih berbahasa Inggris segera'",
+              "words": ["soon", "I", "to", "hope", "speak", "English", "fluently"],
+              "answer": ["I", "hope", "to", "speak", "English", "fluently", "soon"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat pembuka yang tepat saat menceritakan rencana karier masa depanmu:",
+              "options": ["In the next five years, I'm aiming to become a senior developer.", "Five years ago, I am a senior developer.", "I aiming become senior developer.", "Future career is developer."],
+              "answer": "In the next five years, I'm aiming to become a senior developer."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Kami sedang menabung untuk liburan ke Jepang'",
+              "words": ["Japan", "We're", "up", "saving", "for", "a", "trip", "to"],
+              "answer": ["We're", "saving", "up", "for", "a", "trip", "to", "Japan"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika kamu belum yakin dengan rencanamu, ungkapan lisan mana yang paling pas?",
+              "options": ["I haven't decided yet, maybe I'll just stay home.", "I am definitely flying to Paris at 8 AM.", "I going to stay home for sure.", "I decided yesterday to do nothing."],
+              "answer": "I haven't decided yet, maybe I'll just stay home."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Akhir pekan ini saya ingin fokus beristirahat'",
+              "words": ["resting", "This", "I", "weekend", "want", "to", "focus", "on"],
+              "answer": ["This", "weekend", "I", "want", "to", "focus", "on", "resting"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat untuk mengajak teman bergabung dalam rencanamu:",
+              "options": ["We're going to the new museum on Saturday. Would you like to come?", "We go museum Saturday. You come?", "We going museum, come now.", "Museum on Saturday, yes or no?"],
+              "answer": "We're going to the new museum on Saturday. Would you like to come?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya sangat menantikan liburan musim panas ini'",
+              "words": ["vacation", "I'm", "forward", "really", "looking", "to", "this", "summer"],
+              "answer": ["I'm", "really", "looking", "forward", "to", "this", "summer", "vacation"]
+            }
+          ]
+        },
+        {
+          "version": 2,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Seseorang bertanya: 'Are you doing anything special tonight?' Pilih jawaban yang paling natural:",
+              "options": ["Nothing special, I'm just going to cook dinner and watch TV.", "Nothing special, I cooked dinner yesterday.", "Yes, I do special tonight.", "No, I not going cook dinner."],
+              "answer": "Nothing special, I'm just going to cook dinner and watch TV."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya berniat untuk lebih sering berolahraga bulan ini'",
+              "words": ["month", "I", "to", "intend", "exercise", "more", "often", "this"],
+              "answer": ["I", "intend", "to", "exercise", "more", "often", "this", "month"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara alami untuk menjelaskan perubahan rencanamu secara lisan:",
+              "options": ["Actually, we changed our minds. We're staying in town instead.", "Actually, we change mind. We stay town.", "We changed mind yesterday, we going out.", "Change of plan, stay town."],
+              "answer": "Actually, we changed our minds. We're staying in town instead."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Dia berencana mengambil gelar master di luar negeri'",
+              "words": ["abroad", "She's", "to", "planning", "take", "a", "master's", "degree"],
+              "answer": ["She's", "planning", "to", "take", "a", "master's", "degree", "abroad"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara bertanya balik tentang rencana lawan bicaramu dengan ramah?",
+              "options": ["That's my plan for Sunday. How about you?", "That is my plan. Tell yours.", "My plan finished. You?", "Sunday plan done. What you do?"],
+              "answer": "That's my plan for Sunday. How about you?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Kami akan merayakan ulang tahun pernikahan kami besok'",
+              "words": ["tomorrow", "We're", "our", "celebrating", "wedding", "anniversary"],
+              "answer": ["We're", "celebrating", "our", "wedding", "anniversary", "tomorrow"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat yang menunjukkan antusiasme terhadap rencana masa depan:",
+              "options": ["I can't wait to start my new job next week!", "I cannot wait start new job.", "I don't wait to start job.", "New job next week, I wait."],
+              "answer": "I can't wait to start my new job next week!"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya akan memberi tahu kamu kalau rencananya sudah pasti'",
+              "words": ["fixed", "I'll", "you", "let", "know", "once", "the", "plan", "is"],
+              "answer": ["I'll", "let", "you", "know", "once", "the", "plan", "is", "fixed"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika kamu berencana belajar keahlian baru, kalimat mana yang paling tepat diucapkan?",
+              "options": ["I'm thinking of taking up photography this year.", "I think take photography this year.", "I am take up photography.", "Photography is my think this year."],
+              "answer": "I'm thinking of taking up photography this year."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Mari kita bertemu untuk minum kopi minggu depan'",
+              "words": ["week", "Let's", "up", "catch", "for", "coffee", "next"],
+              "answer": ["Let's", "catch", "up", "for", "coffee", "next", "week"]
+            }
+          ]
+        },
+        {
+          "version": 3,
+          "exercises": [
+            {
+              "type": "choice",
+              "prompt": "Temanmu bertanya: 'When are you leaving for Bali?' Pilih jawaban lisan yang tepat:",
+              "options": ["We're catching the early morning flight this Friday.", "We catch early flight yesterday.", "We catching flight Friday morning.", "Flight is Friday morning we go."],
+              "answer": "We're catching the early morning flight this Friday."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Tujuan utama saya adalah membeli rumah sebelum usia tiga puluh'",
+              "words": ["thirty", "My", "goal", "main", "is", "to", "buy", "a", "house", "before"],
+              "answer": ["My", "main", "goal", "is", "to", "buy", "a", "house", "before", "thirty"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih cara natural untuk mengatakan bahwa jadwalmu masih terbuka:",
+              "options": ["My schedule is pretty open this weekend, so I'm up for anything.", "My schedule open, I do anything.", "I have no schedule, anything go.", "Weekend is open for me do all."],
+              "answer": "My schedule is pretty open this weekend, so I'm up for anything."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya akan menghabiskan lebih banyak waktu bersama keluarga'",
+              "words": ["family", "I'm", "to", "going", "spend", "more", "time", "with", "my"],
+              "answer": ["I'm", "going", "to", "spend", "more", "time", "with", "my", "family"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Bagaimana cara menyampaikan rencana cadangan secara lisan?",
+              "options": ["If the outdoor event gets canceled, we'll have dinner at my place.", "If outdoor event cancel, we dinner my place.", "Outdoor event canceled, we having dinner.", "We dinner at my place if cancel."],
+              "answer": "If the outdoor event gets canceled, we'll have dinner at my place."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Kami berencana merenovasi dapur bulan depan'",
+              "words": ["month", "We're", "to", "planning", "renovate", "the", "kitchen", "next"],
+              "answer": ["We're", "planning", "to", "renovate", "the", "kitchen", "next", "month"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Pilih kalimat untuk menyatakan bahwa kamu sedang mempersiapkan sebuah acara:",
+              "options": ["I'm currently organizing a charity run for next month.", "I currently organize charity run.", "I am organize a charity run next month.", "Charity run is organized by me next month."],
+              "answer": "I'm currently organizing a charity run for next month."
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Saya rasa perjalanan ini akan menjadi pengalaman yang tak terlupakan'",
+              "words": ["experience", "I", "this", "think", "trip", "will", "be", "an", "unforgettable"],
+              "answer": ["I", "think", "this", "trip", "will", "be", "an", "unforgettable", "experience"]
+            },
+            {
+              "type": "choice",
+              "prompt": "Jika kamu ingin meminta saran tentang rencanamu, kalimat mana yang paling pas?",
+              "options": ["I'm thinking of visiting Lombok. Do you have any recommendations?", "I think visit Lombok. Give recommendations.", "Lombok visit plan. Tell me what to do.", "I going Lombok, recommend me."],
+              "answer": "I'm thinking of visiting Lombok. Do you have any recommendations?"
+            },
+            {
+              "type": "arrange",
+              "prompt": "Latihan bicara — susun kalimat untuk diucapkan: 'Semoga semua rencanamu berjalan lancar'",
+              "words": ["smoothly", "I", "all", "hope", "your", "plans", "go"],
+              "answer": ["I", "hope", "all", "your", "plans", "go", "smoothly"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

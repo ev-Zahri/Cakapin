@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Liburan & Perjalanan",
+    "color": "gem",
+    "levels": [
+      {
+        "level": "Kosakata liburan & bandara",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'bandara'?",
+                "options": ["airport", "station", "harbor", "terminal"],
+                "answer": "airport"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tiket'?",
+                "options": ["ticket", "passport", "luggage", "boarding pass"],
+                "answer": "ticket"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'koper'?",
+                "options": ["suitcase", "backpack", "handbag", "bag"],
+                "answer": "suitcase"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'paspor'?",
+                "options": ["passport", "ticket", "visa", "ID card"],
+                "answer": "passport"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pesawat'?",
+                "options": ["airplane", "train", "bus", "ship"],
+                "answer": "airplane"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke bandara pagi ini'",
+                "words": ["I", "to", "went", "the", "airport", "this", "morning"],
+                "answer": ["I", "went", "to", "the", "airport", "this", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia membeli tiket pesawat kemarin'",
+                "words": ["He", "a", "bought", "plane", "ticket", "yesterday"],
+                "answer": ["He", "bought", "a", "plane", "ticket", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kopernya sangat berat'",
+                "words": ["The", "is", "suitcase", "very", "heavy"],
+                "answer": ["The", "suitcase", "is", "very", "heavy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jangan lupa membawa paspormu'",
+                "words": ["Don't", "to", "forget", "bring", "your", "passport"],
+                "answer": ["Don't", "forget", "to", "bring", "your", "passport"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pesawatnya lepas landas jam sembilan'",
+                "words": ["The", "at", "airplane", "takes", "off", "nine"],
+                "answer": ["The", "airplane", "takes", "off", "at", "nine"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'stasiun'?",
+                "options": ["station", "airport", "harbor", "terminal"],
+                "answer": "station"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kereta api'?",
+                "options": ["train", "bus", "airplane", "ship"],
+                "answer": "train"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'hotel'?",
+                "options": ["hotel", "hostel", "motel", "inn"],
+                "answer": "hotel"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'peta'?",
+                "options": ["map", "guide", "brochure", "ticket"],
+                "answer": "map"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kamera'?",
+                "options": ["camera", "phone", "video", "photo"],
+                "answer": "camera"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke stasiun kereta kemarin'",
+                "words": ["I", "to", "went", "the", "train", "station", "yesterday"],
+                "answer": ["I", "went", "to", "the", "train", "station", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memesan kamar hotel tadi malam'",
+                "words": ["She", "a", "booked", "hotel", "room", "last", "night"],
+                "answer": ["She", "booked", "a", "hotel", "room", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membeli peta kota kemarin'",
+                "words": ["I", "a", "bought", "city", "map", "yesterday"],
+                "answer": ["I", "bought", "a", "city", "map", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia membawa kameranya'",
+                "words": ["He", "his", "brought", "camera"],
+                "answer": ["He", "brought", "his", "camera"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kereta itu tiba jam tujuh'",
+                "words": ["The", "at", "train", "arrives", "seven"],
+                "answer": ["The", "train", "arrives", "at", "seven"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pelabuhan'?",
+                "options": ["harbor", "airport", "station", "terminal"],
+                "answer": "harbor"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kapal'?",
+                "options": ["ship", "boat", "airplane", "train"],
+                "answer": "ship"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pemandu wisata'?",
+                "options": ["tour guide", "travel agent", "receptionist", "driver"],
+                "answer": "tour guide"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'tujuan'?",
+                "options": ["destination", "departure", "arrival", "journey"],
+                "answer": "destination"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'keberangkatan'?",
+                "options": ["departure", "arrival", "destination", "journey"],
+                "answer": "departure"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke pelabuhan kemarin'",
+                "words": ["I", "to", "went", "the", "harbor", "yesterday"],
+                "answer": ["I", "went", "to", "the", "harbor", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia memesan pemandu wisata tadi malam'",
+                "words": ["She", "a", "booked", "tour", "guide", "last", "night"],
+                "answer": ["She", "booked", "a", "tour", "guide", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tujuan kami adalah Bali'",
+                "words": ["Our", "is", "destination", "Bali"],
+                "answer": ["Our", "destination", "is", "Bali"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Waktu keberangkatan adalah jam enam pagi'",
+                "words": ["The", "is", "departure", "time", "at", "six", "in", "the", "morning"],
+                "answer": ["The", "departure", "time", "is", "at", "six", "in", "the", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kapal itu berlayar ke pulau'",
+                "words": ["The", "to", "ship", "sails", "the", "island"],
+                "answer": ["The", "ship", "sails", "to", "the", "island"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Time expressions (last week, ago)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'last week'?",
+                "options": ["Minggu lalu", "Minggu depan", "Minggu ini", "Setiap minggu"],
+                "answer": "Minggu lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'two days ago'?",
+                "options": ["Dua hari yang lalu", "Dua hari lagi", "Dua hari ini", "Setiap dua hari"],
+                "answer": "Dua hari yang lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'last month'?",
+                "options": ["Bulan lalu", "Bulan depan", "Bulan ini", "Setiap bulan"],
+                "answer": "Bulan lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'three years ago'?",
+                "options": ["Tiga tahun yang lalu", "Tiga tahun lagi", "Tiga tahun ini", "Setiap tiga tahun"],
+                "answer": "Tiga tahun yang lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'yesterday'?",
+                "options": ["Kemarin", "Besok", "Hari ini", "Lusa"],
+                "answer": "Kemarin"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke Bali minggu lalu'",
+                "words": ["I", "to", "went", "Bali", "last", "week"],
+                "answer": ["I", "went", "to", "Bali", "last", "week"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia datang dua hari yang lalu'",
+                "words": ["He", "two", "came", "days", "ago"],
+                "answer": ["He", "came", "two", "days", "ago"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami pindah ke sini bulan lalu'",
+                "words": ["We", "to", "moved", "here", "last", "month"],
+                "answer": ["We", "moved", "here", "last", "month"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku bertemu dia tiga tahun yang lalu'",
+                "words": ["I", "him", "met", "three", "years", "ago"],
+                "answer": ["I", "met", "him", "three", "years", "ago"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku menonton film itu kemarin'",
+                "words": ["I", "the", "watched", "movie", "yesterday"],
+                "answer": ["I", "watched", "the", "movie", "yesterday"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'last year'?",
+                "options": ["Tahun lalu", "Tahun depan", "Tahun ini", "Setiap tahun"],
+                "answer": "Tahun lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'five minutes ago'?",
+                "options": ["Lima menit yang lalu", "Lima menit lagi", "Lima menit ini", "Setiap lima menit"],
+                "answer": "Lima menit yang lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'last night'?",
+                "options": ["Tadi malam", "Malam ini", "Besok malam", "Setiap malam"],
+                "answer": "Tadi malam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'a week ago'?",
+                "options": ["Seminggu yang lalu", "Seminggu lagi", "Minggu ini", "Setiap minggu"],
+                "answer": "Seminggu yang lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'this morning'?",
+                "options": ["Pagi ini", "Pagi kemarin", "Pagi besok", "Setiap pagi"],
+                "answer": "Pagi ini"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke Jepang tahun lalu'",
+                "words": ["I", "to", "went", "Japan", "last", "year"],
+                "answer": ["I", "went", "to", "Japan", "last", "year"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia menelepon lima menit yang lalu'",
+                "words": ["He", "five", "called", "minutes", "ago"],
+                "answer": ["He", "called", "five", "minutes", "ago"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami menonton film tadi malam'",
+                "words": ["We", "a", "watched", "movie", "last", "night"],
+                "answer": ["We", "watched", "a", "movie", "last", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku bertemu dia seminggu yang lalu'",
+                "words": ["I", "her", "met", "a", "week", "ago"],
+                "answer": ["I", "met", "her", "a", "week", "ago"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku sarapan pagi ini'",
+                "words": ["I", "breakfast", "ate", "this", "morning"],
+                "answer": ["I", "ate", "breakfast", "this", "morning"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'the day before yesterday'?",
+                "options": ["Kemarin lusa", "Besok lusa", "Hari ini", "Kemarin"],
+                "answer": "Kemarin lusa"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'ten years ago'?",
+                "options": ["Sepuluh tahun yang lalu", "Sepuluh tahun lagi", "Sepuluh tahun ini", "Setiap sepuluh tahun"],
+                "answer": "Sepuluh tahun yang lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'last summer'?",
+                "options": ["Musim panas lalu", "Musim panas depan", "Musim panas ini", "Setiap musim panas"],
+                "answer": "Musim panas lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'a few days ago'?",
+                "options": ["Beberapa hari yang lalu", "Beberapa hari lagi", "Beberapa hari ini", "Setiap beberapa hari"],
+                "answer": "Beberapa hari yang lalu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'last weekend'?",
+                "options": ["Akhir pekan lalu", "Akhir pekan depan", "Akhir pekan ini", "Setiap akhir pekan"],
+                "answer": "Akhir pekan lalu"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku pergi ke pantai kemarin lusa'",
+                "words": ["I", "to", "went", "the", "beach", "the", "day", "before", "yesterday"],
+                "answer": ["I", "went", "to", "the", "beach", "the", "day", "before", "yesterday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia lulus sepuluh tahun yang lalu'",
+                "words": ["He", "ten", "graduated", "years", "ago"],
+                "answer": ["He", "graduated", "ten", "years", "ago"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami pergi ke Eropa musim panas lalu'",
+                "words": ["We", "to", "went", "Europe", "last", "summer"],
+                "answer": ["We", "went", "to", "Europe", "last", "summer"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membeli mobil ini beberapa hari yang lalu'",
+                "words": ["I", "this", "bought", "car", "a", "few", "days", "ago"],
+                "answer": ["I", "bought", "this", "car", "a", "few", "days", "ago"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku mengunjungi nenekku akhir pekan lalu'",
+                "words": ["I", "my", "visited", "grandmother", "last", "weekend"],
+                "answer": ["I", "visited", "my", "grandmother", "last", "weekend"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Sequencing (first, then, finally)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pertama'?",
+                "options": ["first", "then", "finally", "next"],
+                "answer": "first"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kemudian'?",
+                "options": ["then", "first", "finally", "before"],
+                "answer": "then"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'akhirnya'?",
+                "options": ["finally", "first", "then", "next"],
+                "answer": "finally"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'setelah itu'?",
+                "options": ["after that", "before that", "first", "finally"],
+                "answer": "after that"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sebelumnya'?",
+                "options": ["before", "after", "then", "finally"],
+                "answer": "before"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pertama, aku bangun jam enam'",
+                "words": ["First", "I", "up", "woke", "at", "six"],
+                "answer": ["First", "I", "woke", "up", "at", "six"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kemudian, aku sarapan'",
+                "words": ["Then", "I", "breakfast", "ate"],
+                "answer": ["Then", "I", "ate", "breakfast"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Akhirnya, aku pergi ke sekolah'",
+                "words": ["Finally", "I", "to", "went", "school"],
+                "answer": ["Finally", "I", "went", "to", "school"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Setelah itu, aku belajar bahasa Inggris'",
+                "words": ["After", "that", "I", "studied", "English"],
+                "answer": ["After", "that", "I", "studied", "English"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sebelumnya, aku menelepon ibuku'",
+                "words": ["Before", "that", "I", "my", "called", "mother"],
+                "answer": ["Before", "that", "I", "called", "my", "mother"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'selanjutnya'?",
+                "options": ["next", "first", "then", "finally"],
+                "answer": "next"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'kemudian hari'?",
+                "options": ["later", "first", "finally", "before"],
+                "answer": "later"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pada akhirnya'?",
+                "options": ["in the end", "at first", "then", "next"],
+                "answer": "in the end"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pertama-tama'?",
+                "options": ["at first", "in the end", "then", "finally"],
+                "answer": "at first"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'segera setelah itu'?",
+                "options": ["soon after", "before that", "at first", "in the end"],
+                "answer": "soon after"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pertama-tama, aku memesan tiket'",
+                "words": ["At", "first", "I", "a", "booked", "ticket"],
+                "answer": ["At", "first", "I", "booked", "a", "ticket"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selanjutnya, aku mengemas kopernya'",
+                "words": ["Next", "I", "my", "packed", "suitcase"],
+                "answer": ["Next", "I", "packed", "my", "suitcase"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pada akhirnya, aku tiba di bandara'",
+                "words": ["In", "the", "end", "I", "at", "arrived", "the", "airport"],
+                "answer": ["In", "the", "end", "I", "arrived", "at", "the", "airport"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Segera setelah itu, aku naik pesawat'",
+                "words": ["Soon", "after", "I", "the", "boarded", "plane"],
+                "answer": ["Soon", "after", "I", "boarded", "the", "plane"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kemudian, aku tiba di Bali'",
+                "words": ["Later", "I", "in", "arrived", "Bali"],
+                "answer": ["Later", "I", "arrived", "in", "Bali"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sebelum keberangkatan'?",
+                "options": ["before departure", "after departure", "during departure", "at departure"],
+                "answer": "before departure"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'setelah tiba'?",
+                "options": ["after arrival", "before arrival", "during arrival", "at arrival"],
+                "answer": "after arrival"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'selama perjalanan'?",
+                "options": ["during the trip", "before the trip", "after the trip", "at the trip"],
+                "answer": "during the trip"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'pada saat yang sama'?",
+                "options": ["at the same time", "at different times", "before time", "after time"],
+                "answer": "at the same time"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'sebelumnya'?",
+                "options": ["previously", "afterwards", "finally", "next"],
+                "answer": "previously"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sebelum keberangkatan, aku memeriksa pasporku'",
+                "words": ["Before", "departure", "I", "my", "checked", "passport"],
+                "answer": ["Before", "departure", "I", "checked", "my", "passport"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Setelah tiba, aku mencari hotel'",
+                "words": ["After", "arrival", "I", "for", "looked", "a", "hotel"],
+                "answer": ["After", "arrival", "I", "looked", "for", "a", "hotel"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Selama perjalanan, aku membaca buku'",
+                "words": ["During", "the", "trip", "I", "a", "read", "book"],
+                "answer": ["During", "the", "trip", "I", "read", "a", "book"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pada saat yang sama, dia meneleponku'",
+                "words": ["At", "the", "same", "time", "he", "me", "called"],
+                "answer": ["At", "the", "same", "time", "he", "called", "me"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sebelumnya, aku belum pernah ke Bali'",
+                "words": ["Previously", "I", "had", "never", "been", "to", "Bali"],
+                "answer": ["Previously", "I", "had", "never", "been", "to", "Bali"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Menceritakan perjalanan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku pergi ke Bali minggu lalu'?",
+                "options": ["I went to Bali last week", "I go to Bali last week", "I went Bali last week", "I am go to Bali last week"],
+                "answer": "I went to Bali last week"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami naik pesawat ke Jepang'?",
+                "options": ["We flew to Japan", "We fly to Japan", "We flew Japan", "We are fly to Japan"],
+                "answer": "We flew to Japan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia menginap di hotel'?",
+                "options": ["He stayed at a hotel", "He stay at a hotel", "He stayed hotel", "He is stay at a hotel"],
+                "answer": "He stayed at a hotel"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku membeli suvenir untuk keluargaku'?",
+                "options": ["I bought souvenirs for my family", "I buy souvenirs for my family", "I bought souvenirs my family", "I am buy souvenirs for my family"],
+                "answer": "I bought souvenirs for my family"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami mengunjungi banyak tempat wisata'?",
+                "options": ["We visited many tourist places", "We visit many tourist places", "We visited many tourist places", "We are visit many tourist places"],
+                "answer": "We visited many tourist places"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Minggu lalu, aku pergi ke Bali dengan keluargaku'",
+                "words": ["Last", "week", "I", "went", "to", "Bali", "with", "my", "family"],
+                "answer": ["Last", "week", "I", "went", "to", "Bali", "with", "my", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami naik pesawat ke Jepang dan menginap di hotel'",
+                "words": ["We", "flew", "to", "Japan", "and", "stayed", "at", "a", "hotel"],
+                "answer": ["We", "flew", "to", "Japan", "and", "stayed", "at", "a", "hotel"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku membeli suvenir untuk keluargaku di pasar'",
+                "words": ["I", "bought", "souvenirs", "for", "my", "family", "at", "the", "market"],
+                "answer": ["I", "bought", "souvenirs", "for", "my", "family", "at", "the", "market"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami mengunjungi banyak tempat wisata dan mengambil foto'",
+                "words": ["We", "visited", "many", "tourist", "places", "and", "took", "photos"],
+                "answer": ["We", "visited", "many", "tourist", "places", "and", "took", "photos"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Perjalanannya sangat menyenangkan'",
+                "words": ["The", "was", "trip", "very", "enjoyable"],
+                "answer": ["The", "trip", "was", "very", "enjoyable"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku pergi ke Jepang tahun lalu'?",
+                "options": ["I went to Japan last year", "I go to Japan last year", "I went Japan last year", "I am go to Japan last year"],
+                "answer": "I went to Japan last year"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami menyewa mobil di Bali'?",
+                "options": ["We rented a car in Bali", "We rent a car in Bali", "We rented car in Bali", "We are rent a car in Bali"],
+                "answer": "We rented a car in Bali"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia berenang di pantai'?",
+                "options": ["He swam at the beach", "He swim at the beach", "He swam beach", "He is swim at the beach"],
+                "answer": "He swam at the beach"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku mencoba makanan lokal'?",
+                "options": ["I tried local food", "I try local food", "I tried local food", "I am try local food"],
+                "answer": "I tried local food"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami terbang ke Singapura'?",
+                "options": ["We flew to Singapore", "We fly to Singapore", "We flew Singapore", "We are fly to Singapore"],
+                "answer": "We flew to Singapore"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Tahun lalu, aku pergi ke Jepang dengan temanku'",
+                "words": ["Last", "year", "I", "went", "to", "Japan", "with", "my", "friend"],
+                "answer": ["Last", "year", "I", "went", "to", "Japan", "with", "my", "friend"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami menyewa mobil dan berkeliling Bali'",
+                "words": ["We", "rented", "a", "car", "and", "travelled", "around", "Bali"],
+                "answer": ["We", "rented", "a", "car", "and", "travelled", "around", "Bali"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia berenang di pantai dan bermain pasir'",
+                "words": ["He", "swam", "at", "the", "beach", "and", "played", "in", "the", "sand"],
+                "answer": ["He", "swam", "at", "the", "beach", "and", "played", "in", "the", "sand"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku mencoba makanan lokal dan membeli suvenir'",
+                "words": ["I", "tried", "local", "food", "and", "bought", "souvenirs"],
+                "answer": ["I", "tried", "local", "food", "and", "bought", "souvenirs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami terbang ke Singapura dan menginap di hotel'",
+                "words": ["We", "flew", "to", "Singapore", "and", "stayed", "at", "a", "hotel"],
+                "answer": ["We", "flew", "to", "Singapore", "and", "stayed", "at", "a", "hotel"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku pergi ke Eropa musim panas lalu'?",
+                "options": ["I went to Europe last summer", "I go to Europe last summer", "I went Europe last summer", "I am go to Europe last summer"],
+                "answer": "I went to Europe last summer"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami menjelajahi kota dengan berjalan kaki'?",
+                "options": ["We explored the city on foot", "We explore the city on foot", "We explored the city on foot", "We are explore the city on foot"],
+                "answer": "We explored the city on foot"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Dia mendaki gunung'?",
+                "options": ["He climbed the mountain", "He climb the mountain", "He climbed mountain", "He is climb the mountain"],
+                "answer": "He climbed the mountain"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku memotret pemandangan yang indah'?",
+                "options": ["I took photos of the beautiful scenery", "I take photos of the beautiful scenery", "I took photos the beautiful scenery", "I am take photos of the beautiful scenery"],
+                "answer": "I took photos of the beautiful scenery"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami menikmati matahari terbenam'?",
+                "options": ["We enjoyed the sunset", "We enjoy the sunset", "We enjoyed the sunset", "We are enjoy the sunset"],
+                "answer": "We enjoyed the sunset"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Musim panas lalu, aku pergi ke Eropa dengan keluargaku'",
+                "words": ["Last", "summer", "I", "went", "to", "Europe", "with", "my", "family"],
+                "answer": ["Last", "summer", "I", "went", "to", "Europe", "with", "my", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami menjelajahi kota dengan berjalan kaki dan mengunjungi museum'",
+                "words": ["We", "explored", "the", "city", "on", "foot", "and", "visited", "museums"],
+                "answer": ["We", "explored", "the", "city", "on", "foot", "and", "visited", "museums"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dia mendaki gunung dan mengambil banyak foto'",
+                "words": ["He", "climbed", "the", "mountain", "and", "took", "many", "photos"],
+                "answer": ["He", "climbed", "the", "mountain", "and", "took", "many", "photos"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku memotret pemandangan indah dan menikmati matahari terbenam'",
+                "words": ["I", "took", "photos", "of", "the", "beautiful", "scenery", "and", "enjoyed", "the", "sunset"],
+                "answer": ["I", "took", "photos", "of", "the", "beautiful", "scenery", "and", "enjoyed", "the", "sunset"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Perjalanan itu adalah pengalaman yang tak terlupakan'",
+                "words": ["The", "was", "trip", "an", "unforgettable", "experience"],
+                "answer": ["The", "trip", "was", "an", "unforgettable", "experience"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: cerita liburan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Last week, I went to Bali with my family. We stayed at a hotel near the beach.' Pertanyaan: Di mana mereka menginap?",
+                "options": ["Di hotel dekat pantai", "Di hotel dekat bandara", "Di rumah teman", "Di villa dekat gunung"],
+                "answer": "Di hotel dekat pantai"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'First, we visited a temple. Then, we went to the beach. Finally, we had dinner at a restaurant.' Pertanyaan: Apa yang mereka lakukan pertama kali?",
+                "options": ["Mengunjungi pura", "Pergi ke pantai", "Makan malam di restoran", "Berenang"],
+                "answer": "Mengunjungi pura"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I bought a beautiful scarf for my mother and a hat for my father.' Pertanyaan: Apa yang dibeli untuk ibunya?",
+                "options": ["Syal yang indah", "Topi", "Baju", "Tas"],
+                "answer": "Syal yang indah"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We flew to Japan two years ago. The flight took about seven hours.' Pertanyaan: Berapa lama penerbangan ke Jepang?",
+                "options": ["Sekitar tujuh jam", "Sekitar lima jam", "Sekitar sepuluh jam", "Sekitar tiga jam"],
+                "answer": "Sekitar tujuh jam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The weather was sunny and warm, so we swam in the sea every day.' Pertanyaan: Bagaimana cuaca saat itu?",
+                "options": ["Cerah dan hangat", "Hujan dan dingin", "Berawan dan sejuk", "Panas dan lembap"],
+                "answer": "Cerah dan hangat"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Minggu lalu, aku pergi ke Bali dengan keluargaku'",
+                "words": ["Last", "week", "I", "went", "to", "Bali", "with", "my", "family"],
+                "answer": ["Last", "week", "I", "went", "to", "Bali", "with", "my", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Pertama, kami mengunjungi pura. Kemudian, kami pergi ke pantai'",
+                "words": ["First", "we", "a", "visited", "temple", "then", "we", "went", "to", "the", "beach"],
+                "answer": ["First", "we", "visited", "a", "temple", "then", "we", "went", "to", "the", "beach"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku membeli syal yang indah untuk ibuku'",
+                "words": ["I", "a", "bought", "beautiful", "scarf", "for", "my", "mother"],
+                "answer": ["I", "bought", "a", "beautiful", "scarf", "for", "my", "mother"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami terbang ke Jepang dua tahun yang lalu'",
+                "words": ["We", "to", "flew", "Japan", "two", "years", "ago"],
+                "answer": ["We", "flew", "to", "Japan", "two", "years", "ago"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Cerah dan hangat, jadi kami berenang di laut setiap hari'",
+                "words": ["The", "was", "weather", "sunny", "and", "warm", "so", "we", "swam", "in", "the", "sea", "every", "day"],
+                "answer": ["The", "weather", "was", "sunny", "and", "warm", "so", "we", "swam", "in", "the", "sea", "every", "day"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Last summer, I went to Japan with my friends. We stayed in a hostel in Tokyo.' Pertanyaan: Di mana mereka menginap?",
+                "options": ["Di hostel di Tokyo", "Di hotel di Osaka", "Di rumah teman", "Di villa di Kyoto"],
+                "answer": "Di hostel di Tokyo"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'First, we visited Mount Fuji. Then, we explored Tokyo. Finally, we flew back home.' Pertanyaan: Apa yang mereka kunjungi pertama kali?",
+                "options": ["Gunung Fuji", "Tokyo", "Kyoto", "Osaka"],
+                "answer": "Gunung Fuji"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I bought some traditional snacks for my family and a toy for my little brother.' Pertanyaan: Apa yang dibeli untuk adik laki-lakinya?",
+                "options": ["Mainan", "Makanan ringan", "Buku", "Baju"],
+                "answer": "Mainan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We travelled to Singapore three years ago. The trip took about two hours by plane.' Pertanyaan: Berapa lama perjalanan ke Singapura?",
+                "options": ["Sekitar dua jam", "Sekitar tiga jam", "Sekitar satu jam", "Sekitar empat jam"],
+                "answer": "Sekitar dua jam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The city was crowded but very clean and beautiful.' Pertanyaan: Bagaimana kotanya?",
+                "options": ["Ramai tapi bersih dan indah", "Sepi dan kotor", "Ramai dan kotor", "Sepi tapi indah"],
+                "answer": "Ramai tapi bersih dan indah"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Musim panas lalu, aku pergi ke Jepang dengan teman-temanku'",
+                "words": ["Last", "summer", "I", "went", "to", "Japan", "with", "my", "friends"],
+                "answer": ["Last", "summer", "I", "went", "to", "Japan", "with", "my", "friends"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Pertama, kami mengunjungi Gunung Fuji. Kemudian, kami menjelajahi Tokyo'",
+                "words": ["First", "we", "visited", "Mount", "Fuji", "then", "we", "explored", "Tokyo"],
+                "answer": ["First", "we", "visited", "Mount", "Fuji", "then", "we", "explored", "Tokyo"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku membeli makanan ringan tradisional untuk keluargaku'",
+                "words": ["I", "some", "bought", "traditional", "snacks", "for", "my", "family"],
+                "answer": ["I", "bought", "some", "traditional", "snacks", "for", "my", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami pergi ke Singapura tiga tahun yang lalu'",
+                "words": ["We", "to", "travelled", "Singapore", "three", "years", "ago"],
+                "answer": ["We", "travelled", "to", "Singapore", "three", "years", "ago"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kotanya ramai tapi sangat bersih dan indah'",
+                "words": ["The", "was", "city", "crowded", "but", "very", "clean", "and", "beautiful"],
+                "answer": ["The", "city", "was", "crowded", "but", "very", "clean", "and", "beautiful"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'Two years ago, I went to Europe with my family. We visited five countries in two weeks.' Pertanyaan: Berapa negara yang mereka kunjungi?",
+                "options": ["Lima negara", "Tiga negara", "Empat negara", "Enam negara"],
+                "answer": "Lima negara"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'First, we went to Paris. Then, we travelled to Rome. Finally, we ended our trip in London.' Pertanyaan: Di kota mana perjalanan mereka berakhir?",
+                "options": ["London", "Paris", "Roma", "Madrid"],
+                "answer": "London"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I bought a handbag for my mother and a watch for my father.' Pertanyaan: Apa yang dibeli untuk ayahnya?",
+                "options": ["Jam tangan", "Tas tangan", "Topi", "Sepatu"],
+                "answer": "Jam tangan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We took a train from Paris to Rome. The journey took about six hours.' Pertanyaan: Berapa lama perjalanan kereta dari Paris ke Roma?",
+                "options": ["Sekitar enam jam", "Sekitar empat jam", "Sekitar delapan jam", "Sekitar lima jam"],
+                "answer": "Sekitar enam jam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The food was delicious and the people were very friendly.' Pertanyaan: Bagaimana makanan dan orang-orangnya?",
+                "options": ["Makanannya lezat dan orang-orangnya ramah", "Makanannya hambar dan orang-orangnya tidak ramah", "Makanannya lezat tapi orang-orangnya tidak ramah", "Makanannya hambar tapi orang-orangnya ramah"],
+                "answer": "Makanannya lezat dan orang-orangnya ramah"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dua tahun yang lalu, aku pergi ke Eropa dengan keluargaku'",
+                "words": ["Two", "years", "ago", "I", "went", "to", "Europe", "with", "my", "family"],
+                "answer": ["Two", "years", "ago", "I", "went", "to", "Europe", "with", "my", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Pertama, kami pergi ke Paris. Kemudian, kami pergi ke Roma'",
+                "words": ["First", "we", "went", "to", "Paris", "then", "we", "travelled", "to", "Rome"],
+                "answer": ["First", "we", "went", "to", "Paris", "then", "we", "travelled", "to", "Rome"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku membeli tas tangan untuk ibuku dan jam tangan untuk ayahku'",
+                "words": ["I", "a", "bought", "handbag", "for", "my", "mother", "and", "a", "watch", "for", "my", "father"],
+                "answer": ["I", "bought", "a", "handbag", "for", "my", "mother", "and", "a", "watch", "for", "my", "father"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami naik kereta dari Paris ke Roma'",
+                "words": ["We", "a", "took", "train", "from", "Paris", "to", "Rome"],
+                "answer": ["We", "took", "a", "train", "from", "Paris", "to", "Rome"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Makanannya lezat dan orang-orangnya sangat ramah'",
+                "words": ["The", "was", "food", "delicious", "and", "the", "people", "were", "very", "friendly"],
+                "answer": ["The", "food", "was", "delicious", "and", "the", "people", "were", "very", "friendly"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: menceritakan liburan",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku pergi ke Bali minggu lalu'?",
+                "options": ["I went to Bali last week", "I go to Bali last week", "I went Bali last week", "I am go to Bali last week"],
+                "answer": "I went to Bali last week"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami menginap di hotel yang bagus'?",
+                "options": ["We stayed at a nice hotel", "We stay at a nice hotel", "We stayed nice hotel", "We are stay at a nice hotel"],
+                "answer": "We stayed at a nice hotel"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku berenang di laut setiap hari'?",
+                "options": ["I swam in the sea every day", "I swim in the sea every day", "I swam sea every day", "I am swim in the sea every day"],
+                "answer": "I swam in the sea every day"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Makanannya sangat lezat'?",
+                "options": ["The food was very delicious", "The food very delicious", "The food were very delicious", "The food is very delicious"],
+                "answer": "The food was very delicious"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku membeli suvenir untuk teman-temanku'?",
+                "options": ["I bought souvenirs for my friends", "I buy souvenirs for my friends", "I bought souvenirs my friends", "I am buy souvenirs for my friends"],
+                "answer": "I bought souvenirs for my friends"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Minggu lalu, aku pergi ke Bali dengan teman-temanku'",
+                "words": ["Last", "week", "I", "went", "to", "Bali", "with", "my", "friends"],
+                "answer": ["Last", "week", "I", "went", "to", "Bali", "with", "my", "friends"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami menginap di hotel dan berenang di pantai'",
+                "words": ["We", "at", "stayed", "a", "hotel", "and", "swam", "at", "the", "beach"],
+                "answer": ["We", "stayed", "at", "a", "hotel", "and", "swam", "at", "the", "beach"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku mencoba makanan lokal dan membeli suvenir'",
+                "words": ["I", "tried", "local", "food", "and", "bought", "souvenirs"],
+                "answer": ["I", "tried", "local", "food", "and", "bought", "souvenirs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Makanannya sangat lezat dan orang-orangnya ramah'",
+                "words": ["The", "was", "food", "very", "delicious", "and", "the", "people", "were", "friendly"],
+                "answer": ["The", "food", "was", "very", "delicious", "and", "the", "people", "were", "friendly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku membeli suvenir untuk teman-temanku'",
+                "words": ["I", "souvenirs", "bought", "for", "my", "friends"],
+                "answer": ["I", "bought", "souvenirs", "for", "my", "friends"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku pergi ke Jepang tahun lalu'?",
+                "options": ["I went to Japan last year", "I go to Japan last year", "I went Japan last year", "I am go to Japan last year"],
+                "answer": "I went to Japan last year"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami mengunjungi banyak kuil di Kyoto'?",
+                "options": ["We visited many temples in Kyoto", "We visit many temples in Kyoto", "We visited many temples Kyoto", "We are visit many temples in Kyoto"],
+                "answer": "We visited many temples in Kyoto"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku naik kereta cepat'?",
+                "options": ["I took the bullet train", "I take the bullet train", "I took bullet train", "I am take the bullet train"],
+                "answer": "I took the bullet train"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Cuacanya sangat dingin'?",
+                "options": ["The weather was very cold", "The weather very cold", "The weather were very cold", "The weather is very cold"],
+                "answer": "The weather was very cold"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku membeli beberapa suvenir untuk keluargaku'?",
+                "options": ["I bought some souvenirs for my family", "I buy some souvenirs for my family", "I bought some souvenirs my family", "I am buy some souvenirs for my family"],
+                "answer": "I bought some souvenirs for my family"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Tahun lalu, aku pergi ke Jepang dengan keluargaku'",
+                "words": ["Last", "year", "I", "went", "to", "Japan", "with", "my", "family"],
+                "answer": ["Last", "year", "I", "went", "to", "Japan", "with", "my", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami mengunjungi banyak kuil dan naik kereta cepat'",
+                "words": ["We", "visited", "many", "temples", "and", "took", "the", "bullet", "train"],
+                "answer": ["We", "visited", "many", "temples", "and", "took", "the", "bullet", "train"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku mencoba sushi dan membeli suvenir'",
+                "words": ["I", "tried", "sushi", "and", "bought", "souvenirs"],
+                "answer": ["I", "tried", "sushi", "and", "bought", "souvenirs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Cuacanya sangat dingin dan bersalju'",
+                "words": ["The", "was", "weather", "very", "cold", "and", "snowy"],
+                "answer": ["The", "weather", "was", "very", "cold", "and", "snowy"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku membeli beberapa suvenir untuk keluargaku'",
+                "words": ["I", "some", "bought", "souvenirs", "for", "my", "family"],
+                "answer": ["I", "bought", "some", "souvenirs", "for", "my", "family"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku pergi ke Eropa dua tahun lalu'?",
+                "options": ["I went to Europe two years ago", "I go to Europe two years ago", "I went Europe two years ago", "I am go to Europe two years ago"],
+                "answer": "I went to Europe two years ago"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Kami mengunjungi lima negara dalam dua minggu'?",
+                "options": ["We visited five countries in two weeks", "We visit five countries in two weeks", "We visited five countries two weeks", "We are visit five countries in two weeks"],
+                "answer": "We visited five countries in two weeks"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku mencoba makanan lokal di setiap kota'?",
+                "options": ["I tried local food in every city", "I try local food in every city", "I tried local food every city", "I am try local food in every city"],
+                "answer": "I tried local food in every city"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Pemandangannya sangat menakjubkan'?",
+                "options": ["The scenery was amazing", "The scenery very amazing", "The scenery were amazing", "The scenery is amazing"],
+                "answer": "The scenery was amazing"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menceritakan 'Aku membeli hadiah untuk keluargaku'?",
+                "options": ["I bought gifts for my family", "I buy gifts for my family", "I bought gifts my family", "I am buy gifts for my family"],
+                "answer": "I bought gifts for my family"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Dua tahun lalu, aku pergi ke Eropa dengan keluargaku'",
+                "words": ["Two", "years", "ago", "I", "went", "to", "Europe", "with", "my", "family"],
+                "answer": ["Two", "years", "ago", "I", "went", "to", "Europe", "with", "my", "family"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Kami mengunjungi lima negara dan mencoba makanan lokal'",
+                "words": ["We", "visited", "five", "countries", "and", "tried", "local", "food"],
+                "answer": ["We", "visited", "five", "countries", "and", "tried", "local", "food"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku mengambil banyak foto dan membeli hadiah'",
+                "words": ["I", "many", "took", "photos", "and", "bought", "gifts"],
+                "answer": ["I", "took", "many", "photos", "and", "bought", "gifts"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Pemandangannya sangat menakjubkan dan orang-orangnya ramah'",
+                "words": ["The", "was", "scenery", "amazing", "and", "the", "people", "were", "friendly"],
+                "answer": ["The", "scenery", "was", "amazing", "and", "the", "people", "were", "friendly"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun cerita: 'Aku membeli hadiah untuk keluargaku di pasar lokal'",
+                "words": ["I", "bought", "gifts", "for", "my", "family", "at", "the", "local", "market"],
+                "answer": ["I", "bought", "gifts", "for", "my", "family", "at", "the", "local", "market"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

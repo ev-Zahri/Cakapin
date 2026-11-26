@@ -1,0 +1,1208 @@
+[
+  {
+    "title": "Angka & Waktu",
+    "color": "gem",
+    "levels": [
+      {
+        "level": "Angka 1–100",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 15 dalam bahasa Inggris?",
+                "options": ["fifty", "fifteen", "five", "fiveteen"],
+                "answer": "fifteen"
+              },
+              {
+                "type": "choice",
+                "prompt": "Angka 'twenty-three' sama dengan angka berapa?",
+                "options": ["23", "32", "13", "20"],
+                "answer": "23"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 40 dalam bahasa Inggris?",
+                "options": ["fourteen", "forty", "fourty", "four"],
+                "answer": "forty"
+              },
+              {
+                "type": "choice",
+                "prompt": "Angka 'seventy-eight' sama dengan angka berapa?",
+                "options": ["78", "87", "68", "77"],
+                "answer": "78"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 99 dalam bahasa Inggris?",
+                "options": ["ninety-nine", "ninty-nine", "nine-nine", "nineteen"],
+                "answer": "ninety-nine"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku punya dua puluh buku'",
+                "words": ["twenty", "I", "books", "have", "two"],
+                "answer": ["I", "have", "twenty", "two", "books"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada lima puluh siswa di kelas'",
+                "words": ["fifty", "There", "students", "are", "in", "the", "class"],
+                "answer": ["There", "are", "fifty", "students", "in", "the", "class"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berumur tiga puluh satu tahun'",
+                "words": ["thirty", "She", "is", "years", "one", "old"],
+                "answer": ["She", "is", "thirty", "one", "years", "old"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami membutuhkan enam puluh delapan kursi'",
+                "words": ["sixty", "We", "chairs", "need", "eight"],
+                "answer": ["We", "need", "sixty", "eight", "chairs"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Nomor rumahku tujuh belas'",
+                "words": ["seventeen", "My", "number", "house", "is"],
+                "answer": ["My", "house", "number", "is", "seventeen"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 12 dalam bahasa Inggris?",
+                "options": ["twelve", "twelfth", "twelv", "twenteen"],
+                "answer": "twelve"
+              },
+              {
+                "type": "choice",
+                "prompt": "Angka 'forty-five' sama dengan angka berapa?",
+                "options": ["54", "45", "44", "55"],
+                "answer": "45"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 80 dalam bahasa Inggris?",
+                "options": ["eighty", "eightty", "eigthy", "eighteen"],
+                "answer": "eighty"
+              },
+              {
+                "type": "choice",
+                "prompt": "Angka 'thirty-six' sama dengan angka berapa?",
+                "options": ["63", "36", "26", "35"],
+                "answer": "36"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 100 dalam bahasa Inggris?",
+                "options": ["one hundred", "ten hundred", "a hundret", "one thousands"],
+                "answer": "one hundred"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada sembilan puluh sembilan balon'",
+                "words": ["ninety", "There", "balloons", "are", "nine"],
+                "answer": ["There", "are", "ninety", "nine", "balloons"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku membeli empat belas apel'",
+                "words": ["fourteen", "I", "apples", "bought"],
+                "answer": ["I", "bought", "fourteen", "apples"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia punya dua puluh lima kucing'",
+                "words": ["twenty", "He", "cats", "has", "five"],
+                "answer": ["He", "has", "twenty", "five", "cats"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami tinggal di lantai lima puluh'",
+                "words": ["fifty", "We", "floor", "live", "on", "the"],
+                "answer": ["We", "live", "on", "the", "fifty", "floor"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada enam puluh tujuh burung di pohon'",
+                "words": ["sixty", "There", "birds", "are", "seven", "in", "the", "tree"],
+                "answer": ["There", "are", "sixty", "seven", "birds", "in", "the", "tree"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 18 dalam bahasa Inggris?",
+                "options": ["eighty", "eighteen", "eightteen", "eightie"],
+                "answer": "eighteen"
+              },
+              {
+                "type": "choice",
+                "prompt": "Angka 'ninety-one' sama dengan angka berapa?",
+                "options": ["19", "91", "99", "81"],
+                "answer": "91"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 60 dalam bahasa Inggris?",
+                "options": ["sixteen", "sixty", "sixsty", "sixth"],
+                "answer": "sixty"
+              },
+              {
+                "type": "choice",
+                "prompt": "Angka 'twenty-seven' sama dengan angka berapa?",
+                "options": ["72", "27", "37", "17"],
+                "answer": "27"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara menulis angka 33 dalam bahasa Inggris?",
+                "options": ["thirty-three", "thirteen-three", "thirty-thre", "thirtytree"],
+                "answer": "thirty-three"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku berumur empat puluh dua tahun'",
+                "words": ["forty", "I", "years", "am", "two", "old"],
+                "answer": ["I", "am", "forty", "two", "years", "old"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ada delapan puluh tiga kursi di ruangan'",
+                "words": ["eighty", "There", "chairs", "are", "three", "in", "the", "room"],
+                "answer": ["There", "are", "eighty", "three", "chairs", "in", "the", "room"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia menulis lima puluh enam surat'",
+                "words": ["fifty", "She", "letters", "wrote", "six"],
+                "answer": ["She", "wrote", "fifty", "six", "letters"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami punya sebelas kucing di rumah'",
+                "words": ["eleven", "We", "cats", "have", "at", "home"],
+                "answer": ["We", "have", "eleven", "cats", "at", "home"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Nomor teleponnya tiga puluh empat'",
+                "words": ["thirty", "His", "number", "phone", "is", "four"],
+                "answer": ["His", "phone", "number", "is", "thirty", "four"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Jam (What time is it?)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam tiga' dalam bahasa Inggris?",
+                "options": ["It is three o'clock", "It is three hours", "It is third o'clock", "It is three time"],
+                "answer": "It is three o'clock"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'It is half past six'?",
+                "options": ["Jam enam lewat setengah", "Jam setengah enam", "Jam enam kurang setengah", "Jam setengah tujuh"],
+                "answer": "Jam setengah tujuh"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam sembilan lewat lima belas menit'?",
+                "options": ["It is quarter past nine", "It is nine quarter", "It is half past nine", "It is quarter to nine"],
+                "answer": "It is quarter past nine"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'It is ten to seven'?",
+                "options": ["Jam tujuh lewat sepuluh", "Jam sepuluh kurang tujuh", "Jam tujuh kurang sepuluh", "Jam sepuluh lewat tujuh"],
+                "answer": "Jam tujuh kurang sepuluh"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam dua belas siang'?",
+                "options": ["It is twelve noon", "It is twelve midnight", "It is twelve morning", "It is twelve evening"],
+                "answer": "It is twelve noon"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam delapan pagi'",
+                "words": ["eight", "It", "is", "in", "the", "morning", "o'clock"],
+                "answer": ["It", "is", "eight", "o'clock", "in", "the", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jam berapa sekarang?'",
+                "words": ["time", "What", "is", "it"],
+                "answer": ["What", "time", "is", "it"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam setengah lima'",
+                "words": ["half", "It", "is", "past", "four"],
+                "answer": ["It", "is", "half", "past", "four"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam sembilan kurang seperempat'",
+                "words": ["quarter", "It", "is", "to", "nine"],
+                "answer": ["It", "is", "quarter", "to", "nine"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku bangun jam enam pagi'",
+                "words": ["six", "I", "up", "wake", "at", "o'clock"],
+                "answer": ["I", "wake", "up", "at", "six", "o'clock"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam tujuh' dalam bahasa Inggris?",
+                "options": ["It is seven o'clock", "It is seven hours", "It is seventh o'clock", "It is seven time"],
+                "answer": "It is seven o'clock"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'It is half past three'?",
+                "options": ["Jam tiga lewat setengah", "Jam setengah tiga", "Jam setengah empat", "Jam empat kurang setengah"],
+                "answer": "Jam setengah empat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam dua lewat empat puluh lima menit'?",
+                "options": ["It is quarter to three", "It is forty-five past two", "It is quarter past two", "It is half past two"],
+                "answer": "It is quarter to three"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'It is five past eleven'?",
+                "options": ["Jam sebelas lewat lima", "Jam lima lewat sebelas", "Jam sebelas kurang lima", "Jam lima kurang sebelas"],
+                "answer": "Jam sebelas lewat lima"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam dua belas malam'?",
+                "options": ["It is twelve midnight", "It is twelve noon", "It is twelve morning", "It is twelve afternoon"],
+                "answer": "It is twelve midnight"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam sepuluh malam'",
+                "words": ["ten", "It", "is", "at", "night", "o'clock"],
+                "answer": ["It", "is", "ten", "o'clock", "at", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jam berapa kamu bangun?'",
+                "words": ["time", "What", "do", "you", "wake", "up"],
+                "answer": ["What", "time", "do", "you", "wake", "up"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam setengah sembilan'",
+                "words": ["half", "It", "is", "past", "eight"],
+                "answer": ["It", "is", "half", "past", "eight"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam empat kurang seperempat'",
+                "words": ["quarter", "It", "is", "to", "four"],
+                "answer": ["It", "is", "quarter", "to", "four"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidur jam sebelas malam'",
+                "words": ["eleven", "He", "sleeps", "at", "o'clock", "night"],
+                "answer": ["He", "sleeps", "at", "eleven", "o'clock", "night"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam lima' dalam bahasa Inggris?",
+                "options": ["It is five o'clock", "It is five hours", "It is fifth o'clock", "It is five time"],
+                "answer": "It is five o'clock"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'It is half past nine'?",
+                "options": ["Jam sembilan lewat setengah", "Jam setengah sembilan", "Jam setengah sepuluh", "Jam sepuluh kurang setengah"],
+                "answer": "Jam setengah sepuluh"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam satu lewat dua puluh menit'?",
+                "options": ["It is twenty past one", "It is one twenty", "It is twenty to one", "It is half past one"],
+                "answer": "It is twenty past one"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa arti dari 'It is ten to eight'?",
+                "options": ["Jam delapan lewat sepuluh", "Jam sepuluh kurang delapan", "Jam delapan kurang sepuluh", "Jam sepuluh lewat delapan"],
+                "answer": "Jam delapan kurang sepuluh"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengatakan 'jam enam pagi'?",
+                "options": ["It is six in the morning", "It is six in the night", "It is six in the afternoon", "It is six in the evening"],
+                "answer": "It is six in the morning"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam dua belas siang'",
+                "words": ["twelve", "It", "is", "noon", "o'clock"],
+                "answer": ["It", "is", "twelve", "o'clock", "noon"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Jam berapa kamu makan malam?'",
+                "words": ["time", "What", "do", "you", "eat", "dinner"],
+                "answer": ["What", "time", "do", "you", "eat", "dinner"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam setengah dua'",
+                "words": ["half", "It", "is", "past", "one"],
+                "answer": ["It", "is", "half", "past", "one"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam tujuh kurang seperempat'",
+                "words": ["quarter", "It", "is", "to", "seven"],
+                "answer": ["It", "is", "quarter", "to", "seven"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan siang jam dua belas lewat tiga puluh'",
+                "words": ["half", "I", "lunch", "eat", "past", "twelve"],
+                "answer": ["I", "eat", "lunch", "half", "past", "twelve"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Hari, bulan, tahun",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Senin'?",
+                "options": ["Monday", "Sunday", "Tuesday", "Saturday"],
+                "answer": "Monday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Januari'?",
+                "options": ["January", "June", "July", "February"],
+                "answer": "January"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bulan apa yang datang setelah 'March'?",
+                "options": ["April", "May", "February", "June"],
+                "answer": "April"
+              },
+              {
+                "type": "choice",
+                "prompt": "Hari apa yang datang setelah 'Wednesday'?",
+                "options": ["Thursday", "Tuesday", "Friday", "Monday"],
+                "answer": "Thursday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Desember'?",
+                "options": ["December", "November", "October", "September"],
+                "answer": "December"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Hari ini adalah hari Senin'",
+                "words": ["Monday", "Today", "is", "day"],
+                "answer": ["Today", "is", "Monday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ulang tahunku di bulan Mei'",
+                "words": ["May", "My", "is", "birthday", "in"],
+                "answer": ["My", "birthday", "is", "in", "May"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami pergi ke pantai pada hari Sabtu'",
+                "words": ["Saturday", "We", "to", "go", "the", "beach", "on"],
+                "answer": ["We", "go", "to", "the", "beach", "on", "Saturday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bulan favoritku adalah Agustus'",
+                "words": ["August", "My", "month", "is", "favorite"],
+                "answer": ["My", "favorite", "month", "is", "August"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Tahun ini adalah tahun dua ribu dua puluh empat'",
+                "words": ["twenty", "This", "year", "is", "two", "thousand", "twenty-four"],
+                "answer": ["This", "year", "is", "two", "thousand", "twenty-four"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Rabu'?",
+                "options": ["Wednesday", "Tuesday", "Thursday", "Monday"],
+                "answer": "Wednesday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Juni'?",
+                "options": ["June", "July", "January", "August"],
+                "answer": "June"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bulan apa yang datang setelah 'September'?",
+                "options": ["October", "November", "August", "December"],
+                "answer": "October"
+              },
+              {
+                "type": "choice",
+                "prompt": "Hari apa yang datang sebelum 'Friday'?",
+                "options": ["Thursday", "Saturday", "Wednesday", "Monday"],
+                "answer": "Thursday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Februari'?",
+                "options": ["February", "January", "March", "April"],
+                "answer": "February"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Hari ini adalah hari Jumat'",
+                "words": ["Friday", "Today", "is", "day"],
+                "answer": ["Today", "is", "Friday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami akan bertemu di bulan Juli'",
+                "words": ["July", "We", "meet", "will", "in"],
+                "answer": ["We", "will", "meet", "in", "July"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia lahir pada hari Kamis'",
+                "words": ["Thursday", "He", "born", "was", "on"],
+                "answer": ["He", "was", "born", "on", "Thursday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bulan terdingin adalah Januari'",
+                "words": ["January", "The", "month", "is", "coldest"],
+                "answer": ["The", "coldest", "month", "is", "January"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku mulai sekolah pada tahun dua ribu dua puluh'",
+                "words": ["twenty", "I", "school", "started", "in", "two", "thousand", "twenty"],
+                "answer": ["I", "started", "school", "in", "two", "thousand", "twenty"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Minggu'?",
+                "options": ["Sunday", "Saturday", "Monday", "Friday"],
+                "answer": "Sunday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'November'?",
+                "options": ["November", "December", "October", "September"],
+                "answer": "November"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bulan apa yang datang setelah 'April'?",
+                "options": ["May", "March", "June", "July"],
+                "answer": "May"
+              },
+              {
+                "type": "choice",
+                "prompt": "Hari apa yang datang setelah 'Saturday'?",
+                "options": ["Sunday", "Monday", "Friday", "Tuesday"],
+                "answer": "Sunday"
+              },
+              {
+                "type": "choice",
+                "prompt": "Apa bahasa Inggris dari 'Agustus'?",
+                "options": ["August", "April", "October", "June"],
+                "answer": "August"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Hari ini adalah hari Selasa'",
+                "words": ["Tuesday", "Today", "is", "day"],
+                "answer": ["Today", "is", "Tuesday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Liburan kami dimulai pada bulan Desember'",
+                "words": ["December", "Our", "holiday", "starts", "in"],
+                "answer": ["Our", "holiday", "starts", "in", "December"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mengunjungi neneknya pada hari Minggu'",
+                "words": ["Sunday", "She", "grandmother", "visits", "her", "on"],
+                "answer": ["She", "visits", "her", "grandmother", "on", "Sunday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Bulan terpanas adalah Juli'",
+                "words": ["July", "The", "month", "is", "hottest"],
+                "answer": ["The", "hottest", "month", "is", "July"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami menikah pada tahun dua ribu sembilan belas'",
+                "words": ["nineteen", "We", "married", "got", "in", "two", "thousand", "nineteen"],
+                "answer": ["We", "got", "married", "in", "two", "thousand", "nineteen"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Preposisi waktu (in, on, at)",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'I wake up ___ 7 o'clock'?",
+                "options": ["at", "in", "on", "to"],
+                "answer": "at"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'My birthday is ___ May'?",
+                "options": ["in", "on", "at", "by"],
+                "answer": "in"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'We meet ___ Monday'?",
+                "options": ["on", "in", "at", "for"],
+                "answer": "on"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'She was born ___ 1995'?",
+                "options": ["in", "on", "at", "of"],
+                "answer": "in"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The party is ___ Saturday night'?",
+                "options": ["on", "in", "at", "to"],
+                "answer": "on"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku bangun jam enam pagi'",
+                "words": ["six", "I", "up", "wake", "at"],
+                "answer": ["I", "wake", "up", "at", "six"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami pergi berlibur pada bulan Agustus'",
+                "words": ["August", "We", "vacation", "go", "on", "in"],
+                "answer": ["We", "go", "on", "vacation", "in", "August"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia datang pada hari Jumat'",
+                "words": ["Friday", "He", "comes", "on"],
+                "answer": ["He", "comes", "on", "Friday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku lahir pada tahun dua ribu'",
+                "words": ["two", "I", "born", "was", "in", "thousand"],
+                "answer": ["I", "was", "born", "in", "two", "thousand"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kelas dimulai pada jam sembilan'",
+                "words": ["nine", "The", "class", "starts", "at"],
+                "answer": ["The", "class", "starts", "at", "nine"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The meeting is ___ 3 PM'?",
+                "options": ["at", "in", "on", "by"],
+                "answer": "at"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'Christmas is ___ December'?",
+                "options": ["in", "on", "at", "for"],
+                "answer": "in"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'I have a test ___ Tuesday'?",
+                "options": ["on", "in", "at", "to"],
+                "answer": "on"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'We moved here ___ 2010'?",
+                "options": ["in", "on", "at", "of"],
+                "answer": "in"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The concert is ___ Friday evening'?",
+                "options": ["on", "in", "at", "by"],
+                "answer": "on"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia tidur jam sepuluh malam'",
+                "words": ["ten", "She", "sleeps", "at", "night"],
+                "answer": ["She", "sleeps", "at", "ten", "night"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami bertemu pada bulan Maret'",
+                "words": ["March", "We", "meet", "in"],
+                "answer": ["We", "meet", "in", "March"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berulang tahun pada hari Minggu'",
+                "words": ["Sunday", "His", "is", "birthday", "on"],
+                "answer": ["His", "birthday", "is", "on", "Sunday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku mulai bekerja pada tahun dua ribu lima belas'",
+                "words": ["fifteen", "I", "working", "started", "in", "two", "thousand", "fifteen"],
+                "answer": ["I", "started", "working", "in", "two", "thousand", "fifteen"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Film dimulai pada jam tujuh'",
+                "words": ["seven", "The", "movie", "starts", "at"],
+                "answer": ["The", "movie", "starts", "at", "seven"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'I go to bed ___ 10 PM'?",
+                "options": ["at", "in", "on", "to"],
+                "answer": "at"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The weather is cold ___ January'?",
+                "options": ["in", "on", "at", "by"],
+                "answer": "in"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'We have a party ___ New Year's Day'?",
+                "options": ["on", "in", "at", "for"],
+                "answer": "on"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'She graduated ___ 2020'?",
+                "options": ["in", "on", "at", "of"],
+                "answer": "in"
+              },
+              {
+                "type": "choice",
+                "prompt": "Preposisi apa yang tepat: 'The shop opens ___ Monday morning'?",
+                "options": ["on", "in", "at", "to"],
+                "answer": "on"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan siang jam dua belas'",
+                "words": ["twelve", "I", "lunch", "eat", "at"],
+                "answer": ["I", "eat", "lunch", "at", "twelve"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kami akan pindah pada bulan Juni'",
+                "words": ["June", "We", "move", "will", "in"],
+                "answer": ["We", "will", "move", "in", "June"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia mengunjungi kami pada hari Sabtu'",
+                "words": ["Saturday", "She", "us", "visits", "on"],
+                "answer": ["She", "visits", "us", "on", "Saturday"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Ayahku lahir pada tahun seribu sembilan ratus delapan puluh'",
+                "words": ["nineteen", "My", "was", "father", "born", "in", "hundred", "eighty"],
+                "answer": ["My", "father", "was", "born", "in", "nineteen", "hundred", "eighty"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pertandingan dimulai pada jam empat sore'",
+                "words": ["four", "The", "game", "starts", "at", "afternoon", "in", "the"],
+                "answer": ["The", "game", "starts", "at", "four", "in", "the", "afternoon"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Listening: jadwal harian",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'I wake up at six o'clock every morning.' Pertanyaan: Jam berapa orang tersebut bangun?",
+                "options": ["Jam lima", "Jam enam", "Jam tujuh", "Jam delapan"],
+                "answer": "Jam enam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She eats breakfast at seven thirty.' Pertanyaan: Jam berapa dia sarapan?",
+                "options": ["Jam tujuh", "Jam tujuh lewat tiga puluh", "Jam enam lewat tiga puluh", "Jam delapan"],
+                "answer": "Jam tujuh lewat tiga puluh"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The meeting starts at nine fifteen.' Pertanyaan: Jam berapa rapat dimulai?",
+                "options": ["Jam sembilan lewat lima belas", "Jam sembilan kurang lima belas", "Jam sembilan", "Jam delapan lewat lima belas"],
+                "answer": "Jam sembilan lewat lima belas"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He goes to the gym at five in the afternoon.' Pertanyaan: Jam berapa dia pergi ke gym?",
+                "options": ["Jam lima pagi", "Jam lima sore", "Jam enam sore", "Jam empat sore"],
+                "answer": "Jam lima sore"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We have dinner at seven in the evening.' Pertanyaan: Jam berapa mereka makan malam?",
+                "options": ["Jam enam malam", "Jam tujuh malam", "Jam delapan malam", "Jam tujuh pagi"],
+                "answer": "Jam tujuh malam"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Aku bangun jam enam lalu sarapan jam tujuh'",
+                "words": ["six", "I", "up", "at", "wake", "and", "eat", "breakfast", "at", "seven"],
+                "answer": ["I", "wake", "up", "at", "six", "and", "eat", "breakfast", "at", "seven"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Dia bekerja dari jam sembilan sampai jam lima'",
+                "words": ["nine", "He", "works", "from", "to", "five", "at", "o'clock"],
+                "answer": ["He", "works", "from", "nine", "to", "five", "o'clock"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Kami belajar bahasa Inggris pada jam empat sore'",
+                "words": ["four", "We", "study", "English", "at", "in", "the", "afternoon"],
+                "answer": ["We", "study", "English", "at", "four", "in", "the", "afternoon"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Ibu memasak makan malam jam enam'",
+                "words": ["six", "My", "cooks", "mother", "dinner", "at"],
+                "answer": ["My", "mother", "cooks", "dinner", "at", "six"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Aku tidur jam sepuluh setiap malam'",
+                "words": ["ten", "I", "go", "to", "bed", "at", "every", "night"],
+                "answer": ["I", "go", "to", "bed", "at", "ten", "every", "night"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My father wakes up at five in the morning.' Pertanyaan: Jam berapa ayah bangun?",
+                "options": ["Jam empat pagi", "Jam lima pagi", "Jam enam pagi", "Jam lima sore"],
+                "answer": "Jam lima pagi"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The school starts at seven forty-five.' Pertanyaan: Jam berapa sekolah dimulai?",
+                "options": ["Jam tujuh lewat empat puluh lima", "Jam tujuh kurang seperempat", "Jam delapan kurang seperempat", "Jam tujuh lewat seperempat"],
+                "answer": "Jam delapan kurang seperempat"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'She takes a nap at two in the afternoon.' Pertanyaan: Jam berapa dia tidur siang?",
+                "options": ["Jam dua siang", "Jam dua malam", "Jam satu siang", "Jam tiga siang"],
+                "answer": "Jam dua siang"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We watch TV at eight in the evening.' Pertanyaan: Jam berapa mereka menonton TV?",
+                "options": ["Jam tujuh malam", "Jam delapan malam", "Jam delapan pagi", "Jam sembilan malam"],
+                "answer": "Jam delapan malam"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The bus arrives at six thirty.' Pertanyaan: Jam berapa bus tiba?",
+                "options": ["Jam enam", "Jam setengah tujuh", "Jam setengah enam", "Jam tujuh"],
+                "answer": "Jam setengah tujuh"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Aku sarapan jam tujuh lalu berangkat jam delapan'",
+                "words": ["seven", "I", "breakfast", "eat", "at", "and", "leave", "at", "eight"],
+                "answer": ["I", "eat", "breakfast", "at", "seven", "and", "leave", "at", "eight"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Dia berolahraga pada jam enam pagi'",
+                "words": ["six", "She", "exercises", "at", "in", "the", "morning"],
+                "answer": ["She", "exercises", "at", "six", "in", "the", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Kami makan malam jam tujuh malam'",
+                "words": ["seven", "We", "dinner", "eat", "at", "in", "the", "evening"],
+                "answer": ["We", "eat", "dinner", "at", "seven", "in", "the", "evening"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Ayah membaca koran jam enam pagi'",
+                "words": ["six", "My", "reads", "father", "newspaper", "the", "at"],
+                "answer": ["My", "father", "reads", "the", "newspaper", "at", "six"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Aku tidur jam sebelas malam setiap hari'",
+                "words": ["eleven", "I", "go", "to", "bed", "at", "every", "day"],
+                "answer": ["I", "go", "to", "bed", "at", "eleven", "every", "day"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Audio: 'My sister wakes up at eight on Sundays.' Pertanyaan: Jam berapa saudara perempuanku bangun pada hari Minggu?",
+                "options": ["Jam tujuh", "Jam delapan", "Jam sembilan", "Jam enam"],
+                "answer": "Jam delapan"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The train leaves at ten past nine.' Pertanyaan: Jam berapa kereta berangkat?",
+                "options": ["Jam sembilan lewat sepuluh", "Jam sepuluh lewat sembilan", "Jam sembilan kurang sepuluh", "Jam sepuluh kurang sembilan"],
+                "answer": "Jam sembilan lewat sepuluh"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'He has lunch at twelve thirty.' Pertanyaan: Jam berapa dia makan siang?",
+                "options": ["Jam dua belas", "Jam setengah satu", "Jam setengah dua belas", "Jam satu"],
+                "answer": "Jam setengah satu"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'We go home at five in the afternoon.' Pertanyaan: Jam berapa mereka pulang?",
+                "options": ["Jam empat sore", "Jam lima sore", "Jam lima pagi", "Jam enam sore"],
+                "answer": "Jam lima sore"
+              },
+              {
+                "type": "choice",
+                "prompt": "Audio: 'The movie ends at nine forty-five.' Pertanyaan: Jam berapa film berakhir?",
+                "options": ["Jam sembilan lewat empat puluh lima", "Jam sepuluh kurang seperempat", "Jam sembilan kurang seperempat", "Jam sepuluh lewat seperempat"],
+                "answer": "Jam sepuluh kurang seperempat"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Aku bangun jam lima lalu berolahraga jam enam'",
+                "words": ["five", "I", "up", "wake", "at", "and", "exercise", "at", "six"],
+                "answer": ["I", "wake", "up", "at", "five", "and", "exercise", "at", "six"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Dia pergi bekerja jam tujuh pagi'",
+                "words": ["seven", "He", "to", "goes", "work", "at", "in", "the", "morning"],
+                "answer": ["He", "goes", "to", "work", "at", "seven", "in", "the", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Kami menonton film jam delapan malam'",
+                "words": ["eight", "We", "a", "watch", "movie", "at", "in", "the", "evening"],
+                "answer": ["We", "watch", "a", "movie", "at", "eight", "in", "the", "evening"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Ibuku bangun jam empat pagi setiap hari'",
+                "words": ["four", "My", "mother", "wakes", "up", "at", "every", "day"],
+                "answer": ["My", "mother", "wakes", "up", "at", "four", "every", "day"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun jadwal: 'Aku mengerjakan PR jam tujuh malam'",
+                "words": ["seven", "I", "my", "do", "homework", "at", "in", "the", "evening"],
+                "answer": ["I", "do", "my", "homework", "at", "seven", "in", "the", "evening"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "Speaking: menyebutkan waktu",
+        "versions": [
+          {
+            "version": 1,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 3:00' dalam bahasa Inggris?",
+                "options": ["It's three o'clock", "It's three hour", "It's third o'clock", "It's three time"],
+                "answer": "It's three o'clock"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 6:30' dalam bahasa Inggris?",
+                "options": ["It's half past six", "It's six thirty", "It's half to six", "It's thirty six"],
+                "answer": "It's half past six"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 9:15' dalam bahasa Inggris?",
+                "options": ["It's quarter past nine", "It's nine fifteen", "It's quarter to nine", "It's fifteen nine"],
+                "answer": "It's quarter past nine"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 11:45' dalam bahasa Inggris?",
+                "options": ["It's quarter to twelve", "It's eleven forty-five", "It's quarter past eleven", "It's forty-five eleven"],
+                "answer": "It's quarter to twelve"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 7:10' dalam bahasa Inggris?",
+                "options": ["It's ten past seven", "It's seven ten", "It's ten to seven", "It's seven past ten"],
+                "answer": "It's ten past seven"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam setengah sembilan pagi'",
+                "words": ["half", "It", "is", "past", "eight", "in", "the", "morning"],
+                "answer": ["It", "is", "half", "past", "eight", "in", "the", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam lima kurang seperempat sore'",
+                "words": ["quarter", "It", "is", "to", "five", "in", "the", "afternoon"],
+                "answer": ["It", "is", "quarter", "to", "five", "in", "the", "afternoon"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku berangkat kerja jam tujuh lewat lima belas'",
+                "words": ["quarter", "I", "leave", "for", "work", "at", "past", "seven"],
+                "answer": ["I", "leave", "for", "work", "at", "quarter", "past", "seven"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Kelas dimulai jam sembilan tepat'",
+                "words": ["nine", "The", "class", "starts", "at", "o'clock"],
+                "answer": ["The", "class", "starts", "at", "nine", "o'clock"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam dua belas kurang sepuluh menit'",
+                "words": ["ten", "It", "is", "to", "twelve"],
+                "answer": ["It", "is", "ten", "to", "twelve"]
+              }
+            ]
+          },
+          {
+            "version": 2,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 5:00' dalam bahasa Inggris?",
+                "options": ["It's five o'clock", "It's five hour", "It's fifth o'clock", "It's five time"],
+                "answer": "It's five o'clock"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 8:30' dalam bahasa Inggris?",
+                "options": ["It's half past eight", "It's eight thirty", "It's half to eight", "It's thirty eight"],
+                "answer": "It's half past eight"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 2:45' dalam bahasa Inggris?",
+                "options": ["It's quarter to three", "It's two forty-five", "It's quarter past two", "It's forty-five two"],
+                "answer": "It's quarter to three"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 10:20' dalam bahasa Inggris?",
+                "options": ["It's twenty past ten", "It's ten twenty", "It's twenty to ten", "It's ten past twenty"],
+                "answer": "It's twenty past ten"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 1:55' dalam bahasa Inggris?",
+                "options": ["It's five to two", "It's one fifty-five", "It's five past one", "It's fifty-five one"],
+                "answer": "It's five to two"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam setengah tujuh malam'",
+                "words": ["half", "It", "is", "past", "six", "in", "the", "evening"],
+                "answer": ["It", "is", "half", "past", "six", "in", "the", "evening"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam tiga lewat seperempat siang'",
+                "words": ["quarter", "It", "is", "past", "three", "in", "the", "afternoon"],
+                "answer": ["It", "is", "quarter", "past", "three", "in", "the", "afternoon"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Aku makan siang jam dua belas lewat lima belas'",
+                "words": ["quarter", "I", "eat", "lunch", "at", "past", "twelve"],
+                "answer": ["I", "eat", "lunch", "at", "quarter", "past", "twelve"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Pertemuan dimulai jam empat tepat'",
+                "words": ["four", "The", "meeting", "starts", "at", "o'clock"],
+                "answer": ["The", "meeting", "starts", "at", "four", "o'clock"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam delapan kurang dua puluh menit'",
+                "words": ["twenty", "It", "is", "to", "eight"],
+                "answer": ["It", "is", "twenty", "to", "eight"]
+              }
+            ]
+          },
+          {
+            "version": 3,
+            "exercises": [
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 12:00 siang' dalam bahasa Inggris?",
+                "options": ["It's twelve noon", "It's twelve o'clock", "It's twelve midnight", "It's twelve day"],
+                "answer": "It's twelve noon"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 4:30' dalam bahasa Inggris?",
+                "options": ["It's half past four", "It's four thirty", "It's half to four", "It's thirty four"],
+                "answer": "It's half past four"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 7:45' dalam bahasa Inggris?",
+                "options": ["It's quarter to eight", "It's seven forty-five", "It's quarter past seven", "It's forty-five seven"],
+                "answer": "It's quarter to eight"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 9:05' dalam bahasa Inggris?",
+                "options": ["It's five past nine", "It's nine five", "It's five to nine", "It's nine past five"],
+                "answer": "It's five past nine"
+              },
+              {
+                "type": "choice",
+                "prompt": "Bagaimana cara mengucapkan 'jam 11:50' dalam bahasa Inggris?",
+                "options": ["It's ten to twelve", "It's eleven fifty", "It's ten past eleven", "It's fifty eleven"],
+                "answer": "It's ten to twelve"
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam setengah sepuluh pagi'",
+                "words": ["half", "It", "is", "past", "nine", "in", "the", "morning"],
+                "answer": ["It", "is", "half", "past", "nine", "in", "the", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam enam kurang seperempat pagi'",
+                "words": ["quarter", "It", "is", "to", "six", "in", "the", "morning"],
+                "answer": ["It", "is", "quarter", "to", "six", "in", "the", "morning"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Dia berolahraga jam lima lewat tiga puluh menit'",
+                "words": ["half", "He", "exercises", "at", "past", "five"],
+                "answer": ["He", "exercises", "at", "half", "past", "five"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Toko tutup jam sembilan tepat'",
+                "words": ["nine", "The", "shop", "closes", "at", "o'clock"],
+                "answer": ["The", "shop", "closes", "at", "nine", "o'clock"]
+              },
+              {
+                "type": "arrange",
+                "prompt": "Susun kalimat: 'Sekarang jam satu kurang lima menit siang'",
+                "words": ["five", "It", "is", "to", "one", "in", "the", "afternoon"],
+                "answer": ["It", "is", "five", "to", "one", "in", "the", "afternoon"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
