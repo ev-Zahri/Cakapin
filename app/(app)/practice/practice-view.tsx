@@ -65,26 +65,26 @@ export function LatihanView({ user, doneLessons, firstLessonId }: LatihanProps) 
       </div>
 
       {/* Top Practice Hub Hero Header Card */}
-      <div className="w-full bg-white rounded-3xl border-2 border-line p-6 sm:p-8 shadow-sm mb-8 relative overflow-hidden">
-        <div className="absolute -right-12 -top-12 w-64 h-64 bg-primary-soft/40 rounded-full blur-2xl pointer-events-none" />
-        <div className="absolute right-48 -bottom-16 w-48 h-48 bg-gem-soft/50 rounded-full blur-xl pointer-events-none" />
+      <div className="w-full bg-white rounded-3xl border-2 border-line p-4 shadow-sm mb-4 relative overflow-hidden">
+        {/* <div className="absolute -right-12 -top-12 w-64 h-64 bg-primary-soft/40 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute right-48 -bottom-16 w-48 h-48 bg-gem-soft/50 rounded-full blur-xl pointer-events-none" /> */}
 
-        <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-primary-soft text-primary-dark rounded-full mb-3 text-xs font-black uppercase tracking-wider">
-              <span className="icon text-base">bolt</span>
+        <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between">
+          <div className="pl-2">
+            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-primary-soft text-primary-dark rounded-full mb-3 text-xs font-black tracking-wider">
+              <span className="icon text-lg">bolt</span>
               <span>Pusat Latihan Cepat</span>
             </div>
-            <h1 className="text-3xl font-black text-on-surface tracking-tight mb-2">
+            <h1 className="text-xl font-black text-on-surface tracking-tight">
               Pusat Latihan Mandiri
             </h1>
-            <p className="text-sm font-bold text-ink-muted">
+            <p className="text-sm text-ink-muted">
               Asah kemampuanmu, tinjau kembali kata-kata yang sulit, atau dapatkan hati tambahan secara cuma-cuma!
             </p>
           </div>
 
           {/* Daily Practice Goal Progress Capsule */}
-          <div className="w-full md:w-80 bg-surface-low p-5 rounded-2xl border-2 border-line flex flex-col gap-2 shadow-xs shrink-0">
+          <div className="w-full md:w-80 bg-surface-low px-4 py-6 rounded-xl border-1 border-line flex flex-col gap-2 shadow-xs shrink-0">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-1.5">
                 <GameIcon name="crown" size={24} alt="Target" />
@@ -118,7 +118,7 @@ export function LatihanView({ user, doneLessons, firstLessonId }: LatihanProps) 
       {/* Main Content Layout (2 Columns: Main Hub 8 Cols + Right Sidebar 4 Cols) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Left Column: Training Modes & Word Bank (8 Cols) */}
-        <div className="lg:col-span-8 flex flex-col gap-8">
+        <div className="lg:col-span-8 flex flex-col gap-4">
           {/* Section Header */}
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -135,16 +135,21 @@ export function LatihanView({ user, doneLessons, firstLessonId }: LatihanProps) 
             {/* Card 1: Latihan Hati */}
             <div className="bg-white rounded-3xl border-2 border-line p-6 flex flex-col justify-between shadow-xs">
               <div>
-                <div className="flex items-start justify-between mb-4">
+                <div className="flex items-start justify-between mb-2">
                   <div className="w-14 h-14 rounded-2xl bg-ruby-soft/60 flex items-center justify-center border-2 border-ruby/20">
                     <GameIcon name="heart" size={36} alt="Hati" />
                   </div>
-                  <span className="px-3 py-1 bg-surface-low border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
-                    <span className="icon text-ruby-edge text-sm">favorite</span> {user.hearts}/5 Penuh
-                  </span>
+                  <div className="grid gap-1">
+                    <span className="px-3 py-1 bg-green/50 border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
+                      <span className="icon text-green-600 text-sm">favorite</span> +1 Setiap 30 Menit
+                    </span>
+                    <span className="px-3 py-1 bg-surface-low border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
+                      <span className="icon text-yellow-600 text-sm">watch_later</span> Tiap 30 Menit
+                    </span>
+                  </div>
                 </div>
                 <h3 className="text-lg font-black text-on-surface mb-1">Latihan Pemulihan Hati</h3>
-                <p className="text-xs font-bold text-ink-muted mb-6 leading-relaxed">
+                <p className="text-xs font-bold text-ink-muted mb-3 leading-relaxed">
                   Selesaikan sesi kilat tanpa batas untuk memulihkan 1 Hati cadangan tanpa menunggu timer reset.
                 </p>
               </div>
@@ -160,16 +165,21 @@ export function LatihanView({ user, doneLessons, firstLessonId }: LatihanProps) 
             {/* Card 2: Review Kosakata Lemah */}
             <div className="bg-white rounded-3xl border-2 border-line p-6 flex flex-col justify-between shadow-xs">
               <div>
-                <div className="flex items-start justify-between mb-4">
+                <div className="flex items-start justify-between mb-2">
                   <div className="w-14 h-14 rounded-2xl bg-streak/20 flex items-center justify-center border-2 border-streak/40">
                     <span className="icon text-streak-edge text-3xl">target</span>
                   </div>
-                  <span className="px-3 py-1 bg-streak/20 text-streak-edge font-black text-xs rounded-full">
-                    {weakCount} Perlu Diulang
-                  </span>
+                  <div className="grid gap-1">
+                    <span className="px-3 py-1 bg-surface-low border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
+                      <span className="icon text-streak-edge text-sm">target</span> {weakCount} Perlu Diulang
+                    </span>
+                    <span className="px-3 py-1 bg-surface-low border border-line font-black text-xs text-ink-muted rounded-full flex items-center gap-1">
+                      <span className="icon text-streak-edge text-sm">watch_later</span> Tiap 1 Jam
+                    </span>
+                  </div>
                 </div>
                 <h3 className="text-lg font-black text-on-surface mb-1">Tinjau Kesalahan</h3>
-                <p className="text-xs font-bold text-ink-muted mb-6 leading-relaxed">
+                <p className="text-xs font-bold text-ink-muted mb-3 leading-relaxed">
                   Kosakata yang sempat keliru pada kuis sebelumnya membutuhkan perhatian khusus agar terekam optimal.
                 </p>
               </div>

@@ -3,28 +3,28 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "../../lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center font-extrabold uppercase tracking-wide select-none transition-all active:translate-y-1 cursor-pointer disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none rounded-2xl",
+  "inline-flex items-center justify-center font-extrabold uppercase tracking-wide select-none transition-all active:translate-y-0.5 cursor-pointer disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none rounded-2xl",
   {
     variants: {
       variant: {
         primary:
-          "bg-primary text-white border-b-4 border-primary-dark hover:brightness-105 active:border-b-0",
+          "bg-primary text-white border-b-3 border-primary-edge hover:brightness-105 active:border-b-1",
         secondary:
-          "bg-streak text-white border-b-4 border-streak-edge hover:brightness-105 active:border-b-0",
+          "bg-streak text-white border-b-3 border-streak-edge hover:brightness-105 active:border-b-1",
         danger:
-          "bg-ruby text-white border-b-4 border-ruby-edge hover:brightness-105 active:border-b-0",
+          "bg-ruby text-white border-b-3 border-ruby-edge hover:brightness-105 active:border-b-1",
         outline:
-          "bg-white text-ink border-2 border-b-4 border-line hover:bg-surface-low active:border-b-2",
+          "bg-white text-ink border border-b-3 border-line hover:bg-surface-low active:border-b-1",
         ghost:
           "bg-transparent text-ink-muted hover:bg-surface-low hover:text-ink active:translate-y-0",
         super:
-          "bg-gem text-white border-b-4 border-gem-edge hover:brightness-105 active:border-b-0",
+          "bg-gem text-white border-b-3 border-gem-edge hover:brightness-105 active:border-b-1",
       },
       size: {
-        sm: "h-9 px-3 text-xs gap-1.5",
-        md: "h-12 px-6 text-sm gap-2",
-        lg: "h-14 px-8 text-base gap-2.5",
-        icon: "h-12 w-12 p-0",
+        sm: "h-9 px-3.5 text-xs gap-1.5",
+        md: "h-11 px-5 text-sm gap-2",
+        lg: "h-13 px-7 text-base gap-2.5",
+        icon: "h-11 w-11 p-0",
       },
     },
     defaultVariants: {

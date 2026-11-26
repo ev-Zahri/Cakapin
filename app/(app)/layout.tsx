@@ -10,9 +10,9 @@ type Props = { children: React.ReactNode };
 /** Layout aplikasi: rel navigasi kiri + konten. Halaman anak membaca sesi di dalam <Suspense>. */
 export default function AppLayout({ children }: Props) {
   return (
-    <div className="mx-auto flex w-full max-w-[1280px] flex-1 gap-8 px-4 lg:px-8">
-      <aside className="sticky top-0 hidden h-screen w-64 shrink-0 flex-col gap-2 border-r-2 border-line py-6 pr-6 md:flex">
-        <Link href="/learn" className="mb-6 flex items-center gap-2 text-3xl font-black text-primary">
+    <div className="mx-auto flex w-full flex-1 gap-8 px-4 lg:px-8">
+      <aside className="sticky top-0 hidden h-screen w-48 shrink-0 flex-col gap-2 border-r-2 border-line py-6 pr-6 md:flex">
+        <Link href="/learn" className="mb-6 flex items-center gap-2 text-2xl font-black text-primary">
           <GameIcon name="mascot" size={44} alt="" /> cakapin
         </Link>
         <NavLink href="/learn" icon="home" label="Belajar" />
@@ -55,9 +55,9 @@ function NavLink({ href, icon, label }: { href: string; icon: string; label: str
   return (
     <Link
       href={href}
-      className="flex items-center gap-3 rounded-2xl border-2 border-transparent px-4 py-3 font-extrabold uppercase tracking-wide text-ink-muted hover:bg-surface-low"
+      className="flex items-center gap-3 rounded-2xl border-2 border-transparent px-4 py-3 font-extrabold font-lg capitalize tracking-wide text-ink-muted hover:bg-surface-low"
     >
-      <span className="icon text-2xl">{icon}</span> {label}
+      <span className="icon text-xl">{icon}</span> {label}
     </Link>
   );
 }

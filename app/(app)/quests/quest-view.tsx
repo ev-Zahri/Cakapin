@@ -8,6 +8,8 @@ import { buyCostume, buyItem, claimMonthly, claimQuest, equipCostume, createGemP
 import { verifyAndSettlePayment } from "../../lib/payment";
 import { ActionButton } from "../../components/action-button";
 import { GameIcon, type IconName } from "../../components/game-icon";
+import { Button } from "../../components/ui/button";
+import { Card, CardHeader, CardTitle, CardContent } from "../../components/ui/card";
 import { SHOP } from "../../lib/shop";
 
 declare global {
@@ -164,97 +166,100 @@ function ShopSection(p: MisiProps) {
       {/* Top up Permata dengan Midtrans */}
       <section>
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-          <h2 className="flex items-center gap-2 text-2xl font-black">
-            <GameIcon name="gem" size={32} /> Top Up Permata
+          <h2 className="flex items-center gap-2 text-2xl font-black text-ink">
+            <GameIcon name="gem" size={30} /> Paket Permata
           </h2>
-          <span className="flex items-center gap-1 text-xs font-black uppercase text-primary">
-            <span className="icon text-base">verified_user</span> Didukung Midtrans (QRIS, VA, e-Wallet)
+          <span className="flex items-center gap-1.5 rounded-full bg-primary-soft/60 px-3 py-1 text-xs font-black uppercase text-primary-dark">
+            <span className="icon text-base">verified_user</span> Midtrans (QRIS, VA, e-Wallet)
           </span>
         </div>
         <Grid>
-          <div className={`${card} border-gem/40 hover:border-gem`}>
-            <div className="flex flex-col items-center gap-2 text-center">
-              <motion.div whileHover={{ scale: 1.15 }}>
-                <GameIcon name="gem" size={64} alt="100 Permata" />
-              </motion.div>
+          <Card className="flex flex-col justify-between h-full p-6 transition-all hover:border-slate-300">
+            <div className="flex flex-col items-center gap-3 text-center">
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-surface-low">
+                <GameIcon name="gem" size={56} alt="100 Permata" />
+              </div>
               <h3 className="mt-1 text-lg font-black text-ink">100 Permata</h3>
-              <p className="text-sm text-ink-muted">Cukup untuk membeli proteksi streak atau isi nyawa darurat.</p>
+              <p className="text-sm font-medium text-ink-muted">Cukup untuk proteksi streak atau isi nyawa darurat.</p>
             </div>
-            <div className="mt-5 flex flex-col gap-3 border-t-2 border-surface-low pt-4">
-              <span className="text-center text-lg font-black text-ink">Rp 15.000</span>
-              <button
-                type="button"
+            <div className="mt-6 flex flex-col gap-3 border-t border-line pt-4">
+              <span className="text-center text-xl font-black text-ink">Rp 15.000</span>
+              <Button
+                variant="outline"
+                size="md"
                 onClick={() => handleBuyGems("gems_100")}
                 disabled={buyingPack !== null}
-                className="btn btn-primary w-full !py-2.5 text-sm"
+                className="w-full"
               >
                 {buyingPack === "gems_100" ? "Memproses…" : "Beli Sekarang"}
-              </button>
+              </Button>
             </div>
-          </div>
+          </Card>
 
-          <div className={`${card} relative !border-gem shadow-md shadow-gem-soft/50`}>
-            <span className="absolute -top-3 right-4 rounded-full bg-streak px-3 py-0.5 text-xs font-black uppercase tracking-wider text-white shadow-xs">
+          <Card className="flex flex-col justify-between h-full p-6 border-primary/40 relative shadow-sm">
+            <span className="absolute -top-3 right-4 rounded-full bg-streak px-3 py-0.5 text-[11px] font-black uppercase tracking-wider text-white shadow-xs">
               Paling Populer
             </span>
-            <div className="flex flex-col items-center gap-2 text-center">
-              <motion.div whileHover={{ scale: 1.15 }}>
-                <GameIcon name="gem" size={72} alt="500 Permata" />
-              </motion.div>
+            <div className="flex flex-col items-center gap-3 text-center">
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-primary-soft/30">
+                <GameIcon name="gem" size={60} alt="500 Permata" />
+              </div>
               <h3 className="mt-1 text-lg font-black text-ink">500 Permata</h3>
-              <p className="text-sm text-ink-muted">Paket paling hemat untuk membeli kostum keren dan boost XP!</p>
+              <p className="text-sm font-medium text-ink-muted">Paket paling hemat untuk membeli kostum dan boost XP!</p>
             </div>
-            <div className="mt-5 flex flex-col gap-3 border-t-2 border-surface-low pt-4">
-              <span className="text-center text-lg font-black text-ink">Rp 65.000</span>
-              <button
-                type="button"
+            <div className="mt-6 flex flex-col gap-3 border-t border-line pt-4">
+              <span className="text-center text-xl font-black text-ink">Rp 65.000</span>
+              <Button
+                variant="primary"
+                size="md"
                 onClick={() => handleBuyGems("gems_500")}
                 disabled={buyingPack !== null}
-                className="btn btn-gem w-full !py-2.5 text-sm"
+                className="w-full"
               >
                 {buyingPack === "gems_500" ? "Memproses…" : "Beli Sekarang"}
-              </button>
+              </Button>
             </div>
-          </div>
+          </Card>
 
-          <div className={`${card} border-gem/40 hover:border-gem`}>
-            <div className="flex flex-col items-center gap-2 text-center">
-              <motion.div whileHover={{ scale: 1.15 }}>
-                <GameIcon name="gem" size={80} alt="1.200 Permata" />
-              </motion.div>
+          <Card className="flex flex-col justify-between h-full p-6 transition-all hover:border-slate-300">
+            <div className="flex flex-col items-center gap-3 text-center">
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-surface-low">
+                <GameIcon name="gem" size={64} alt="1.200 Permata" />
+              </div>
               <h3 className="mt-1 text-lg font-black text-ink">1.200 Permata</h3>
-              <p className="text-sm text-ink-muted">Simpanan permata melimpah untuk seluruh koleksi toko tanpa batas.</p>
+              <p className="text-sm font-medium text-ink-muted">Simpanan permata melimpah untuk seluruh koleksi toko tanpa batas.</p>
             </div>
-            <div className="mt-5 flex flex-col gap-3 border-t-2 border-surface-low pt-4">
-              <span className="text-center text-lg font-black text-ink">Rp 140.000</span>
-              <button
-                type="button"
+            <div className="mt-6 flex flex-col gap-3 border-t border-line pt-4">
+              <span className="text-center text-xl font-black text-ink">Rp 140.000</span>
+              <Button
+                variant="outline"
+                size="md"
                 onClick={() => handleBuyGems("gems_1200")}
                 disabled={buyingPack !== null}
-                className="btn btn-primary w-full !py-2.5 text-sm"
+                className="w-full"
               >
                 {buyingPack === "gems_1200" ? "Memproses…" : "Beli Sekarang"}
-              </button>
+              </Button>
             </div>
-          </div>
+          </Card>
         </Grid>
       </section>
 
       <section>
-        <h2 className="mb-4 flex items-center gap-2 text-2xl font-black"><GameIcon name="bolt" size={32} /> Perlengkapan Belajar</h2>
+        <h2 className="mb-4 flex items-center gap-2 text-2xl font-black text-ink"><GameIcon name="bolt" size={30} /> Perlengkapan Belajar</h2>
         <Grid>
           <ShopCard
             icon="flame" tag={`${p.streakFreezes}/${SHOP.freeze.max} Aktif`} title="Bekukan Streak"
             desc="Menjaga streak belajarmu tetap aman jika kamu lupa berlatih selama 1 hari penuh."
             cost={SHOP.freeze.cost} action={buyItem.bind(null, "freeze")}
             disabled={p.streakFreezes >= SHOP.freeze.max || p.gems < SHOP.freeze.cost}
-            label={p.streakFreezes >= SHOP.freeze.max ? `Maks ${SHOP.freeze.max}/${SHOP.freeze.max} Tersimpan` : "Beli"}
+            label={p.streakFreezes >= SHOP.freeze.max ? `Maks (${p.streakFreezes}/${SHOP.freeze.max})` : "Beli"}
           />
           <ShopCard
             icon="bolt" tag={boostActive ? `Aktif ${boostActive}` : "HOT"} title="Pengganda XP 2x"
             desc={`Dapatkan 2x lipat XP dari setiap pelajaran selama ${SHOP.xp2x.minutes} menit.`}
             cost={SHOP.xp2x.cost} action={buyItem.bind(null, "xp2x")}
-            disabled={p.gems < SHOP.xp2x.cost} label={boostActive ? "Perpanjang" : "Aktifkan Sekarang"}
+            disabled={p.gems < SHOP.xp2x.cost} label={boostActive ? "Perpanjang" : "Aktifkan"}
           />
           <ShopCard
             icon="heart" tag="+5 Nyawa" title="Isi Ulang Hati"
@@ -267,50 +272,58 @@ function ShopSection(p: MisiProps) {
 
       <section>
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-          <h2 className="flex items-center gap-2 text-2xl font-black"><span className="icon text-3xl text-streak-edge">checkroom</span> Kostum &amp; Aksesoris Maskot</h2>
-          <span className="text-sm text-ink-muted">Beri gaya unik pada maskot kamu!</span>
+          <h2 className="flex items-center gap-2 text-2xl font-black text-ink"><span className="icon text-3xl text-streak-edge">checkroom</span> Kostum &amp; Aksesoris</h2>
+          <span className="text-sm font-bold text-ink-muted">Koleksi aksesoris maskot untuk profil belajarmu</span>
         </div>
         <Grid>
           {p.costumes.map((c) => {
             const owned = p.owned.includes(c.id);
             const active = p.equipped === c.id;
             return (
-              <motion.div key={c.id} layout className={`${card} ${active ? "!border-primary" : ""}`}>
+              <Card key={c.id} className={`flex flex-col justify-between h-full p-6 ${active ? "!border-primary" : ""}`}>
                 <div className="flex flex-col items-center gap-3 text-center">
-                  <div className={`relative flex h-40 w-full items-center justify-center overflow-hidden rounded-2xl ${active ? "bg-primary-soft/50" : "bg-surface-low"}`}>
+                  <div className={`relative flex h-36 w-full items-center justify-center overflow-hidden rounded-2xl ${active ? "bg-primary-soft/40" : "bg-surface-low"}`}>
                     {active && (
                       <span className="absolute right-2 top-2 flex items-center gap-1 rounded-full bg-primary px-2.5 py-0.5 text-xs font-black text-white">
-                        <span className="icon text-sm">check</span> Digunakan
+                        <span className="icon text-sm">check</span> Dipakai
                       </span>
                     )}
-                    <motion.div whileHover={{ scale: 1.1, rotate: -4 }}>
-                      <GameIcon name={c.icon} size={128} alt={c.name} />
+                    <motion.div whileHover={{ scale: 1.08 }}>
+                      <GameIcon name={c.icon} size={110} alt={c.name} />
                     </motion.div>
                   </div>
-                  <h3 className="mt-1 text-lg font-black">{c.name}</h3>
-                  <p className="text-sm text-ink-muted">{c.desc}</p>
+                  <h3 className="mt-1 text-lg font-black text-ink">{c.name}</h3>
+                  <p className="text-sm font-medium text-ink-muted">{c.desc}</p>
                 </div>
-                <div className="mt-5 flex flex-col gap-3 border-t-2 border-surface-low pt-4">
+                <div className="mt-6 flex flex-col gap-3 border-t border-line pt-4">
                   {owned ? (
                     <>
-                      <span className="text-center font-extrabold text-ink-muted">Sudah Dimiliki</span>
+                      <span className="text-center text-xs font-black uppercase text-ink-muted">Tersimpan di Lemari</span>
                       <ActionButton
                         action={equipCostume.bind(null, active ? null : c.id)}
-                        className={`btn w-full !py-2.5 text-sm ${active ? "btn-ghost" : "btn-gem"}`}
+                        variant={active ? "ghost" : "super"}
+                        size="md"
+                        className="w-full"
                       >
                         {active ? "Lepas" : "Pakai"}
                       </ActionButton>
                     </>
                   ) : (
                     <>
-                      <span className={gemTag}><GameIcon name="gem" size={22} /> {c.cost} Permata</span>
-                      <ActionButton action={buyCostume.bind(null, c.id)} disabled={p.gems < c.cost} className="btn btn-primary w-full !py-2.5 text-sm">
+                      <span className={gemTag}><GameIcon name="gem" size={20} /> {c.cost} Permata</span>
+                      <ActionButton
+                        action={buyCostume.bind(null, c.id)}
+                        disabled={p.gems < c.cost}
+                        variant="primary"
+                        size="md"
+                        className="w-full"
+                      >
                         Beli Kostum
                       </ActionButton>
                     </>
                   )}
                 </div>
-              </motion.div>
+              </Card>
             );
           })}
         </Grid>
@@ -347,20 +360,20 @@ function ShopCard(p: {
   label: string; disabled: boolean; action: () => Promise<{ error?: string }>;
 }) {
   return (
-    <div className={`${card} h-full`}>
+    <Card className="flex flex-col justify-between h-full p-6">
       <div className="flex flex-col items-center gap-3 text-center">
         <div className="relative flex h-20 w-20 items-center justify-center rounded-2xl bg-surface-low">
-          <motion.div whileHover={{ scale: 1.15, rotate: 6 }}><GameIcon name={p.icon} size={52} alt="" /></motion.div>
-          <span className="absolute -bottom-2 -right-3 whitespace-nowrap rounded-full bg-streak px-2 py-0.5 text-[10px] font-black text-white">{p.tag}</span>
+          <motion.div whileHover={{ scale: 1.15, rotate: 6 }}><GameIcon name={p.icon} size={48} alt="" /></motion.div>
+          <span className="absolute -bottom-2 -right-2 whitespace-nowrap rounded-full bg-streak px-2.5 py-0.5 text-[10px] font-black uppercase text-white shadow-xs">{p.tag}</span>
         </div>
-        <h3 className="mt-1 text-lg font-black">{p.title}</h3>
-        <p className="text-sm text-ink-muted">{p.desc}</p>
+        <h3 className="mt-1 text-lg font-black text-ink">{p.title}</h3>
+        <p className="text-sm font-medium text-ink-muted">{p.desc}</p>
       </div>
-      <div className="mt-5 flex flex-col gap-3 border-t-2 border-surface-low pt-4">
-        <span className={gemTag}><GameIcon name="gem" size={22} /> {p.cost} Permata</span>
-        <ActionButton action={p.action} disabled={p.disabled} className="btn btn-primary w-full !py-2.5 text-sm">{p.label}</ActionButton>
+      <div className="mt-6 flex flex-col gap-3 border-t border-line pt-4">
+        <span className={gemTag}><GameIcon name="gem" size={20} /> {p.cost} Permata</span>
+        <ActionButton action={p.action} disabled={p.disabled} variant="primary" size="md" className="w-full">{p.label}</ActionButton>
       </div>
-    </div>
+    </Card>
   );
 }
 

@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import { connection } from "next/server";
 import { Float, Item, Stagger } from "./components/motion";
 import { GameIcon } from "./components/game-icon";
 import { getSessionUid } from "./lib/session";
 
+export const instant = false;
+
 export default async function Home() {
+  await connection();
   const uid = await getSessionUid();
   if (uid) {
     redirect("/learn");

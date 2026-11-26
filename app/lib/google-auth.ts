@@ -8,8 +8,32 @@ export type GoogleConfig = {
 };
 
 export function getGoogleOAuthConfig(): GoogleConfig {
-  const relativePath = process.env.OAUTH_CLIENT_SECRET ?? "client_secret.json"
-  const secretPath = join(process.cwd(), relativePath);
+  // 1. Prioritas Utama di Vercel / Cloud: Baca langsung dari string JSON di .env (seperti halnya FIREBASE_SERVICE_ACCOUNT_JSON)
+  const envJson = process.env.GOOGLE_CLIENT_SECRET_JSON || process.env.OAUTH_CLIENT_SECRET_JSON;
+  if (envJson) {
+    try {
+      // Dukung baik raw JSON maupun base64-encoded JSON jika ada karakter escape
+      let parsedString = envJson.trim();
+      if (!parsedString.startsWith("{") && !parsedString.startsWith('"')) {
+        parsedString = Buffer.from(parsedString, "base64").toString("utf-8");
+      }
+      const data = JSON.parse(parsedString);
+      const web = data.web || data.installed;
+      if (web?.client_id && web?.client_secret) {
+        return {
+          clientId: web.client_id,
+          clientSecret: web.client_secret,
+          redirectUris: web.redirect_uris || [],
+        };
+      }
+    } catch (e) {
+      console.warn("Gagal parse GOOGLE_CLIENT_SECRET_JSON dari environment variable:", e);
+    }
+  }
+
+  // 2. Prioritas Lokal: Baca dari file client_secret.json di filesystem
+  const relativePath = process.env.OAUTH_CLIENT_SECRET ?? "client_secret.json";
+  const secretPath = join(/*turbopackIgnore: true*/ process.cwd(), relativePath);
   if (existsSync(secretPath)) {
     try {
       const data = JSON.parse(readFileSync(secretPath, "utf-8"));
@@ -22,11 +46,11 @@ export function getGoogleOAuthConfig(): GoogleConfig {
         };
       }
     } catch (e) {
-      console.warn("Gagal membaca client_secret.json:", e);
+      console.warn("Gagal membaca file client_secret.json:", e);
     }
   }
 
-  // Fallback ke environment variables jika di deploy ke Vercel/Cloud
+  // 3. Fallback ke individual environment variables jika diset satu per satu
   return {
     clientId: process.env.GOOGLE_CLIENT_ID || "",
     clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
@@ -62,7 +86,7 @@ export function getGoogleOAuthUrl(host: string, isHttps = false): string {
       "https://www.googleapis.com/auth/userinfo.profile",
       "https://www.googleapis.com/auth/userinfo.email",
     ].join(" "),
-    state: redirectUri, // bawa redirectUri di state agar callback tahu redirectUri asalnya
+    state: redirectUri,
   };
 
   const qs = new URLSearchParams(options);

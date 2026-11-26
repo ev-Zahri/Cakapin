@@ -31,7 +31,7 @@ function loadServiceAccount(): ServiceAccount | null {
 
   // Cek apakah file lokal ada (misal di development lokal)
   const relativePath = process.env.FIREBASE_SERVICE_ACCOUNT_PATH ?? "serviceAccountKey.json";
-  const filePath = path.join(process.cwd(), relativePath);
+  const filePath = path.join(/*turbopackIgnore: true*/ process.cwd(), relativePath);
 
   if (existsSync(filePath)) {
     try {
